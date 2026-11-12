@@ -44,7 +44,7 @@ jobs:
         if: steps.segredos.outputs.ok == 'true'
         run: |
           supabase link --project-ref "$PROJETO" --password "$SUPABASE_DB_PASSWORD"
-          supabase db push --include-all --password "$SUPABASE_DB_PASSWORD" --yes
+          supabase db push --linked --include-all --password "$SUPABASE_DB_PASSWORD" --yes
 
   build:
     needs: banco
