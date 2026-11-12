@@ -1,4 +1,4 @@
-import { ArrowRight, BookMarked, FilePlus2, FileUp, ListChecks, Loader2, Timer } from 'lucide-react';
+import { ArrowRight, BookMarked, FilePlus2, FileUp, Layers, ListChecks, Loader2, Timer } from 'lucide-react';
 import type { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { useEdital } from '@/features/edital/hooks';
@@ -55,6 +55,7 @@ export function PraticarPage() {
         <Acao para="/praticar/questoes" icone={<ListChecks className="h-6 w-6" aria-hidden />} titulo="Resolver questões" texto="Treine por disciplina ou tópico, com correção e comentário na hora." />
         <Acao para="/praticar/simulados" icone={<Timer className="h-6 w-6" aria-hidden />} titulo="Simulados IBAM" texto={ultimo?.resultado ? `Último: ${ultimo.resultado.pontos} de ${ultimo.resultado.pontos_max} pontos` : '40 questões em 3h, com a pontuação real da prova.'} />
         <Acao para="/praticar/erros" icone={<BookMarked className="h-6 w-6" aria-hidden />} titulo="Caderno de erros" texto={pendentes ? `${pendentes} ${pendentes === 1 ? 'questão pendente' : 'questões pendentes'} para revisar` : 'Seus erros entram aqui automaticamente.'} destaque={pendentes > 0} />
+        <Acao para="/flashcards" icone={<Layers className="h-6 w-6" aria-hidden />} titulo="Flashcards" texto="Revisão espaçada (FSRS): poucos minutos por dia para não esquecer." />
         <Acao para="/praticar/importar" icone={<FileUp className="h-6 w-6" aria-hidden />} titulo="Importar prova" texto="Traga provas anteriores do IBAM em PDF ou texto, com o gabarito." />
       </div>
 

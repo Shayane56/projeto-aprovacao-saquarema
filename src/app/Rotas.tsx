@@ -7,6 +7,10 @@ import { AjustesPage } from '@/features/configuracoes/AjustesPage';
 import { EditalPage } from '@/features/edital/EditalPage';
 import { InicioPage } from '@/features/inicio/InicioPage';
 import { ErrosPage } from '@/features/erros/ErrosPage';
+import { CartaoFormPage } from '@/features/flashcards/CartaoFormPage';
+import { EstudoPage } from '@/features/flashcards/EstudoPage';
+import { FlashcardsPage } from '@/features/flashcards/FlashcardsPage';
+import { PlanoPage } from '@/features/plano/PlanoPage';
 import { ImportarPage } from '@/features/importar/ImportarPage';
 import { NovaQuestaoPage } from '@/features/importar/NovaQuestaoPage';
 import { PraticarPage } from '@/features/questoes/PraticarPage';
@@ -32,6 +36,11 @@ export function Rotas() {
           <Route path="/praticar/erros" element={<ErrosPage />} />
           <Route path="/praticar/importar" element={<ImportarPage />} />
           <Route path="/praticar/nova" element={<NovaQuestaoPage />} />
+          <Route path="/flashcards" element={<FlashcardsPage />} />
+          <Route path="/flashcards/estudar" element={<EstudoPage />} />
+          <Route path="/flashcards/novo" element={<CartaoFormPage />} />
+          <Route path="/flashcards/:id" element={<CartaoFormPage />} />
+          <Route path="/plano" element={<PlanoPage />} />
           <Route path="/concurso" element={<ConcursoPage />} />
           <Route path="/ajustes" element={<AjustesPage />} />
         </Route>

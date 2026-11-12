@@ -1,4 +1,4 @@
-import { ArrowRight, CalendarDays, Clock, PencilLine, Target } from 'lucide-react';
+import { ArrowRight, CalendarCheck, CalendarDays, Clock, Layers, PencilLine, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '@/features/auth/AuthProvider';
 import { proximosPrazos } from '@/features/concurso/etapas';
@@ -7,6 +7,10 @@ import { ItemEtapa } from '@/features/concurso/ItemEtapa';
 import { useResumoProgresso } from '@/features/edital/hooks';
 import { useCaderno, useRespostas } from '@/features/questoes/hooks';
 import { useSimulados } from '@/features/simulados/hooks';
+import { resumirCartoes } from '@/features/flashcards/agendador';
+import { useFlashcards, useRevisoesHoje } from '@/features/flashcards/hooks';
+import { usePreferencias } from '@/features/perfil/preferencias';
+import { usePlano, useSessoes } from '@/features/plano/hooks';
 import { blocoPrioritario, pct } from '@/features/edital/progresso';
 import { contagemAte, dataLocal, dataPorExtenso, horaLocal, maiuscula, plural } from '@/lib/datas';
 import { corDe } from '@/shared/cores';
@@ -26,6 +30,11 @@ export function InicioPage() {
   const respostas = useRespostas();
   const caderno = useCaderno();
   const simulados = useSimulados();
+  const { plano } = usePlano();
+  const sessoes = useSessoes();
+  const cartoes = useFlashcards();
+  const revisoesHoje = useRevisoesHoje();
+  const { estudo } = usePreferencias();
 
   if (carregando) return <Carregando />;
   if (erro || !edital.data || !resumo) return <ErroCarga erro={erro} tentarDeNovo={() => void edital.refetch()} />;
@@ -71,6 +80,40 @@ export function InicioPage() {
           )}
         </section>
       )}
+
+      {/* Hoje */}
+      {(() => {
+        const hoje = dataLocal(agora);
+        const dia = plano?.dias.find((d) => d.data === hoje);
+        const feitas = new Set((sessoes.data ?? []).filter((x) => x.data === hoje).map((x) => x.chave));
+        const total = dia?.sessoes.filter((x) => x.minutos > 0) ?? [];
+        const concluidas = total.filter((x) => feitas.has(x.chave)).length;
+        const proxima = total.find((x) => !feitas.has(x.chave));
+        const r = cartoes.data && revisoesHoje.data ? resumirCartoes(cartoes.data, revisoesHoje.data, estudo.novosPorDia, agora) : null;
+        return (
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <Link to="/plano" className="cartao flex items-start gap-3 p-4 transition-colors hover:border-primaria/50">
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primaria-suave text-primaria"><CalendarCheck className="h-5 w-5" aria-hidden /></span>
+              <span className="min-w-0">
+                <span className="block font-semibold">Plano de hoje</span>
+                <span className="block text-sm text-suave">
+                  {dia ? (total.length ? `${concluidas} de ${total.length} sessões feitas` : 'Dia de folga') : 'Montando…'}
+                </span>
+                {proxima && <span className="mt-0.5 block truncate text-xs text-primaria">Próxima: {proxima.titulo}</span>}
+              </span>
+            </Link>
+            <Link to="/flashcards" className="cartao flex items-start gap-3 p-4 transition-colors hover:border-primaria/50">
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primaria-suave text-primaria"><Layers className="h-5 w-5" aria-hidden /></span>
+              <span className="min-w-0">
+                <span className="block font-semibold">Flashcards</span>
+                <span className="block text-sm text-suave">
+                  {r ? (r.paraRevisar + r.novosDisponiveis ? `${r.paraRevisar + r.novosDisponiveis} cartões para hoje` : 'Tudo em dia ✓') : '—'}
+                </span>
+              </span>
+            </Link>
+          </div>
+        );
+      })()}
 
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-5">
         {/* Progresso */}

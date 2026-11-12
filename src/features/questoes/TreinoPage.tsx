@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, PartyPopper, RotateCcw } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Layers, PartyPopper, RotateCcw } from 'lucide-react';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useAuth } from '@/features/auth/AuthProvider';
@@ -161,6 +161,9 @@ export function TreinoPage() {
             <div className="cartao p-4">
               <p className="text-sm font-semibold">Por que você errou? <span className="font-normal text-suave">(vai para o caderno de erros)</span></p>
               <div className="mt-3"><SeletorMotivo valor={motivo} aoMudar={escolherMotivo} /></div>
+              <Link to={`/flashcards/novo?questao=${atual.id}`} className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-primaria hover:underline">
+                <Layers className="h-4 w-4" aria-hidden /> Criar flashcard desta questão
+              </Link>
             </div>
           )}
           <div className="sticky bottom-20 z-10 flex justify-end gap-2 lg:bottom-4">

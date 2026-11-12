@@ -46,6 +46,8 @@ vi.mock('@/features/questoes/api', () => ({
   atualizarCaderno: m.atualizarCaderno,
   criarTexto: m.criarTexto,
 }));
+vi.mock('@/features/flashcards/api', () => ({ buscarFlashcards: async () => [], buscarRevisoesDesde: async () => [], inserirFlashcards: async () => 0 }));
+vi.mock('@/features/plano/api', () => ({ buscarSessoes: async () => [], concluirSessao: async () => {}, desfazerSessao: async () => {} }));
 vi.mock('@/features/simulados/api', () => ({
   listarSimulados: async () => (m.simulado ? [m.simulado] : []),
   buscarSimulado: async () => structuredClone(m.simulado),

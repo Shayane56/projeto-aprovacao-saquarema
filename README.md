@@ -21,11 +21,16 @@ App web instalável (PWA) para Android e computador, com login e dados sincroniz
 - **Caderno de erros automático**: toda questão errada entra, com motivo e anotação; acertou 2 vezes seguidas, fica resolvida.
 - **Importar provas** do IBAM em PDF (lido no próprio aparelho) ou texto, com gabarito, textos de apoio, sugestão de disciplina e tópico, e revisão antes de salvar. Também é possível cadastrar questões manualmente.
 
+## O que já funciona (Fase C)
+
+- **Plano de estudos inteligente** até 31/01: recalculado todo dia a partir do progresso no edital, do desempenho nas questões e da sua disponibilidade por dia da semana. Prioriza o que vale mais pontos e o que você mais erra, alterna os blocos (CE 55% · PT 27% · SUS/Município 18%), revisa cada tópico 7 dias depois, agenda caderno de erros e simulado semanal (completo nas 6 últimas semanas), deixa a última semana só para revisão e a véspera leve. Avisa quando o tempo não cobre o edital.
+- **Flashcards com revisão espaçada (FSRS)**: pacote inicial com cerca de 60 cartões dos pontos mais cobrados, criação manual ou a partir de uma questão errada, limite de cartões novos por dia, botões Errei/Difícil/Bom/Fácil com o próximo intervalo, e intervalos limitados à data da prova.
+- Concluir a teoria de um tópico no plano avança o status dele no edital.
+
 ## Próximas fases
 
 | Fase | Entrega |
 |---|---|
-| C | Flashcards com FSRS e cronograma inteligente até a prova |
 | D | IA tutora, gerador de questões e flashcards, explicações e resumos |
 | E | Materiais em PDF, anotações, busca e estatísticas de desempenho |
 
@@ -37,7 +42,7 @@ React 19 · TypeScript · Vite · Tailwind · TanStack Query (cache offline no I
 src/
   app/          rotas, layout, PWA
   features/     auth · edital · concurso · inicio · configuracoes
-                questoes · simulados · erros · importar
+                questoes · simulados · erros · importar · flashcards · plano · perfil
   shared/       componentes de interface, hooks, tema
   lib/          Supabase, cache, datas
 supabase/

@@ -1,4 +1,4 @@
-import { ArrowLeft, CheckCircle2, ListRestart, RotateCcw } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Layers, ListRestart, RotateCcw } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '@/features/auth/AuthProvider';
@@ -155,6 +155,9 @@ function ItemErro({ item }: { item: ItemCaderno }) {
           ) : (
             <Botao pequeno variante="secundario" onClick={() => setModo('revisar')}>Fechar</Botao>
           )}
+          <Link to={`/flashcards/novo?questao=${questao.id}`}>
+            <Botao pequeno variante="fantasma"><Layers className="h-4 w-4" aria-hidden /> Criar flashcard</Botao>
+          </Link>
           <Botao pequeno variante="fantasma" onClick={() => salvar({ resolvido: !item.resolvido })}>
             {item.resolvido ? 'Voltar para pendentes' : 'Marcar como resolvida'}
           </Botao>

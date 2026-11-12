@@ -55,6 +55,20 @@ embaralhadas com semente fixa para distribuir as letras do gabarito.
 As respostas do treino e do simulado são gravadas numa fila que funciona offline e respeita a ordem
 (primeiro a resposta, depois o motivo do erro).
 
+## Banco (Fase C)
+
+| Tabela / função | Conteúdo |
+|---|---|
+| `flashcards` | cartões com o estado FSRS (due, stability, difficulty, reps, lapses, state…) |
+| `revisoes_flashcard` | histórico de revisões (nota e estado anterior) |
+| `revisar_flashcard()` | grava o novo estado e o histórico numa única operação |
+| `sessoes_estudo` | sessões do plano marcadas como concluídas (chave = data + tipo + tópico) |
+| `perfis.preferencias.estudo` | disponibilidade por dia, dia do simulado, cartões novos por dia |
+
+O **agendamento FSRS** roda no app (`ts-fsrs`), com intervalo máximo limitado aos dias até a prova.
+O **plano de estudos** (`src/features/plano/gerador.ts`) é uma função pura e determinística: não é guardado,
+é recalculado a partir do estado atual — por isso nunca fica "atrasado".
+
 ## Testes
 
 - Lógica: cálculo de progresso, datas no fuso de Brasília, situação das etapas, integridade dos dados do edital.
