@@ -6,7 +6,27 @@ Projeto: `azydkohkesfcbaynzktx` (região São Paulo). As credenciais públicas (
 
 > **Nunca** coloque no código a chave *secret* / *service_role* nem a senha do banco.
 
-### Criar as tabelas, escolhendo uma das opções
+### Atualização automática do banco (recomendado — configurar uma vez)
+
+Com dois segredos no GitHub, cada atualização do app aplica sozinha as mudanças do banco
+(`supabase/migrations`) antes de publicar. Nunca mais é preciso colar SQL.
+
+1. **Token do Supabase:** em <https://supabase.com/dashboard/account/tokens> → **Generate new token** → nome
+   `github-actions` → copie o token (começa com `sbp_`).
+2. **Senha do banco:** a que você guardou ao criar o projeto. Se não tiver, gere outra em
+   **Project Settings → Database → Reset database password** (o app não usa essa senha, nada quebra).
+3. No GitHub: repositório → **Settings → Secrets and variables → Actions → New repository secret**:
+   - `SUPABASE_ACCESS_TOKEN` = o token do passo 1
+   - `SUPABASE_DB_PASSWORD` = a senha do passo 2
+4. Em **Actions → Publicar (banco + app) → Run workflow**. O passo “Aplicar migrações no Supabase” deve ficar verde.
+
+> Os segredos ficam guardados (criptografados) no GitHub e nunca aparecem no código nem nos registros.
+> Não cole esses valores em conversas.
+
+Regra para quem desenvolve: **nunca edite uma migração já publicada** — crie um arquivo novo em
+`supabase/migrations` (o histórico de migrações só aplica arquivos novos).
+
+### Criar as tabelas manualmente (alternativa)
 
 **A) Pelo SQL Editor, em partes (pelo celular)**
 
