@@ -1,6 +1,7 @@
 import { screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import pacote from '@/features/questoes/pacotes/autorais-v1.json';
+import pacoteMunicipio from '@/features/questoes/pacotes/municipio-v1.json';
 import { prepararPacote, type Pacote } from '@/features/questoes/pacotes/instalar';
 import { atualizarCadernoLocal } from '@/features/questoes/hooks';
 import type { ItemCaderno, NovaQuestao, Questao, Resposta } from '@/features/questoes/tipos';
@@ -8,7 +9,7 @@ import type { SimuladoDetalhado } from '@/features/simulados/tipos';
 import { editalDoSeed, etapasDoSeed } from './fixtures';
 import { renderizarApp, USUARIA } from './renderizar';
 
-const BANCO: Questao[] = prepararPacote(pacote as Pacote).map((q, i) => ({ ...q, id: `q${i}`, texto_id: null, criado_em: '2026-11-13T00:00:00Z' }));
+const BANCO: Questao[] = [...prepararPacote(pacote as Pacote), ...prepararPacote(pacoteMunicipio as Pacote)].map((q, i) => ({ ...q, id: `q${i}`, texto_id: null, criado_em: '2026-11-13T00:00:00Z' }));
 const CRASE = BANCO.find((q) => q.topico_id === 'ace26-pt-16')!;
 
 const m = vi.hoisted(() => ({
@@ -98,18 +99,27 @@ beforeEach(() => {
 });
 
 describe('praticar', () => {
-  it('instala o pacote de 60 questões autorais quando o banco está vazio', async () => {
+  it('instala os pacotes de questões autorais (gerais + Município) quando o banco está vazio', async () => {
     m.questoes = [];
     renderizarApp('/praticar');
     await waitFor(() => expect(m.inserir).toHaveBeenCalledWith(USUARIA.id, expect.any(Array)));
-    expect(m.inserir.mock.calls[0][1]).toHaveLength(60);
-    expect(await screen.findByText(/60 questões no seu banco/)).toBeInTheDocument();
+    expect(m.inserir.mock.calls[0][1]).toHaveLength(114);
+    expect(await screen.findByText(/114 questões no seu banco/)).toBeInTheDocument();
   });
 
   it('não reinstala quando o pacote já está no banco', async () => {
     renderizarApp('/praticar');
-    expect(await screen.findByText(/60 questões no seu banco/)).toBeInTheDocument();
+    expect(await screen.findByText(/114 questões no seu banco/)).toBeInTheDocument();
     expect(m.inserir).not.toHaveBeenCalled();
+  });
+
+  it('quem já tinha o primeiro pacote recebe só as questões do Município', async () => {
+    m.questoes = BANCO.filter((q) => q.disciplina_id !== 'ace26-mun');
+    renderizarApp('/praticar');
+    await waitFor(() => expect(m.inserir).toHaveBeenCalled());
+    const novas = m.inserir.mock.calls[0][1] as NovaQuestao[];
+    expect(novas).toHaveLength(54);
+    expect(novas.every((q) => q.disciplina_id === 'ace26-mun')).toBe(true);
   });
 });
 

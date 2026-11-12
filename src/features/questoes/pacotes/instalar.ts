@@ -46,6 +46,6 @@ export function prepararPacote(pacote: Pacote): NovaQuestao[] {
 }
 
 export async function carregarPacotesAutorais(): Promise<Pacote[]> {
-  const v1 = await import('./autorais-v1.json');
-  return [v1.default as Pacote];
+  const [v1, municipio] = await Promise.all([import('./autorais-v1.json'), import('./municipio-v1.json')]);
+  return [v1.default as Pacote, municipio.default as Pacote];
 }

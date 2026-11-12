@@ -5,6 +5,10 @@ import { geradorComSemente } from '@/lib/aleatorio';
 import { editalDoSeed } from '@/test/fixtures';
 import { atualizarCadernoLocal } from './hooks';
 import pacote from './pacotes/autorais-v1.json';
+import pacoteMunicipio from './pacotes/municipio-v1.json';
+import cartoesMunicipio from '@/features/flashcards/pacotes/municipio-v1.json';
+import cartoesGerais from '@/features/flashcards/pacotes/cartoes-v1.json';
+import { hashCartao } from '@/features/flashcards/agendador';
 import { prepararPacote, type Pacote } from './pacotes/instalar';
 import { montarFila, resumirDesempenho } from './pratica';
 import type { ItemCaderno, Questao, Resposta } from './tipos';
@@ -47,6 +51,35 @@ describe('pacote de questões autorais', () => {
 
   it('não tem enunciados repetidos', () => {
     expect(new Set(preparadas.map((q) => q.hash)).size).toBe(60);
+  });
+});
+
+describe('pacote do Município', () => {
+  const mun = prepararPacote(pacoteMunicipio as Pacote);
+  const topicos = new Set(edital.topicos.map((t) => t.id));
+
+  it('tem questões dos 3 itens do edital, todas válidas e ligadas a tópicos existentes', () => {
+    expect(new Set(mun.map((q) => q.topico_id))).toEqual(new Set(['ace26-mun-01', 'ace26-mun-02', 'ace26-mun-03']));
+    for (const q of mun) {
+      expect(q.disciplina_id).toBe('ace26-mun');
+      expect(topicos.has(q.topico_id!)).toBe(true);
+      expect(q.alternativas).toHaveLength(4);
+      expect(q.explicacao).toMatch(/Fonte:/);
+    }
+  });
+
+  it('não repete questões nem cartões entre os pacotes', () => {
+    const todas = [...preparadas, ...mun].map((q) => q.hash);
+    expect(new Set(todas).size).toBe(todas.length);
+    const frentes = [...cartoesGerais.cartoes, ...cartoesMunicipio.cartoes].map((c) => hashCartao(c.frente));
+    expect(new Set(frentes).size).toBe(frentes.length);
+    for (const c of cartoesMunicipio.cartoes) expect(topicos.has(c.topico)).toBe(true);
+  });
+
+  it('com o pacote do Município, o simulado completo deixa de faltar questões do bloco SUS/Município', () => {
+    const banco = [...questoes, ...mun.map((q, i) => ({ ...q, id: `m${i}`, texto_id: null, criado_em: '' }))];
+    const sel = selecionarQuestoes(edital, banco, [], [], configDe('completo'), geradorComSemente(9));
+    expect(sel.faltando).toEqual({});
   });
 });
 

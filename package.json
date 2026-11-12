@@ -1,7 +1,7 @@
 {
   "name": "projeto-aprovacao-saquarema",
   "private": true,
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Projeto Aprovação Saquarema — plataforma pessoal de preparação para o Processo Seletivo de Agente de Combate às Endemias (Saquarema/RJ, IBAM 2026).",
   "type": "module",
   "scripts": {

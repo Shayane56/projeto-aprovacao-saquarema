@@ -1,0 +1,467 @@
+{
+  "id": "municipio-v1",
+  "nome": "Conhecimentos do Município de Saquarema",
+  "fonte": "Questão autoral (base: documento do IBAM sobre Saquarema e Lei Orgânica)",
+  "questoes": [
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 1,
+      "enunciado": "Segundo o material oficial sobre o município, os indígenas denominavam o local onde moravam de “socoa-y-rema”, expressão que significaria:",
+      "alternativas": ["lago sem conchas.", "terra das águas claras.", "morro do sambaqui.", "rio dos peixes."],
+      "gabarito": "A",
+      "explicacao": "“Socoa-y-rema” = lago sem conchas, na língua indígena. Em outra versão, “soco-rema” significaria bando de socós (ave pernalta abundante na lagoa). Fonte: documento do IBAM, Parte 1."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "Em 1531, após contornar o Cabo Frio, Martim Afonso de Souza fundeou em frente ao antigo Morro do Sambaqui, hoje conhecido como Morro do Canto, onde encontrou índios:",
+      "alternativas": ["Tupiniquins, chefiados por Arariboia.", "Tamoios, obedientes ao chefe Sapuguaçu.", "Goitacás, chefiados por Cunhambebe.", "Puris, liderados por Tibiriçá."],
+      "gabarito": "B",
+      "explicacao": "O documento registra índios Tamoios, obedientes à chefia de “Sapuguaçu”. Fonte: documento do IBAM, Parte 1."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "O núcleo inicial de povoamento de Saquarema foi um lugar chamado Carmo, onde, em 1594, padres carmelitas obtiveram sesmarias. Segundo vários autores, esse local corresponde hoje a:",
+      "alternativas": ["Jaconé.", "Itaúna.", "Ipitangas.", "Barra Nova."],
+      "gabarito": "C",
+      "explicacao": "Carmo corresponde hoje a Ipitangas. Ali os padres da Ordem do Carmo iniciaram a construção do convento de Santo Alberto, que não foi concluído. Fonte: documento do IBAM, Parte 1."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "Em 1841, Saquarema foi desmembrada de Cabo Frio e elevada à categoria de vila com a denominação de:",
+      "alternativas": ["São Sebastião de Saquarema.", "Nossa Senhora de Nazaré de Saquarema.", "Santo Antônio de Saquarema.", "Vila Real de Saquarema."],
+      "gabarito": "B",
+      "explicacao": "1755: freguesia de Cabo Frio; 1841: vila de Nossa Senhora de Nazaré de Saquarema; 1859: extinta; 1860: restituída (reinstalada em 1861); 1890: cidade. Fonte: documento do IBAM, Formação político-administrativa."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "A vila de Saquarema foi elevada à categoria de cidade e sede do município, com a denominação de Saquarema, no ano de:",
+      "alternativas": ["1841.", "1859.", "1890.", "1938."],
+      "gabarito": "C",
+      "explicacao": "Pelo Decreto Estadual nº 28, de 3 de janeiro de 1890. Fonte: documento do IBAM, Formação político-administrativa."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 3,
+      "enunciado": "Os distritos criados em 1892 tiveram seus nomes alterados no século XX. É correto afirmar que:",
+      "alternativas": [
+        "Palmital passou a se chamar Bacaxá, e Mato Grosso passou a Maranguá e, depois, Sampaio Correa.",
+        "Palmital passou a se chamar Sampaio Correa, e Mato Grosso passou a Bacaxá.",
+        "Mato Grosso passou a se chamar Jaconé, e Palmital passou a Ipitangas.",
+        "Bacaxá passou a se chamar Palmital, e Sampaio Correa passou a Mato Grosso."
+      ],
+      "gabarito": "A",
+      "explicacao": "1938: Palmital → Bacaxá. 1943: Mato Grosso → Maranguá; 1946: Maranguá → Sampaio Correa. Fonte: documento do IBAM, Formação político-administrativa."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 1,
+      "enunciado": "O Município de Saquarema é formado por três distritos:",
+      "alternativas": ["Sede, Bacaxá e Sampaio Correa.", "Sede, Jaconé e Itaúna.", "Bacaxá, Palmital e Mato Grosso.", "Sede, Vilatur e Barra Nova."],
+      "gabarito": "A",
+      "explicacao": "1º distrito: Sede; 2º: Bacaxá; 3º: Sampaio Correa. São 46 bairros: 16 na Sede, 24 em Bacaxá e 6 em Sampaio Correa (Atlas Municipal, 2024). Fonte: documento do IBAM."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "Segundo o Atlas Municipal de Saquarema (2024), o distrito com o maior número de bairros é:",
+      "alternativas": ["a Sede, com 24 bairros.", "Bacaxá, com 24 bairros.", "Sampaio Correa, com 16 bairros.", "Bacaxá, com 16 bairros."],
+      "gabarito": "B",
+      "explicacao": "São 46 bairros: 24 em Bacaxá, 16 na Sede e 6 em Sampaio Correa. Fonte: documento do IBAM, Distritos e Bairros."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "Nos anos 1830, um naturalista britânico fez, no entorno da Lagoa de Jaconé, registros importantes sobre rochas de praia (beachrocks). Trata-se de:",
+      "alternativas": ["Auguste de Saint-Hilaire.", "Maximiliano de Wied-Neuwied.", "Charles Darwin.", "Alexander von Humboldt."],
+      "gabarito": "C",
+      "explicacao": "Charles Darwin esteve na região nos anos 1830. Já o príncipe Maximiliano de Wied-Neuwied (naturalista alemão) passou entre 1815 e 1817 e pernoitou nas fazendas Ipitangas e Tiririca. Fonte: documento do IBAM, Parte 1."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "Com a ampliação da Estrada de Ferro Maricá, foram construídas em Saquarema, em 1913, as estações de:",
+      "alternativas": ["Jaconé e Itaúna.", "Sampaio Correa e Bacaxá.", "Bacaxá e Barra Nova.", "Sede e Vilatur."],
+      "gabarito": "B",
+      "explicacao": "As estações de Sampaio Correa (antiga Mato Grosso) e Bacaxá são de 1913; a estação de Bacaxá foi o principal indutor do centro comercial do município. O trecho Maricá–Cabo Frio foi encerrado no início dos anos 1960. Fonte: documento do IBAM."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "A Usina Santa Luiza, criada em 1936 no atual distrito de Sampaio Correa, chegou a produzir cerca de 1 milhão de sacas de açúcar, produção superada no Estado do Rio apenas pelo município de:",
+      "alternativas": ["Campos dos Goytacazes.", "Macaé.", "Cabo Frio.", "Rio Bonito."],
+      "gabarito": "A",
+      "explicacao": "A usina chegou a empregar cerca de 4 mil trabalhadores e foi fechada na década de 1970. Fonte: documento do IBAM, Usina Santa Luiza."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 1,
+      "enunciado": "Segundo o Censo de 2022, a população de Saquarema era de:",
+      "alternativas": ["68.413 pessoas.", "89.559 pessoas.", "95.315 pessoas.", "112.240 pessoas."],
+      "gabarito": "B",
+      "explicacao": "Censo 2022: 89.559 pessoas. A população estimada para 2025 é de 95.315. Área: 352,130 km² (2021). Fonte: documento do IBAM."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "Saquarema faz limite com os municípios de:",
+      "alternativas": ["Araruama, Maricá, Rio Bonito e Tanguá.", "Cabo Frio, Araruama, Silva Jardim e Maricá.", "Maricá, Niterói, Itaboraí e Tanguá.", "Araruama, São Pedro da Aldeia, Rio Bonito e Cabo Frio."],
+      "gabarito": "A",
+      "explicacao": "Limites municipais: Araruama, Maricá, Rio Bonito e Tanguá. A RJ-106 é o principal acesso, com Maricá a oeste e Araruama a leste. Fonte: documento do IBAM."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "Quanto à localização, Saquarema pertence à região das Baixadas Litorâneas e à:",
+      "alternativas": ["Microrregião dos Lagos.", "Microrregião Metropolitana.", "Microrregião Serrana.", "Microrregião do Norte Fluminense."],
+      "gabarito": "A",
+      "explicacao": "Região: Baixadas Litorâneas; mesorregião: Baixadas; microrregião: dos Lagos. Integra também a Região Hidrográfica IV (Lagos São João). Fonte: documento do IBAM."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "A Reserva Ecológica de Jacarepiá, que compreende um sistema de lagoa e terrenos alagadiços isolados do mar pela Restinga da Massambaba, está situada no bairro de:",
+      "alternativas": ["Jaconé.", "Vilatur.", "Itaúna.", "Bacaxá."],
+      "gabarito": "B",
+      "explicacao": "A reserva fica em Vilatur e integra o Parque Estadual da Costa do Sol (criado em 2011). Também há no município a APA de Massambaba (1986) e a RPPN Mato Grosso. Fonte: documento do IBAM."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 1,
+      "enunciado": "Está localizado em Saquarema, no bairro Barra Nova, inaugurado em 2003 e referência para o esporte brasileiro, o centro de treinamento da:",
+      "alternativas": ["Confederação Brasileira de Futebol.", "Confederação Brasileira de Surf.", "Confederação Brasileira de Voleibol.", "Confederação Brasileira de Atletismo."],
+      "gabarito": "C",
+      "explicacao": "Centro de Desenvolvimento de Voleibol – Saquarema Enel, da CBV, inaugurado em agosto de 2003. Fonte: documento do IBAM."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "A Igreja de Nossa Senhora de Nazareth, cartão-postal de Saquarema erguido sobre um penhasco, foi tombada pelo Instituto Estadual do Patrimônio Cultural (Inepac) no ano de:",
+      "alternativas": ["1990.", "2001.", "2011.", "1841."],
+      "gabarito": "B",
+      "explicacao": "Tombada pelo Inepac em 2001. Parece ter sido o primeiro templo erguido no Brasil sob a invocação de Nossa Senhora de Nazaré. Fonte: documento do IBAM, Patrimônio material."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "O prédio que foi a primeira sede da Câmara Municipal e da Prefeitura de Saquarema, de 1841 a 1978, abriga atualmente:",
+      "alternativas": ["o Templo do Rock.", "a Casa de Cultura Walmir Ayala.", "o Museu do Sambaqui da Beirada.", "a Casa do Nós."],
+      "gabarito": "B",
+      "explicacao": "Na Casa de Cultura Walmir Ayala funcionam a biblioteca municipal José Bandeira (mais de 20 mil títulos) e o Teatro Mário Lago (162 lugares). Fonte: documento do IBAM."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "O Museu do Sambaqui da Beirada, em Barra Nova, é considerado:",
+      "alternativas": [
+        "o primeiro museu de arte sacra do Estado do Rio.",
+        "a primeira exposição arqueológica ao ar livre de sambaquis no Brasil.",
+        "o maior museu oceanográfico da Região dos Lagos.",
+        "um museu dedicado à história da Estrada de Ferro Maricá."
+      ],
+      "gabarito": "B",
+      "explicacao": "O sambaqui, datado de 4.520 anos, é a mais antiga ocupação humana de Saquarema; é protegido por lei federal e registrado pelo IPHAN. “Sambaqui” vem do tupi: tambá (concha) + ki (amontoado). Fonte: documento do IBAM."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 1,
+      "enunciado": "O aniversário da cidade de Saquarema é comemorado em:",
+      "alternativas": ["8 de maio.", "13 de junho.", "8 de setembro.", "8 de dezembro."],
+      "gabarito": "A",
+      "explicacao": "Aniversário da cidade: 8 de maio. Santo Antônio: 13 de junho. Padroeira, Nossa Senhora de Nazaré: 8 de setembro. Fonte: documento do IBAM, Feriados."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "Os distritos de Bacaxá e Sampaio Correa têm como padroeiros, respectivamente:",
+      "alternativas": [
+        "Nossa Senhora de Nazaré e Santo Antônio.",
+        "Santo Antônio e Nossa Senhora da Conceição.",
+        "São Pedro e São João.",
+        "Nossa Senhora da Conceição e Santo Antônio."
+      ],
+      "gabarito": "B",
+      "explicacao": "Bacaxá: Santo Antônio (13 de junho). Sampaio Correa: Nossa Senhora da Conceição (8 de dezembro). Fonte: documento do IBAM."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 1,
+      "enunciado": "O autor do hino oficial de Saquarema, nascido em 1909, pescador e poeta, foi:",
+      "alternativas": ["Walmir Ayala.", "José Bandeira.", "Alberto de Oliveira.", "Oliveira Viana."],
+      "gabarito": "B",
+      "explicacao": "José Bandeira (1909–1989), pescador e poeta, é o autor do hino oficial; ele dá nome à biblioteca municipal. Fonte: documento do IBAM, Personalidades."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "Segundo a Venerável Irmandade de Nossa Senhora de Nazareth de Saquarema, o Círio de Nazaré realizado na cidade:",
+      "alternativas": [
+        "é o primeiro Círio de Nazaré do país, o que faz de Saquarema o berço dessa devoção no Brasil.",
+        "foi trazido de Belém do Pará no século XX.",
+        "ocorre no dia 8 de maio, aniversário da cidade.",
+        "é realizado no dia de Pentecostes."
+      ],
+      "gabarito": "A",
+      "explicacao": "O Círio ocorre entre os dias finais de agosto e 8 de setembro e recebe cerca de 200 mil fiéis. A festa realizada no dia de Pentecostes é a do Divino Espírito Santo. Fonte: documento do IBAM, Festas tradicionais."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 3,
+      "enunciado": "José Pereira dos Santos, o Barão de Saquarema, é lembrado na história do município por, entre outros feitos:",
+      "alternativas": [
+        "ter fundado a Usina Santa Luiza.",
+        "ter sido o primeiro prefeito eleito da cidade.",
+        "ter deixado, ao morrer em 1874, todos os seus bens para seus escravos.",
+        "ter construído a Estrada de Ferro Maricá."
+      ],
+      "gabarito": "C",
+      "explicacao": "Fazendeiro natural de Rio Bonito, foi determinante na emancipação do município, doou o prédio da Câmara e, humanista e pré-abolicionista, deixou seus bens aos escravos. Fonte: documento do IBAM, Personalidades."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-01", "dificuldade": 2,
+      "enunciado": "O sociólogo e jurista nascido em Rio Seco de Saquarema, em 1883, que colaborou na escrita da legislação trabalhista do Estado Novo, foi:",
+      "alternativas": ["Francisco José de Oliveira Viana.", "Walmir Ayala.", "José Bandeira.", "Barão de Itaboraí."],
+      "gabarito": "A",
+      "explicacao": "Oliveira Viana (1883–1951) ingressou na Academia Brasileira de Letras e teve participação ativa no governo Getúlio Vargas. Fonte: documento do IBAM, Personalidades."
+    },
+
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-02", "dificuldade": 1,
+      "enunciado": "Alberto de Oliveira, nascido em Saquarema em 1857, é considerado um dos principais nomes do:",
+      "alternativas": ["Romantismo.", "Parnasianismo.", "Modernismo.", "Simbolismo."],
+      "gabarito": "B",
+      "explicacao": "É considerado um dos precursores do Parnasianismo no Brasil. Fonte: documento do IBAM, Personalidades e Núcleo de Poesia Alberto de Oliveira."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-02", "dificuldade": 2,
+      "enunciado": "No Parnasianismo brasileiro, Alberto de Oliveira é citado como precursor ao lado de:",
+      "alternativas": ["Olavo Bilac e Raimundo Corrêa.", "Gonçalves Dias e Castro Alves.", "Cruz e Sousa e Alphonsus de Guimaraens.", "Mário de Andrade e Oswald de Andrade."],
+      "gabarito": "A",
+      "explicacao": "Alberto de Oliveira, Olavo Bilac e Raimundo Corrêa formam a chamada “tríade parnasiana”. Fonte: documento do IBAM, Personalidades."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-02", "dificuldade": 1,
+      "enunciado": "Sobre o poeta saquaremense Alberto de Oliveira, é correto afirmar que:",
+      "alternativas": [
+        "foi membro fundador da Academia Brasileira de Letras e membro da Academia Fluminense de Letras.",
+        "nasceu em Niterói e mudou-se para Saquarema na velhice.",
+        "foi o autor do hino oficial de Saquarema.",
+        "viveu entre 1909 e 1989."
+      ],
+      "gabarito": "A",
+      "explicacao": "Nasceu em Saquarema em abril de 1857, foi fundador da ABL e membro da Academia Fluminense de Letras, e faleceu em janeiro de 1937. O hino é de José Bandeira (1909–1989). Fonte: documento do IBAM."
+    },
+
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 1,
+      "enunciado": "Segundo a Lei Orgânica, o Município de Saquarema é:",
+      "alternativas": ["pessoa jurídica de direito público interno.", "pessoa jurídica de direito privado.", "autarquia estadual.", "órgão da administração indireta do Estado."],
+      "gabarito": "A",
+      "explicacao": "Art. 1º: pessoa jurídica de direito público interno, no pleno uso de sua autonomia política, administrativa e financeira. Fonte: Lei Orgânica de Saquarema."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 1,
+      "enunciado": "De acordo com a Lei Orgânica, são símbolos do Município:",
+      "alternativas": ["o Brasão, a Bandeira e o Hino.", "a Bandeira, o Selo e a Medalha.", "o Hino e o Brasão, apenas.", "a Bandeira, o Hino e a Igreja Matriz."],
+      "gabarito": "A",
+      "explicacao": "Art. 2º, parágrafo único. O mesmo artigo define como poderes municipais, independentes e colaborativos, o Legislativo e o Executivo. Fonte: Lei Orgânica de Saquarema."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Conforme a Lei Orgânica, a criação de Distritos depende de consulta plebiscitária, e o Distrito terá:",
+      "alternativas": ["o nome da respectiva sede e categoria de vila.", "nome escolhido pelo Prefeito e categoria de cidade.", "o nome do fundador e categoria de freguesia.", "nome definido pelo Estado e categoria de comarca."],
+      "gabarito": "A",
+      "explicacao": "Art. 5º, § 3º: o Distrito terá o nome da respectiva sede, e sua categoria será de vila. A sede do Município, por sua vez, tem categoria de cidade (art. 4º). Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 3,
+      "enunciado": "Com a redação da Emenda nº 005/2012, a Lei Orgânica exige, entre os requisitos cumulativos para a criação de Distrito, a existência, na povoação-sede, de pelo menos:",
+      "alternativas": [
+        "treze moradias, escola pública, posto de saúde e posto policial.",
+        "mil moradias, escola pública, posto de saúde e posto policial.",
+        "cem moradias e uma escola pública.",
+        "quinhentas moradias, hospital e delegacia."
+      ],
+      "gabarito": "B",
+      "explicacao": "Art. 6º (Emenda 005/2012): eleitorado de no mínimo 5% do total do Município, arrecadação mínima de 5 milésimos por cento da arrecadação municipal de impostos e, na sede, pelo menos mil moradias, escola pública, posto de saúde e posto policial. (Treze moradias era a redação original, substituída.) Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Segundo a Lei Orgânica, a instalação do Distrito se fará perante:",
+      "alternativas": ["o Prefeito Municipal.", "o Presidente da Câmara.", "o Juiz de Direito da Comarca.", "o Governador do Estado."],
+      "gabarito": "C",
+      "explicacao": "Art. 9º. E a alteração da divisão administrativa só pode ser feita a cada quatro anos, no ano anterior ao das eleições municipais (art. 8º). Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 1,
+      "enunciado": "De acordo com a Lei Orgânica (Emenda nº 004/2011), a Câmara Municipal de Saquarema é composta por:",
+      "alternativas": ["9 vereadores.", "11 vereadores.", "13 vereadores.", "15 vereadores."],
+      "gabarito": "C",
+      "explicacao": "Art. 15, § 2º: 13 vereadores, eleitos pelo sistema proporcional para mandato de quatro anos. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "A Câmara Municipal de Saquarema reúne-se anualmente, na sede do Município, nos períodos de:",
+      "alternativas": [
+        "2 de fevereiro a 17 de julho e 1º de agosto a 22 de dezembro.",
+        "15 de fevereiro a 30 de junho e 1º de agosto a 15 de dezembro.",
+        "1º de março a 30 de junho e 1º de agosto a 30 de novembro.",
+        "15 de janeiro a 15 de junho e 15 de julho a 15 de dezembro."
+      ],
+      "gabarito": "B",
+      "explicacao": "Art. 16. Reuniões que caírem em sábado, domingo ou feriado passam para o primeiro dia útil seguinte. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Segundo a Lei Orgânica, as sessões da Câmara somente poderão ser abertas com a presença de, no mínimo:",
+      "alternativas": ["um terço dos membros.", "metade dos membros.", "maioria absoluta dos membros.", "dois terços dos membros."],
+      "gabarito": "A",
+      "explicacao": "Art. 21: mínimo de 1/3 para abrir a sessão. As sessões são públicas, salvo deliberação de 2/3 dos vereadores por motivo relevante (art. 20). Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Quanto à Mesa Diretora da Câmara, a Lei Orgânica estabelece que:",
+      "alternativas": [
+        "é composta pelo Presidente, Vice-Presidente, Primeiro e Segundo Secretários, com mandato de dois anos.",
+        "é composta apenas pelo Presidente e pelo Secretário, com mandato de quatro anos.",
+        "seus membros não podem ser destituídos durante o mandato.",
+        "é escolhida pelo Prefeito entre os vereadores."
+      ],
+      "gabarito": "A",
+      "explicacao": "Arts. 23 e 24: mandato de dois anos (permitida a recondução na eleição seguinte da mesma legislatura). Qualquer membro pode ser destituído pelo voto de 2/3 dos vereadores quando faltoso, omisso ou ineficiente. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 3,
+      "enunciado": "Com a redação da Emenda nº 001/2002, a eleição da Mesa Diretora da Câmara para o segundo biênio ocorre:",
+      "alternativas": [
+        "no dia 15 de fevereiro do terceiro ano da legislatura.",
+        "no dia 15 de dezembro do segundo ano da legislatura, com posse em 1º de janeiro do ano seguinte.",
+        "no dia 1º de janeiro do terceiro ano da legislatura.",
+        "na última sessão do primeiro ano da legislatura."
+      ],
+      "gabarito": "B",
+      "explicacao": "Art. 22, § 5º (Emenda 001/2002). A redação original (15 de fevereiro do terceiro ano) foi substituída. No início da legislatura, a eleição é presidida pelo vereador mais idoso, em escrutínio aberto (Emenda 011/2016). Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Segundo a Lei Orgânica, as Comissões Parlamentares de Inquérito serão criadas pela Câmara mediante requerimento de:",
+      "alternativas": [
+        "um terço dos seus membros, para apuração de fato determinado e por prazo certo.",
+        "maioria absoluta dos membros, por prazo indeterminado.",
+        "dois terços dos membros, para qualquer fato relacionado ao Executivo.",
+        "qualquer vereador, com aprovação do Prefeito."
+      ],
+      "gabarito": "A",
+      "explicacao": "Art. 25, § 4º. As conclusões, se for o caso, são encaminhadas ao Ministério Público. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 3,
+      "enunciado": "A Lei Orgânica de Saquarema poderá ser emendada mediante proposta de um terço dos vereadores, do Prefeito ou de iniciativa popular. A proposta será:",
+      "alternativas": [
+        "votada em dois turnos, com interstício mínimo de cinco dias, e aprovada por dois terços dos membros da Câmara.",
+        "votada em turno único e aprovada por maioria simples.",
+        "votada em dois turnos, com interstício de trinta dias, e aprovada por maioria absoluta.",
+        "submetida a referendo popular obrigatório."
+      ],
+      "gabarito": "A",
+      "explicacao": "Art. 44, § 1º (Emenda 11/2016: interstício de cinco dias). A Lei Orgânica não pode ser emendada na vigência de estado de sítio, estado de defesa ou intervenção no Município. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Pela Lei Orgânica, o eleitorado pode apresentar projeto de lei por meio de moção articulada subscrita por, no mínimo:",
+      "alternativas": ["1% dos eleitores do Município.", "5% dos eleitores do Município.", "10% dos eleitores do Município.", "um terço dos eleitores do Município."],
+      "gabarito": "B",
+      "explicacao": "Art. 45. A iniciativa das leis cabe a qualquer vereador, ao Prefeito e ao eleitorado (5%). Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Segundo a Lei Orgânica, as leis complementares somente serão aprovadas por maioria absoluta. É exemplo de lei complementar prevista na Lei Orgânica:",
+      "alternativas": ["o Código Tributário do Município.", "a lei que dá nome a uma rua.", "a resolução que aprova o Regimento Interno.", "o decreto de nomeação de secretário."],
+      "gabarito": "A",
+      "explicacao": "Art. 46: Código Tributário, Código de Obras, Plano Diretor, Código de Posturas, Regime Jurídico dos Servidores, Guarda Municipal e Lei de Criação de Cargos, entre outras. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Aprovado um projeto de lei, o Prefeito pode vetá-lo, total ou parcialmente, no prazo de:",
+      "alternativas": ["48 horas.", "10 dias corridos.", "15 dias úteis, e o silêncio importa sanção.", "30 dias úteis, e o silêncio importa veto."],
+      "gabarito": "C",
+      "explicacao": "Art. 50: veto em 15 dias úteis do recebimento; o silêncio importa sanção; o veto só é rejeitado pela maioria absoluta dos vereadores. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 1,
+      "enunciado": "Segundo a Lei Orgânica, a idade mínima para ser eleito Prefeito ou Vice-Prefeito de Saquarema é de:",
+      "alternativas": ["18 anos.", "21 anos.", "25 anos.", "30 anos."],
+      "gabarito": "B",
+      "explicacao": "Art. 58, parágrafo único: idade mínima de 21 anos. A mesma idade (maior de 21 anos) é exigida dos Secretários Municipais (art. 79). Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "O Prefeito e o Vice-Prefeito tomam posse em 1º de janeiro do ano seguinte à eleição. Se, decorridos dez dias da data fixada, um deles não tiver assumido o cargo, salvo força maior:",
+      "alternativas": ["o cargo será declarado vago.", "a posse será adiada para o mês seguinte.", "assumirá automaticamente o vereador mais idoso.", "será realizada nova eleição em 30 dias."],
+      "gabarito": "A",
+      "explicacao": "Art. 60, parágrafo único. A posse ocorre em sessão da Câmara, com compromisso de cumprir a Lei Orgânica. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 3,
+      "enunciado": "Segundo a Lei Orgânica, verificando-se a vacância do cargo de Prefeito e inexistindo Vice-Prefeito no ÚLTIMO ano do mandato:",
+      "alternativas": [
+        "haverá nova eleição em noventa dias.",
+        "assumirá o Presidente da Câmara, que completará o período.",
+        "assumirá o Secretário de Governo até o fim do mandato.",
+        "o Governador nomeará um interventor."
+      ],
+      "gabarito": "B",
+      "explicacao": "Art. 63: vacância nos três primeiros anos → eleição 90 dias depois; no último ano → o Presidente da Câmara assume e completa o período. Em impedimento do Prefeito e do Vice, também assume o Presidente da Câmara (art. 62). Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Conforme a Lei Orgânica, o Prefeito não poderá, sem licença da Câmara Municipal, ausentar-se do Município por período superior a:",
+      "alternativas": ["5 dias.", "10 dias.", "15 dias.", "30 dias."],
+      "gabarito": "C",
+      "explicacao": "Art. 65 e art. 68, XXIX: mais de 15 dias exige autorização da Câmara, sob pena de perda do cargo. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Compete ao Prefeito encaminhar à Câmara a prestação de contas e os balanços do exercício findo até o dia:",
+      "alternativas": ["31 de janeiro.", "15 de abril.", "30 de junho.", "31 de agosto."],
+      "gabarito": "B",
+      "explicacao": "Art. 68, VIII: até 15 de abril. (31 de agosto é o prazo da Mesa para enviar ao Prefeito a proposta orçamentária da Câmara — art. 32, VII.) Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 3,
+      "enunciado": "Segundo a Lei Orgânica, nos crimes comuns e de responsabilidade, o Prefeito será processado e julgado perante:",
+      "alternativas": ["a Câmara Municipal.", "o Tribunal de Justiça.", "o Tribunal de Contas do Estado.", "o Juiz de Direito da Comarca."],
+      "gabarito": "B",
+      "explicacao": "Art. 74: crimes comuns e de responsabilidade → Tribunal de Justiça. Art. 75: infrações político-administrativas → julgamento pela Câmara. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Na tomada das contas do Prefeito, o parecer prévio do Tribunal de Contas do Estado somente deixará de prevalecer por decisão de:",
+      "alternativas": ["maioria simples dos vereadores presentes.", "maioria absoluta dos membros da Câmara.", "dois terços dos membros da Câmara.", "unanimidade dos vereadores."],
+      "gabarito": "C",
+      "explicacao": "Art. 35, VII: a Câmara delibera em até 60 dias; o parecer só deixa de prevalecer por 2/3; sem deliberação no prazo, vale a conclusão do parecer; contas rejeitadas vão ao Ministério Público. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Segundo a Lei Orgânica, são auxiliares diretos do Prefeito:",
+      "alternativas": [
+        "os Secretários Municipais ou Diretores equivalentes e os Subprefeitos, de livre nomeação e demissão.",
+        "os vereadores da base do governo.",
+        "os servidores concursados com mais de dez anos de serviço.",
+        "os membros da Mesa Diretora da Câmara."
+      ],
+      "gabarito": "A",
+      "explicacao": "Art. 77. Para ser Secretário: ser brasileiro, estar no exercício dos direitos políticos e ser maior de 21 anos (art. 79). Os Secretários são solidariamente responsáveis com o Prefeito pelos atos que assinarem (art. 81). Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 2,
+      "enunciado": "Quanto aos Subprefeitos, a Lei Orgânica estabelece que:",
+      "alternativas": [
+        "sua competência limita-se ao Distrito para o qual foram nomeados, cabendo-lhes, entre outras atribuições, fiscalizar os serviços distritais e prestar contas ao Prefeito mensalmente.",
+        "são eleitos pela população do Distrito para mandato de quatro anos.",
+        "podem legislar sobre assuntos de interesse do Distrito.",
+        "em caso de licença, são substituídos pelo vereador mais votado do Distrito."
+      ],
+      "gabarito": "A",
+      "explicacao": "Arts. 82 e 83: competência limitada ao Distrito; em licença ou impedimento, o substituto é de livre escolha do Prefeito. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 3,
+      "enunciado": "Segundo a Lei Orgânica, a entidade da administração indireta dotada de personalidade jurídica de DIREITO PÚBLICO, criada por lei, com patrimônio e receita próprios, para executar atividades típicas da administração pública, é a:",
+      "alternativas": ["empresa pública.", "sociedade de economia mista.", "autarquia.", "fundação pública."],
+      "gabarito": "C",
+      "explicacao": "Art. 91, § 2º: autarquia = direito público. Empresa pública = direito privado, capital exclusivo do Município. Sociedade de economia mista = direito privado, maioria das ações com voto do Município. Fundação pública = direito privado, sem fins lucrativos. Fonte: Lei Orgânica."
+    },
+    {
+      "disciplina": "ace26-mun", "topico": "ace26-mun-03", "dificuldade": 1,
+      "enunciado": "Conforme o art. 85 da Lei Orgânica de Saquarema, a administração pública direta ou indireta do Município obedecerá aos princípios de:",
+      "alternativas": [
+        "legalidade, impessoalidade, moralidade e publicidade.",
+        "legalidade, hierarquia, sigilo e eficácia.",
+        "autonomia, pessoalidade, economicidade e sigilo.",
+        "centralização, moralidade, sigilo e celeridade."
+      ],
+      "gabarito": "A",
+      "explicacao": "Art. 85 da Lei Orgânica (texto de 1990). A Constituição Federal acrescentou depois a eficiência (EC 19/1998) — o famoso LIMPE. Fonte: Lei Orgânica."
+    }
+  ]
+}

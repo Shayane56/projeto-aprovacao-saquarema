@@ -88,11 +88,11 @@ export function useInstalarCartoes() {
     if (!usuario || !cartoes.data || tentou.current) return;
     tentou.current = true;
     void (async () => {
-      const pacote = (await import('./pacotes/cartoes-v1.json')).default as {
-        cartoes: { disciplina: string; topico: string | null; frente: string; verso: string }[];
-      };
+      type PacoteCartoes = { cartoes: { disciplina: string; topico: string | null; frente: string; verso: string }[] };
+      const pacotes = (await Promise.all([import('./pacotes/cartoes-v1.json'), import('./pacotes/municipio-v1.json')])).map((m) => m.default as PacoteCartoes);
       const existentes = new Set(cartoes.data.map((c) => hashCartao(c.frente)));
-      const faltando: NovoFlashcard[] = pacote.cartoes
+      const faltando: NovoFlashcard[] = pacotes
+        .flatMap((p) => p.cartoes)
         .map((c) => ({ disciplina_id: c.disciplina, topico_id: c.topico, questao_id: null, frente: c.frente, verso: c.verso, origem: 'autoral' as const, hash: hashCartao(c.frente) }))
         .filter((c) => !existentes.has(c.hash));
       if (!faltando.length) return setEstado('pronto');
