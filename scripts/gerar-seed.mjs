@@ -59,6 +59,17 @@ const etapas = dados.etapas.map((e, i) => ({
 }));
 
 const colsConcurso = Object.keys(c);
+const COLS_TOPICO = ['id', 'disciplina_id', 'parent_id', 'numero', 'titulo', 'referencia', 'link', 'ordem'];
+const blocosSql = {
+  concurso: [
+    upsert('concursos', colsConcurso, [c]),
+    upsert('blocos_prova', ['id', 'concurso_id', 'nome', 'num_questoes', 'valor_questao', 'ordem'], blocos),
+    upsert('disciplinas', ['id', 'concurso_id', 'bloco_id', 'nome', 'sigla', 'cor', 'ordem'], disciplinas),
+    upsert('etapas_concurso', ['id', 'concurso_id', 'titulo', 'descricao', 'categoria', 'data_inicio', 'data_fim', 'acao', 'ordem'], etapas),
+  ].join('\n'),
+  itens: upsert('topicos', COLS_TOPICO, topicos.filter((t) => !t.parent_id)),
+  subitens: upsert('topicos', COLS_TOPICO, topicos.filter((t) => t.parent_id)),
+};
 const sql = `-- =====================================================================
 -- GERADO AUTOMATICAMENTE por scripts/gerar-seed.mjs — não edite à mão.
 -- Fonte: supabase/seed/edital-ace-2026.json
@@ -84,3 +95,21 @@ const partes = await Promise.all(arquivos.map(async (f) => `-- >>> ${f}\n${await
 const unico = path.join(root, 'supabase/sql-editor-completo.sql');
 await writeFile(unico, `-- Todas as migrações em ordem. Cole no Supabase: SQL Editor → New query → Run.\n-- Pode ser executado mais de uma vez sem perder dados.\n\n${partes.join('\n')}`);
 console.log(`✓ ${path.relative(root, unico)} — ${arquivos.length} migrações`);
+
+// Versão em partes pequenas, para colar pelo celular (o editor trava com textos grandes).
+const { mkdir } = await import('node:fs/promises');
+const dirPartes = path.join(root, 'supabase/sql-editor-partes');
+await mkdir(dirPartes, { recursive: true });
+const semComentarios = (t) => t.split('\n').filter((l) => !l.trimStart().startsWith('--')).join('\n').replace(/\n{3,}/g, '\n\n').trim() + '\n';
+const estrutura = await readFile(path.join(pasta, arquivos[0]), 'utf8');
+const partes2 = [
+  ['parte-1-estrutura.sql', semComentarios(estrutura)],
+  ['parte-2-concurso-e-etapas.sql', blocosSql.concurso],
+  ['parte-3-itens-do-edital.sql', blocosSql.itens],
+  ['parte-4-subitens-do-edital.sql', blocosSql.subitens],
+];
+for (const [nome, conteudo] of partes2) {
+  const cab = `-- ${nome} — cole no SQL Editor e clique em Run. Rode as partes em ordem (1, 2, 3, 4).\n`;
+  await writeFile(path.join(dirPartes, nome), cab + conteudo);
+}
+console.log(`✓ supabase/sql-editor-partes — ${partes2.length} partes`);
