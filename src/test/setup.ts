@@ -10,3 +10,5 @@ if (!window.matchMedia) {
     addEventListener: () => {}, removeEventListener: () => {}, addListener: () => {}, removeListener: () => {}, dispatchEvent: () => false,
   }) as MediaQueryList;
 }
+
+window.scrollTo = (() => {}) as typeof window.scrollTo;

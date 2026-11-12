@@ -101,15 +101,19 @@ const { mkdir } = await import('node:fs/promises');
 const dirPartes = path.join(root, 'supabase/sql-editor-partes');
 await mkdir(dirPartes, { recursive: true });
 const semComentarios = (t) => t.split('\n').filter((l) => !l.trimStart().startsWith('--')).join('\n').replace(/\n{3,}/g, '\n\n').trim() + '\n';
-const estrutura = await readFile(path.join(pasta, arquivos[0]), 'utf8');
+const estrutura = await readFile(path.join(pasta, '20261112120000_fase_a_estrutura.sql'), 'utf8');
+const pratica = await readFile(path.join(pasta, '20261113090000_fase_b_pratica.sql'), 'utf8');
+const corte = pratica.indexOf('-- ---------- Funções de simulado');
 const partes2 = [
   ['parte-1-estrutura.sql', semComentarios(estrutura)],
   ['parte-2-concurso-e-etapas.sql', blocosSql.concurso],
   ['parte-3-itens-do-edital.sql', blocosSql.itens],
   ['parte-4-subitens-do-edital.sql', blocosSql.subitens],
+  ['parte-5-fase-b-tabelas.sql', semComentarios(pratica.slice(0, corte))],
+  ['parte-6-fase-b-funcoes-e-seguranca.sql', semComentarios(pratica.slice(corte))],
 ];
 for (const [nome, conteudo] of partes2) {
-  const cab = `-- ${nome} — cole no SQL Editor e clique em Run. Rode as partes em ordem (1, 2, 3, 4).\n`;
+  const cab = `-- ${nome} — cole no SQL Editor e clique em Run. Rode as partes em ordem.\n`;
   await writeFile(path.join(dirPartes, nome), cab + conteudo);
 }
 console.log(`✓ supabase/sql-editor-partes — ${partes2.length} partes`);

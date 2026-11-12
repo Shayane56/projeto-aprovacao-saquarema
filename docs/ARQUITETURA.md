@@ -36,8 +36,30 @@ Supabase
 | `progresso_topico` | status de cada tópico | só o dono |
 | `etapas_usuario` | etapas marcadas como feitas | só o dono |
 
+## Banco (Fase B)
+
+| Tabela / função | Conteúdo |
+|---|---|
+| `questoes` | questões do seu banco (autorais, importadas, manuais e, na Fase D, geradas por IA), com `hash` de conteúdo para não duplicar |
+| `textos_apoio` | textos compartilhados por várias questões |
+| `respostas` | toda resposta dada; a correção (`correta`) é feita por gatilho no banco |
+| `caderno_erros` | criado/atualizado por gatilho: errou → entra; 2 acertos seguidos → resolvido |
+| `simulados`, `simulado_questoes` | simulado e alternativas marcadas; só é possível alterar enquanto está em andamento |
+| `iniciar_simulado()` | cria o simulado e as questões numa única operação |
+| `finalizar_simulado()` | grava as respostas, corrige por bloco e aplica a regra do edital (60% e nenhum bloco zerado) |
+
+Todas as tabelas da Fase B são pessoais (RLS). As questões nunca entram por migração: o pacote autoral fica no app
+(`src/features/questoes/pacotes/`) e é instalado na conta no primeiro acesso a **Praticar**; as alternativas são
+embaralhadas com semente fixa para distribuir as letras do gabarito.
+
+As respostas do treino e do simulado são gravadas numa fila que funciona offline e respeita a ordem
+(primeiro a resposta, depois o motivo do erro).
+
 ## Testes
 
 - Lógica: cálculo de progresso, datas no fuso de Brasília, situação das etapas, integridade dos dados do edital.
-- Telas (com servidor simulado): login, painel, edital (marcar status, filtro, busca), concurso (marcar etapa).
+- Telas (com servidor simulado): login, painel, edital (marcar status, filtro, busca), concurso (marcar etapa),
+  instalação do pacote, treino com motivo do erro, simulado completo do início ao resultado, caderno de erros e importação de prova.
+- Leitura de provas: numeração, alternativas em vários formatos, quebras de linha e hifenização, cabeçalhos repetidos,
+  textos de apoio com intervalo de questões, gabaritos em vários formatos e sugestão de disciplina/tópico.
 - As migrações foram validadas num Postgres 16 local: idempotência e isolamento entre contas pela RLS.

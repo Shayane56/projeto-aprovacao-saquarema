@@ -1,4 +1,4 @@
--- parte-1-estrutura.sql — cole no SQL Editor e clique em Run. Rode as partes em ordem (1, 2, 3, 4).
+-- parte-1-estrutura.sql — cole no SQL Editor e clique em Run. Rode as partes em ordem.
 create table if not exists public.concursos (
   id              text primary key,
   nome            text not null,

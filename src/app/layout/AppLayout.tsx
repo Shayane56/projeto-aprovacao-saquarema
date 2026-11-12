@@ -55,7 +55,7 @@ export function AppLayout() {
 
       {/* Navegação inferior (celular) */}
       <nav
-        className="fixed inset-x-0 bottom-0 z-20 grid grid-cols-4 border-t border-borda bg-superficie/95 pb-[env(safe-area-inset-bottom)] backdrop-blur lg:hidden"
+        className="fixed inset-x-0 bottom-0 z-20 grid grid-cols-5 border-t border-borda bg-superficie/95 pb-[env(safe-area-inset-bottom)] backdrop-blur lg:hidden"
         aria-label="Principal"
       >
         {NAVEGACAO.map(({ para, rotulo, icone: Icone }) => (
@@ -69,7 +69,7 @@ export function AppLayout() {
           >
             {({ isActive }) => (
               <>
-                <span className={cn('rounded-full px-4 py-1 transition-colors', isActive && 'bg-primaria-suave')}>
+                <span className={cn('rounded-full px-3.5 py-1 transition-colors', isActive && 'bg-primaria-suave')}>
                   <Icone className="h-5 w-5" aria-hidden />
                 </span>
                 {rotulo}

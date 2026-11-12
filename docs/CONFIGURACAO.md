@@ -8,7 +8,22 @@ Projeto: `azydkohkesfcbaynzktx` (região São Paulo). As credenciais públicas (
 
 ### Criar as tabelas, escolhendo uma das opções
 
-**A) Pelo SQL Editor (mais rápido)**
+**A) Pelo SQL Editor, em partes (pelo celular)**
+
+Cole e execute, em ordem, os arquivos de [`supabase/sql-editor-partes/`](../supabase/sql-editor-partes):
+
+| Parte | Conteúdo | Fase |
+|---|---|---|
+| 1 | Estrutura (edital, progresso, perfil) | A |
+| 2 | Concurso, blocos da prova e etapas | A |
+| 3 | Itens do edital | A |
+| 4 | Subitens do edital | A |
+| 5 | Questões, simulados, respostas e caderno de erros (tabelas e gatilhos) | B |
+| 6 | Funções de simulado e segurança | B |
+
+Todas as partes podem ser executadas de novo sem perder dados.
+
+**A2) Pelo SQL Editor, tudo de uma vez (computador)**
 1. Abra o projeto no Supabase → **SQL Editor** → **New query**.
 2. Copie todo o conteúdo de [`supabase/sql-editor-completo.sql`](../supabase/sql-editor-completo.sql), cole e clique em **Run**.
 3. Deve aparecer *Success. No rows returned*. O script pode ser executado de novo sem perder dados.

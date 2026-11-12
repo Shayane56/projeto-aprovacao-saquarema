@@ -31,6 +31,11 @@ vi.mock('@/features/edital/api', () => ({
   buscarProgresso: async () => ({ ...mocks.progresso }),
   definirStatus: mocks.definirStatus,
 }));
+vi.mock('@/features/questoes/api', () => ({
+  buscarQuestoes: async () => [], buscarTextos: async () => [], buscarRespostas: async () => [], buscarCaderno: async () => [],
+  inserirQuestoes: async () => 0, responder: async () => {}, atualizarCaderno: async () => {},
+}));
+vi.mock('@/features/simulados/api', () => ({ listarSimulados: async () => [] }));
 vi.mock('@/features/concurso/api', () => ({
   buscarEtapas: async () => etapasDoSeed(),
   buscarEtapasConcluidas: async () => [...mocks.concluidas],

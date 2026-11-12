@@ -1,10 +1,12 @@
-import { ArrowRight, CalendarDays, Clock, Target } from 'lucide-react';
+import { ArrowRight, CalendarDays, Clock, PencilLine, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '@/features/auth/AuthProvider';
 import { proximosPrazos } from '@/features/concurso/etapas';
 import { useEtapas } from '@/features/concurso/hooks';
 import { ItemEtapa } from '@/features/concurso/ItemEtapa';
 import { useResumoProgresso } from '@/features/edital/hooks';
+import { useCaderno, useRespostas } from '@/features/questoes/hooks';
+import { useSimulados } from '@/features/simulados/hooks';
 import { blocoPrioritario, pct } from '@/features/edital/progresso';
 import { contagemAte, dataLocal, dataPorExtenso, horaLocal, maiuscula, plural } from '@/lib/datas';
 import { corDe } from '@/shared/cores';
@@ -21,6 +23,9 @@ export function InicioPage() {
   const agora = useAgora(30_000);
   const { edital, resumo, carregando, erro } = useResumoProgresso();
   const etapas = useEtapas();
+  const respostas = useRespostas();
+  const caderno = useCaderno();
+  const simulados = useSimulados();
 
   if (carregando) return <Carregando />;
   if (erro || !edital.data || !resumo) return <ErroCarga erro={erro} tentarDeNovo={() => void edital.refetch()} />;
@@ -131,6 +136,32 @@ export function InicioPage() {
         </section>
       </div>
 
+      {/* Prática */}
+      <section className="cartao p-5" aria-labelledby="titulo-pratica">
+        <div className="flex items-center justify-between">
+          <h2 id="titulo-pratica" className="flex items-center gap-2 font-semibold"><PencilLine className="h-5 w-5 text-primaria" aria-hidden /> Prática</h2>
+          <Link to="/praticar" className="inline-flex items-center gap-1 text-sm font-medium text-primaria hover:underline">
+            Praticar <ArrowRight className="h-4 w-4" aria-hidden />
+          </Link>
+        </div>
+        {(() => {
+          const lista = respostas.data ?? [];
+          const hoje = dataLocal(agora);
+          const deHoje = lista.filter((r) => dataLocal(new Date(r.respondida_em)) === hoje);
+          const acertos = lista.filter((r) => r.correta).length;
+          const ultimo = simulados.data?.find((s) => s.status === 'finalizado')?.resultado;
+          const pendentes = (caderno.data ?? []).filter((c) => !c.resolvido).length;
+          return (
+            <dl className="mt-4 grid grid-cols-2 gap-3 text-center sm:grid-cols-4">
+              <Indicador valor={String(deHoje.length)} rotulo="questões hoje" />
+              <Indicador valor={lista.length ? `${Math.round((acertos / lista.length) * 100)}%` : '—'} rotulo="de acerto geral" />
+              <Indicador valor={ultimo ? `${ultimo.pontos}/${ultimo.pontos_max}` : '—'} rotulo="último simulado" />
+              <Indicador valor={String(pendentes)} rotulo="erros pendentes" destaque={pendentes > 0} />
+            </dl>
+          );
+        })()}
+      </section>
+
       {/* Próximos prazos */}
       <section className="cartao p-5" aria-labelledby="titulo-prazos">
         <div className="flex items-center justify-between">
@@ -149,6 +180,15 @@ export function InicioPage() {
           )}
         </div>
       </section>
+    </div>
+  );
+}
+
+function Indicador({ valor, rotulo, destaque }: { valor: string; rotulo: string; destaque?: boolean }) {
+  return (
+    <div className="rounded-xl bg-superficie-2/70 px-2 py-3">
+      <dd className={`text-xl font-bold tabular-nums ${destaque ? 'text-perigo' : ''}`}>{valor}</dd>
+      <dt className="mt-0.5 text-[11px] text-suave">{rotulo}</dt>
     </div>
   );
 }

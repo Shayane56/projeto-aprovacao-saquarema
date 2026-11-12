@@ -13,11 +13,18 @@ App web instalável (PWA) para Android e computador, com login e dados sincroniz
 - **Regras do concurso**: formato da prova, nota mínima (54/90, sem zerar disciplina), desempate, títulos.
 - **Offline**: o conteúdo fica salvo no aparelho, e o que você marca sem internet é enviado quando a conexão volta.
 
+## O que já funciona (Fase B)
+
+- **Banco de questões** ligado aos tópicos do edital, já com **60 questões autorais no estilo IBAM** (30 de Conhecimentos Específicos, 15 de Português e 15 de SUS), instaladas automaticamente na sua conta.
+- **Resolver questões** por disciplina, tópico (incluindo subtópicos), não respondidas, todas ou só os erros pendentes, com correção e comentário na hora.
+- **Simulados IBAM**: completo (40 questões em 3h) e rápido (10 em 45 min), com pontuação 3/2/1, nota mínima de 60% e reprovação por bloco zerado; cronômetro, mapa de questões, marcação "revisar", retomada em outro aparelho e histórico.
+- **Caderno de erros automático**: toda questão errada entra, com motivo e anotação; acertou 2 vezes seguidas, fica resolvida.
+- **Importar provas** do IBAM em PDF (lido no próprio aparelho) ou texto, com gabarito, textos de apoio, sugestão de disciplina e tópico, e revisão antes de salvar. Também é possível cadastrar questões manualmente.
+
 ## Próximas fases
 
 | Fase | Entrega |
 |---|---|
-| B | Questões no formato IBAM (A–D), simulado de 40 questões em 3h com pontuação 3/2/1, caderno de erros automático |
 | C | Flashcards com FSRS e cronograma inteligente até a prova |
 | D | IA tutora, gerador de questões e flashcards, explicações e resumos |
 | E | Materiais em PDF, anotações, busca e estatísticas de desempenho |
@@ -30,12 +37,14 @@ React 19 · TypeScript · Vite · Tailwind · TanStack Query (cache offline no I
 src/
   app/          rotas, layout, PWA
   features/     auth · edital · concurso · inicio · configuracoes
+                questoes · simulados · erros · importar
   shared/       componentes de interface, hooks, tema
   lib/          Supabase, cache, datas
 supabase/
   seed/edital-ace-2026.json   conteúdo oficial do edital (fonte única)
   migrations/                 SQL versionado (estrutura + dados do edital)
   sql-editor-completo.sql     tudo em um arquivo, para colar no SQL Editor
+  sql-editor-partes/          o mesmo SQL em partes pequenas, para colar pelo celular
 ```
 
 ## Comandos

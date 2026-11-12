@@ -43,7 +43,7 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2,webmanifest}'],
         // Só o alfabeto latino é usado; os demais subconjuntos da fonte não vão para o cache offline.
-        globIgnores: ['**/inter-{cyrillic,cyrillic-ext,greek,greek-ext,vietnamese}-*.woff2'],
+        globIgnores: ['**/inter-{cyrillic,cyrillic-ext,greek,greek-ext,vietnamese}-*.woff2', '**/pdf*.js', '**/pdf*.mjs'],
         navigateFallback: 'index.html',
         cleanupOutdatedCaches: true,
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,

@@ -1,4 +1,4 @@
--- parte-3-itens-do-edital.sql — cole no SQL Editor e clique em Run. Rode as partes em ordem (1, 2, 3, 4).
+-- parte-3-itens-do-edital.sql — cole no SQL Editor e clique em Run. Rode as partes em ordem.
 insert into public.topicos (id, disciplina_id, parent_id, numero, titulo, referencia, link, ordem) values
   ('ace26-ce-01', 'ace26-ce', null, '1', 'Ética, cidadania e atuação do agente no serviço público.', null, null, 1),
   ('ace26-ce-02', 'ace26-ce', null, '2', 'Sistema Único de Saúde (SUS): princípios, organização e atuação do Agente de Combate às Endemias.', null, null, 2),

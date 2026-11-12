@@ -1,0 +1,674 @@
+{
+  "id": "autorais-v1",
+  "nome": "Questões autorais no estilo IBAM",
+  "fonte": "Questão autoral (estilo IBAM)",
+  "questoes": [
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-03", "dificuldade": 1,
+      "enunciado": "No Brasil, o principal vetor urbano da dengue, da chikungunya e da zika é o mosquito:",
+      "alternativas": ["Anopheles darlingi.", "Aedes aegypti.", "Culex quinquefasciatus.", "Lutzomyia longipalpis."],
+      "gabarito": "B",
+      "explicacao": "O Aedes aegypti transmite dengue, chikungunya, zika e a febre amarela urbana. Anopheles transmite malária; Culex é o pernilongo comum; Lutzomyia é o mosquito-palha das leishmanioses."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-03", "dificuldade": 2,
+      "enunciado": "Os ovos do Aedes aegypti são depositados nas paredes internas dos recipientes, logo acima da linha d'água, e podem resistir ao ressecamento por meses. Por isso, na eliminação de criadouros, é correto orientar o morador a:",
+      "alternativas": [
+        "apenas trocar a água dos recipientes semanalmente, sem outras medidas.",
+        "adicionar sal de cozinha à água dos vasos de plantas.",
+        "esvaziar o recipiente e esfregar suas paredes internas com escova ou bucha.",
+        "manter os recipientes destampados para facilitar a evaporação da água."
+      ],
+      "gabarito": "C",
+      "explicacao": "Como os ovos ficam aderidos às paredes e sobrevivem secos, não basta trocar a água: é preciso esfregar as paredes do recipiente. Deixar recipientes destampados favorece novas posturas."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-09", "dificuldade": 2,
+      "enunciado": "No Programa Nacional de Controle da Dengue, o tratamento focal consiste na:",
+      "alternativas": [
+        "aplicação de larvicida nos depósitos com água que não podem ser eliminados nem protegidos.",
+        "aplicação de inseticida a ultrabaixo volume (fumacê) nos quarteirões com casos.",
+        "aplicação de adulticida de ação residual nas paredes externas de depósitos em pontos estratégicos.",
+        "remoção mecânica de todos os recipientes do imóvel, sem uso de produto químico."
+      ],
+      "gabarito": "A",
+      "explicacao": "Tratamento focal = larvicida em depósitos que não podem ser eliminados. A aplicação de adulticida residual em pontos estratégicos é o tratamento perifocal; o fumacê (UBV) é usado em bloqueio de transmissão."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-09", "dificuldade": 2,
+      "enunciado": "O Reconhecimento Geográfico (RG) é uma atividade prévia às ações de controle vetorial que tem como finalidade:",
+      "alternativas": [
+        "identificar os casos confirmados de dengue em cada quarteirão.",
+        "identificar a localidade, numerar quarteirões e imóveis e elaborar croquis que orientam o planejamento das ações de campo.",
+        "aplicar larvicida em todos os imóveis da área antes do início do ciclo.",
+        "coletar amostras de sangue da população para diagnóstico de arboviroses."
+      ],
+      "gabarito": "B",
+      "explicacao": "O RG levanta e organiza a área de trabalho (localidades, quarteirões, imóveis, croquis), base para o planejamento e a programação das visitas."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-11", "dificuldade": 2,
+      "enunciado": "No controle do Aedes aegypti, são considerados pontos estratégicos (PE) os locais com grande concentração de depósitos preferenciais para a desova do mosquito, como:",
+      "alternativas": [
+        "residências unifamiliares com quintal pequeno.",
+        "escolas, creches e postos de saúde, visitados uma vez por ano.",
+        "apartamentos acima do terceiro andar.",
+        "borracharias, ferros-velhos, depósitos de sucata e cemitérios, que recebem visitas quinzenais."
+      ],
+      "gabarito": "D",
+      "explicacao": "Pontos estratégicos acumulam grande quantidade de recipientes (pneus, sucatas, vasos). Por isso são vistoriados com maior frequência, a cada 15 dias."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-11", "dificuldade": 2,
+      "enunciado": "Na classificação de depósitos usada nas visitas de controle do Aedes aegypti, os pneus e outros materiais rodantes pertencem ao grupo:",
+      "alternativas": ["A1.", "B.", "D1.", "E."],
+      "gabarito": "C",
+      "explicacao": "A1: caixa d'água elevada; A2: depósitos ao nível do solo; B: pequenos depósitos móveis; C: depósitos fixos; D1: pneus e materiais rodantes; D2: lixo e sucatas; E: depósitos naturais (bromélias, ocos de árvore)."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-11", "dificuldade": 3,
+      "enunciado": "No LIRAa, o Índice de Infestação Predial (IIP) é calculado pela:",
+      "alternativas": [
+        "razão entre o número de recipientes com larvas e o número de imóveis pesquisados, multiplicada por 100.",
+        "razão entre o número de imóveis com larvas do Aedes aegypti e o número de imóveis pesquisados, multiplicada por 100.",
+        "razão entre o número de casos de dengue e a população do bairro, multiplicada por 1.000.",
+        "soma dos depósitos eliminados durante o ciclo de visitas."
+      ],
+      "gabarito": "B",
+      "explicacao": "IIP = imóveis positivos ÷ imóveis pesquisados × 100. A razão entre recipientes positivos e imóveis pesquisados (×100) é o Índice de Breteau."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-09", "dificuldade": 1,
+      "enunciado": "A malária é transmitida ao ser humano principalmente pela picada da fêmea do mosquito:",
+      "alternativas": ["Aedes, infectada por vírus.", "Culex, infectada por bactéria.", "Anopheles, infectada por protozoário do gênero Plasmodium.", "Lutzomyia, infectada por Leishmania."],
+      "gabarito": "C",
+      "explicacao": "A malária é causada por protozoários do gênero Plasmodium, transmitidos pela fêmea do Anopheles (mosquito-prego)."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-01", "dificuldade": 2,
+      "enunciado": "Sobre a leishmaniose visceral no ambiente urbano, é correto afirmar que:",
+      "alternativas": [
+        "o cão é o principal reservatório, e a transmissão ocorre pela picada de flebotomíneos (mosquito-palha).",
+        "é transmitida de pessoa para pessoa pelo contato com a pele.",
+        "seu vetor é o Aedes aegypti, que se reproduz em água parada.",
+        "a principal medida de controle é o tratamento da água para consumo."
+      ],
+      "gabarito": "A",
+      "explicacao": "Na leishmaniose visceral urbana, o cão é o principal reservatório. O vetor é o flebotomíneo (Lutzomyia longipalpis), que se cria em matéria orgânica úmida, e não em água parada."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-04", "dificuldade": 2,
+      "enunciado": "Na doença de Chagas, a transmissão vetorial do Trypanosoma cruzi ocorre:",
+      "alternativas": [
+        "pela saliva do barbeiro, injetada durante a picada.",
+        "pelo contato das fezes contaminadas do triatomíneo com a pele lesionada ou as mucosas.",
+        "pela picada do mosquito-palha.",
+        "pela ingestão de água contaminada com larvas do mosquito."
+      ],
+      "gabarito": "B",
+      "explicacao": "O barbeiro defeca enquanto se alimenta; o parasita está nas fezes, que penetram pela lesão da picada ou pelas mucosas. Também há transmissão oral (alimentos contaminados), transfusional e vertical."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-05", "dificuldade": 2,
+      "enunciado": "Na esquistossomose mansônica, o hospedeiro intermediário e a forma de infecção humana são, respectivamente:",
+      "alternativas": [
+        "o mosquito Anopheles e a picada.",
+        "o rato e a urina contaminada.",
+        "o caramujo do gênero Biomphalaria e a penetração ativa de cercárias pela pele em contato com água doce contaminada.",
+        "o cão e a mordedura."
+      ],
+      "gabarito": "C",
+      "explicacao": "As cercárias liberadas pelo caramujo Biomphalaria penetram ativamente na pele de quem entra em coleções de água doce contaminadas. Por isso a pesquisa malacológica é atribuição do ACE."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-07", "dificuldade": 1,
+      "enunciado": "Após uma enchente, o agente orienta moradores sobre a prevenção da leptospirose. É uma orientação correta:",
+      "alternativas": [
+        "a leptospirose é transmitida pela picada de mosquitos que surgem após as chuvas.",
+        "evitar contato com água e lama de enchente e, na limpeza, usar luvas e botas de borracha, além de controlar roedores.",
+        "a doença é transmitida principalmente pelo contato com gatos.",
+        "basta ferver a água de beber para eliminar todo risco de infecção na limpeza da casa."
+      ],
+      "gabarito": "B",
+      "explicacao": "A Leptospira é eliminada na urina de roedores e penetra pela pele em contato com água ou lama contaminadas. Proteção individual na limpeza e controle de roedores são medidas centrais."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-06", "dificuldade": 1,
+      "enunciado": "Uma pessoa foi mordida por um cão desconhecido. A orientação imediata correta é:",
+      "alternativas": [
+        "aguardar o aparecimento de sintomas antes de procurar atendimento.",
+        "aplicar pó de café no ferimento para estancar o sangue.",
+        "lavar o ferimento abundantemente com água e sabão e procurar a unidade de saúde para avaliação da profilaxia antirrábica.",
+        "sacrificar o animal imediatamente, sem comunicar a vigilância."
+      ],
+      "gabarito": "C",
+      "explicacao": "A raiva tem letalidade de praticamente 100% após o início dos sintomas. A lavagem com água e sabão e a avaliação imediata da profilaxia (vacina e, se indicado, soro) são fundamentais."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-08", "dificuldade": 2,
+      "enunciado": "A peste é uma zoonose causada pela bactéria Yersinia pestis, cujos reservatórios são roedores. Sua transmissão ao ser humano ocorre principalmente pela picada de:",
+      "alternativas": ["pulgas infectadas.", "carrapatos.", "flebotomíneos.", "triatomíneos."],
+      "gabarito": "A",
+      "explicacao": "A pulga (como a Xenopsylla cheopis) se infecta ao sugar roedores doentes e transmite a bactéria ao ser humano pela picada."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-10", "dificuldade": 2,
+      "enunciado": "A esporotricose, doença com grande número de casos no estado do Rio de Janeiro, é causada por:",
+      "alternativas": [
+        "um vírus transmitido pela picada do Aedes aegypti.",
+        "um fungo do gênero Sporothrix, transmitido principalmente por arranhadura ou mordedura de gatos infectados.",
+        "uma bactéria presente na urina de ratos.",
+        "um protozoário transmitido pela água contaminada."
+      ],
+      "gabarito": "B",
+      "explicacao": "Na esporotricose zoonótica, o gato doente transmite o fungo Sporothrix por arranhões e mordidas. Também pode ocorrer por implantação do fungo com espinhos e farpas."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-11", "dificuldade": 2,
+      "enunciado": "No ciclo silvestre da febre amarela, os macacos:",
+      "alternativas": [
+        "transmitem o vírus diretamente ao ser humano pela mordida.",
+        "devem ser afastados ou abatidos para impedir a transmissão.",
+        "são vítimas da doença e funcionam como sentinelas: sua morte alerta a vigilância para a circulação do vírus.",
+        "são os vetores do vírus, assim como o mosquito Haemagogus."
+      ],
+      "gabarito": "C",
+      "explicacao": "No ciclo silvestre, o vírus é transmitido por mosquitos Haemagogus e Sabethes. Os macacos adoecem e não transmitem a doença ao ser humano; suas mortes (epizootias) devem ser notificadas. A vacina é a principal prevenção."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-08-02", "dificuldade": 1,
+      "enunciado": "A cólera é uma doença transmitida principalmente:",
+      "alternativas": [
+        "pela picada de mosquitos.",
+        "pela ingestão de água ou alimentos contaminados com fezes humanas que contêm o Vibrio cholerae.",
+        "pela inalação de poeira de ambientes fechados.",
+        "pelo contato com a urina de roedores."
+      ],
+      "gabarito": "B",
+      "explicacao": "A transmissão é fecal-oral, por água e alimentos contaminados. Saneamento básico, tratamento da água (cloração) e higiene dos alimentos são as principais medidas de controle."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-10", "dificuldade": 2,
+      "enunciado": "Sobre os Equipamentos de Proteção Individual (EPI) no manuseio de inseticidas pelo ACE, é correto afirmar que:",
+      "alternativas": [
+        "o empregador deve fornecê-los gratuitamente, adequados ao risco, e o agente deve usá-los apenas para a finalidade a que se destinam.",
+        "o uso é opcional quando a aplicação dura menos de uma hora.",
+        "o agente deve comprar os próprios EPI, que podem ser compartilhados entre colegas.",
+        "os EPI dispensam limpeza e manutenção, por serem descartáveis."
+      ],
+      "gabarito": "A",
+      "explicacao": "Pela NR-6, cabe ao empregador fornecer gratuitamente o EPI adequado e exigir seu uso; cabe ao trabalhador usar, guardar e conservar o equipamento, comunicando qualquer dano."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-10", "dificuldade": 2,
+      "enunciado": "É exemplo de controle biológico de vetores:",
+      "alternativas": [
+        "a aplicação de inseticida a ultrabaixo volume.",
+        "a remoção de pneus de um terreno baldio.",
+        "o uso de peixes larvófagos ou de larvicidas biológicos à base de Bacillus thuringiensis israelensis (Bti).",
+        "a colocação de tela em caixas d'água."
+      ],
+      "gabarito": "C",
+      "explicacao": "Controle biológico usa organismos vivos ou seus produtos (peixes larvófagos, Bti). A remoção de recipientes e a vedação de caixas d'água são controle mecânico e manejo ambiental; o UBV é controle químico."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-10", "dificuldade": 1,
+      "enunciado": "No controle do Aedes aegypti, a medida considerada prioritária e mais efetiva, por atuar diretamente na reprodução do mosquito, é:",
+      "alternativas": [
+        "a aplicação de fumacê em todo o município semanalmente.",
+        "a eliminação mecânica de criadouros, com a participação da população.",
+        "o uso exclusivo de repelentes pela população.",
+        "a aplicação de larvicida em todos os recipientes, inclusive nos que podem ser eliminados."
+      ],
+      "gabarito": "B",
+      "explicacao": "Eliminar criadouros é a base do controle. O controle químico é complementar e indicado só quando o depósito não pode ser eliminado (larvicida) ou para bloquear transmissão (adulticida)."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-02", "dificuldade": 2,
+      "enunciado": "De acordo com a Lei nº 11.350/2006, com as alterações da Lei nº 13.595/2018, são requisitos para o exercício da atividade de Agente de Combate às Endemias:",
+      "alternativas": [
+        "ter concluído o ensino fundamental e residir na área em que vai atuar.",
+        "ter curso técnico em enfermagem e registro no conselho profissional.",
+        "ter concluído o ensino médio e, com aproveitamento, curso de formação inicial com carga horária mínima de 40 horas.",
+        "ter concluído o ensino superior na área da saúde."
+      ],
+      "gabarito": "C",
+      "explicacao": "Para o ACE: ensino médio completo e curso de formação inicial de no mínimo 40 horas. A exigência de residir na área de atuação é do Agente Comunitário de Saúde — o que o edital de Saquarema também reproduz."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-02", "dificuldade": 1,
+      "enunciado": "Entre as atribuições típicas do Agente de Combate às Endemias previstas na Lei nº 13.595/2018, está:",
+      "alternativas": [
+        "a prescrição de medicamentos para casos suspeitos de arboviroses.",
+        "a realização de exames laboratoriais para confirmação diagnóstica.",
+        "a realização de ações de campo para pesquisa entomológica, malacológica e coleta de reservatórios de doenças.",
+        "a aplicação de vacinas nos domicílios."
+      ],
+      "gabarito": "C",
+      "explicacao": "Pesquisas entomológica (insetos) e malacológica (caramujos) e coleta de reservatórios estão no rol de atribuições do ACE. Prescrever, diagnosticar e vacinar são atribuições de outros profissionais."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-03", "dificuldade": 2,
+      "enunciado": "Nas ações de educação em saúde realizadas pelo ACE junto à comunidade, a abordagem mais adequada é aquela que:",
+      "alternativas": [
+        "transmite ordens à população, aplicando multa a quem não as cumprir.",
+        "valoriza o diálogo e os saberes da comunidade, estimulando a autonomia e a participação dos moradores no cuidado com o ambiente.",
+        "se limita à distribuição de folhetos, sem conversa com os moradores.",
+        "é realizada apenas durante epidemias."
+      ],
+      "gabarito": "B",
+      "explicacao": "Educação em saúde é um processo dialógico e contínuo, que busca a corresponsabilidade e a autonomia da população — e não apenas a transmissão de informações."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-04", "dificuldade": 2,
+      "enunciado": "Em epidemiologia, a incidência de uma doença corresponde:",
+      "alternativas": [
+        "ao número total de casos existentes em determinado momento, novos e antigos.",
+        "ao número de casos novos ocorridos em uma população exposta durante um período.",
+        "ao número de óbitos causados pela doença em um ano.",
+        "à proporção de pessoas vacinadas na população."
+      ],
+      "gabarito": "B",
+      "explicacao": "Incidência mede casos novos em um período (risco de adoecer). O total de casos existentes, novos e antigos, é a prevalência; óbitos se relacionam à mortalidade e à letalidade."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-04", "dificuldade": 1,
+      "enunciado": "Quando uma doença ocorre em determinada região com frequência acima do esperado para aquele período, configura-se:",
+      "alternativas": ["uma endemia.", "uma epidemia.", "um caso esporádico.", "uma zoonose."],
+      "gabarito": "B",
+      "explicacao": "Epidemia é a elevação do número de casos acima do esperado. Endemia é a ocorrência habitual, dentro do nível esperado; pandemia é a epidemia de grande extensão geográfica."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-06", "dificuldade": 1,
+      "enunciado": "O sistema de informação do SUS destinado ao registro das doenças e agravos de notificação compulsória é o:",
+      "alternativas": ["SIM.", "SINASC.", "SINAN.", "SIH."],
+      "gabarito": "C",
+      "explicacao": "SINAN: Sistema de Informação de Agravos de Notificação. SIM registra óbitos; SINASC, nascidos vivos; SIH, internações hospitalares."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-07", "dificuldade": 2,
+      "enunciado": "Durante o ciclo de visitas, o ACE encontra um imóvel fechado. A conduta correta é:",
+      "alternativas": [
+        "registrar a visita como realizada para não prejudicar a meta.",
+        "entrar no imóvel pelo quintal para inspecionar os depósitos.",
+        "registrar o imóvel como fechado (pendência) e programar o retorno para realizar a visita.",
+        "excluir o imóvel do cadastro da área."
+      ],
+      "gabarito": "C",
+      "explicacao": "Imóveis fechados e recusas são pendências que devem ser registradas corretamente e recuperadas em revisitas. O agente não entra sem autorização, e registrar visita não realizada fere a ética e distorce os indicadores."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-01", "dificuldade": 1,
+      "enunciado": "Em relação às informações obtidas durante as visitas domiciliares, o comportamento ético esperado do agente é:",
+      "alternativas": [
+        "compartilhar com vizinhos situações de risco observadas, para alertar a comunidade.",
+        "manter sigilo sobre as informações pessoais, usando-as apenas para controle e planejamento das ações de saúde.",
+        "divulgar nas redes sociais os imóveis com focos, como forma de cobrança.",
+        "anotar apenas as informações que considerar interessantes, sem padrão de registro."
+      ],
+      "gabarito": "B",
+      "explicacao": "O sigilo e o uso das informações exclusivamente para fins de saúde são deveres éticos do servidor; o registro deve seguir as normas do SUS."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-12", "dificuldade": 2,
+      "enunciado": "Segundo a legislação brasileira (Lei nº 11.445/2007), o saneamento básico compreende:",
+      "alternativas": [
+        "apenas o abastecimento de água tratada.",
+        "abastecimento de água potável, esgotamento sanitário, limpeza urbana e manejo de resíduos sólidos, e drenagem e manejo das águas pluviais urbanas.",
+        "coleta de lixo e controle de vetores.",
+        "tratamento de esgoto e vacinação da população."
+      ],
+      "gabarito": "B",
+      "explicacao": "São quatro componentes: água, esgoto, resíduos sólidos e drenagem pluvial. A falta de qualquer um deles favorece doenças como leptospirose, cólera e arboviroses."
+    },
+    {
+      "disciplina": "ace26-ce", "topico": "ace26-ce-05", "dificuldade": 2,
+      "enunciado": "Em um bairro com abastecimento de água irregular e coleta de lixo deficiente, observa-se aumento dos focos do Aedes aegypti. Essa situação se explica porque:",
+      "alternativas": [
+        "a falta de água elimina os criadouros do mosquito.",
+        "os moradores passam a armazenar água em recipientes e o lixo acumulado retém água da chuva, criando novos criadouros.",
+        "o mosquito se reproduz preferencialmente em água suja de esgoto.",
+        "a irregularidade do abastecimento não tem relação com a infestação."
+      ],
+      "gabarito": "B",
+      "explicacao": "Condições ambientais e de saneamento são determinantes: o armazenamento domiciliar de água e o lixo exposto multiplicam os depósitos que acumulam água."
+    },
+
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-16", "dificuldade": 1,
+      "enunciado": "Assinale a alternativa em que o acento indicativo de crase foi empregado corretamente.",
+      "alternativas": [
+        "O agente começou à vistoriar os quintais cedo.",
+        "Entreguei o relatório à coordenadora do programa.",
+        "Fomos à pé até o último quarteirão.",
+        "Refiro-me à você, que coordenou a ação."
+      ],
+      "gabarito": "B",
+      "explicacao": "Há crase em 'entregar algo a alguém' + 'a coordenadora'. Não há crase antes de verbo (começou a vistoriar), de palavra masculina (a pé) ou de pronome de tratamento como 'você'."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-07-06", "dificuldade": 2,
+      "enunciado": "Assinale a alternativa que está de acordo com a norma-padrão quanto à concordância verbal.",
+      "alternativas": [
+        "Fazem dois anos que o bairro não registra casos.",
+        "Houveram muitas recusas durante as visitas.",
+        "Devem haver novos focos no terreno vizinho.",
+        "Faz dois meses que os agentes visitaram a região."
+      ],
+      "gabarito": "D",
+      "explicacao": "'Fazer' indicando tempo decorrido e 'haver' no sentido de existir são impessoais: ficam no singular e transmitem essa impessoalidade ao auxiliar (deve haver)."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-07-07", "dificuldade": 2,
+      "enunciado": "Assinale a frase correta quanto à regência verbal, segundo a norma-padrão.",
+      "alternativas": [
+        "Os agentes assistiram ao treinamento sobre manejo de larvicidas.",
+        "Todos devem obedecer o regulamento do programa.",
+        "Prefiro mais visitar imóveis do que preencher fichas.",
+        "Ela aspirava o cargo de supervisora há anos."
+      ],
+      "gabarito": "A",
+      "explicacao": "'Assistir' (ver, presenciar) exige a preposição a: assistir ao treinamento. Corrigindo as demais: obedecer ao regulamento; prefiro visitar imóveis a preencher fichas; aspirava ao cargo."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-13", "dificuldade": 2,
+      "enunciado": "Assinale a alternativa em que a pontuação está correta.",
+      "alternativas": [
+        "Os agentes de combate às endemias, visitaram todos os imóveis do bairro.",
+        "Em Saquarema, os agentes visitaram todos os imóveis do bairro.",
+        "Os agentes, visitaram todos os imóveis, do bairro.",
+        "Os agentes visitaram, todos os imóveis do bairro."
+      ],
+      "gabarito": "B",
+      "explicacao": "A vírgula após o adjunto adverbial deslocado (Em Saquarema) é adequada. Não se separa por vírgula o sujeito do verbo nem o verbo de seu complemento."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-12", "dificuldade": 2,
+      "enunciado": "Assinale a alternativa em que todas as palavras estão acentuadas de acordo com as regras ortográficas vigentes.",
+      "alternativas": [
+        "idéia – saúde – herói",
+        "vôo – país – juíza",
+        "saúde – herói – ideia",
+        "heróico – baú – saída"
+      ],
+      "gabarito": "C",
+      "explicacao": "Pelo Acordo Ortográfico, perderam o acento os ditongos abertos ei/oi em paroxítonas (ideia, heroico) e o hiato oo (voo). Mantêm acento: saúde e país (hiato) e herói (oxítona com ditongo aberto)."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-17", "dificuldade": 1,
+      "enunciado": "Assinale a alternativa em que todas as palavras estão grafadas corretamente.",
+      "alternativas": [
+        "excessão – privilégio – paralisação",
+        "exceção – privilégio – paralisação",
+        "exceção – previlégio – paralização",
+        "excessão – previlégio – paralisação"
+      ],
+      "gabarito": "B",
+      "explicacao": "Grafias corretas: exceção, privilégio e paralisação (de paralisar, com s)."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-11", "dificuldade": 2,
+      "enunciado": "Assinale a frase em que a palavra destacada foi empregada corretamente.",
+      "alternativas": [
+        "O COMPRIMENTO das normas de segurança é obrigatório.",
+        "O agente precisou RETIFICAR o endereço anotado incorretamente na ficha.",
+        "O mosquito IMERGIU da água após a fase de pupa.",
+        "Os dados devem ser DESCRIMINADOS por bairro no relatório."
+      ],
+      "gabarito": "B",
+      "explicacao": "Retificar = corrigir. Nas demais: cumprimento (ato de cumprir), emergiu (saiu da água) e discriminados (especificados, separados)."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-07-02", "dificuldade": 1,
+      "enunciado": "Transpondo para a voz passiva analítica a frase “Os agentes eliminaram os focos do mosquito”, obtém-se:",
+      "alternativas": [
+        "Os focos do mosquito eliminaram-se pelos agentes.",
+        "Os focos do mosquito foram eliminados pelos agentes.",
+        "Eliminaram os focos do mosquito.",
+        "Os agentes tinham eliminado os focos do mosquito."
+      ],
+      "gabarito": "B",
+      "explicacao": "Voz passiva analítica: verbo ser + particípio, com agente da passiva (pelos agentes), mantendo o tempo verbal (pretérito perfeito: foram eliminados)."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-06", "dificuldade": 2,
+      "enunciado": "Em “Embora a campanha tenha sido ampla, muitos imóveis continuaram com focos”, o conectivo destacado estabelece relação de:",
+      "alternativas": ["causa.", "condição.", "concessão.", "finalidade."],
+      "gabarito": "C",
+      "explicacao": "'Embora' introduz uma ideia contrária à principal que não impede sua realização: relação concessiva (equivale a 'apesar de')."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-15", "dificuldade": 2,
+      "enunciado": "No período “Os moradores foram orientados, mas não eliminaram os recipientes”, a segunda oração é classificada como:",
+      "alternativas": [
+        "coordenada sindética adversativa.",
+        "coordenada sindética conclusiva.",
+        "subordinada adverbial causal.",
+        "subordinada adverbial condicional."
+      ],
+      "gabarito": "A",
+      "explicacao": "A oração iniciada por 'mas' é coordenada (independente sintaticamente), sindética (tem conjunção) e adversativa (exprime oposição)."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-08", "dificuldade": 2,
+      "enunciado": "Assinale a alternativa correta quanto à colocação pronominal, segundo a norma-padrão.",
+      "alternativas": [
+        "Me informaram sobre a nova visita.",
+        "Não falaram-me sobre o mutirão.",
+        "Ninguém se recusou a receber o agente.",
+        "Tinha visitado-me na semana passada."
+      ],
+      "gabarito": "C",
+      "explicacao": "Pronomes indefinidos como 'ninguém' atraem o pronome oblíquo (próclise). Não se inicia frase com pronome átono na norma-padrão; 'não' exige próclise (não me falaram); não há ênclise ao particípio."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-09", "dificuldade": 1,
+      "enunciado": "Em “Já expliquei isso um milhão de vezes aos moradores”, há a figura de linguagem denominada:",
+      "alternativas": ["metáfora.", "hipérbole.", "eufemismo.", "ironia."],
+      "gabarito": "B",
+      "explicacao": "Hipérbole é o exagero intencional para dar ênfase à ideia."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-10", "dificuldade": 1,
+      "enunciado": "Em um cartaz de campanha com os dizeres “Combata o mosquito! Elimine a água parada!”, predomina a função da linguagem:",
+      "alternativas": ["referencial.", "metalinguística.", "conativa (apelativa).", "fática."],
+      "gabarito": "C",
+      "explicacao": "A função conativa busca convencer ou influenciar o interlocutor; é marcada pelo verbo no imperativo e é típica de propagandas e campanhas."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-07-04", "dificuldade": 3,
+      "enunciado": "Assinale a palavra formada por parassíntese.",
+      "alternativas": ["infelizmente", "planalto", "entristecer", "desleal"],
+      "gabarito": "C",
+      "explicacao": "Em entristecer, prefixo e sufixo são acrescentados ao mesmo tempo (não existem 'entriste' nem 'tristecer'). Infelizmente: prefixação e sufixação; planalto: composição por aglutinação; desleal: prefixação."
+    },
+    {
+      "disciplina": "ace26-pt", "topico": "ace26-pt-01", "dificuldade": 2,
+      "enunciado": "Leia o texto: “O combate ao mosquito não depende apenas dos agentes de saúde. Cerca de 80% dos criadouros estão dentro das residências, em recipientes do dia a dia. Por isso, dez minutos por semana dedicados à vistoria da própria casa podem evitar uma epidemia.” A ideia central do texto é que:",
+      "alternativas": [
+        "os agentes de saúde são os únicos responsáveis pelo controle do mosquito.",
+        "a participação dos moradores na eliminação de criadouros domésticos é decisiva no combate ao mosquito.",
+        "as epidemias são inevitáveis, independentemente das ações realizadas.",
+        "os criadouros localizados fora das residências são os mais importantes."
+      ],
+      "gabarito": "B",
+      "explicacao": "O texto afirma que a maioria dos criadouros está nas casas e conclui (por isso) que a ação semanal do morador pode evitar uma epidemia."
+    },
+
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-13", "dificuldade": 1,
+      "enunciado": "De acordo com o art. 196 da Constituição Federal, a saúde é:",
+      "alternativas": [
+        "um serviço prestado exclusivamente pela iniciativa privada.",
+        "direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas que visem à redução do risco de doença e de outros agravos e ao acesso universal e igualitário às ações e serviços.",
+        "direito apenas dos trabalhadores com carteira assinada.",
+        "dever exclusivo dos municípios, sem participação da União e dos estados."
+      ],
+      "gabarito": "B",
+      "explicacao": "É a redação do art. 196, base constitucional do SUS: acesso universal e igualitário."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-13", "dificuldade": 2,
+      "enunciado": "Segundo o art. 198 da Constituição Federal, as ações e os serviços públicos de saúde integram uma rede regionalizada e hierarquizada e constituem um sistema único, organizado de acordo com as seguintes diretrizes:",
+      "alternativas": [
+        "centralização, hierarquização e controle governamental.",
+        "descentralização, com direção única em cada esfera de governo; atendimento integral, com prioridade para as atividades preventivas, sem prejuízo dos serviços assistenciais; e participação da comunidade.",
+        "privatização, gratuidade e regionalização.",
+        "universalidade, financiamento exclusivo da União e gestão hospitalar."
+      ],
+      "gabarito": "B",
+      "explicacao": "As três diretrizes constitucionais do SUS: descentralização, atendimento integral e participação da comunidade."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-13", "dificuldade": 2,
+      "enunciado": "Quanto à participação da iniciativa privada na assistência à saúde, a Constituição Federal estabelece que:",
+      "alternativas": [
+        "é proibida qualquer participação privada no SUS.",
+        "as instituições privadas poderão participar do SUS de forma complementar, com preferência para as entidades filantrópicas e as sem fins lucrativos.",
+        "a iniciativa privada substitui o SUS nos municípios com menos de 100 mil habitantes.",
+        "é permitida a destinação de recursos públicos para subvenção a instituições privadas com fins lucrativos."
+      ],
+      "gabarito": "B",
+      "explicacao": "Art. 199: a assistência é livre à iniciativa privada; no SUS, a participação é complementar, com preferência às filantrópicas e sem fins lucrativos. É vedada a destinação de recursos públicos para auxílio ou subvenção a instituições com fins lucrativos."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-05", "dificuldade": 1,
+      "enunciado": "A Lei nº 8.080/1990 estabelece, entre os princípios do SUS, a:",
+      "alternativas": [
+        "universalidade de acesso aos serviços de saúde em todos os níveis de assistência.",
+        "cobrança de taxa simbólica nos atendimentos de média complexidade.",
+        "prioridade de atendimento para quem possui plano de saúde.",
+        "centralização das ações na esfera federal."
+      ],
+      "gabarito": "A",
+      "explicacao": "Art. 7º, I: universalidade de acesso em todos os níveis de assistência. Também são princípios a integralidade, a igualdade da assistência, a descentralização e a participação da comunidade."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-18", "dificuldade": 2,
+      "enunciado": "De acordo com a Lei nº 8.142/1990, a Conferência de Saúde:",
+      "alternativas": [
+        "reúne-se a cada quatro anos, com representação dos vários segmentos sociais, para avaliar a situação de saúde e propor diretrizes para a política de saúde.",
+        "é um órgão permanente que se reúne mensalmente.",
+        "é composta exclusivamente por gestores e prestadores de serviço.",
+        "tem a função de executar diretamente os serviços de saúde."
+      ],
+      "gabarito": "A",
+      "explicacao": "A Conferência ocorre a cada quatro anos. O Conselho de Saúde é que tem caráter permanente e deliberativo."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-18", "dificuldade": 2,
+      "enunciado": "Segundo a Lei nº 8.142/1990, a representação dos usuários nos Conselhos de Saúde e nas Conferências deve ser:",
+      "alternativas": [
+        "de um terço do total de membros.",
+        "paritária em relação ao conjunto dos demais segmentos.",
+        "definida livremente pelo prefeito.",
+        "minoritária, para garantir a maioria técnica."
+      ],
+      "gabarito": "B",
+      "explicacao": "Os usuários têm paridade em relação ao conjunto dos demais segmentos (gestores, prestadores e trabalhadores), ou seja, 50% das vagas."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-09", "dificuldade": 2,
+      "enunciado": "Segundo a Política Nacional de Atenção Básica (PNAB 2017), a equipe de Saúde da Família (eSF) é composta, no mínimo, por:",
+      "alternativas": [
+        "médico, enfermeiro, auxiliar e/ou técnico de enfermagem e agente comunitário de saúde.",
+        "médico, dentista, farmacêutico e assistente social.",
+        "enfermeiro, técnico de enfermagem e agente de combate às endemias.",
+        "médico e enfermeiro, apenas."
+      ],
+      "gabarito": "A",
+      "explicacao": "Composição mínima da eSF na PNAB 2017. Podem ser acrescentados o agente de combate às endemias e os profissionais de saúde bucal."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-09", "dificuldade": 2,
+      "enunciado": "A PNAB 2017 reforça a integração entre a Atenção Básica e a Vigilância em Saúde. Nesse contexto, o trabalho do ACS e do ACE deve ser:",
+      "alternativas": [
+        "realizado em territórios distintos, sem troca de informações.",
+        "integrado, compartilhando o território e o planejamento das ações com a equipe de Atenção Básica.",
+        "subordinado exclusivamente ao setor hospitalar.",
+        "limitado aos períodos de epidemia."
+      ],
+      "gabarito": "B",
+      "explicacao": "A PNAB 2017 prevê a integração do ACE às equipes de Atenção Básica, com territórios e planejamento compartilhados com o ACS."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-16", "dificuldade": 2,
+      "enunciado": "A Lei nº 8.080/1990 define como vigilância epidemiológica:",
+      "alternativas": [
+        "o conjunto de ações capaz de eliminar, diminuir ou prevenir riscos à saúde decorrentes da produção e circulação de bens e da prestação de serviços.",
+        "o conjunto de ações que proporcionam o conhecimento, a detecção ou a prevenção de qualquer mudança nos fatores determinantes e condicionantes da saúde individual ou coletiva, com a finalidade de recomendar e adotar medidas de prevenção e controle das doenças ou agravos.",
+        "a fiscalização sanitária de restaurantes e farmácias.",
+        "a assistência ao trabalhador vítima de acidente de trabalho."
+      ],
+      "gabarito": "B",
+      "explicacao": "Art. 6º, § 2º. A definição que fala em eliminar, diminuir ou prevenir riscos decorrentes da produção e circulação de bens e da prestação de serviços é a de vigilância sanitária (art. 6º, § 1º)."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-23", "dificuldade": 2,
+      "enunciado": "A notificação compulsória imediata de doenças e agravos deve ser realizada pelo meio de comunicação mais rápido disponível em até:",
+      "alternativas": ["24 horas.", "7 dias.", "15 dias.", "30 dias."],
+      "gabarito": "A",
+      "explicacao": "Notificação imediata: até 24 horas a partir do conhecimento do caso suspeito ou confirmado. A notificação semanal deve ser feita em até 7 dias."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-23", "dificuldade": 2,
+      "enunciado": "Sobre a notificação compulsória de doenças, é correto afirmar que:",
+      "alternativas": [
+        "só pode ser feita pelo médico após a confirmação laboratorial.",
+        "é obrigatória para médicos, outros profissionais de saúde e responsáveis por serviços públicos e privados de saúde, podendo ser feita diante de casos suspeitos.",
+        "é proibida aos agentes comunitários e de endemias.",
+        "dispensa o registro em sistema de informação."
+      ],
+      "gabarito": "B",
+      "explicacao": "A notificação é obrigatória para os profissionais e serviços de saúde e deve ser feita já diante da suspeita. Qualquer cidadão pode comunicar casos à autoridade sanitária."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-21", "dificuldade": 1,
+      "enunciado": "É uma das diretrizes da Política Nacional de Humanização (HumanizaSUS):",
+      "alternativas": [
+        "a centralização das decisões na direção das unidades.",
+        "o acolhimento.",
+        "a redução do tempo de consulta para aumentar a produtividade.",
+        "a restrição de acompanhantes nas unidades de saúde."
+      ],
+      "gabarito": "B",
+      "explicacao": "São diretrizes da PNH: acolhimento, gestão participativa e cogestão, ambiência, clínica ampliada, valorização do trabalhador e defesa dos direitos dos usuários."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-20", "dificuldade": 2,
+      "enunciado": "Segundo a Lei nº 8.080/1990, os níveis de saúde expressam a organização social e econômica do País, tendo como determinantes e condicionantes, entre outros:",
+      "alternativas": [
+        "apenas a herança genética da população.",
+        "a alimentação, a moradia, o saneamento básico, o meio ambiente, o trabalho, a renda, a educação, o transporte e o lazer.",
+        "exclusivamente o acesso a hospitais e medicamentos.",
+        "o número de médicos especialistas por habitante."
+      ],
+      "gabarito": "B",
+      "explicacao": "O art. 3º adota o conceito ampliado de saúde, ligado às condições de vida (determinantes sociais), e não só à assistência médica."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-18", "dificuldade": 2,
+      "enunciado": "O Conselho de Saúde, conforme a Lei nº 8.142/1990, tem caráter:",
+      "alternativas": [
+        "temporário e consultivo.",
+        "permanente e deliberativo, atuando na formulação de estratégias e no controle da execução da política de saúde, inclusive nos aspectos econômicos e financeiros.",
+        "exclusivamente técnico, formado por servidores da saúde.",
+        "honorífico, sem poder de decisão."
+      ],
+      "gabarito": "B",
+      "explicacao": "O Conselho é permanente e deliberativo; suas decisões são homologadas pelo chefe do poder legalmente constituído em cada esfera de governo."
+    },
+    {
+      "disciplina": "ace26-sus", "topico": "ace26-sus-19", "dificuldade": 1,
+      "enunciado": "A Estratégia Saúde da Família tem como característica:",
+      "alternativas": [
+        "o atendimento exclusivamente hospitalar.",
+        "o trabalho em equipe multiprofissional com população adscrita em território definido, priorizando promoção da saúde e prevenção de doenças.",
+        "o atendimento apenas por demanda espontânea, sem vínculo com a população.",
+        "a atuação restrita às áreas rurais."
+      ],
+      "gabarito": "B",
+      "explicacao": "A ESF é a estratégia prioritária de organização da Atenção Básica: território definido, população adscrita, vínculo, longitudinalidade e trabalho em equipe."
+    }
+  ]
+}

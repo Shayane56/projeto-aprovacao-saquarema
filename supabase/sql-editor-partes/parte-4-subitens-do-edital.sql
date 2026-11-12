@@ -1,4 +1,4 @@
--- parte-4-subitens-do-edital.sql — cole no SQL Editor e clique em Run. Rode as partes em ordem (1, 2, 3, 4).
+-- parte-4-subitens-do-edital.sql — cole no SQL Editor e clique em Run. Rode as partes em ordem.
 insert into public.topicos (id, disciplina_id, parent_id, numero, titulo, referencia, link, ordem) values
   ('ace26-ce-08-01', 'ace26-ce', 'ace26-ce-08', '8.1', 'Leishmaniose', null, null, 1),
   ('ace26-ce-08-02', 'ace26-ce', 'ace26-ce-08', '8.2', 'Cólera', null, null, 2),

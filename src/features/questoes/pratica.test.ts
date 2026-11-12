@@ -1,0 +1,136 @@
+import { configDe } from '@/features/simulados/config';
+import { selecionarQuestoes } from '@/features/simulados/selecao';
+import { formatarDuracao, normalizarResultado, segundosRestantes } from '@/features/simulados/tipos';
+import { geradorComSemente } from '@/lib/aleatorio';
+import { editalDoSeed } from '@/test/fixtures';
+import { atualizarCadernoLocal } from './hooks';
+import pacote from './pacotes/autorais-v1.json';
+import { prepararPacote, type Pacote } from './pacotes/instalar';
+import { montarFila, resumirDesempenho } from './pratica';
+import type { ItemCaderno, Questao, Resposta } from './tipos';
+
+const edital = editalDoSeed();
+const preparadas = prepararPacote(pacote as Pacote);
+const questoes: Questao[] = preparadas.map((q, i) => ({ ...q, id: `q${i}`, texto_id: null, criado_em: '2026-11-13T00:00:00Z' }));
+const resp = (id: string, correta: boolean): Resposta => ({ questao_id: id, escolha: 0, correta, origem: 'treino', respondida_em: '2026-11-13T12:00:00Z' });
+
+describe('pacote de questões autorais', () => {
+  it('tem 60 questões válidas ligadas a disciplinas e tópicos existentes', () => {
+    expect(preparadas).toHaveLength(60);
+    const topicos = new Set(edital.topicos.map((t) => t.id));
+    const disciplinas = new Set(edital.disciplinas.map((d) => d.id));
+    for (const q of preparadas) {
+      expect(disciplinas.has(q.disciplina_id)).toBe(true);
+      expect(q.topico_id && topicos.has(q.topico_id)).toBe(true);
+      expect(q.alternativas).toHaveLength(4);
+      expect(q.gabarito).not.toBeNull();
+    }
+  });
+
+  it('o embaralhamento mantém a resposta certa e distribui as letras', () => {
+    (pacote as Pacote).questoes.forEach((original, i) => {
+      const certa = original.alternativas['ABCD'.indexOf(original.gabarito)];
+      expect(preparadas[i].alternativas[preparadas[i].gabarito!]).toBe(certa);
+    });
+    const contagem = [0, 0, 0, 0];
+    for (const q of preparadas) contagem[q.gabarito!] += 1;
+    // Nenhuma letra concentra mais de 40% nem fica com menos de 10% das respostas.
+    for (const n of contagem) {
+      expect(n).toBeGreaterThanOrEqual(6);
+      expect(n).toBeLessThanOrEqual(24);
+    }
+  });
+
+  it('é determinístico (mesmo resultado em qualquer aparelho)', () => {
+    expect(prepararPacote(pacote as Pacote)).toEqual(preparadas);
+  });
+
+  it('não tem enunciados repetidos', () => {
+    expect(new Set(preparadas.map((q) => q.hash)).size).toBe(60);
+  });
+});
+
+describe('seleção do simulado', () => {
+  it('simulado rápido: 5 CE + 3 PT + 2 do bloco SUS/Município, em ordem de bloco', () => {
+    const sel = selecionarQuestoes(edital, questoes, [], [], configDe('rapido'), geradorComSemente(1));
+    expect(sel.ids).toHaveLength(10);
+    expect(sel.faltando).toEqual({});
+    const disc = sel.ids.map((id) => questoes.find((q) => q.id === id)!.disciplina_id);
+    expect(disc.slice(0, 5).every((d) => d === 'ace26-ce')).toBe(true);
+    expect(disc.slice(5, 8).every((d) => d === 'ace26-pt')).toBe(true);
+    expect(disc.slice(8).every((d) => d === 'ace26-sus' || d === 'ace26-mun')).toBe(true);
+  });
+
+  it('simulado completo avisa quando faltam questões no banco', () => {
+    const sel = selecionarQuestoes(edital, questoes, [], [], configDe('completo'), geradorComSemente(2));
+    expect(sel.ids).toHaveLength(40); // 20 CE (há 30), 10 PT (há 15), 10 SUS (há 15)
+    const poucas = questoes.filter((q) => q.disciplina_id !== 'ace26-pt' || q.id === 'q30');
+    expect(selecionarQuestoes(edital, poucas, [], [], configDe('completo')).faltando).toEqual({ 'ace26-bloco-pt': 9 });
+  });
+
+  it('prioriza questões nunca respondidas e não usa anuladas', () => {
+    const ce = questoes.filter((q) => q.disciplina_id === 'ace26-ce');
+    const respostas = ce.slice(0, 25).map((q) => resp(q.id, true));
+    const comAnulada = questoes.map((q) => (q.id === ce[29].id ? { ...q, anulada: true } : q));
+    const sel = selecionarQuestoes(edital, comAnulada, respostas, [], configDe('rapido'), geradorComSemente(3));
+    const ceEscolhidas = sel.ids.slice(0, 5);
+    expect(ceEscolhidas).not.toContain(ce[29].id);
+    expect(ceEscolhidas.filter((id) => ce.slice(25, 29).some((q) => q.id === id))).toHaveLength(4);
+  });
+});
+
+describe('treino e desempenho', () => {
+  it('fila de "não respondidas" e de "erros pendentes"', () => {
+    const respostas = [resp('q0', false), resp('q1', true)];
+    const caderno: ItemCaderno[] = [{ questao_id: 'q0', ultima_escolha: 0, vezes_errada: 1, acertos_seguidos: 0, resolvido: false, motivo: null, anotacao: null, ultimo_erro_em: '' }];
+    expect(montarFila(questoes, respostas, caderno, { modo: 'novas' })).toHaveLength(58);
+    expect(montarFila(questoes, respostas, caderno, { modo: 'erradas' }).map((q) => q.id)).toEqual(['q0']);
+    const todas = montarFila(questoes, respostas, caderno, { modo: 'todas' });
+    expect(todas).toHaveLength(60);
+    expect(todas.slice(-2).map((q) => q.id).sort()).toEqual(['q0', 'q1']);
+  });
+
+  it('filtro por tópico inclui os subtópicos', () => {
+    const doItem8 = montarFila(questoes, [], [], { disciplinaId: 'ace26-ce', topicoId: 'ace26-ce-08', modo: 'todas' });
+    expect(doItem8.length).toBe(questoes.filter((q) => q.topico_id?.startsWith('ace26-ce-08-')).length);
+    expect(doItem8.length).toBeGreaterThan(5);
+  });
+
+  it('desempenho por bloco', () => {
+    const ce = questoes.find((q) => q.disciplina_id === 'ace26-ce')!;
+    const pt = questoes.find((q) => q.disciplina_id === 'ace26-pt')!;
+    const r = resumirDesempenho(edital, questoes, [resp(ce.id, true), resp(ce.id, false), resp(pt.id, true)], '2026-11-13');
+    expect(r.geral).toEqual({ respondidas: 3, acertos: 2 });
+    expect(r.porBloco[0].desempenho).toEqual({ respondidas: 2, acertos: 1 });
+    expect(r.porBloco[0].disponiveis).toBe(30);
+    expect(r.respondidasHoje).toBe(3);
+  });
+
+  it('caderno local segue a regra do banco (2 acertos seguidos resolvem)', () => {
+    let c: ItemCaderno[] = [];
+    c = atualizarCadernoLocal(c, { questaoId: 'q5', escolha: 1, correta: false, respondidaEm: 'a' });
+    c = atualizarCadernoLocal(c, { questaoId: 'q5', escolha: 2, correta: false, respondidaEm: 'b' });
+    expect(c[0]).toMatchObject({ vezes_errada: 2, ultima_escolha: 2, resolvido: false });
+    c = atualizarCadernoLocal(c, { questaoId: 'q5', escolha: 0, correta: true, respondidaEm: 'c' });
+    expect(c[0].resolvido).toBe(false);
+    c = atualizarCadernoLocal(c, { questaoId: 'q5', escolha: 0, correta: true, respondidaEm: 'd' });
+    expect(c[0]).toMatchObject({ acertos_seguidos: 2, resolvido: true });
+    expect(atualizarCadernoLocal([], { questaoId: 'q9', escolha: 0, correta: true, respondidaEm: 'e' })).toEqual([]);
+  });
+});
+
+describe('simulado: tempo e resultado', () => {
+  it('conta o tempo restante a partir do início', () => {
+    const s = { iniciado_em: '2027-01-31T15:10:00-03:00', duracao_seg: 10800 };
+    expect(segundosRestantes(s, new Date('2027-01-31T18:09:00-03:00'))).toBe(60);
+    expect(segundosRestantes(s, new Date('2027-01-31T19:00:00-03:00'))).toBe(0);
+    expect(formatarDuracao(10800)).toBe('3:00:00');
+    expect(formatarDuracao(65)).toBe('01:05');
+  });
+
+  it('converte os números decimais vindos do banco', () => {
+    const r = normalizarResultado({ pontos: '57.00', pontos_max: '90.00', nota_minima: 54, aprovado: true, blocos: [{ bloco_id: 'x', nome: 'CE', pontos: '45.00', pontos_max: '60.00', acertos: 15, total: 20, em_branco: 0 }] });
+    expect(r?.pontos).toBe(57);
+    expect(r?.blocos[0].pontos).toBe(45);
+  });
+});
