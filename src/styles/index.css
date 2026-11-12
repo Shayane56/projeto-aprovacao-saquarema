@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tokens de cor (RGB sem vírgula, para permitir opacidade no Tailwind). */
+:root {
+  --fundo: 244 247 252;
+  --superficie: 255 255 255;
+  --superficie-2: 236 242 251;
+  --borda: 219 228 241;
+  --texto: 15 27 51;
+  --suave: 88 103 132;
+  --primaria: 29 78 216;
+  --primaria-forte: 30 58 138;
+  --primaria-suave: 219 234 254;
+  --primaria-texto: 255 255 255;
+  --destaque: 14 165 233;
+  --sucesso: 22 163 74;
+  --alerta: 217 119 6;
+  --perigo: 220 38 38;
+  color-scheme: light;
+}
+
+.dark {
+  --fundo: 8 15 31;
+  --superficie: 15 26 48;
+  --superficie-2: 22 37 66;
+  --borda: 34 52 87;
+  --texto: 230 237 248;
+  --suave: 148 165 196;
+  --primaria: 96 150 250;
+  --primaria-forte: 147 187 253;
+  --primaria-suave: 23 45 92;
+  --primaria-texto: 8 15 31;
+  --destaque: 56 189 248;
+  --sucesso: 74 222 128;
+  --alerta: 251 191 36;
+  --perigo: 248 113 113;
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-fundo font-sans text-texto antialiased;
+    min-height: 100dvh;
+  }
+  :focus-visible {
+    @apply outline-none ring-2 ring-primaria ring-offset-2 ring-offset-fundo;
+  }
+}
+
+@layer components {
+  .cartao {
+    @apply rounded-2xl border border-borda bg-superficie shadow-cartao;
+  }
+  .rotulo {
+    @apply text-xs font-semibold uppercase tracking-wide text-suave;
+  }
+  .campo {
+    @apply w-full rounded-xl border border-borda bg-superficie px-3.5 py-2.5 text-[15px] text-texto placeholder:text-suave/70 focus:border-primaria focus:outline-none focus:ring-2 focus:ring-primaria/25;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

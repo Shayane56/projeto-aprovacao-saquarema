@@ -1,0 +1,234 @@
+{
+  "concurso": {
+    "id": "saquarema-ace-2026",
+    "nome": "Processo Seletivo Público — Edital nº 001/2026",
+    "orgao": "Prefeitura Municipal de Saquarema/RJ",
+    "banca": "IBAM — Instituto Brasileiro de Administração Municipal",
+    "cargo": "Agente de Combate às Endemias",
+    "codigo_cargo": "022",
+    "vagas": 84,
+    "vagas_ac": 80,
+    "vagas_pcd": 4,
+    "salario": 3242.00,
+    "carga_horaria": "40h semanais",
+    "escolaridade": "Ensino Médio completo, em instituição reconhecida pelo MEC",
+    "taxa_inscricao": 94.00,
+    "prova_inicio": "2027-01-31T15:10:00-03:00",
+    "portao_abre": "2027-01-31T14:00:00-03:00",
+    "portao_fecha": "2027-01-31T15:00:00-03:00",
+    "duracao_min": 180,
+    "total_questoes": 40,
+    "alternativas": 4,
+    "pontuacao_total": 90,
+    "nota_minima": 54,
+    "link_oficial": "https://www.ibam-concursos.org.br",
+    "regras": {
+      "aprovacao": [
+        "Nota mínima de 54 pontos (60% da pontuação total).",
+        "Não é permitido zerar nenhuma das disciplinas."
+      ],
+      "etapas_selecao": [
+        { "etapa": "1ª etapa", "descricao": "Prova objetiva — eliminatória e classificatória (IBAM)." },
+        { "etapa": "2ª etapa", "descricao": "Análise de títulos — classificatória (IBAM)." },
+        { "etapa": "3ª etapa", "descricao": "Curso de Formação Inicial — eliminatório, mínimo de 40 horas (Secretaria de Saúde de Saquarema)." }
+      ],
+      "desempate": [
+        "Idade igual ou superior a 60 anos (Estatuto do Idoso).",
+        "Mais pontos em Conhecimentos Específicos.",
+        "Mais pontos em Português.",
+        "Mais pontos em Legislação do SUS e Conhecimentos Gerais do Município.",
+        "Maior idade.",
+        "Ter exercido a função de jurado (comprovar até o último dia de inscrição)."
+      ],
+      "titulos": [
+        { "item": "Curso de capacitação, atualização, extensão ou aperfeiçoamento na área do cargo (mín. 40h)", "pontos": "0,5 por curso — máximo 1" },
+        { "item": "Curso técnico na área de saúde relacionado ao cargo (mín. 1.200h)", "pontos": "2 — máximo 2" },
+        { "item": "Experiência profissional na área (setor público ou privado)", "pontos": "1 por ano — máximo 5" }
+      ],
+      "dicas_prova": [
+        "Portão abre às 14h00 e fecha às 15h00 — não há segunda chamada.",
+        "Transcrever a frase da contracapa em letra cursiva no cartão-resposta (sob pena de eliminação).",
+        "Só é possível sair após 50% do tempo de prova, sem levar o caderno."
+      ]
+    }
+  },
+  "blocos": [
+    { "id": "ace26-bloco-ce", "nome": "Conhecimentos Específicos", "num_questoes": 20, "valor_questao": 3, "ordem": 1 },
+    { "id": "ace26-bloco-pt", "nome": "Português", "num_questoes": 10, "valor_questao": 2, "ordem": 2 },
+    { "id": "ace26-bloco-sm", "nome": "Legislação do SUS e Conhecimentos Gerais do Município", "num_questoes": 10, "valor_questao": 1, "ordem": 3 }
+  ],
+  "disciplinas": [
+    {
+      "id": "ace26-ce",
+      "bloco_id": "ace26-bloco-ce",
+      "nome": "Conhecimentos Específicos",
+      "sigla": "CE",
+      "cor": "blue",
+      "ordem": 1,
+      "topicos": [
+        { "titulo": "Ética, cidadania e atuação do agente no serviço público." },
+        { "titulo": "Sistema Único de Saúde (SUS): princípios, organização e atuação do Agente de Combate às Endemias." },
+        { "titulo": "Vigilância e educação em saúde." },
+        { "titulo": "Noções de Epidemiologia e saneamento básico." },
+        { "titulo": "Promoção da saúde e determinantes ambientais das doenças." },
+        { "titulo": "Sistemas de informação em saúde: registro, comunicação e uso das informações." },
+        { "titulo": "Visita domiciliar, territorialização, cadastramento de imóveis e identificação de áreas de risco." },
+        {
+          "titulo": "Conhecimento básico sobre doenças como leishmaniose, cólera, dengue, doença de chagas, esquistossomose, raiva, leptospirose, peste, malária, Esporotricose e febre amarela.",
+          "subtopicos": [
+            "Leishmaniose",
+            "Cólera",
+            "Dengue",
+            "Doença de Chagas",
+            "Esquistossomose",
+            "Raiva",
+            "Leptospirose",
+            "Peste",
+            "Malária",
+            "Esporotricose",
+            "Febre amarela"
+          ]
+        },
+        { "titulo": "Biologia dos vetores: identificação, operações de campo, reconhecimento geográfico, tratamento focal, perifocal, bloqueio, EPI e formas de controle." },
+        { "titulo": "Controle de vetores e manejo ambiental: controle químico, biológico e integrado; uso de EPI e segurança do trabalho." },
+        { "titulo": "Organização e operação de campo nas ações de prevenção e controle de endemias." },
+        { "titulo": "Relação entre condições ambientais, saneamento básico e ocorrência de doenças e agravos à saúde." }
+      ]
+    },
+    {
+      "id": "ace26-pt",
+      "bloco_id": "ace26-bloco-pt",
+      "nome": "Português",
+      "sigla": "PT",
+      "cor": "violet",
+      "ordem": 2,
+      "topicos": [
+        { "titulo": "Leitura e compreensão de textos variados." },
+        { "titulo": "Modos de organização do discurso: descritivo, narrativo, argumentativo, injuntivo, expositivo e dissertativo." },
+        { "titulo": "Gêneros do discurso: definição, reconhecimento dos elementos básicos." },
+        { "titulo": "Coesão e coerência: mecanismos, efeitos de sentido no texto." },
+        { "titulo": "Relação entre as partes do texto: causa, consequência, comparação, conclusão, exemplificação, generalização, particularização." },
+        { "titulo": "Conectivos: classificação, uso, efeitos de sentido." },
+        {
+          "titulo": "Verbos: pessoa, número, tempo e modo. Vozes verbais. Transitividade verbal e nominal. Estrutura, classificação e formação de palavras. Funções e classes de palavras. Flexão nominal e verbal. Regência verbal e nominal.",
+          "subtopicos": [
+            "Verbos: pessoa, número, tempo e modo",
+            "Vozes verbais",
+            "Transitividade verbal e nominal",
+            "Estrutura, classificação e formação de palavras",
+            "Funções e classes de palavras",
+            "Flexão nominal e verbal",
+            "Regência verbal e nominal"
+          ]
+        },
+        { "titulo": "Pronomes: emprego, formas de tratamento e colocação." },
+        { "titulo": "Figuras de linguagem." },
+        { "titulo": "Funções da linguagem." },
+        { "titulo": "Sinônimos, antônimos, parônimos e homônimos." },
+        { "titulo": "Acentuação gráfica." },
+        { "titulo": "Pontuação: regras e efeitos de sentido." },
+        {
+          "titulo": "Recursos gráficos: regras, efeitos de sentido. Sintaxe do Período Simples.",
+          "subtopicos": ["Recursos gráficos: regras e efeitos de sentido", "Sintaxe do período simples"]
+        },
+        { "titulo": "Coordenação e subordinação." },
+        { "titulo": "Crase." },
+        { "titulo": "Ortografia." }
+      ]
+    },
+    {
+      "id": "ace26-sus",
+      "bloco_id": "ace26-bloco-sm",
+      "nome": "Legislação do SUS",
+      "sigla": "SUS",
+      "cor": "teal",
+      "ordem": 3,
+      "topicos": [
+        { "titulo": "Sistemas de saúde." },
+        { "titulo": "A Saúde Pública no Brasil." },
+        { "titulo": "História das políticas de saúde no Brasil: retrospectiva; reforma sanitária." },
+        { "titulo": "Sistema Único de Saúde (SUS)." },
+        { "titulo": "Fundamentos do SUS." },
+        { "titulo": "Diretrizes e bases da implantação do SUS." },
+        { "titulo": "Regulamento técnico da Atenção às Urgências (Diretrizes Gerais e Componentes da Rede Assistencial)." },
+        {
+          "titulo": "Gestão do SUS: diretrizes para a gestão do SUS; Descentralização; Regionalização; Financiamento; Regulação; Participação Popular; Responsabilidade sanitária das instâncias gestoras do SUS; Planejamento e Programação; Regulação, Controle, Avaliação e Auditoria.",
+          "subtopicos": [
+            "Diretrizes para a gestão do SUS",
+            "Descentralização",
+            "Regionalização",
+            "Financiamento",
+            "Regulação",
+            "Participação popular",
+            "Responsabilidade sanitária das instâncias gestoras do SUS",
+            "Planejamento e programação",
+            "Regulação, controle, avaliação e auditoria"
+          ]
+        },
+        { "titulo": "Política Nacional da Atenção Básica (2011 e 2017)." },
+        { "titulo": "Organização da Atenção Básica no Sistema Único de Saúde." },
+        { "titulo": "Epidemiologia, história natural e prevenção de doenças." },
+        { "titulo": "Modelos de atenção à saúde." },
+        { "titulo": "Constituição Federal (art. 196 a 200)." },
+        { "titulo": "Redes de Atenção à Saúde." },
+        { "titulo": "Atenção Primária à Saúde." },
+        { "titulo": "Vigilância em Saúde." },
+        { "titulo": "Promoção à saúde." },
+        { "titulo": "Controle social da saúde." },
+        { "titulo": "Estratégia de Saúde da Família." },
+        { "titulo": "Determinantes Sociais em Saúde." },
+        { "titulo": "Política nacional de humanização." },
+        { "titulo": "Sistemas de informação em saúde." },
+        { "titulo": "Doenças de notificação compulsória." }
+      ]
+    },
+    {
+      "id": "ace26-mun",
+      "bloco_id": "ace26-bloco-sm",
+      "nome": "Conhecimentos Gerais do Município",
+      "sigla": "MUN",
+      "cor": "amber",
+      "ordem": 4,
+      "topicos": [
+        {
+          "titulo": "Informações gerais sobre o município de Saquarema (planos municipais, órgãos do governo, serviços públicos e aspectos gerais do município: cultura, história, hino, símbolos, dados, turismo).",
+          "referencia": "Base: documento “Conhecimentos sobre o Município de Saquarema”, disponível no site do IBAM.",
+          "link": "https://www.ibam-concursos.org.br"
+        },
+        {
+          "titulo": "Dados biográficos sobre Alberto de Oliveira.",
+          "link": "https://www.academia.org.br/academicos/alberto-de-oliveira/biografia"
+        },
+        {
+          "titulo": "Lei Orgânica de Saquarema e suas atualizações.",
+          "link": "https://www.transparencia.saquarema.rj.leg.br/arquivos/5/_0000001.pdf"
+        }
+      ]
+    }
+  ],
+  "etapas": [
+    { "titulo": "Publicação do edital", "inicio": "2026-11-10", "categoria": "edital" },
+    { "titulo": "Pedido de isenção da taxa (CadÚnico)", "inicio": "2026-11-17", "fim": "2026-11-19", "categoria": "isencao", "acao": true, "descricao": "Somente para quem comprova inscrição no CadÚnico. O comprovante deve ser emitido após a publicação do edital." },
+    { "titulo": "Inscrições pela internet", "inicio": "2026-11-17", "fim": "2026-12-22", "categoria": "inscricao", "acao": true, "descricao": "Site do IBAM, cargo 022 — Agente de Combate às Endemias. Prazo até 23h59 do último dia." },
+    { "titulo": "Resultado dos pedidos de isenção", "inicio": "2026-12-07", "categoria": "isencao" },
+    { "titulo": "Recurso contra isenção negada", "inicio": "2026-12-08", "fim": "2026-12-09", "categoria": "isencao" },
+    { "titulo": "Resposta aos recursos de isenção", "inicio": "2026-12-18", "categoria": "isencao" },
+    { "titulo": "Data limite para pagar o boleto", "inicio": "2026-12-23", "categoria": "inscricao", "acao": true, "descricao": "Taxa de R$ 94,00." },
+    { "titulo": "Conferir se a inscrição foi deferida", "inicio": "2026-12-28", "categoria": "inscricao", "acao": true },
+    { "titulo": "Relação de PcD e condições especiais", "inicio": "2027-01-15", "categoria": "pcd" },
+    { "titulo": "Recursos contra a relação de PcD e condições especiais", "inicio": "2027-01-18", "fim": "2027-01-19", "categoria": "pcd" },
+    { "titulo": "Relação final de PcD e condições especiais", "inicio": "2027-01-27", "categoria": "pcd" },
+    { "titulo": "Prova objetiva", "inicio": "2027-01-31", "categoria": "prova", "acao": true, "descricao": "Turno da tarde: portão abre 14h00, fecha 15h00, início 15h10, duração de 3 horas." },
+    { "titulo": "Gabarito preliminar", "inicio": "2027-02-01", "categoria": "gabarito" },
+    { "titulo": "Recursos contra o gabarito preliminar", "inicio": "2027-02-02", "fim": "2027-02-03", "categoria": "gabarito" },
+    { "titulo": "Resultado parcial e cartão-resposta", "inicio": "2027-03-01", "categoria": "resultado" },
+    { "titulo": "Recursos contra o resultado parcial", "inicio": "2027-03-02", "fim": "2027-03-03", "categoria": "resultado" },
+    { "titulo": "Síntese dos recursos do resultado parcial", "inicio": "2027-03-12", "categoria": "resultado" },
+    { "titulo": "Envio dos títulos", "inicio": "2027-03-15", "fim": "2027-03-17", "categoria": "titulos", "acao": true, "descricao": "Para quem foi aprovado na prova objetiva e classificado nas proporções do edital." },
+    { "titulo": "Resultado da prova de títulos", "inicio": "2027-04-05", "categoria": "titulos" },
+    { "titulo": "Recursos contra o resultado dos títulos", "inicio": "2027-04-06", "fim": "2027-04-07", "categoria": "titulos" },
+    { "titulo": "Síntese dos recursos dos títulos", "inicio": "2027-04-14", "categoria": "titulos" },
+    { "titulo": "Resultado da 1ª e 2ª etapas", "inicio": "2027-04-16", "categoria": "resultado" },
+    { "titulo": "Curso de Formação Inicial", "categoria": "formacao", "descricao": "3ª etapa, eliminatória. Data definida pela Prefeitura após o resultado." }
+  ]
+}
