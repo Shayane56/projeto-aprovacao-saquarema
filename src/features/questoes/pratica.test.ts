@@ -154,6 +154,22 @@ describe('treino e desempenho', () => {
   });
 });
 
+describe('cartões de ocultar palavras', () => {
+  const todos: { frente: string; verso: string }[] = [...cartoesGerais.cartoes, ...cartoesMunicipio.cartoes];
+  const lacunas = todos.filter((c) => c.frente.includes('_____'));
+
+  it('cada lacuna tem uma resposta destacada que completa exatamente a frase da frente', () => {
+    expect(lacunas.length).toBeGreaterThanOrEqual(20);
+    for (const c of lacunas) {
+      const destaques = c.verso.match(/\[\[(.+?)\]\]/g) ?? [];
+      expect(destaques).toHaveLength(1);
+      expect(c.frente.split('_____')).toHaveLength(2);
+      const primeiraLinha = c.verso.split('\n')[0];
+      expect(primeiraLinha).toBe(c.frente.replace('_____', String(destaques[0])));
+    }
+  });
+});
+
 describe('pacote de provas reais', () => {
   const provas = prepararPacote(pacoteProvas as Pacote);
   const topicos = new Set(editalDoSeed().topicos.map((t) => t.id));

@@ -1,221 +1,341 @@
 {
-  "id": "municipio-cartoes-v1",
-  "cartoes": [
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Saquarema: significado de “socoa-y-rema”?",
-      "verso": "Lago sem conchas (na língua indígena). Outra versão: “soco-rema” = bando de socós."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Quem chegou ao Morro do Canto em 1531 e quem encontrou lá?",
-      "verso": "Martim Afonso de Souza; índios Tamoios, chefiados por Sapuguaçu."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Núcleo inicial de povoamento de Saquarema?",
-      "verso": "Carmo — hoje Ipitangas. Em 1594, carmelitas obtiveram sesmarias e começaram o convento de Santo Alberto (não concluído)."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Linha do tempo político-administrativa de Saquarema (1755–1890)?",
-      "verso": "1755 freguesia de Cabo Frio · 1841 vila (N. Sra. de Nazaré de Saquarema) · 1859 extinta · 1860 restituída (reinstalada em 1861) · 1890 cidade (Decreto Estadual nº 28, 03/01/1890)."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Distritos de Saquarema e nomes antigos?",
-      "verso": "Sede · Bacaxá (antigo Palmital, 1938) · Sampaio Correa (antigo Mato Grosso → Maranguá em 1943 → Sampaio Correa em 1946)."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Quantos bairros e como se distribuem (Atlas 2024)?",
-      "verso": "46 bairros: 24 em Bacaxá, 16 na Sede, 6 em Sampaio Correa."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Saquarema: população (Censo 2022), estimativa 2025 e área?",
-      "verso": "89.559 pessoas (2022) · 95.315 (estimativa 2025) · 352,130 km² (2021). Clima tropical úmido."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Limites e localização de Saquarema?",
-      "verso": "Limita com Araruama, Maricá, Rio Bonito e Tanguá. Região das Baixadas Litorâneas, microrregião dos Lagos, Região Hidrográfica IV (Lagos São João). Fica a 100 km do Rio."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Unidades de conservação em Saquarema?",
-      "verso": "Parque Estadual da Costa do Sol (2011) · APA de Massambaba (1986) · Reserva Ecológica de Jacarepiá (em Vilatur) · RPPN Mato Grosso."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Darwin e Wied-Neuwied em Saquarema?",
-      "verso": "Maximiliano de Wied-Neuwied (alemão) passou entre 1815 e 1817 (fazendas Ipitangas e Tiririca). Charles Darwin (britânico), nos anos 1830, estudou os beachrocks da Lagoa de Jaconé."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Estrada de Ferro Maricá em Saquarema?",
-      "verso": "Estações de Sampaio Correa e Bacaxá em 1913; Bacaxá virou o centro comercial. O trecho Maricá–Cabo Frio fechou no início dos anos 1960."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Usina Santa Luiza?",
-      "verso": "Criada em 1936 em Sampaio Correa; até 1 milhão de sacas de açúcar (só atrás de Campos dos Goytacazes) e cerca de 4 mil trabalhadores; fechou nos anos 1970."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Igreja de N. Sra. de Nazareth: tombamento?",
-      "verso": "Tombada pelo Inepac em 2001. A igreja atual começou a ser erguida por volta de 1820, sobre os alicerces da capela de 1660–1662, e foi concluída nos anos 1830."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "O que funciona na Casa de Cultura Walmir Ayala?",
-      "verso": "Antiga sede da Câmara e da Prefeitura (1841–1978): acervo de Walmir Ayala, biblioteca José Bandeira (20 mil títulos) e Teatro Mário Lago (162 lugares)."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Museu do Sambaqui da Beirada?",
-      "verso": "Em Barra Nova: primeira exposição arqueológica ao ar livre de sambaquis do Brasil; 4.520 anos; tupi tambá (concha) + ki (amontoado)."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Datas comemorativas de Saquarema?",
-      "verso": "8/5 aniversário da cidade · 13/6 Santo Antônio (padroeiro de Bacaxá) · 8/9 N. Sra. de Nazaré (padroeira) · 8/12 N. Sra. da Conceição (padroeira de Sampaio Correa)."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Círio de Nazaré de Saquarema?",
-      "verso": "Primeiro Círio do país (berço da devoção no Brasil); de fins de agosto a 8 de setembro; cerca de 200 mil fiéis."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Personalidades: José Bandeira, Barão de Saquarema, Oliveira Viana?",
-      "verso": "José Bandeira (1909–1989): pescador e poeta, autor do hino. Barão (José Pereira dos Santos): deixou os bens aos escravos (1874). Oliveira Viana (1883–1951): sociólogo de Rio Seco, legislação trabalhista do Estado Novo."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-01",
-      "frente": "Centro de voleibol da CBV em Saquarema?",
-      "verso": "Centro de Desenvolvimento de Voleibol – Saquarema Enel, em Barra Nova, inaugurado em agosto de 2003. Saquarema também é conhecida como capital do surf."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-02",
-      "frente": "Alberto de Oliveira: quem foi?",
-      "verso": "Poeta nascido em Saquarema (abril de 1857), membro fundador da ABL e da Academia Fluminense de Letras; precursor do Parnasianismo com Olavo Bilac e Raimundo Corrêa; morreu em janeiro de 1937."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-03",
-      "frente": "Lei Orgânica: natureza do Município e símbolos?",
-      "verso": "Pessoa jurídica de direito público interno (art. 1º). Símbolos: Brasão, Bandeira e Hino (art. 2º). Poderes: Legislativo e Executivo."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-03",
-      "frente": "Lei Orgânica: requisitos e regras dos Distritos?",
-      "verso": "Consulta plebiscitária; nome da sede e categoria de vila; eleitorado ≥ 5%, arrecadação ≥ 0,005% e sede com 1.000 moradias, escola, posto de saúde e posto policial (Emenda 5/2012); instalação perante o Juiz de Direito."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-03",
-      "frente": "Câmara de Saquarema: vereadores, períodos e quóruns?",
-      "verso": "13 vereadores (mandato de 4 anos). Reúne-se de 15/2 a 30/6 e de 1/8 a 15/12. Abre a sessão com 1/3; sessão secreta só por 2/3; CPI por requerimento de 1/3."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-03",
-      "frente": "Mesa Diretora da Câmara?",
-      "verso": "Presidente, Vice, 1º e 2º Secretários; mandato de 2 anos; destituição por 2/3. Eleição do 2º biênio: 15 de dezembro do 2º ano, com posse em 1º de janeiro."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-03",
-      "frente": "Emenda à Lei Orgânica e iniciativa popular?",
-      "verso": "Emenda: proposta de 1/3 dos vereadores, do Prefeito ou popular; 2 turnos com 5 dias de intervalo; aprovação por 2/3. Projeto de lei popular: 5% do eleitorado."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-03",
-      "frente": "Veto e sanção na Lei Orgânica?",
-      "verso": "Veto em 15 dias úteis; o silêncio importa sanção; o veto é derrubado pela maioria absoluta. Lei complementar exige maioria absoluta."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-03",
-      "frente": "Prefeito: idade, posse, ausência e contas?",
-      "verso": "Mínimo de 21 anos; posse em 1º de janeiro (10 dias, senão o cargo é declarado vago); mais de 15 dias fora exige licença da Câmara; prestação de contas até 15 de abril."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-03",
-      "frente": "Vacância e julgamento do Prefeito?",
-      "verso": "Sem Vice: nos 3 primeiros anos, eleição em 90 dias; no último ano, assume o Presidente da Câmara. Crimes comuns e de responsabilidade: Tribunal de Justiça. Infrações político-administrativas: Câmara."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-03",
-      "frente": "Auxiliares diretos do Prefeito e Subprefeitos?",
-      "verso": "Secretários/Diretores e Subprefeitos (livre nomeação). Secretário: brasileiro, com direitos políticos e maior de 21 anos. Subprefeito: atua só no seu Distrito e presta contas mensalmente."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-03",
-      "frente": "Administração indireta na Lei Orgânica (art. 91)?",
-      "verso": "Autarquia: direito público. Empresa pública: direito privado, capital só do Município. Economia mista: direito privado, maioria das ações com voto do Município. Fundação pública: direito privado, sem fins lucrativos."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-02",
-      "frente": "Alberto de Oliveira: nascimento e morte?",
-      "verso": "Nasceu em Palmital de Saquarema em 28/04/1857; morreu em Niterói em 19/01/1937. Farmacêutico (1884), professor e poeta."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-02",
-      "frente": "Alberto de Oliveira: obras e datas?",
-      "verso": "Canções românticas (1877, estreia, ainda romântico) · Meridionais (1884, auge parnasiano) · Sonetos e poemas · Versos e rimas · Poesias, 4 séries (1900, 1905, 1913, 1928)."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-02",
-      "frente": "Parnasianismo no Brasil: início e fim da fase criadora?",
-      "verso": "Início: Sonetos e rimas (1880), de Luís Guimarães. Fim: Broquéis (1893), de Cruz e Sousa, que abre o Simbolismo. A influência vai até o Modernismo (1922)."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-02",
-      "frente": "Trindade (tríade) parnasiana brasileira?",
-      "verso": "Alberto de Oliveira, Olavo Bilac e Raimundo Correia."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-02",
-      "frente": "Alberto de Oliveira: cargos públicos?",
-      "verso": "1892: oficial de gabinete do presidente do Estado (José Tomás da Porciúncula). 1893–1898: diretor geral da Instrução Pública do RJ. Professor da Escola Normal e da Escola Dramática."
-    },
-    {
-      "disciplina": "ace26-mun",
-      "topico": "ace26-mun-02",
-      "frente": "Casa da Engenhoca e biblioteca de Alberto de Oliveira?",
-      "verso": "Casa em Niterói onde, nos anos 1880, se reuniam Bilac, Raul Pompeia, Raimundo Correia, Aluísio Azevedo e outros. Bibliófilo, doou sua biblioteca de clássicos à ABL."
-    }
-  ]
+ "id": "municipio-cartoes-v1",
+ "cartoes": [
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Saquarema: significado de “socoa-y-rema”?",
+   "verso": "Lago sem conchas (na língua indígena). Outra versão: “soco-rema” = bando de socós."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Quem chegou ao Morro do Canto em 1531 e quem encontrou lá?",
+   "verso": "Martim Afonso de Souza; índios Tamoios, chefiados por Sapuguaçu."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Núcleo inicial de povoamento de Saquarema?",
+   "verso": "Carmo — hoje Ipitangas. Em 1594, carmelitas obtiveram sesmarias e começaram o convento de Santo Alberto (não concluído)."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Linha do tempo político-administrativa de Saquarema (1755–1890)?",
+   "verso": "1755 freguesia de Cabo Frio · 1841 vila (N. Sra. de Nazaré de Saquarema) · 1859 extinta · 1860 restituída (reinstalada em 1861) · 1890 cidade (Decreto Estadual nº 28, 03/01/1890)."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Distritos de Saquarema e nomes antigos?",
+   "verso": "Sede · Bacaxá (antigo Palmital, 1938) · Sampaio Correa (antigo Mato Grosso → Maranguá em 1943 → Sampaio Correa em 1946)."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Quantos bairros e como se distribuem (Atlas 2024)?",
+   "verso": "46 bairros: 24 em Bacaxá, 16 na Sede, 6 em Sampaio Correa."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Saquarema: população (Censo 2022), estimativa 2025 e área?",
+   "verso": "89.559 pessoas (2022) · 95.315 (estimativa 2025) · 352,130 km² (2021). Clima tropical úmido."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Limites e localização de Saquarema?",
+   "verso": "Limita com Araruama, Maricá, Rio Bonito e Tanguá. Região das Baixadas Litorâneas, microrregião dos Lagos, Região Hidrográfica IV (Lagos São João). Fica a 100 km do Rio."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Unidades de conservação em Saquarema?",
+   "verso": "Parque Estadual da Costa do Sol (2011) · APA de Massambaba (1986) · Reserva Ecológica de Jacarepiá (em Vilatur) · RPPN Mato Grosso."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Darwin e Wied-Neuwied em Saquarema?",
+   "verso": "Maximiliano de Wied-Neuwied (alemão) passou entre 1815 e 1817 (fazendas Ipitangas e Tiririca). Charles Darwin (britânico), nos anos 1830, estudou os beachrocks da Lagoa de Jaconé."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Estrada de Ferro Maricá em Saquarema?",
+   "verso": "Estações de Sampaio Correa e Bacaxá em 1913; Bacaxá virou o centro comercial. O trecho Maricá–Cabo Frio fechou no início dos anos 1960."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Usina Santa Luiza?",
+   "verso": "Criada em 1936 em Sampaio Correa; até 1 milhão de sacas de açúcar (só atrás de Campos dos Goytacazes) e cerca de 4 mil trabalhadores; fechou nos anos 1970."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Igreja de N. Sra. de Nazareth: tombamento?",
+   "verso": "Tombada pelo Inepac em 2001. A igreja atual começou a ser erguida por volta de 1820, sobre os alicerces da capela de 1660–1662, e foi concluída nos anos 1830."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "O que funciona na Casa de Cultura Walmir Ayala?",
+   "verso": "Antiga sede da Câmara e da Prefeitura (1841–1978): acervo de Walmir Ayala, biblioteca José Bandeira (20 mil títulos) e Teatro Mário Lago (162 lugares)."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Museu do Sambaqui da Beirada?",
+   "verso": "Em Barra Nova: primeira exposição arqueológica ao ar livre de sambaquis do Brasil; 4.520 anos; tupi tambá (concha) + ki (amontoado)."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Datas comemorativas de Saquarema?",
+   "verso": "8/5 aniversário da cidade · 13/6 Santo Antônio (padroeiro de Bacaxá) · 8/9 N. Sra. de Nazaré (padroeira) · 8/12 N. Sra. da Conceição (padroeira de Sampaio Correa)."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Círio de Nazaré de Saquarema?",
+   "verso": "Primeiro Círio do país (berço da devoção no Brasil); de fins de agosto a 8 de setembro; cerca de 200 mil fiéis."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Personalidades: José Bandeira, Barão de Saquarema, Oliveira Viana?",
+   "verso": "José Bandeira (1909–1989): pescador e poeta, autor do hino. Barão (José Pereira dos Santos): deixou os bens aos escravos (1874). Oliveira Viana (1883–1951): sociólogo de Rio Seco, legislação trabalhista do Estado Novo."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Centro de voleibol da CBV em Saquarema?",
+   "verso": "Centro de Desenvolvimento de Voleibol – Saquarema Enel, em Barra Nova, inaugurado em agosto de 2003. Saquarema também é conhecida como capital do surf."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-02",
+   "frente": "Alberto de Oliveira: quem foi?",
+   "verso": "Poeta nascido em Saquarema (abril de 1857), membro fundador da ABL e da Academia Fluminense de Letras; precursor do Parnasianismo com Olavo Bilac e Raimundo Corrêa; morreu em janeiro de 1937."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Lei Orgânica: natureza do Município e símbolos?",
+   "verso": "Pessoa jurídica de direito público interno (art. 1º). Símbolos: Brasão, Bandeira e Hino (art. 2º). Poderes: Legislativo e Executivo."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Lei Orgânica: requisitos e regras dos Distritos?",
+   "verso": "Consulta plebiscitária; nome da sede e categoria de vila; eleitorado ≥ 5%, arrecadação ≥ 0,005% e sede com 1.000 moradias, escola, posto de saúde e posto policial (Emenda 5/2012); instalação perante o Juiz de Direito."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Câmara de Saquarema: vereadores, períodos e quóruns?",
+   "verso": "13 vereadores (mandato de 4 anos). Reúne-se de 15/2 a 30/6 e de 1/8 a 15/12. Abre a sessão com 1/3; sessão secreta só por 2/3; CPI por requerimento de 1/3."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Mesa Diretora da Câmara?",
+   "verso": "Presidente, Vice, 1º e 2º Secretários; mandato de 2 anos; destituição por 2/3. Eleição do 2º biênio: 15 de dezembro do 2º ano, com posse em 1º de janeiro."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Emenda à Lei Orgânica e iniciativa popular?",
+   "verso": "Emenda: proposta de 1/3 dos vereadores, do Prefeito ou popular; 2 turnos com 5 dias de intervalo; aprovação por 2/3. Projeto de lei popular: 5% do eleitorado."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Veto e sanção na Lei Orgânica?",
+   "verso": "Veto em 15 dias úteis; o silêncio importa sanção; o veto é derrubado pela maioria absoluta. Lei complementar exige maioria absoluta."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Prefeito: idade, posse, ausência e contas?",
+   "verso": "Mínimo de 21 anos; posse em 1º de janeiro (10 dias, senão o cargo é declarado vago); mais de 15 dias fora exige licença da Câmara; prestação de contas até 15 de abril."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Vacância e julgamento do Prefeito?",
+   "verso": "Sem Vice: nos 3 primeiros anos, eleição em 90 dias; no último ano, assume o Presidente da Câmara. Crimes comuns e de responsabilidade: Tribunal de Justiça. Infrações político-administrativas: Câmara."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Auxiliares diretos do Prefeito e Subprefeitos?",
+   "verso": "Secretários/Diretores e Subprefeitos (livre nomeação). Secretário: brasileiro, com direitos políticos e maior de 21 anos. Subprefeito: atua só no seu Distrito e presta contas mensalmente."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Administração indireta na Lei Orgânica (art. 91)?",
+   "verso": "Autarquia: direito público. Empresa pública: direito privado, capital só do Município. Economia mista: direito privado, maioria das ações com voto do Município. Fundação pública: direito privado, sem fins lucrativos."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-02",
+   "frente": "Alberto de Oliveira: nascimento e morte?",
+   "verso": "Nasceu em Palmital de Saquarema em 28/04/1857; morreu em Niterói em 19/01/1937. Farmacêutico (1884), professor e poeta."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-02",
+   "frente": "Alberto de Oliveira: obras e datas?",
+   "verso": "Canções românticas (1877, estreia, ainda romântico) · Meridionais (1884, auge parnasiano) · Sonetos e poemas · Versos e rimas · Poesias, 4 séries (1900, 1905, 1913, 1928)."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-02",
+   "frente": "Parnasianismo no Brasil: início e fim da fase criadora?",
+   "verso": "Início: Sonetos e rimas (1880), de Luís Guimarães. Fim: Broquéis (1893), de Cruz e Sousa, que abre o Simbolismo. A influência vai até o Modernismo (1922)."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-02",
+   "frente": "Trindade (tríade) parnasiana brasileira?",
+   "verso": "Alberto de Oliveira, Olavo Bilac e Raimundo Correia."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-02",
+   "frente": "Alberto de Oliveira: cargos públicos?",
+   "verso": "1892: oficial de gabinete do presidente do Estado (José Tomás da Porciúncula). 1893–1898: diretor geral da Instrução Pública do RJ. Professor da Escola Normal e da Escola Dramática."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-02",
+   "frente": "Casa da Engenhoca e biblioteca de Alberto de Oliveira?",
+   "verso": "Casa em Niterói onde, nos anos 1880, se reuniam Bilac, Raul Pompeia, Raimundo Correia, Aluísio Azevedo e outros. Bibliófilo, doou sua biblioteca de clássicos à ABL."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Em 1531, a frota de Martim Afonso de Souza que chegou à região de Saquarema tinha 2 naus, 1 galeão e _____ caravelas.",
+   "verso": "Em 1531, a frota de Martim Afonso de Souza que chegou à região de Saquarema tinha 2 naus, 1 galeão e [[2]] caravelas.\nFonte: documento do IBAM sobre Saquarema."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Os distritos de Mato Grosso e Palmital foram criados e anexados a Saquarema em _____.",
+   "verso": "Os distritos de Mato Grosso e Palmital foram criados e anexados a Saquarema em [[1892]].\nFonte: documento do IBAM sobre Saquarema."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Em 1938, o distrito de Palmital passou a se chamar _____.",
+   "verso": "Em 1938, o distrito de Palmital passou a se chamar [[Bacaxá]].\nFonte: documento do IBAM sobre Saquarema."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "O distrito de Mato Grosso passou a se chamar Maranguá em 1943 e, em 1946, _____.",
+   "verso": "O distrito de Mato Grosso passou a se chamar Maranguá em 1943 e, em 1946, [[Sampaio Correa]].\nFonte: documento do IBAM sobre Saquarema."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Dos 46 bairros de Saquarema (Atlas 2024), o distrito de Bacaxá tem _____.",
+   "verso": "Dos 46 bairros de Saquarema (Atlas 2024), o distrito de Bacaxá tem [[24]].\nA Sede tem 16 e Sampaio Correa, 6. Fonte: documento do IBAM sobre Saquarema."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "A Usina Santa Luiza, em Sampaio Correa, foi criada em 1936 e fechada na década de _____.",
+   "verso": "A Usina Santa Luiza, em Sampaio Correa, foi criada em 1936 e fechada na década de [[1970]].\nFonte: documento do IBAM sobre Saquarema."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "A Festa do Divino Espírito Santo é realizada no dia de _____, sete semanas após a Páscoa.",
+   "verso": "A Festa do Divino Espírito Santo é realizada no dia de [[Pentecostes]], sete semanas após a Páscoa.\nFonte: documento do IBAM sobre Saquarema."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "O coreto Império do Divino, mais antigo que a Igreja Matriz, data de _____.",
+   "verso": "O coreto Império do Divino, mais antigo que a Igreja Matriz, data de [[1769]].\nFonte: documento do IBAM sobre Saquarema."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "Em 1937, a FAB construiu na restinga do distrito-sede um _____, para defesa e vigilância da costa.",
+   "verso": "Em 1937, a FAB construiu na restinga do distrito-sede um [[campo de pouso]], para defesa e vigilância da costa.\nFonte: documento do IBAM sobre Saquarema."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "frente": "A serra Redonda fica nos limites de Saquarema com o Município de _____.",
+   "verso": "A serra Redonda fica nos limites de Saquarema com o Município de [[Tanguá]].\nFonte: documento do IBAM sobre Saquarema."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "A Prefeitura e a Câmara devem fornecer certidões a qualquer interessado no prazo máximo de _____ dias.",
+   "verso": "A Prefeitura e a Câmara devem fornecer certidões a qualquer interessado no prazo máximo de [[15]] dias.\nLei Orgânica de Saquarema, art. 98."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Sem licença da Câmara, o Prefeito não pode se ausentar do Município por mais de _____ dias.",
+   "verso": "Sem licença da Câmara, o Prefeito não pode se ausentar do Município por mais de [[15]] dias.\nLei Orgânica de Saquarema, art. 65."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "As contas do Município ficam à disposição dos contribuintes a partir de 15 de _____.",
+   "verso": "As contas do Município ficam à disposição dos contribuintes a partir de 15 de [[abril]].\nLei Orgânica de Saquarema, art. 56."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "As contas do Município ficam à disposição dos contribuintes, a partir de 15 de abril, durante _____ dias.",
+   "verso": "As contas do Município ficam à disposição dos contribuintes, a partir de 15 de abril, durante [[60]] dias.\nLei Orgânica de Saquarema, art. 56."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "A Câmara Municipal terá comissões _____ e especiais.",
+   "verso": "A Câmara Municipal terá comissões [[permanentes]] e especiais.\nLei Orgânica de Saquarema, art. 25."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Para criar um Distrito, a povoação-sede precisa ter, pelo menos, _____ moradias, além de escola pública, posto de saúde e posto policial.",
+   "verso": "Para criar um Distrito, a povoação-sede precisa ter, pelo menos, [[mil]] moradias, além de escola pública, posto de saúde e posto policial.\nLei Orgânica de Saquarema, art. 6º."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "O parecer do Tribunal de Contas sobre as contas do Prefeito só deixa de prevalecer por decisão de _____ dos membros da Câmara.",
+   "verso": "O parecer do Tribunal de Contas sobre as contas do Prefeito só deixa de prevalecer por decisão de [[dois terços]] dos membros da Câmara.\nLei Orgânica de Saquarema, art. 35, VII."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Após receber o parecer do Tribunal de Contas, a Câmara tem prazo máximo de _____ dias para julgar as contas do Prefeito.",
+   "verso": "Após receber o parecer do Tribunal de Contas, a Câmara tem prazo máximo de [[60]] dias para julgar as contas do Prefeito.\nLei Orgânica de Saquarema, art. 35, VII."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "Em caso de impedimento do Prefeito e do Vice-Prefeito, ou de vacância, assume a administração municipal o _____.",
+   "verso": "Em caso de impedimento do Prefeito e do Vice-Prefeito, ou de vacância, assume a administração municipal o [[Presidente da Câmara]].\nLei Orgânica de Saquarema, art. 62."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "frente": "É competência privativa do Município dispor sobre registro, vacinação e _____ de animais, para erradicar as doenças que eles possam transmitir.",
+   "verso": "É competência privativa do Município dispor sobre registro, vacinação e [[captura]] de animais, para erradicar as doenças que eles possam transmitir.\nLei Orgânica de Saquarema, art. 10, XXXV."
+  }
+ ]
 }
