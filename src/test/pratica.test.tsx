@@ -127,6 +127,8 @@ describe('praticar', () => {
 
 describe('resolver questões', () => {
   it('corrige na hora, pede o motivo do erro e manda para o caderno', async () => {
+    // Uma única questão de crase no banco, para a ordem do treino não importar.
+    m.questoes = BANCO.filter((q) => q.topico_id !== 'ace26-pt-16' || q.id === CRASE.id);
     renderizarApp('/praticar/questoes?disciplina=ace26-pt&topico=ace26-pt-16');
     const u = userEvent.setup();
     const errada = CRASE.alternativas.findIndex((_, i) => i !== CRASE.gabarito);

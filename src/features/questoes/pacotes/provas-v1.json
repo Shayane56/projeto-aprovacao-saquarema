@@ -1,6 +1,6 @@
 {
  "id": "provas-v1",
- "nome": "Provas reais de Agente de Endemias (2026)",
+ "nome": "Provas reais (2026)",
  "fonte": "Prova de concurso",
  "origem": "importada",
  "embaralhar": false,
@@ -277,6 +277,276 @@
    "gabarito": "B",
    "explicacao": "Os ovos são postos na parede do recipiente, logo acima da água, e não em cachos sobre a água. Depois de completar o desenvolvimento do embrião, resistem à seca por mais de um ano e eclodem quando a água volta. Assim viajam em pneus e vasos (dispersão passiva). Por isso é preciso esfregar as paredes dos recipientes, e não só esvaziar.",
    "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224604)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-16",
+   "dificuldade": 1,
+   "enunciado": "A crase é a fusão da preposição \"a\" com o artigo definido feminino \"a\" (ou com os pronomes demonstrativos \"a\", \"as\" e o \"a\" inicial dos pronomes \"aquele\", \"aquela\", \"aquilo\"). Sua representação gráfica é o acento grave (à). O uso correto da crase está diretamente ligado à compreensão da regência verbal e nominal. Observe as frases abaixo e assinale a alternativa em que o uso da crase está correto.",
+   "alternativas": [
+    "Entreguei o relatório à ele ontem pela manhã.",
+    "Refiro-me à Vossa Excelência com o devido respeito.",
+    "Os documentos foram encaminhados à secretaria ontem.",
+    "Cheguei à pé até o local da prova."
+   ],
+   "gabarito": "C",
+   "explicacao": "“Encaminhar algo a algum lugar” (preposição a) + “a secretaria” (artigo) = à secretaria. Não há crase em três casos:\n• antes de pronome pessoal (a ele);\n• antes da maioria dos pronomes de tratamento (a Vossa Excelência);\n• antes de palavra masculina (a pé).",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Auxiliar Administrativo (QConcursos Q4224184)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-14-02",
+   "dificuldade": 2,
+   "enunciado": "A concordância verbal e nominal é um dos mecanismos fundamentais da norma-padrão da língua portuguesa. Na concordância verbal, o verbo deve flexionar-se em pessoa e número de acordo com o sujeito. Na concordância nominal, o adjetivo, o artigo, o pronome e o numeral devem concordar em gênero e número com o substantivo a que se referem. Casos especiais, como sujeitos compostos, sujeito representado por pronomes de tratamento e expressões partitivas, costumam gerar dúvidas e exigem atenção redobrada. Avalie as frases abaixo e assinale a alternativa em que a concordância está totalmente correta:",
+   "alternativas": [
+    "Fazem dez anos que ele se mudou para a capital.",
+    "Haviam muitos candidatos inscritos no último concurso.",
+    "Mais de um candidato compareceu à prova na data marcada.",
+    "Seguem anexo os documentos solicitados pela banca examinadora."
+   ],
+   "gabarito": "C",
+   "explicacao": "“Mais de um” leva o verbo ao singular: mais de um candidato compareceu. Os erros das outras:\n• “Fazer” indicando tempo é impessoal: Faz dez anos.\n• “Haver” no sentido de existir também é impessoal: Havia muitos candidatos.\n• “Anexo” é adjetivo e concorda com o substantivo: Seguem anexos os documentos.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Auxiliar Administrativo (QConcursos Q4224183)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "A semântica estuda o significado das palavras. A denotação corresponde ao sentido literal, aquele registrado nos dicionários e compartilhado pelos falantes da língua de forma objetiva. A conotação, por sua vez, é o sentido figurado, criado pelo contexto em que a palavra é empregada, envolvendo carga emocional ou expressiva. A ambiguidade ocorre quando uma mesma expressão admite mais de uma interpretação no contexto. Essas distinções são essenciais para a leitura crítica de textos diversos. Considere as seguintes frases:\nI. O ferro é um metal de grande utilidade industrial.\nII. O jogador mostrou ter muito ferro naquela partida decisiva.\nIII. O ferreiro trabalha dia e noite naquela oficina.\nAssinale a alternativa correta quanto ao sentido das palavras destacadas:",
+   "alternativas": [
+    "As três frases apresentam sentido denotativo.",
+    "A frase I apresenta sentido denotativo; as frases II e III apresentam sentido conotativo.",
+    "A frase I apresenta sentido denotativo; a frase II apresenta sentido conotativo; a frase III apresenta sentido denotativo.",
+    "As três frases apresentam sentido conotativo."
+   ],
+   "gabarito": "C",
+   "explicacao": "I: ferro = o metal (sentido literal, denotativo). II: “ter muito ferro” = força, garra (sentido figurado, conotativo). III: ferreiro = profissional que trabalha com ferro (sentido literal).",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Auxiliar Administrativo (QConcursos Q4224182)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-09",
+   "dificuldade": 1,
+   "enunciado": "As figuras de linguagem são recursos expressivos que conferem maior criatividade, beleza e impacto à mensagem, afastando-se do uso literal das palavras. Entre elas destacam-se a metáfora, a metonímia, a prosopopeia, a hipérbole e a ironia. Identificar essas figuras é fundamental para a correta interpretação de textos literários e não literários. Leia o trecho abaixo e responda: no trecho \"O sol sorria para a cidade adormecida\", a figura de linguagem presente é?",
+   "alternativas": [
+    "metáfora, pois compara o sol a um ser humano que sorri.",
+    "metonímia, pois o sol substitui a luz solar.",
+    "prosopopeia, pois atribui ao sol uma ação tipicamente humana.",
+    "hipérbole, pois exagera a ação do sol sobre a cidade."
+   ],
+   "gabarito": "C",
+   "explicacao": "Prosopopeia (ou personificação) é dar ações ou sentimentos humanos a seres não humanos: o sol “sorria”, a cidade “adormecida”. Na metáfora há uma comparação implícita entre dois termos (ex.: “Ela é uma flor”).",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Auxiliar Administrativo (QConcursos Q4224181)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-04",
+   "dificuldade": 2,
+   "enunciado": "A coesão textual é responsável pela conexão superficial entre os elementos de um texto, utilizando recursos como pronomes, conjunções, elipses e sinônimos para garantir a fluidez entre frases e parágrafos. Já a coerência diz respeito ao sentido lógico e à unidade temática, garantindo que as ideias se articulem de forma compreensível. Um texto coeso não é necessariamente coerente, e vice-versa, de modo que ambos os mecanismos devem atuar em conjunto para produzir um texto bem construído. Considere essas noções para responder à questão a seguir e assinale a alternativa em que o recurso coesivo empregado compromete a coerência do texto:",
+   "alternativas": [
+    "\"Maria foi à feira e comprou frutas, verduras e legumes\".",
+    "\"O projeto foi aprovado. Por isso, todos comemoraram o resultado\".",
+    "\"Ele estudou bastante, contudo foi reprovado no exame final\".",
+    "\"A reunião foi cancelada, portanto todos os participantes compareceram no horário marcado\"."
+   ],
+   "gabarito": "D",
+   "explicacao": "“Portanto” indica conclusão, mas comparecer a uma reunião cancelada não é consequência lógica do cancelamento. Por isso o conectivo quebra a coerência. Em C, “contudo” (oposição) está certo: estudar muito e ser reprovado é um resultado inesperado.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Auxiliar Administrativo (QConcursos Q4224180)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-12",
+   "dificuldade": 1,
+   "enunciado": "A vigilância da qualidade da água para consumo humano integra as ações de Vigilância em Saúde e busca prevenir doenças relacionadas à contaminação da água. Paralelamente, os indicadores epidemiológicos permitem conhecer a situação de saúde da população, orientar o planejamento das ações e avaliar os resultados obtidos pelas equipes de vigilância. Considerando as atribuições do Agente de Combate às Endemias nesse contexto, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "O Agente de Combate às Endemias deve colaborar com a identificação de situações que possam comprometer a qualidade da água, registrar informações relevantes, orientar a população e comunicar à equipe técnica os riscos identificados no território.",
+    "A vigilância da qualidade da água é responsabilidade exclusiva das companhias de abastecimento, não havendo participação dos serviços de saúde.",
+    "Indicadores epidemiológicos são utilizados apenas para pesquisas acadêmicas, sem aplicação no planejamento das ações de vigilância.",
+    "O monitoramento das condições ambientais deve ocorrer apenas durante situações de emergência em saúde pública."
+   ],
+   "gabarito": "A",
+   "explicacao": "A vigilância da qualidade da água (programa Vigiagua) é da Saúde, e não só da empresa de abastecimento. O ACE identifica riscos, registra, orienta e comunica. Dica de prova: alternativas com “exclusivamente”, “apenas” ou “somente” costumam estar erradas.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201036)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-07",
+   "dificuldade": 1,
+   "enunciado": "A leptospirose é uma doença infecciosa causada por bactérias do gênero Leptospira, cuja transmissão está relacionada principalmente ao contato com água ou solo contaminados pela urina de animais infectados, especialmente roedores. Medidas de saneamento, manejo adequado de resíduos sólidos e controle da população de roedores são fundamentais para reduzir a ocorrência da doença.\nDurante uma inspeção em determinada comunidade, o Agente de Combate às Endemias verifica grande acúmulo de lixo, presença de entulho e sinais de infestação por ratos. Nessa situação, a medida mais adequada é:",
+   "alternativas": [
+    "Desenvolver ações educativas, orientar sobre o correto armazenamento de alimentos e resíduos, identificar fatores de risco e comunicar a situação aos setores responsáveis para adoção das medidas de controle.",
+    "Limitar-se à distribuição de panfletos informativos, sem registrar a ocorrência.",
+    "Aplicar raticidas em todas as residências da área, independentemente de avaliação técnica.",
+    "Informar aos moradores que a leptospirose é transmitida exclusivamente pela picada de insetos."
+   ],
+   "gabarito": "A",
+   "explicacao": "O controle de roedores começa pelo ambiente: tirar abrigo (entulho), comida (lixo, ração exposta) e acesso. Raticida só com avaliação técnica. O ACE educa, identifica os riscos e comunica aos setores responsáveis. Leptospirose não é transmitida por inseto: o contágio é pela urina de rato, por meio de água e lama de enchente.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201034)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-06",
+   "dificuldade": 1,
+   "enunciado": "A raiva é uma doença viral grave que acomete mamíferos e pode ser transmitida ao ser humano, principalmente por meio da saliva de animais infectados. Em áreas urbanas, cães, gatos e morcegos são importantes na vigilância epidemiológica da doença, exigindo ações permanentes de vacinação animal, educação da população e notificação de situações suspeitas.\nConsiderando as ações de vigilância da raiva e o controle ético da população de cães e gatos, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "Animais domésticos devem ser vacinados contra a raiva conforme as campanhas e orientações das autoridades sanitárias, sendo importante estimular a guarda responsável e comunicar situações suspeitas aos serviços competentes.",
+    "Todo morcego encontrado durante o dia deve ser capturado manualmente pelo Agente de Combate às Endemias.",
+    "O controle da raiva depende exclusivamente da eliminação de cães e gatos errantes.",
+    "A vacinação antirrábica é indicada apenas para animais que apresentem sintomas da doença."
+   ],
+   "gabarito": "A",
+   "explicacao": "A raiva se previne vacinando cães e gatos (antes de adoecerem), com guarda responsável e notificação de casos suspeitos. Morcego caído ou ativo de dia é suspeito, mas nunca se pega com a mão: isola-se o local e chama-se o serviço de zoonoses. O controle ético não se baseia em eliminar animais.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201033)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-01",
+   "dificuldade": 1,
+   "enunciado": "A leishmaniose visceral é uma zoonose de importância para a saúde pública, presente em diversas regiões do Brasil. Sua transmissão ocorre por meio da picada de flebotomíneos infectados, sendo o cão um dos principais reservatórios da doença em áreas urbanas. O controle da leishmaniose envolve ações integradas de vigilância epidemiológica, manejo ambiental, diagnóstico laboratorial e educação em saúde.\nDurante uma visita domiciliar, um Agente de Combate às Endemias identifica um cão com lesões de pele, emagrecimento acentuado e crescimento excessivo das unhas, além de um ambiente favorável à presença do vetor. Considerando as atribuições do Agente de Combate às Endemias, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "Orientar o tutor sobre a necessidade de avaliação do animal pelos serviços de vigilância, adotar medidas de educação em saúde e comunicar a situação à equipe responsável para os procedimentos previstos nos protocolos oficiais.",
+    "Recolher imediatamente o animal para eutanásia, independentemente de avaliação clínica ou confirmação laboratorial.",
+    "Administrar medicamentos no animal durante a visita domiciliar para evitar a transmissão da doença.",
+    "Informar que a doença é transmitida exclusivamente pelo contato direto entre cães."
+   ],
+   "gabarito": "A",
+   "explicacao": "Lesões de pele, emagrecimento e unhas crescidas (onicogrifose) são sinais clássicos de leishmaniose no cão. O ACE não decide eutanásia nem medica o animal. Ele orienta o tutor, faz educação em saúde e comunica a equipe, que segue o protocolo (exame, conduta). A transmissão é pela picada do flebotomíneo (mosquito-palha), e não por contato direto.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201032)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-06",
+   "dificuldade": 1,
+   "enunciado": "A atuação do Agente de Combate às Endemias depende da coleta de informações confiáveis sobre as condições de saúde da população e sobre os fatores ambientais presentes no território. Esses dados subsidiam o planejamento das ações de vigilância, permitindo identificar áreas prioritárias, monitorar a ocorrência de doenças e avaliar os resultados das medidas adotadas. Durante o desenvolvimento dessas atividades, o profissional também deve observar princípios éticos relacionados ao respeito às pessoas e ao tratamento das informações obtidas.\nConsiderando esse contexto, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "As informações coletadas durante as visitas domiciliares podem ser compartilhadas livremente com moradores da comunidade, desde que sejam consideradas de interesse coletivo.",
+    "Os registros realizados pelo Agente de Combate às Endemias devem ser preenchidos com responsabilidade, refletindo a realidade observada no território e respeitando o sigilo das informações quando necessário.",
+    "Indicadores epidemiológicos possuem finalidade exclusivamente estatística, não sendo utilizados no planejamento das ações de vigilância.",
+    "O agente deve registrar apenas situações que envolvam doenças já confirmadas por exames laboratoriais."
+   ],
+   "gabarito": "B",
+   "explicacao": "O registro é a base do planejamento, por isso tem que retratar fielmente o que foi visto, inclusive situações suspeitas e riscos, e não só doenças confirmadas. O que o agente vê nas casas é sigiloso e não se conta aos vizinhos.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201031)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-10",
+   "dificuldade": 1,
+   "enunciado": "As arboviroses representam importante problema de saúde pública no Brasil e exigem ações permanentes de vigilância e controle do mosquito Aedes aegypti. Além da utilização de medidas específicas de controle, a participação da população é considerada indispensável para reduzir os criadouros e interromper o ciclo de transmissão dessas doenças.\nCom relação aos aspectos biológicos do Aedes aegypti e às medidas de prevenção das arboviroses, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "O mosquito desenvolve-se exclusivamente em rios, lagos e outras coleções naturais de água corrente.",
+    "A principal estratégia de controle consiste na eliminação de recipientes que possam acumular água e servir de criadouros para o mosquito.",
+    "O controle químico elimina definitivamente a necessidade de participação da população nas ações preventivas.",
+    "A transmissão da dengue ocorre exclusivamente pelo contato direto entre pessoas infectadas."
+   ],
+   "gabarito": "B",
+   "explicacao": "O Aedes aegypti se cria em água parada e relativamente limpa, em recipientes artificiais (pneus, vasos, caixas-d’água), e não em água corrente. Por isso o principal é eliminar criadouros, com a participação da população. A dengue é transmitida pela picada da fêmea infectada.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201030)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-07",
+   "dificuldade": 1,
+   "enunciado": "O reconhecimento do território constitui uma etapa essencial para o planejamento das ações de Vigilância em Saúde. A identificação das características ambientais, sociais, econômicas e epidemiológicas permite que o Agente de Combate às Endemias direcione suas ações para áreas de maior risco, desenvolvendo atividades preventivas e educativas de forma mais eficiente.\nDurante uma visita domiciliar, o agente identifica terrenos baldios com acúmulo de lixo, recipientes com água parada e grande quantidade de resíduos descartados irregularmente. Nessa situação, a conduta mais adequada é:",
+   "alternativas": [
+    "Registrar as informações observadas, orientar os moradores sobre as medidas preventivas, comunicar a situação à equipe responsável e acompanhar a resolução do problema conforme os protocolos estabelecidos.",
+    "Limitar-se ao preenchimento da ficha de visita, sem realizar orientações à comunidade.",
+    "Aplicar produtos químicos em todos os recipientes encontrados, independentemente da avaliação técnica da equipe.",
+    "Encerrar a visita, pois terrenos baldios não fazem parte das ações desenvolvidas pelo Agente de Combate às Endemias."
+   ],
+   "gabarito": "A",
+   "explicacao": "Padrão dessas questões de conduta: a resposta certa é a mais completa, com registrar, orientar, comunicar e acompanhar. Desconfie de “limitar-se”, de aplicar produto “em todos, independentemente da avaliação” e de dizer que algo não é atribuição do ACE.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201029)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-10",
+   "dificuldade": 1,
+   "enunciado": "Os profissionais que atuam no controle de endemias estão frequentemente expostos a agentes biológicos, produtos químicos, animais peçonhentos, resíduos e diferentes condições ambientais que podem representar riscos à saúde. Para reduzir esses riscos, é indispensável a observância das normas de segurança do trabalho, especialmente da NR-6, que trata dos Equipamentos de Proteção Individual (EPI), e da NR-32, voltada à segurança dos trabalhadores dos serviços de saúde.\nConsiderando essas normas regulamentadoras, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "O uso dos Equipamentos de Proteção Individual é facultativo, ficando a critério do trabalhador decidir quando utilizá-los.",
+    "Os Equipamentos de Proteção Individual devem ser utilizados sempre que houver risco ocupacional, cabendo ao trabalhador utilizá-los corretamente e zelar por sua conservação.",
+    "A NR-32 aplica-se exclusivamente aos profissionais que atuam em hospitais, não abrangendo as atividades desenvolvidas pelos Agentes de Combate às Endemias.",
+    "A utilização de luvas dispensa a higienização das mãos antes e após a realização das atividades."
+   ],
+   "gabarito": "B",
+   "explicacao": "Pela NR-6, o empregador fornece o EPI de graça e o trabalhador deve usá-lo, guardá-lo e conservá-lo. O uso não é opcional. A NR-32 vale para todo serviço de saúde, não só hospital. Luva não substitui a lavagem das mãos.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201028)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-02",
+   "dificuldade": 1,
+   "enunciado": "O Sistema Único de Saúde (SUS) organiza as ações e os serviços de saúde em todo o território nacional, tendo como princípios a universalidade, a integralidade e a equidade. Entre as ações desenvolvidas pelo SUS está a Vigilância em Saúde, responsável pelo monitoramento, prevenção e controle de doenças e agravos que possam comprometer a saúde da população. Nesse contexto, o Agente de Combate às Endemias exerce papel fundamental ao realizar ações de vigilância, educação em saúde e controle de vetores, contribuindo para a redução dos riscos ambientais e sanitários.\nConsiderando a atuação do Agente de Combate às Endemias no âmbito do SUS, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "O trabalho do Agente de Combate às Endemias restringe-se à aplicação de inseticidas, não participando de atividades educativas junto à população.",
+    "As ações desenvolvidas pelo Agente de Combate às Endemias integram a Vigilância em Saúde, envolvendo atividades de prevenção, monitoramento, educação em saúde e controle de fatores de risco existentes no território.",
+    "O Agente de Combate às Endemias atua exclusivamente em situações de epidemias declaradas pelo Ministério da Saúde.",
+    "O controle de doenças transmitidas por vetores é de responsabilidade exclusiva das Secretarias Estaduais de Saúde."
+   ],
+   "gabarito": "B",
+   "explicacao": "Pela Lei 11.350/2006, o ACE atua na vigilância, prevenção e controle de doenças e na promoção da saúde, com educação em saúde, de forma permanente e não só em epidemias. O controle de vetores é compartilhado pelos três entes, com execução principalmente municipal.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201027)"
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "dificuldade": 1,
+   "enunciado": "A Constituição Federal estabelece a organização político-administrativa da República Federativa do Brasil, distribuindo competências entre União, Estados, Distrito Federal e Municípios. Essa repartição busca garantir maior autonomia aos entes federativos e possibilitar que determinadas matérias sejam disciplinadas conforme as necessidades locais.\nCom base nos artigos 18, 29 e 30 da Constituição Federal, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "Compete aos Municípios legislar sobre assuntos de interesse local e suplementar a legislação federal e estadual no que couber.",
+    "Os Municípios dependem de autorização da União para editar leis sobre matérias de interesse local.",
+    "Os Municípios não possuem autonomia administrativa, financeira ou política.",
+    "A Constituição Federal atribui exclusivamente aos Estados a competência para organizar e prestar serviços públicos de interesse local."
+   ],
+   "gabarito": "A",
+   "explicacao": "CF, art. 30, I e II: compete aos Municípios legislar sobre assuntos de interesse local e suplementar a legislação federal e estadual no que couber. Os Municípios são autônomos (art. 18) e regidos por lei orgânica (art. 29). A Lei Orgânica de Saquarema repete a regra no art. 10, I: “legislar sobre assuntos de interesse local”.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201026)"
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-05",
+   "dificuldade": 1,
+   "enunciado": "O Sistema Único de Saúde (SUS) foi instituído com a finalidade de garantir o acesso universal às ações e aos serviços de saúde, organizando a atuação dos entes federativos e estabelecendo princípios e diretrizes voltados à promoção, proteção e recuperação da saúde da população brasileira.\nÀ luz das disposições da Lei nº 8.080/1990, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "O acesso aos serviços públicos de saúde deve ocorrer de forma universal e igualitária, sem discriminação de qualquer natureza.",
+    "O SUS presta atendimento exclusivamente às pessoas que contribuem para a Previdência Social.",
+    "A participação da comunidade na gestão do SUS é vedada pela legislação federal.",
+    "A assistência à saúde é de responsabilidade exclusiva da União."
+   ],
+   "gabarito": "A",
+   "explicacao": "Lei 8.080, art. 7º: universalidade de acesso (I) e igualdade da assistência, sem preconceitos ou privilégios de qualquer espécie (IV). A participação da comunidade é um princípio (VIII), detalhado na Lei 8.142. O SUS atende a todos, sem exigir contribuição: o modelo antigo do INAMPS é que atendia só contribuintes.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201025)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-01",
+   "dificuldade": 1,
+   "enunciado": "A transparência na Administração Pública constitui importante instrumento de fortalecimento da democracia, permitindo que qualquer cidadão acompanhe a utilização dos recursos públicos e fiscalize a atuação dos órgãos governamentais. Para assegurar esse direito, a Lei nº 12.527/2011 regulamenta o acesso às informações produzidas ou custodiadas pelos órgãos públicos.\nConsiderando as disposições da Lei de Acesso à Informação, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "O acesso à informação pública é a regra, enquanto o sigilo constitui exceção, somente admitido nas hipóteses previstas em lei.",
+    "Apenas servidores públicos podem solicitar informações aos órgãos da Administração Pública.",
+    "Todos os documentos produzidos pelos órgãos públicos possuem caráter sigiloso, independentemente de seu conteúdo.",
+    "A Administração Pública pode negar pedidos de informação sem apresentar qualquer justificativa ao solicitante."
+   ],
+   "gabarito": "A",
+   "explicacao": "Lei 12.527/2011, art. 3º, I: “observância da publicidade como preceito geral e do sigilo como exceção”. Qualquer interessado pode pedir informação (art. 10), e a negativa precisa ser fundamentada. A Lei de Acesso à Informação não está no seu edital, mas o tema cai em “cidadania e atuação no serviço público”.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201024)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-01",
+   "dificuldade": 1,
+   "enunciado": "A atuação da Administração Pública deve observar princípios que garantam a legalidade dos atos administrativos, a proteção do interesse público e a adequada prestação dos serviços à sociedade. Esses princípios orientam o comportamento dos agentes públicos e servem como parâmetro para o controle da atuação administrativa pelos órgãos de fiscalização e pelo Poder Judiciário.\nCom base no artigo 37 da Constituição Federal, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "A Administração Pública deve obedecer aos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+    "O princípio da publicidade autoriza a divulgação irrestrita de qualquer informação, inclusive daquelas protegidas por sigilo legal.",
+    "O princípio da eficiência permite ao agente público deixar de cumprir a lei sempre que considerar outra medida mais conveniente.",
+    "A moralidade administrativa constitui mera recomendação ética, sem qualquer relevância jurídica."
+   ],
+   "gabarito": "A",
+   "explicacao": "CF, art. 37: legalidade, impessoalidade, moralidade, publicidade e eficiência. O macete é LIMPE. Eficiência nunca autoriza descumprir a lei, e a moralidade é obrigatória (ato imoral pode ser anulado).",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201023)"
   }
  ]
 }
