@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useAuth } from '@/features/auth/AuthProvider';
 import { queryClient } from '@/lib/queryClient';
 import { dataLocal } from '@/lib/datas';
-import { atualizarFlashcard, buscarFlashcards, buscarRevisoesDesde, excluirFlashcard, inserirFlashcards, revisarFlashcard, type Revisar } from './api';
+import { atualizarFlashcard, buscarFlashcards, buscarRevisoesDesde, excluirFlashcard, inserirFlashcards, reescreverFlashcard, revisarFlashcard, type Revisar } from './api';
 import { hashCartao } from './agendador';
 import type { Flashcard, NovoFlashcard, RevisaoFlashcard } from './tipos';
 
@@ -88,17 +88,30 @@ export function useInstalarCartoes() {
     if (!usuario || !cartoes.data || tentou.current) return;
     tentou.current = true;
     void (async () => {
-      type PacoteCartoes = { cartoes: { disciplina: string; topico: string | null; frente: string; verso: string }[] };
+      // `substitui`: frente antiga de um cartão reescrito; o cartão já instalado recebe o novo texto e mantém o histórico.
+      type CartaoPacote = { disciplina: string; topico: string | null; frente: string; verso: string; substitui?: string };
+      type PacoteCartoes = { cartoes: CartaoPacote[] };
       const pacotes = (await Promise.all([import('./pacotes/cartoes-v1.json'), import('./pacotes/municipio-v1.json')])).map((m) => m.default as PacoteCartoes);
-      const existentes = new Set(cartoes.data.map((c) => hashCartao(c.frente)));
-      const faltando: NovoFlashcard[] = pacotes
-        .flatMap((p) => p.cartoes)
-        .map((c) => ({ disciplina_id: c.disciplina, topico_id: c.topico, questao_id: null, frente: c.frente, verso: c.verso, origem: 'autoral' as const, hash: hashCartao(c.frente) }))
-        .filter((c) => !existentes.has(c.hash));
-      if (!faltando.length) return setEstado('pronto');
+      const porHash = new Map(cartoes.data.map((c) => [hashCartao(c.frente), c]));
+      const reescrever: { id: string; dados: Parameters<typeof reescreverFlashcard>[1] }[] = [];
+      const faltando: NovoFlashcard[] = [];
+      for (const c of pacotes.flatMap((p) => p.cartoes)) {
+        const hash = hashCartao(c.frente);
+        if (porHash.has(hash)) continue;
+        const antigo = c.substitui ? porHash.get(hashCartao(c.substitui)) : undefined;
+        if (antigo && antigo.origem === 'autoral') {
+          reescrever.push({ id: antigo.id, dados: { frente: c.frente, verso: c.verso, disciplina_id: c.disciplina, topico_id: c.topico, hash } });
+          porHash.delete(hashCartao(c.substitui!));
+          porHash.set(hash, antigo);
+          continue;
+        }
+        faltando.push({ disciplina_id: c.disciplina, topico_id: c.topico, questao_id: null, frente: c.frente, verso: c.verso, origem: 'autoral', hash });
+      }
+      if (!faltando.length && !reescrever.length) return setEstado('pronto');
       setEstado('instalando');
       try {
-        await inserirFlashcards(usuario.id, faltando);
+        for (const r of reescrever) await reescreverFlashcard(r.id, r.dados);
+        if (faltando.length) await inserirFlashcards(usuario.id, faltando);
         await qc.invalidateQueries({ queryKey: chavesCartoes.cartoes(usuario.id) });
         setEstado('pronto');
       } catch {

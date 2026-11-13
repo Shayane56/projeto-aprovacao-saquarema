@@ -32,6 +32,14 @@ export async function atualizarFlashcard(id: string, dados: Partial<Pick<Flashca
   exigir(await supabase.from('flashcards').update(dados).eq('id', id));
 }
 
+/** Troca o texto de um cartão de pacote reescrito, mantendo o histórico de revisões (FSRS). */
+export async function reescreverFlashcard(
+  id: string,
+  dados: Pick<Flashcard, 'frente' | 'verso' | 'disciplina_id' | 'topico_id'> & { hash: string },
+): Promise<void> {
+  exigir(await supabase.from('flashcards').update(dados).eq('id', id));
+}
+
 export async function excluirFlashcard(id: string): Promise<void> {
   exigir(await supabase.from('flashcards').delete().eq('id', id));
 }

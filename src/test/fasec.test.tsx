@@ -2,6 +2,8 @@ import { screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import type { Flashcard, NovoFlashcard } from '@/features/flashcards/tipos';
 import pacote from '@/features/questoes/pacotes/autorais-v1.json';
+import cartoesV1 from '@/features/flashcards/pacotes/cartoes-v1.json';
+import cartoesMunicipio from '@/features/flashcards/pacotes/municipio-v1.json';
 import { prepararPacote, type Pacote } from '@/features/questoes/pacotes/instalar';
 import type { Questao } from '@/features/questoes/tipos';
 import { editalDoSeed, etapasDoSeed } from './fixtures';
@@ -13,6 +15,7 @@ const m = vi.hoisted(() => ({
   cartoes: [] as unknown[],
   progresso: {} as Record<string, string>,
   inserirCartoes: vi.fn(),
+  reescrever: vi.fn(),
   revisar: vi.fn(),
   concluir: vi.fn(),
   definirStatus: vi.fn(),
@@ -50,6 +53,7 @@ vi.mock('@/features/flashcards/api', () => ({
   buscarFlashcards: async () => [...m.cartoes],
   buscarRevisoesDesde: async () => [],
   inserirFlashcards: m.inserirCartoes,
+  reescreverFlashcard: m.reescrever,
   revisarFlashcard: m.revisar,
   atualizarFlashcard: async () => {},
   excluirFlashcard: async () => {},
@@ -72,6 +76,7 @@ beforeEach(() => {
     return novos.length;
   });
   m.revisar.mockReset().mockResolvedValue(undefined);
+  m.reescrever.mockReset().mockResolvedValue(undefined);
   m.concluir.mockReset().mockResolvedValue(undefined);
   m.definirStatus.mockReset().mockResolvedValue(undefined);
   m.salvarPrefs.mockReset();
@@ -83,6 +88,26 @@ describe('flashcards', () => {
     renderizarApp('/flashcards');
     await waitFor(() => expect(m.inserirCartoes).toHaveBeenCalled());
     expect((m.inserirCartoes.mock.calls[0][1] as NovoFlashcard[]).length).toBeGreaterThanOrEqual(50);
+  });
+
+  it('cartão reescrito no pacote mantém o histórico: o antigo recebe o texto novo, sem duplicar', async () => {
+    const todos = [...cartoesV1.cartoes, ...cartoesMunicipio.cartoes] as { frente: string; verso: string; substitui?: string }[];
+    // Cartões que não mudaram: fora do grupo reescrito (o grupo vai do 1º ao último cartão com `substitui`).
+    const ultimoReescrito = cartoesV1.cartoes.reduce((ult, c, i) => ('substitui' in c ? i : ult), -1);
+    const atuais = todos.slice(ultimoReescrito + 2);
+    const novoTexto = todos.find((c) => c.substitui === 'Dengue: agente e vetor?')!;
+    // Conta antiga: tem o cartão "Dengue: agente e vetor?" já revisado, mais os cartões que não mudaram.
+    m.cartoes = [
+      { ...cartao(1, 'Dengue: agente e vetor?'), id: 'velho', reps: 4, stability: 12 },
+      ...atuais.map((c, i) => ({ ...cartao(i + 2, c.frente), id: `a${i}` })),
+    ];
+    renderizarApp('/flashcards');
+    await waitFor(() => expect(m.reescrever).toHaveBeenCalledWith('velho', expect.objectContaining({ frente: novoTexto.frente, verso: novoTexto.verso })));
+    await waitFor(() => expect(m.inserirCartoes).toHaveBeenCalled());
+    const inseridos = (m.inserirCartoes.mock.calls[0][1] as NovoFlashcard[]).map((c) => c.frente);
+    expect(inseridos).not.toContain(novoTexto.frente);
+    expect(inseridos).toContain('A dengue é causada por vírus, bactéria ou parasita?');
+    expect(inseridos).not.toContain('Dengue: agente e vetor?');
   });
 
   it('estudo: mostra a frente, revela o verso e registra a nota', async () => {
