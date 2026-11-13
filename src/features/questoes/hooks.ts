@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAuth } from '@/features/auth/AuthProvider';
 import { queryClient } from '@/lib/queryClient';
 import {
-  atualizarCaderno, buscarCaderno, buscarQuestoes, buscarRespostas, buscarTextos, inserirQuestoes, responder,
+  atualizarCaderno, buscarCaderno, buscarQuestoes, buscarRespostas, buscarTextos, criarTexto, inserirQuestoes, responder,
   type AtualizarCaderno, type Responder,
 } from './api';
 import { carregarPacotesAutorais, prepararPacote } from './pacotes/instalar';
@@ -132,7 +132,19 @@ export function useInstalarPacotes() {
       if (faltando.length === 0) return setEstado('pronto');
       setEstado('instalando');
       try {
-        await inserirQuestoes(usuario.id, faltando);
+        // Textos de apoio: reaproveita o que já existe na conta (mesmo conteúdo) ou cria.
+        const idsTexto = new Map<string, string>();
+        if (faltando.some((q) => q.texto)) {
+          for (const t of await buscarTextos()) idsTexto.set(t.conteudo, t.id);
+          for (const q of faltando) {
+            if (q.texto && !idsTexto.has(q.texto.conteudo)) {
+              idsTexto.set(q.texto.conteudo, await criarTexto(usuario.id, q.texto.titulo, q.texto.conteudo));
+            }
+          }
+        }
+        const prontas = faltando.map(({ texto, ...q }) => ({ ...q, texto_id: texto ? idsTexto.get(texto.conteudo)! : null }));
+        await inserirQuestoes(usuario.id, prontas);
+        await qc.invalidateQueries({ queryKey: chavesPratica.textos(usuario.id) });
         await qc.invalidateQueries({ queryKey: chavesPratica.questoes(usuario.id) });
         setEstado('pronto');
       } catch {

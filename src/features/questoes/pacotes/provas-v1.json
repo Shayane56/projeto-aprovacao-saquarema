@@ -1072,6 +1072,318 @@
    "gabarito": "D",
    "explicacao": "“Além de” acrescenta informação (= e também): os resultados vão subsidiar a avaliação e também apoiar a incorporação ao SUS. É um conectivo de adição, como “bem como” e “não só… mas também”.",
    "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153953)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-07-05",
+   "dificuldade": 2,
+   "enunciado": "A respeito do vocábulo “Entre” em “Entre 2023 e 2025, a distribuição de testes e medicamentos cresceu mais de 130%, [...]” (9º§), é correto afirmar que:",
+   "alternativas": [
+    "Exprime ideia de movimento.",
+    "Classifica-se como conjunção.",
+    "Pode ser substituído, sem prejuízo semântico, por “desde”.",
+    "Estabelece a relação de dois termos da oração – 2023 e 2025."
+   ],
+   "gabarito": "D",
+   "explicacao": "“Entre” é preposição: liga termos e, aqui, marca o intervalo de tempo de 2023 a 2025. Ele não indica movimento e não é conjunção (que liga orações). Trocar por “desde” mudaria o sentido: “desde 2023” não fixa o fim do período.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153952)",
+   "texto": "chagas-ms-2026"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-11",
+   "dificuldade": 1,
+   "enunciado": "No trecho “Os resultados poderão subsidiar a avaliação de tecnologias à base de selênio [...]” (7º§), “subsidiar” tem sentido de:",
+   "alternativas": [
+    "Auxílio.",
+    "Referência.",
+    "Intensidade.",
+    "Financiamento."
+   ],
+   "gabarito": "A",
+   "explicacao": "Subsidiar é dar apoio, fornecer elementos para algo, ou seja, auxiliar. A pegadinha é “financiamento”: “subsídio” também pode ser ajuda em dinheiro, mas no contexto os resultados da pesquisa ajudam a avaliar, e não pagam nada.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153951)",
+   "texto": "chagas-ms-2026"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-14-02",
+   "dificuldade": 3,
+   "enunciado": "É correto afirmar que no período “Não podemos esquecer que se trata de uma doença relevante, [...]” (2º§):",
+   "alternativas": [
+    "O sujeito é simples.",
+    "O núcleo do predicado é formado pelo verbo “esquecer”.",
+    "O sujeito pode ser identificado através da desinência verbal.",
+    "O fragmento “que se trata de uma doença relevante” compõe o predicado."
+   ],
+   "gabarito": "C",
+   "explicacao": "O sujeito é “nós”, que não aparece escrito, mas é revelado pela terminação -mos de “podemos”: é o sujeito oculto (desinencial). A banca considerou errada a A, ou seja, tratou sujeito oculto como diferente de simples. Atenção: a D também é discutível, porque a oração “que se trata…” é objeto direto de “esquecer” e faz parte do predicado. Fique com o gabarito: sujeito identificado pela desinência = sujeito oculto.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153950)",
+   "texto": "chagas-ms-2026"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-11",
+   "dificuldade": 2,
+   "enunciado": "No trecho “‘Por isso, investir em pesquisas nessa área é também um compromisso com a equidade e com a promoção de um cuidado mais digno e acessível para todos’, destacou.” (8º§), considerando o contexto, o vocábulo “equidade” pode ser substituído, sem prejuízo semântico, por:",
+   "alternativas": [
+    "Empatia.",
+    "Isonomia.",
+    "Honestidade.",
+    "Responsabilidade."
+   ],
+   "gabarito": "B",
+   "explicacao": "Equidade é justiça na distribuição: tratar cada um conforme a sua necessidade. Entre as opções, o sinônimo mais próximo é isonomia (igualdade perante a lei). No SUS, equidade é princípio: dar mais a quem precisa mais. Empatia, honestidade e responsabilidade são outras virtudes.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153949)",
+   "texto": "chagas-ms-2026"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "O texto menciona o Dia Mundial da Doença de Chagas. De acordo com as ideias expostas, pode-se inferir que esse dia é importante, pois:",
+   "alternativas": [
+    "Trata-se de uma data comemorativa de grande relevância na área da saúde.",
+    "Tal mobilização amplia a visibilidade da doença de Chagas, promovendo conhecimento acerca de prevenção, transmissão, diagnóstico e tratamento.",
+    "Tem o objetivo de arrecadar fundos, como o investimento disponibilizado pelo Ministério da Saúde, para o fortalecimento das ações de vigilância e controle da doença.",
+    "Reconhece os munícipios que têm se destacado no combate da doença, bem como verifica aqueles que precisam urgentemente de cuidados, uma vez que se classificam como “localidades de risco alto.”"
+   ],
+   "gabarito": "B",
+   "explicacao": "O 9º§ diz que as ações “ganham ainda mais relevância durante a mobilização pelo Dia Mundial”, com foco no cuidado e na prevenção: é um dia de visibilidade e conscientização. Não é “comemorativo” (A). O dinheiro vem do Ministério, e não de arrecadação (C). O reconhecimento dos municípios aconteceu na Expoepi, e não por causa do dia (D).",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153948)",
+   "texto": "chagas-ms-2026"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 2,
+   "enunciado": "O texto em análise, veiculado na página oficial do Ministério da Saúde, aborda a doença de Chagas, que é uma infecção causada por parasita. Tendo em vista que esse é um assunto importante para a população, é correto afirmar que o texto tem o objetivo de:",
+   "alternativas": [
+    "Apresentar o avanço que tem sido realizado quanto ao controle da doença de Chagas no Brasil.",
+    "Expor pontos de vistas de autoridades no assunto, como o Ministro da Saúde e a Secretária de Vigilância em Saúde e Meio Ambiente.",
+    "Anunciar os acontecimentos de comemoração do Dia Mundial da Doença de Chagas e os investimentos que o Ministério da Saúde receberá.",
+    "Fornecer informações sobre formas de contaminação e tratamento da doença de Chagas, principalmente através da fase 2 do projeto “Selênio como tratamento na cardiopatia crônica da doença de Chagas”."
+   ],
+   "gabarito": "A",
+   "explicacao": "A notícia reúne investimentos, aumento da testagem, retomada de remédio e certificação de cidades: tudo mostra o avanço no controle da doença. As falas das autoridades (B) são um recurso do texto, e não o objetivo. Na C, o Ministério investe dinheiro, e não recebe. A D toma um detalhe (o selênio) pelo todo.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153947)",
+   "texto": "chagas-ms-2026"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-05",
+   "dificuldade": 3,
+   "enunciado": "No planejamento das ações de vigilância em saúde, a identificação de fatores ambientais no território deve ser acompanhada de análise que ajude a definir prioridades de intervenção, considerando a possibilidade de ocorrência de agravos e seus efeitos sobre a população. Nesse contexto, a definição de prioridades nas ações de vigilância ambiental está corretamente associada à(ao):",
+   "alternativas": [
+    "Definição de intervenções com base na caracterização dos fatores ambientais e de sua distribuição no território.",
+    "Estabelecimento de prioridades com base na probabilidade de ocorrência de agravos e na magnitude de seus efeitos sobre a população exposta.",
+    "Organização das ações de vigilância a partir da identificação de condições ambientais para acompanhamento das situações no território.",
+    "Planejamento de intervenções com base na descrição das características ambientais e no registro das informações produzidas no território"
+   ],
+   "gabarito": "B",
+   "explicacao": "Priorizar = olhar o risco, que é a probabilidade de o agravo acontecer combinada com a gravidade (magnitude) do efeito na população exposta. As outras param na descrição do ambiente (caracterizar, identificar, registrar) e não dizem como escolher o que vem primeiro. O IDIB repete esse padrão: a certa é a que fala de probabilidade e efeito sobre a população.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143628)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-03",
+   "dificuldade": 1,
+   "enunciado": "No planejamento de ações em saúde pública, a educação em saúde é incorporada como estratégia complementar às intervenções estruturais e operacionais. A função corretamente atribuída a essa estratégia corresponde à(ao):",
+   "alternativas": [
+    "Substituição das ações de vigilância epidemiológica por práticas educativas.",
+    "Atuação exclusiva na transmissão de informações sem impacto comportamental.",
+    "Fortalecimento da capacidade crítica da população para reconhecimento e redução de riscos.",
+    "Limitação das ações ao ambiente escolar formal, sem articulação comunitária."
+   ],
+   "gabarito": "C",
+   "explicacao": "Educação em saúde é para a população entender os riscos e mudar práticas (autonomia, senso crítico). Ela complementa a vigilância, sem substituí-la, e não se limita a repassar informação nem à escola.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143627)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-10",
+   "dificuldade": 1,
+   "enunciado": "O armazenamento inadequado de água em recipientes domiciliares pode contribuir diretamente para a dinâmica de transmissão da dengue. O efeito mais diretamente associado a essa prática corresponde à:",
+   "alternativas": [
+    "Eliminação de riscos ambientais.",
+    "Neutralização de agentes patogênicos.",
+    "Redução da população vetorial.",
+    "Formação de criadouros do Aedes aegypti."
+   ],
+   "gabarito": "D",
+   "explicacao": "Tonel, balde ou caixa-d’água destampados viram criadouro do Aedes aegypti. A orientação é manter tudo bem tampado (ou com tela) e escovar as paredes ao lavar, para tirar os ovos.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143626)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-12",
+   "dificuldade": 2,
+   "enunciado": "O manejo inadequado de resíduos sólidos urbanos altera significativamente a dinâmica ambiental e sanitária de determinado território. A consequência mais diretamente associada a esse cenário está relacionada à(ao):",
+   "alternativas": [
+    "Alteração na composição ecológica local, com possível aumento de espécies sinantrópicas de interesse sanitário.",
+    "Redução da necessidade de intervenções de vigilância ambiental.",
+    "Estabilização das condições ambientais independentemente do manejo dos resíduos.",
+    "Impacto restrito à organização paisagística do espaço urbano."
+   ],
+   "gabarito": "A",
+   "explicacao": "Espécies sinantrópicas são animais que se adaptaram a viver perto do ser humano, como ratos, baratas, moscas, pombos e escorpiões. O lixo mal manejado dá a eles comida e abrigo, e com isso aumentam doenças como leptospirose e os acidentes com escorpião.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143625)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-03",
+   "dificuldade": 3,
+   "enunciado": "No âmbito da vigilância sanitária de alimentos, as inspeções realizadas nos estabelecimentos são orientadas por normas técnicas que definem critérios para avaliação das condições de manipulação e dos processos produtivos. Considerando essas diretrizes, a atuação da vigilância sanitária, no contexto das boas práticas, caracteriza-se, de forma completa, pela:",
+   "alternativas": [
+    "Identificação de não conformidades nos processos de manipulação com base em critérios técnicos aplicáveis à segurança sanitária dos alimentos.",
+    "Verificação do cumprimento de exigências normativas relacionadas ao funcionamento dos estabelecimentos que produzem alimentos.",
+    "Avaliação das condições de manipulação e dos processos produtivos a partir de critérios técnicos que permitem verificar a conformidade sanitária das atividades desenvolvidas.",
+    "Análise das práticas adotadas nos estabelecimentos com base em parâmetros gerais utilizados na organização dos serviços de alimentação."
+   ],
+   "gabarito": "C",
+   "explicacao": "Repare no “de forma completa”: a C é a única que junta tudo o que o enunciado cita (condições de manipulação + processos produtivos + critérios técnicos + conformidade sanitária). A A só fala em achar falhas, a B só nas exigências de funcionamento, e a D usa parâmetros “gerais”.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143624)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-03",
+   "dificuldade": 3,
+   "enunciado": "As ações de educação em saúde são importantes para a prevenção de agravos e a promoção da saúde, especialmente em situações que envolvem riscos ambientais e sanitários. Para serem efetivas, essas ações devem considerar as condições do território e as necessidades da população. Nesse contexto, uma abordagem adequada de educação em saúde caracteriza-se por:",
+   "alternativas": [
+    "Organização de ações educativas a partir da análise de situações de risco e da definição de estratégias adequadas ao contexto da população.",
+    "Planejamento de intervenções educativas com base em características epidemiológicas do território e em critérios técnicos para definição das ações.",
+    "Desenvolvimento de estratégias educativas com base em informações ambientais e sanitárias voltadas à prevenção de agravos no território.",
+    "Planejamento de ações educativas considerando informações sobre risco, vulnerabilidade e características do território na definição das estratégias."
+   ],
+   "gabarito": "D",
+   "explicacao": "Todas parecem certas. A D é a mais completa: reúne risco + vulnerabilidade + características do território, que é o que o enunciado pede (“condições do território e necessidades da população”). Nas questões do IDIB, procure a alternativa que traz vulnerabilidade ou a população junto com o risco.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143622)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-01",
+   "dificuldade": 1,
+   "enunciado": "Em uma área com registro de leishmaniose, a definição de estratégias de controle exige alinhamento com a cadeia de transmissão da doença. A medida mais compatível com esse objetivo corresponde à(ao):",
+   "alternativas": [
+    "Isolamento de indivíduos infectados.",
+    "Controle da qualidade da água consumida.",
+    "Redução da exposição da população ao inseto vetor.",
+    "Restrição do consumo de alimentos contaminados."
+   ],
+   "gabarito": "C",
+   "explicacao": "A leishmaniose é transmitida pela picada do flebotomíneo (mosquito-palha). Então o controle atua no vetor e na exposição a ele: manejo ambiental, telas, repelente, evitar o horário de maior atividade (entardecer e noite) e coleira repelente nos cães. Não se transmite por água, alimento ou contato entre pessoas.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143621)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-05",
+   "dificuldade": 2,
+   "enunciado": "Na identificação de perigos ambientais em um território, a Vigilância em Saúde utiliza metodologias para avaliar o potencial de exposição da população a determinados agentes nocivos. A etapa da avaliação de risco que estima o tempo, a frequência e a intensidade do contato de uma pessoa com um agente químico ou biológico é denominada:",
+   "alternativas": [
+    "Identificação do Perigo.",
+    "Avaliação da Exposição.",
+    "Caracterização do Risco.",
+    "Gestão do Monitoramento."
+   ],
+   "gabarito": "B",
+   "explicacao": "Etapas da avaliação de risco:\n1. Identificação do perigo: o que é nocivo.\n2. Avaliação dose-resposta: quanto faz mal.\n3. Avaliação da exposição: quanto tempo, com que frequência e intensidade a pessoa entra em contato.\n4. Caracterização do risco: junta tudo e estima o risco.\nDepois vem a gestão (ou gerenciamento) do risco, que é decidir o que fazer.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143620)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-05",
+   "dificuldade": 2,
+   "enunciado": "Em ações de vigilância em saúde, a classificação do risco ambiental e sanitário auxilia na definição de prioridades e na organização das ações nos territórios. Para isso, consideram-se informações que permitem distinguir situações conforme o grau de risco à saúde da população. Nessa perspectiva, a classificação do risco ambiental e sanitário é compreendida como um processo que:",
+   "alternativas": [
+    "Identifica agentes ambientais presentes no território e descreve suas características, independentemente dos efeitos sobre a população.",
+    "Relaciona a ocorrência de agravos à distribuição espacial dos casos, com ênfase no reconhecimento de áreas afetadas.",
+    "Define níveis de risco com base na integração de informações ambientais, epidemiológicas e sociais, considerando as condições de exposição e vulnerabilidade.",
+    "Organiza dados técnicos para registro e monitoramento das situações observadas, sem estabelecer níveis de prioridade entre elas."
+   ],
+   "gabarito": "C",
+   "explicacao": "Classificar risco é definir níveis (baixo, médio, alto…). Para isso, integra informações ambientais, epidemiológicas e sociais, com exposição e vulnerabilidade. A A ignora os efeitos, a B só mapeia casos, e a D diz “sem estabelecer prioridade”, o oposto de classificar.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143619)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-05",
+   "dificuldade": 3,
+   "enunciado": "No contexto da vigilância em saúde, a avaliação de risco ambiental e sanitário é um processo que apoia decisões voltadas à proteção da saúde da população. Sua realização envolve a análise dos fatores de exposição e das condições de vulnerabilidade dos grupos afetados. Nessa perspectiva, a avaliação de risco ambiental e sanitário é compreendida como um processo que:",
+   "alternativas": [
+    "Analisa a probabilidade de ocorrência de efeitos adversos à saúde e a magnitude desses efeitos, considerando a exposição e as características da população exposta.",
+    "Identifica perigos ambientais e analisa as condições de exposição, contribuindo para a caracterização dos riscos à saúde.",
+    "Relaciona a presença de agentes ambientais à ocorrência de agravos e à saúde, considerando a distribuição dos casos na população.",
+    "Utiliza informações ambientais e epidemiológicas para definir prioridades nas ações de vigilância em saúde."
+   ],
+   "gabarito": "A",
+   "explicacao": "Avaliar risco = estimar a probabilidade de um efeito adverso e a magnitude dele, considerando a exposição e a população exposta (com sua vulnerabilidade). A B descreve só etapas (perigo e exposição), e a D descreve a classificação e priorização, que vem depois. Mesmo padrão da questão de priorização: probabilidade + magnitude + população.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143618)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-03",
+   "dificuldade": 2,
+   "enunciado": "A efetividade das ações de educação ambiental no controle de endemias está relacionada à forma como a população se envolve na identificação e enfrentamento dos riscos presentes no território. Nesse contexto, o elemento determinante para o sucesso dessas ações corresponde à(ao):",
+   "alternativas": [
+    "Participação da comunidade na identificação dos riscos e na incorporação de práticas relacionadas ao seu enfrentamento no cotidiano.",
+    "Organização de ações educativas a partir de diretrizes técnicas definidas pelos serviços de saúde para aplicação no território.",
+    "Estruturação de intervenções voltadas ao controle de riscos com base na atuação das equipes responsáveis pelas atividades de campo.",
+    "Planejamento de estratégias educativas orientadas por protocolos institucionais voltados à prevenção de agravos."
+   ],
+   "gabarito": "A",
+   "explicacao": "O enunciado já entrega a resposta: o sucesso depende de como “a população se envolve”. Só a A coloca a comunidade como protagonista. As outras centram tudo no serviço (diretrizes, equipes, protocolos).",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143617)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-10",
+   "dificuldade": 1,
+   "enunciado": "No controle do Aedes aegypti, diferentes estratégias podem ser empregadas conforme o contexto epidemiológico. A utilização de inseticidas e larvicidas corresponde à(ao):",
+   "alternativas": [
+    "Controle mecânico baseado na eliminação de criadouros.",
+    "Estratégia educativa voltada à população.",
+    "Intervenção biológica com uso de predadores naturais.",
+    "Controle químico voltado à redução da população do vetor."
+   ],
+   "gabarito": "D",
+   "explicacao": "Tipos de controle:\n• Mecânico: eliminar, tampar ou destruir criadouros.\n• Biológico: usar seres vivos ou seus produtos (peixes larvófagos, Bti, Wolbachia).\n• Químico: usar inseticidas e larvicidas (temephós, UBV).\n• Legal: leis e fiscalização.\nO controle integrado combina todos eles.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143616)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-12",
+   "dificuldade": 1,
+   "enunciado": "A relação entre saneamento inadequado e aumento de doenças transmitidas por vetores decorre de condições ambientais específicas. A explicação correta dessa relação está expressa em:",
+   "alternativas": [
+    "Redução da presença de criadouros em ambientes urbanos.",
+    "Favorecimento de locais de reprodução e abrigo para vetores.",
+    "Eliminação natural de agentes infecciosos no ambiente.",
+    "Ausência de impacto sobre a saúde coletiva."
+   ],
+   "gabarito": "B",
+   "explicacao": "Lixo acumulado, esgoto a céu aberto e água guardada sem tampa (por falta de abastecimento regular) criam lugares para os vetores se reproduzirem e se abrigarem. Exemplos: o Aedes em recipientes, o Culex no esgoto, ratos e baratas no lixo.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143615)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-05",
+   "dificuldade": 2,
+   "enunciado": "No processo de planejamento das ações de vigilância em saúde, a análise de fatores ambientais presentes no território subsidia a definição de prioridades e estratégias de intervenção. A utilização dessas informações no processo decisório está associada à(ao):",
+   "alternativas": [
+    "Direcionamento de ações preventivas com base na identificação de cenários de risco no território.",
+    "Confirmação diagnóstica de agravos a partir de indicadores ambientais.",
+    "Classificação de áreas urbanas conforme critérios estruturais de organização.",
+    "Registro de condições ambientais com finalidade descritiva no contexto das ações de vigilância em saúde."
+   ],
+   "gabarito": "A",
+   "explicacao": "A informação ambiental serve para decidir onde agir antes de o problema acontecer, ou seja, direcionar a prevenção para os cenários de risco. Ela não confirma diagnóstico (isso é laboratório e clínica), e registrar só para descrever não é tomar decisão.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143614)"
   }
- ]
+ ],
+ "textos": {
+  "chagas-ms-2026": {
+   "titulo": "Ministério da Saúde anuncia quase R$ 12 milhões para o enfrentamento da doença de Chagas em municípios",
+   "conteudo": "1º§ O Ministério da Saúde anunciou, no Dia Mundial da Doença de Chagas, o investimento de quase R$ 12 milhões para o fortalecimento das ações de vigilância e controle da doença de Chagas em 17 estados do país. Com o repasse, o Governo do Brasil reforça o compromisso de manter o país avançando no controle da doença. O recurso fortalece a capacidade de atuação contínua em 155 municípios prioritários, apoiando ações essenciais como captura e monitoramento de vetores, vigilância e resposta rápida a focos.\n\n2º§ “Não podemos esquecer que se trata de uma doença relevante, que já ultrapassou fronteiras e hoje também está presente no sul dos Estados Unidos, o que amplia a preocupação em nível global. Felizmente, o Brasil tem avançado de forma consistente no enfrentamento da doença. Houve um aumento de 130% na testagem para Chagas, fortalecendo a detecção precoce e ampliando as oportunidades de cuidado oportuno para a população”, afirmou o Ministro da Saúde, Alexandre Padilha.\n\n3º§ Durante a 18ª edição da Expoepi, em Brasília, um dos principais eventos de vigilância em saúde do país, foram reconhecidos os municípios de Anápolis e Goiânia, em Goiás, com selo bronze de boas práticas para eliminação da transmissão vertical da doença. A programação da mostra inclui apresentação de pesquisas, iniciativas de vigilância e experiências bem-sucedidas nos territórios. O evento também conta com uma exposição dedicada à doença de Chagas, com conteúdos educativos sobre prevenção, diagnóstico e tratamento voltados a profissionais de saúde e à população.\n\n4º§ “A doença de Chagas ainda representa um desafio importante para a saúde pública, especialmente em áreas com maior vulnerabilidade social e presença de vetores. Estamos direcionando recursos com base em critérios técnicos, o que permite maior efetividade das ações e impacto direto na redução da transmissão. Nosso compromisso é ampliar o diagnóstico, garantir o tratamento oportuno e avançar de forma consistente na eliminação da doença como problema de saúde pública no Brasil”, afirmou a Secretária de Vigilância em Saúde e Meio Ambiente do Ministério da Saúde, Mariângela Simão.\n\n5º§ A seleção foi baseada em critérios técnicos que consideram a interação dos insetos vetores com o ambiente e vulnerabilidade social, com prioridade para municípios classificados como de risco “muito alto” em índice composto (presença de vetores e condições socioambientais) e localidades com registro recente do vetor Triatoma infestans. Também foram considerados municípios com alta prioridade e de muito alta prioridade, para a forma crônica da doença de Chagas, concentrados principalmente nas regiões Nordeste e Sudeste.\n\n6º§ O Ministério da Saúde, em parceria com a Fundação Oswaldo Cruz (Fiocruz), também anunciou a fase 2 do projeto “Selênio como tratamento na cardiopatia crônica da doença de Chagas (STCC-2)”, que busca avaliar a eficácia e a segurança do mineral como estratégia terapêutica complementar para pacientes com cardiopatia chagásica crônica.\n\n7º§ A expectativa é que a pesquisa gere evidências científicas mais robustas e representativas em diferentes perfis de pacientes. Os resultados poderão subsidiar a avaliação de tecnologias à base de selênio – substância com ação antioxidante e anti-inflamatória – para proteção cardiovascular, além de apoiar sua possível incorporação ao Sistema Único de Saúde (SUS).\n\n8º§ Para a Secretária de Ciência, Tecnologia e Inovação em Saúde do Ministério da Saúde, Fernanda De Negri, os avanços científicos são essenciais para ampliar as opções terapêuticas e garantir o cuidado em tempo oportuno no SUS. “A doença de Chagas ainda afeta muitas famílias brasileiras, especialmente em contextos de maior vulnerabilidade. Por isso, investir em pesquisas nessa área é também um compromisso com a equidade e com a promoção de um cuidado mais digno e acessível para todos”, destacou.\n\n9º§ O Brasil tem ampliado o enfrentamento à doença de Chagas com mais diagnóstico, vigilância e assistência. Entre 2023 e 2025, a distribuição de testes e medicamentos cresceu mais de 130%, aumentando a detecção e o tratamento. As ações ganham ainda mais relevância durante a mobilização pelo Dia Mundial da Doença de Chagas, com foco no cuidado integral e na prevenção.\n\n10º§ Entre os avanços estão a retomada do benznidazol pediátrico, a ampliação de especialistas no SUS e o reforço da vigilância com recursos para municípios. O país também prepara a certificação inédita de cidades pela eliminação da transmissão vertical da doença.\n\n11º§ Nesse contexto, o Programa Brasil Saudável busca eliminar a doença como problema de saúde pública até 2030, com foco na redução das transmissões vetorial, oral e vertical, além do diagnóstico precoce e tratamento gratuito pelo SUS. A iniciativa integra ações de 14 ministérios, prioriza populações vulneráveis e reconhece a doença como socialmente determinada, ainda presente em cerca de 1,2 milhão de brasileiros.\n\n12º§ O cenário epidemiológico reforça a urgência das medidas: em 2024, foram registrados 3.750 óbitos, com maior concentração no Sudeste. No mesmo período, houve 520 casos agudos, principalmente no Norte, com destaque para o Pará. Em 2025, dados preliminares indicam 627 casos agudos (97% no Norte) e 8.106 casos crônicos, concentrados em Minas Gerais, Bahia e Goiás, evidenciando a persistência da doença em áreas endêmicas.\n\n(Disponível em: https://www.gov.br/saude/pt-br/assuntos/noticias/. Acesso em: abril de 2026. Adaptado.)"
+  }
+ }
 }

@@ -11,7 +11,17 @@ interface QuestaoPacote {
   explicacao: string;
   /** Origem da questão (ex.: prova real); se ausente, vale a do pacote. */
   fonte?: string;
+  /** Chave de um texto de apoio em `pacote.textos`. */
+  texto?: string;
 }
+
+export interface TextoPacote {
+  titulo: string;
+  conteudo: string;
+}
+
+/** Questão pronta para o banco; `texto` vira `texto_id` na instalação. */
+export type QuestaoPreparada = NovaQuestao & { texto?: TextoPacote };
 
 export interface Pacote {
   id: string;
@@ -21,6 +31,8 @@ export interface Pacote {
   origem?: 'autoral' | 'importada';
   /** Provas reais mantêm a ordem original das alternativas. */
   embaralhar?: boolean;
+  /** Textos de apoio compartilhados por várias questões. */
+  textos?: Record<string, TextoPacote>;
   questoes: QuestaoPacote[];
 }
 
@@ -29,7 +41,7 @@ export interface Pacote {
  * com semente fixa (o mesmo resultado em qualquer aparelho), para que a letra
  * correta fique bem distribuída entre A, B, C e D.
  */
-export function prepararPacote(pacote: Pacote): NovaQuestao[] {
+export function prepararPacote(pacote: Pacote): QuestaoPreparada[] {
   return pacote.questoes.map((q) => {
     const hash = hashQuestao(q.enunciado, q.alternativas);
     const correta = LETRAS.indexOf(q.gabarito as (typeof LETRAS)[number]);
@@ -48,8 +60,15 @@ export function prepararPacote(pacote: Pacote): NovaQuestao[] {
       numero_original: null,
       dificuldade: q.dificuldade,
       hash,
+      ...(q.texto ? { texto: textoDoPacote(pacote, q.texto) } : {}),
     };
   });
+}
+
+function textoDoPacote(pacote: Pacote, chave: string): TextoPacote {
+  const t = pacote.textos?.[chave];
+  if (!t) throw new Error(`Pacote ${pacote.id}: texto "${chave}" não existe`);
+  return t;
 }
 
 export async function carregarPacotesAutorais(): Promise<Pacote[]> {
