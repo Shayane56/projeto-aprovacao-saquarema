@@ -15,7 +15,7 @@ App web instalável (PWA) para Android e computador, com login e dados sincroniz
 
 ## O que já funciona (Fase B)
 
-- **Banco de questões** ligado aos tópicos do edital, já com **114 questões autorais no estilo IBAM** — 30 de Conhecimentos Específicos, 15 de Português, 15 de SUS e 54 de Conhecimentos do Município (baseadas no documento oficial do IBAM e na Lei Orgânica, com o artigo/trecho no comentário) — instaladas automaticamente na sua conta.
+- **Banco de questões** ligado aos tópicos do edital, já com **125 questões autorais no estilo IBAM** — 30 de Conhecimentos Específicos, 15 de Português, 15 de SUS e 65 de Conhecimentos do Município (baseadas no documento oficial do IBAM, na Lei Orgânica e na biografia de Alberto de Oliveira da ABL, com o artigo/trecho no comentário) — instaladas automaticamente na sua conta.
 - **Resolver questões** por disciplina, tópico (incluindo subtópicos), não respondidas, todas ou só os erros pendentes, com correção e comentário na hora.
 - **Simulados IBAM**: completo (40 questões em 3h) e rápido (10 em 45 min), com pontuação 3/2/1, nota mínima de 60% e reprovação por bloco zerado; cronômetro, mapa de questões, marcação "revisar", retomada em outro aparelho e histórico.
 - **Caderno de erros automático**: toda questão errada entra, com motivo e anotação; acertou 2 vezes seguidas, fica resolvida.

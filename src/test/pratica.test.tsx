@@ -103,13 +103,13 @@ describe('praticar', () => {
     m.questoes = [];
     renderizarApp('/praticar');
     await waitFor(() => expect(m.inserir).toHaveBeenCalledWith(USUARIA.id, expect.any(Array)));
-    expect(m.inserir.mock.calls[0][1]).toHaveLength(114);
-    expect(await screen.findByText(/114 questões no seu banco/)).toBeInTheDocument();
+    expect(m.inserir.mock.calls[0][1]).toHaveLength(BANCO.length);
+    expect(await screen.findByText(new RegExp(`${BANCO.length} questões no seu banco`))).toBeInTheDocument();
   });
 
   it('não reinstala quando o pacote já está no banco', async () => {
     renderizarApp('/praticar');
-    expect(await screen.findByText(/114 questões no seu banco/)).toBeInTheDocument();
+    expect(await screen.findByText(new RegExp(`${BANCO.length} questões no seu banco`))).toBeInTheDocument();
     expect(m.inserir).not.toHaveBeenCalled();
   });
 
@@ -118,7 +118,7 @@ describe('praticar', () => {
     renderizarApp('/praticar');
     await waitFor(() => expect(m.inserir).toHaveBeenCalled());
     const novas = m.inserir.mock.calls[0][1] as NovaQuestao[];
-    expect(novas).toHaveLength(54);
+    expect(novas).toHaveLength(BANCO.filter((q) => q.disciplina_id === 'ace26-mun').length);
     expect(novas.every((q) => q.disciplina_id === 'ace26-mun')).toBe(true);
   });
 });
