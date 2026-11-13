@@ -27,22 +27,34 @@ App web instalável (PWA) para Android e computador, com login e dados sincroniz
 - **Flashcards com revisão espaçada (FSRS)**: pacote inicial com cerca de 60 cartões dos pontos mais cobrados, criação manual ou a partir de uma questão errada, limite de cartões novos por dia, botões Errei/Difícil/Bom/Fácil com o próximo intervalo, e intervalos limitados à data da prova.
 - Concluir a teoria de um tópico no plano avança o status dele no edital.
 
-## Próximas fases
+## O que já funciona (Fase E)
 
-| Fase | Entrega |
+- **Materiais**: envie PDFs (até 25 MB, guardados numa pasta privada da sua conta) ou links, ligados a uma disciplina ou tópico do edital. O texto de cada página é lido no próprio aparelho e indexado.
+- **Busca dentro de todos os PDFs**, em português (acha "vereador" em "Vereadores"), com o trecho destacado e link direto para a página.
+- **Leitor de PDF** no app, página a página, com zoom.
+- **Anotações por tópico**: no edital, toque em "Anotar" em qualquer tópico; salva sozinho enquanto você escreve (também offline). Todas ficam reunidas em Materiais → Anotações, com busca.
+- **Estatísticas**: previsão de nota na prova (com faixa provável e alerta de risco de zerar bloco), evolução nos simulados com a linha dos 60%, acerto por disciplina, tópicos para reforçar e horas de estudo por semana. Todo gráfico tem "Ver em tabela".
+
+## Fases
+
+| Fase | Situação |
 |---|---|
-| D | IA tutora, gerador de questões e flashcards, explicações e resumos |
-| E | Materiais em PDF, anotações, busca e estatísticas de desempenho |
+| A — base, edital e concurso | pronta |
+| B — questões, simulados, caderno de erros, importação | pronta |
+| C — flashcards FSRS e plano de estudos | pronta |
+| D — IA tutora | cancelada |
+| E — materiais, anotações e estatísticas | pronta |
 
 ## Tecnologia
 
-React 19 · TypeScript · Vite · Tailwind · TanStack Query (cache offline no IndexedDB) · Supabase (Auth, Postgres com RLS) · vite-plugin-pwa · Vitest.
+React 19 · TypeScript · Vite · Tailwind · TanStack Query (cache offline no IndexedDB) · pdf.js · Supabase (Auth, Postgres com RLS, Storage) · vite-plugin-pwa · Vitest.
 
 ```
 src/
   app/          rotas, layout, PWA
   features/     auth · edital · concurso · inicio · configuracoes
                 questoes · simulados · erros · importar · flashcards · plano · perfil
+                materiais · estatisticas
   shared/       componentes de interface, hooks, tema
   lib/          Supabase, cache, datas
 supabase/

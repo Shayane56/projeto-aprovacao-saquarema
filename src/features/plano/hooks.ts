@@ -12,9 +12,9 @@ import { gerarPlano, somarDias } from './gerador';
 
 const chave = (u: string, desde: string) => ['sessoes', u, desde] as const;
 
-export function useSessoes() {
+export function useSessoes(dias = 30) {
   const uid = useAuth().usuario?.id ?? 'anonimo';
-  const desde = somarDias(dataLocal(), -30);
+  const desde = somarDias(dataLocal(), -dias);
   return useQuery({ queryKey: chave(uid, desde), queryFn: () => buscarSessoes(desde), enabled: uid !== 'anonimo' });
 }
 

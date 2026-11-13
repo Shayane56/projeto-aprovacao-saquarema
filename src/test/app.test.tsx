@@ -37,6 +37,7 @@ vi.mock('@/features/questoes/api', () => ({
 }));
 vi.mock('@/features/flashcards/api', () => ({ buscarFlashcards: async () => [], buscarRevisoesDesde: async () => [], inserirFlashcards: async () => 0 }));
 vi.mock('@/features/plano/api', () => ({ buscarSessoes: async () => [], concluirSessao: async () => {}, desfazerSessao: async () => {} }));
+vi.mock('@/features/materiais/api', () => ({ listarMateriais: async () => [], listarAnotacoes: async () => [], salvarNotaDoTopico: async () => {}, buscarNosMateriais: async () => [] }));
 vi.mock('@/features/simulados/api', () => ({ listarSimulados: async () => [] }));
 vi.mock('@/features/concurso/api', () => ({
   buscarEtapas: async () => etapasDoSeed(),

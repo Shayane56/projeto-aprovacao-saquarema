@@ -183,8 +183,8 @@ export function InicioPage() {
       <section className="cartao p-5" aria-labelledby="titulo-pratica">
         <div className="flex items-center justify-between">
           <h2 id="titulo-pratica" className="flex items-center gap-2 font-semibold"><PencilLine className="h-5 w-5 text-primaria" aria-hidden /> Prática</h2>
-          <Link to="/praticar" className="inline-flex items-center gap-1 text-sm font-medium text-primaria hover:underline">
-            Praticar <ArrowRight className="h-4 w-4" aria-hidden />
+          <Link to="/estatisticas" className="inline-flex items-center gap-1 text-sm font-medium text-primaria hover:underline">
+            Estatísticas <ArrowRight className="h-4 w-4" aria-hidden />
           </Link>
         </div>
         {(() => {

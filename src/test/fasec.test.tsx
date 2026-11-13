@@ -44,6 +44,7 @@ vi.mock('@/features/questoes/api', () => ({
   buscarQuestoes: async () => BANCO, buscarTextos: async () => [], buscarRespostas: async () => [], buscarCaderno: async () => [],
   inserirQuestoes: async () => 0, responder: async () => {}, atualizarCaderno: async () => {},
 }));
+vi.mock('@/features/materiais/api', () => ({ listarMateriais: async () => [], listarAnotacoes: async () => [], salvarNotaDoTopico: async () => {}, buscarNosMateriais: async () => [] }));
 vi.mock('@/features/simulados/api', () => ({ listarSimulados: async () => [] }));
 vi.mock('@/features/flashcards/api', () => ({
   buscarFlashcards: async () => [...m.cartoes],

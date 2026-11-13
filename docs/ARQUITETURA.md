@@ -10,7 +10,7 @@ Navegador / PWA (React)
 Supabase
   Auth          login por e-mail
   Postgres      tabelas com RLS (cada conta só acessa os próprios dados)
-  Edge Functions (Fase D) única porta para a IA; a chave fica no servidor
+  Storage       bucket privado "materiais" (PDFs, uma pasta por conta)
 ```
 
 ## Decisões
@@ -40,7 +40,7 @@ Supabase
 
 | Tabela / função | Conteúdo |
 |---|---|
-| `questoes` | questões do seu banco (autorais, importadas, manuais e, na Fase D, geradas por IA), com `hash` de conteúdo para não duplicar |
+| `questoes` | questões do seu banco (autorais, importadas e manuais), com `hash` de conteúdo para não duplicar |
 | `textos_apoio` | textos compartilhados por várias questões |
 | `respostas` | toda resposta dada; a correção (`correta`) é feita por gatilho no banco |
 | `caderno_erros` | criado/atualizado por gatilho: errou → entra; 2 acertos seguidos → resolvido |
@@ -68,6 +68,21 @@ As respostas do treino e do simulado são gravadas numa fila que funciona offlin
 O **agendamento FSRS** roda no app (`ts-fsrs`), com intervalo máximo limitado aos dias até a prova.
 O **plano de estudos** (`src/features/plano/gerador.ts`) é uma função pura e determinística: não é guardado,
 é recalculado a partir do estado atual — por isso nunca fica "atrasado".
+
+## Banco (Fase E)
+
+| Tabela / função | Conteúdo |
+|---|---|
+| `materiais` | PDFs (caminho no Storage, tamanho, páginas) e links, com disciplina/tópico opcionais |
+| `materiais_paginas` | texto de cada página do PDF + coluna `busca` (tsvector em português, índice GIN) |
+| `buscar_materiais()` | busca em todos os materiais da conta, com trecho destacado (`ts_headline`) |
+| `anotacoes` | uma anotação por tópico (`unique (user_id, topico_id)`), salva com upsert |
+| Storage `materiais` | bucket privado, 25 MB, só PDF; políticas: cada conta lê/envia/apaga só a pasta `<user_id>/` |
+
+O texto do PDF é extraído no aparelho com pdf.js (detecta duas colunas), então o servidor não processa arquivos.
+As **estatísticas** (`src/features/estatisticas/calculos.ts`) são funções puras sobre as respostas, simulados e sessões.
+A previsão de nota usa as últimas 40 respostas de cada bloco (mínimo 10), multiplica pelos pesos da prova
+e mostra a faixa de ±1 desvio-padrão e a chance de zerar o bloco.
 
 ## Testes
 

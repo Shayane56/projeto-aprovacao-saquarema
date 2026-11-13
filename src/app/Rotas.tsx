@@ -11,6 +11,9 @@ import { CartaoFormPage } from '@/features/flashcards/CartaoFormPage';
 import { EstudoPage } from '@/features/flashcards/EstudoPage';
 import { FlashcardsPage } from '@/features/flashcards/FlashcardsPage';
 import { PlanoPage } from '@/features/plano/PlanoPage';
+import { EstatisticasPage } from '@/features/estatisticas/EstatisticasPage';
+import { LeitorPage } from '@/features/materiais/LeitorPage';
+import { MateriaisPage } from '@/features/materiais/MateriaisPage';
 import { ImportarPage } from '@/features/importar/ImportarPage';
 import { NovaQuestaoPage } from '@/features/importar/NovaQuestaoPage';
 import { PraticarPage } from '@/features/questoes/PraticarPage';
@@ -41,6 +44,9 @@ export function Rotas() {
           <Route path="/flashcards/novo" element={<CartaoFormPage />} />
           <Route path="/flashcards/:id" element={<CartaoFormPage />} />
           <Route path="/plano" element={<PlanoPage />} />
+          <Route path="/materiais" element={<MateriaisPage />} />
+          <Route path="/materiais/:id" element={<LeitorPage />} />
+          <Route path="/estatisticas" element={<EstatisticasPage />} />
           <Route path="/concurso" element={<ConcursoPage />} />
           <Route path="/ajustes" element={<AjustesPage />} />
         </Route>

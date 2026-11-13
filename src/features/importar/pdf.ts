@@ -2,12 +2,21 @@
  * Extrai o texto de um PDF no próprio navegador (nada é enviado a servidores).
  * Detecta provas em duas colunas e lê a coluna da esquerda antes da direita.
  */
-export async function extrairTextoDoPdf(arquivo: File, aoProgredir?: (pagina: number, total: number) => void): Promise<string> {
+export async function carregarPdfjs() {
   const pdfjs = await import('pdfjs-dist');
   const worker = await import('pdfjs-dist/build/pdf.worker.min.mjs?url');
   pdfjs.GlobalWorkerOptions.workerSrc = worker.default;
+  return pdfjs;
+}
 
-  const doc = await pdfjs.getDocument({ data: await arquivo.arrayBuffer() }).promise;
+export async function extrairTextoDoPdf(arquivo: File, aoProgredir?: (pagina: number, total: number) => void): Promise<string> {
+  return (await extrairPaginasDoPdf(await arquivo.arrayBuffer(), aoProgredir)).join('\n');
+}
+
+/** Texto de cada página (índice 0 = página 1). */
+export async function extrairPaginasDoPdf(dados: ArrayBuffer, aoProgredir?: (pagina: number, total: number) => void): Promise<string[]> {
+  const pdfjs = await carregarPdfjs();
+  const doc = await pdfjs.getDocument({ data: dados }).promise;
   const paginas: string[] = [];
   for (let n = 1; n <= doc.numPages; n++) {
     const pagina = await doc.getPage(n);
@@ -25,7 +34,7 @@ export async function extrairTextoDoPdf(arquivo: File, aoProgredir?: (pagina: nu
     paginas.push(grupos.map(montarLinhas).join('\n'));
     aoProgredir?.(n, doc.numPages);
   }
-  return paginas.join('\n');
+  return paginas;
 }
 
 function montarLinhas(itens: { texto: string; x: number; y: number }[]): string {

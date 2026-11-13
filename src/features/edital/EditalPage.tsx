@@ -1,6 +1,8 @@
-import { ChevronDown, ExternalLink, Search } from 'lucide-react';
+import { ChevronDown, ExternalLink, FileText, NotebookPen, Search } from 'lucide-react';
 import { useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
+import { useAnotacoes, useMateriais } from '@/features/materiais/hooks';
+import { NotaTopico } from '@/features/materiais/NotaTopico';
 import { useAuth } from '@/features/auth/AuthProvider';
 import { cn } from '@/lib/cn';
 import { corDe } from '@/shared/cores';
@@ -42,6 +44,7 @@ export function EditalPage() {
         <div>
           <h1 className="text-2xl font-bold tracking-tight">Edital verticalizado</h1>
           <p className="mt-1 text-sm text-suave">Marque o status de cada tópico. O progresso considera o peso de cada disciplina na prova.</p>
+          <Link to="/materiais" className="mt-2 inline-flex items-center gap-1.5 text-sm font-semibold text-primaria hover:underline"><FileText className="h-4 w-4" aria-hidden /> Materiais e anotações</Link>
         </div>
         <div className="sm:text-right">
           <div className="text-3xl font-bold text-primaria">{pct(resumo.geral)}%</div>
@@ -179,6 +182,7 @@ function ItemTopico({ topico, indice, progresso, filtrar, filtrando }: { topico:
         <div className="min-w-0 flex-1 pt-1.5">
           <p className="text-[15px] leading-snug">{topico.titulo}</p>
           <Referencia topico={topico} />
+          <ExtrasTopico topico={topico} />
         </div>
         <StatusSelect valor={statusDe(progresso, topico.id)} aoMudar={(s) => mudar(topico, s)} rotulo={topico.titulo} />
       </li>
@@ -201,6 +205,7 @@ function ItemTopico({ topico, indice, progresso, filtrar, filtrando }: { topico:
         </div>
         <ChevronDown className={cn('mt-2 h-4 w-4 shrink-0 text-suave transition-transform', expandido && 'rotate-180')} aria-hidden />
       </button>
+      <div className="ml-10 sm:ml-10"><ExtrasTopico topico={topico} /></div>
       {expandido && (
         <ul className="ml-4 mt-3 space-y-1 border-l-2 border-borda pl-4 sm:ml-12">
           {mostrar.map((s) => (
@@ -213,6 +218,32 @@ function ItemTopico({ topico, indice, progresso, filtrar, filtrando }: { topico:
         </ul>
       )}
     </li>
+  );
+}
+
+/** Anotação do tópico e atalho para os materiais ligados a ele. */
+function ExtrasTopico({ topico }: { topico: Topico }) {
+  const notas = useAnotacoes();
+  const materiais = useMateriais();
+  const nota = notas.porTopico.get(topico.id);
+  const [aberta, setAberta] = useState(false);
+  const qtd = (materiais.data ?? []).filter((m) => m.topico_id === topico.id || m.topico_id?.startsWith(`${topico.id}-`)).length;
+  return (
+    <div className="mt-1.5">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs">
+        <button type="button" onClick={() => setAberta((a) => !a)} aria-expanded={aberta}
+          className={cn('inline-flex items-center gap-1 font-medium', nota ? 'text-primaria' : 'text-suave hover:text-texto')}>
+          <NotebookPen className="h-3.5 w-3.5" aria-hidden /> {nota ? 'Anotação' : 'Anotar'}
+        </button>
+        {qtd > 0 && (
+          <Link to={`/materiais?topico=${topico.id}`} className="inline-flex items-center gap-1 font-medium text-primaria hover:underline">
+            <FileText className="h-3.5 w-3.5" aria-hidden /> {qtd} {qtd === 1 ? 'material' : 'materiais'}
+          </Link>
+        )}
+      </div>
+      {nota && !aberta && <p className="mt-1 line-clamp-2 whitespace-pre-line text-xs text-suave">{nota.conteudo}</p>}
+      {aberta && <div className="mt-2"><NotaTopico topicoId={topico.id} inicial={nota?.conteudo ?? ''} rotulo={topico.titulo} /></div>}
+    </div>
   );
 }
 
