@@ -1,5 +1,6 @@
 import type { Session, User } from '@supabase/supabase-js';
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { pedirArmazenamentoPersistente } from '@/lib/armazenamento';
 import { limparCacheLocal } from '@/lib/queryClient';
 import { supabase } from '@/lib/supabase';
 
@@ -37,6 +38,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       data.subscription.unsubscribe();
     };
   }, []);
+
+  // Com login feito, pede para o navegador não apagar a sessão salva no aparelho.
+  const logado = sessao !== null;
+  useEffect(() => {
+    if (logado) void pedirArmazenamentoPersistente();
+  }, [logado]);
 
   const valor = useMemo<EstadoAuth>(
     () => ({
