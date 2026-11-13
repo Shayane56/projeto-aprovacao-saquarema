@@ -9,12 +9,18 @@ interface QuestaoPacote {
   alternativas: string[];
   gabarito: string;
   explicacao: string;
+  /** Origem da questão (ex.: prova real); se ausente, vale a do pacote. */
+  fonte?: string;
 }
 
 export interface Pacote {
   id: string;
   nome: string;
   fonte: string;
+  /** 'autoral' (padrão) ou 'importada' (questões de provas reais). */
+  origem?: 'autoral' | 'importada';
+  /** Provas reais mantêm a ordem original das alternativas. */
+  embaralhar?: boolean;
   questoes: QuestaoPacote[];
 }
 
@@ -27,7 +33,8 @@ export function prepararPacote(pacote: Pacote): NovaQuestao[] {
   return pacote.questoes.map((q) => {
     const hash = hashQuestao(q.enunciado, q.alternativas);
     const correta = LETRAS.indexOf(q.gabarito as (typeof LETRAS)[number]);
-    const ordem = embaralhar(q.alternativas.map((_, i) => i), geradorComSemente(parseInt(hash.slice(-8), 16)));
+    const indices = q.alternativas.map((_, i) => i);
+    const ordem = pacote.embaralhar === false ? indices : embaralhar(indices, geradorComSemente(parseInt(hash.slice(-8), 16)));
     return {
       disciplina_id: q.disciplina,
       topico_id: q.topico,
@@ -36,8 +43,8 @@ export function prepararPacote(pacote: Pacote): NovaQuestao[] {
       gabarito: ordem.indexOf(correta),
       anulada: false,
       explicacao: q.explicacao,
-      origem: 'autoral',
-      fonte: pacote.fonte,
+      origem: pacote.origem ?? 'autoral',
+      fonte: q.fonte ?? pacote.fonte,
       numero_original: null,
       dificuldade: q.dificuldade,
       hash,
@@ -46,6 +53,10 @@ export function prepararPacote(pacote: Pacote): NovaQuestao[] {
 }
 
 export async function carregarPacotesAutorais(): Promise<Pacote[]> {
-  const [v1, municipio] = await Promise.all([import('./autorais-v1.json'), import('./municipio-v1.json')]);
-  return [v1.default as Pacote, municipio.default as Pacote];
+  const [v1, municipio, provas] = await Promise.all([
+    import('./autorais-v1.json'),
+    import('./municipio-v1.json'),
+    import('./provas-v1.json'),
+  ]);
+  return [v1.default as Pacote, municipio.default as Pacote, provas.default as Pacote];
 }

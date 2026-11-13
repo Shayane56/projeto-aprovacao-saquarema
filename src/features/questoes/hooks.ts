@@ -111,7 +111,7 @@ export function useAtualizarCaderno() {
 }
 
 /**
- * Instala o pacote de questões autorais na conta (uma vez; repetir não duplica,
+ * Instala os pacotes de questões (autorais e de provas reais) na conta (uma vez; repetir não duplica,
  * porque cada questão tem um identificador de conteúdo único).
  */
 export function useInstalarPacotes() {
@@ -127,7 +127,7 @@ export function useInstalarPacotes() {
     void (async () => {
       const pacotes = await carregarPacotesAutorais();
       const todas = pacotes.flatMap(prepararPacote);
-      const existentes = new Set(questoes.data.filter((q) => q.origem === 'autoral').map((q) => q.enunciado));
+      const existentes = new Set(questoes.data.map((q) => q.enunciado));
       const faltando = todas.filter((q) => !existentes.has(q.enunciado));
       if (faltando.length === 0) return setEstado('pronto');
       setEstado('instalando');

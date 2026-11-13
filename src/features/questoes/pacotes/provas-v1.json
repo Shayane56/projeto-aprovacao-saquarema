@@ -1,0 +1,282 @@
+{
+ "id": "provas-v1",
+ "nome": "Provas reais de Agente de Endemias (2026)",
+ "fonte": "Prova de concurso",
+ "origem": "importada",
+ "embaralhar": false,
+ "questoes": [
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-03",
+   "dificuldade": 2,
+   "enunciado": "Durante uma visita domiciliar, um Agente de Combate às Endemias foi informado de que um morador com diagnóstico de dengue, no quinto dia de evolução da doença, passou a apresentar dor abdominal intensa, extremidades frias, queda da pressão arterial e sinais de choque. O ACE orientou a família a procurar imediatamente atendimento médico, pois suspeitou de uma complicação grave da doença. Com base nos aspectos clínicos da síndrome do choque da dengue, assinale a alternativa CORRETA:",
+   "alternativas": [
+    "A síndrome do choque da dengue ocorre exclusivamente nos dois primeiros dias da doença e está relacionada principalmente à desidratação provocada pelos episódios de vômito.",
+    "O choque na dengue resulta da ação direta do vírus sobre o músculo cardíaco, sendo caracterizado por insuficiência cardíaca congestiva como principal mecanismo fisiopatológico.",
+    "A síndrome do choque da dengue desenvolve-se apenas após o décimo dia de doença, apresentando evolução lenta e baixo risco de mortalidade.",
+    "A síndrome do choque da dengue ocorre, em geral, entre o terceiro e o sétimo dia da doença, sendo frequentemente precedida por dor abdominal. Está relacionada ao aumento da permeabilidade vascular, que leva à hemoconcentração e à falência circulatória, podendo evoluir para óbito em 12 a 24 horas se não houver tratamento adequado.",
+    "A presença de dor abdominal durante a dengue afasta a possibilidade de evolução para formas graves, indicando melhora clínica do paciente."
+   ],
+   "gabarito": "D",
+   "explicacao": "O choque aparece na fase crítica (em geral do 3º ao 7º dia, quando a febre cai). A causa é o extravasamento de plasma pelo aumento da permeabilidade vascular, e não uma lesão do coração. Dor abdominal intensa e contínua é sinal de alarme, nunca de melhora. Sem tratamento, pode levar ao óbito em 12 a 24 horas.",
+   "fonte": "FAU · 2026 · Prefeitura de Rio Azul/PR · Agente de Endemias (QConcursos Q4242999)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-03",
+   "dificuldade": 1,
+   "enunciado": "Durante uma inspeção sanitária, a equipe da Vigilância Sanitária realizou uma palestra para comerciantes sobre boas práticas de higiene e manipulação de alimentos. Em outro estabelecimento, após identificar graves irregularidades que colocavam em risco a saúde da população, interditou o local e apreendeu produtos impróprios para o consumo. Considerando os poderes da Vigilância Sanitária, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "Tanto a realização da palestra quanto a interdição do estabelecimento correspondem ao poder pedagógico e educacional da Vigilância Sanitária.",
+    "A palestra representa o exercício do poder pedagógico e educacional, enquanto a interdição do estabelecimento e a apreensão de produtos caracterizam o exercício do poder de polícia.",
+    "A apreensão de produtos e a interdição de estabelecimentos somente podem ocorrer após autorização do proprietário do estabelecimento.",
+    "O poder de polícia da Vigilância Sanitária restringe-se à orientação da população, não permitindo a aplicação de medidas administrativas.",
+    "A educação em saúde é atribuição exclusiva da Atenção Primária à Saúde, não podendo ser realizada pela Vigilância Sanitária."
+   ],
+   "gabarito": "B",
+   "explicacao": "A Vigilância Sanitária tem duas faces. Uma é educativa (pedagógica): orientar e capacitar, como na palestra. A outra é o poder de polícia: interditar, apreender e multar. O poder de polícia é autoexecutável, ou seja, não depende de autorização do proprietário.",
+   "fonte": "FAU · 2026 · Prefeitura de Rio Azul/PR · Agente de Endemias (QConcursos Q4242996)"
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-13",
+   "dificuldade": 1,
+   "enunciado": "Durante uma ação de combate às endemias, um Agente de Combate às Endemias (ACE) identificou que uma comunidade apresentava grande número de recipientes com água parada e baixa adesão às campanhas de vacinação. Em reunião com a equipe da Unidade Básica de Saúde, o agente defendeu a realização de visitas educativas, incentivo à vacinação e mobilização comunitária, afirmando que essas ações contribuem para reduzir o risco de doenças e promover a saúde da população. Com base nos princípios da medicina preventiva e o disposto no artigo 196 da Constituição Federal de 1988, assinale a alternativa CORRETA:",
+   "alternativas": [
+    "As ações de prevenção são atribuições exclusivas dos hospitais, não fazendo parte das atividades desenvolvidas pelos Agentes de Combate às Endemias.",
+    "O direito à saúde previsto na Constituição Federal limita-se ao atendimento médico após o surgimento da doença, não abrangendo ações preventivas.",
+    "A medicina preventiva restringe-se à realização de exames periódicos, não incluindo educação em saúde ou imunização.",
+    "A promoção da saúde depende exclusivamente da iniciativa individual dos cidadãos, sendo facultativa a atuação do Estado na prevenção de doenças.",
+    "A realização de ações de educação em saúde, imunização, vigilância e prevenção de doenças está em conformidade com a medicina preventiva e com o artigo 196 da Constituição Federal, que assegura a saúde como direito de todos e dever do Estado."
+   ],
+   "gabarito": "E",
+   "explicacao": "CF, art. 196: “A saúde é direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas que visem à redução do risco de doença e de outros agravos e ao acesso universal e igualitário às ações e serviços para sua promoção, proteção e recuperação.” A prevenção faz parte do direito à saúde, e o Estado tem o dever de agir.",
+   "fonte": "FAU · 2026 · Prefeitura de Rio Azul/PR · Agente de Endemias (QConcursos Q4242987)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 2,
+   "enunciado": "Na vigilância de uma área periurbana, a equipe encontra larvas de Aedes albopictus em recipientes artificiais próximos a uma mata e precisa decidir como registrar e conduzir o controle. Nesse sentido, assinale a alternativa correta.",
+   "alternativas": [
+    "O registro indica uma espécie ligada principalmente ao intradomicílio urbano, com preferência por depósitos artificiais e menor tolerância ao frio, razão pela qual o controle deve concentrar-se no interior das residências e nas quadras de maior densidade populacional.",
+    "O registro indica espécie que ocupa áreas urbanas e rurais, utiliza recipientes naturais e artificiais, alimenta-se de humanos e outros vertebrados e tolera temperaturas menores, recebendo as medidas de combate indicadas para Aedes aegypti.",
+    "O registro indica uma espécie de áreas vegetadas, vinculada sobretudo a recipientes naturais e à alimentação em aves, razão pela qual as medidas dirigidas aos depósitos artificiais possuem alcance operacional reduzido nos ambientes urbanos e periurbanos.",
+    "O registro caracteriza a localidade como infestada por Aedes aegypti, pois as duas espécies ocupam criadouros equivalentes e apresentam o mesmo papel epidemiológico, permitindo reuni-las sob uma única classificação entomológica e uma mesma prioridade de erradicação."
+   ],
+   "gabarito": "B",
+   "explicacao": "O Aedes albopictus é mais “silvestre” e versátil que o aegypti. Vive em áreas urbanas, periurbanas e rurais e usa criadouros naturais (ocos de árvores, bambus) e artificiais. Pica humanos e outros animais e tolera melhor o frio. Nos criadouros artificiais, recebe as mesmas medidas de combate usadas para o Aedes aegypti. O aegypti é que é tipicamente urbano e intradomiciliar (alternativa A).",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224618)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 3,
+   "enunciado": "Sobre a pesquisa entomológica em pontos estratégicos e armadilhas de oviposição, analise as afirmativas.\nI – Pontos estratégicos são imóveis com grande concentração de depósitos preferenciais, como cemitérios e depósitos de sucata, inspecionados quinzenalmente.\nII – As ovitrampas devem ser inspecionadas semanalmente, quando as palhetas de eucatex são encaminhadas para exame laboratorial e substituídas.\nIII – As larvitrampas são instaladas preferencialmente nos mesmos locais destinados aos pontos estratégicos, otimizando a estrutura já existente de inspeção.\nIV – As larvitrampas devem ter a água ocupando cerca de dois terços de sua capacidade, deixando parte da parede interna disponível para a desova.\nEstão corretas as afirmativas:",
+   "alternativas": [
+    "I, II e III, apenas.",
+    "II, III e IV, apenas.",
+    "I e III, apenas.",
+    "I, II e IV, apenas."
+   ],
+   "gabarito": "D",
+   "explicacao": "I, II e IV estão corretas. A III está errada: as larvitrampas não são instaladas nos pontos estratégicos, que já são inspecionados a cada 15 dias. Elas vão para outros locais, sobretudo “portas de entrada” do vetor (portos, rodoviárias, terminais). Para memorizar: PE é inspecionado de 15 em 15 dias, e a ovitrampa toda semana, com a palheta indo para o laboratório.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224617)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 3,
+   "enunciado": "Sobre os indicadores epidemiológicos e entomológicos utilizados no monitoramento do PEAa, analise as afirmativas.\nI – O Índice de Infestação Predial relaciona o número de imóveis com presença de Aedes aegypti ao total de imóveis inspecionados, multiplicado por cem.\nII – O Índice de Breteau considera o número de depósitos com presença do vetor em relação ao total de imóveis inspecionados, multiplicado por cem.\nIII – O número previsto de pontos estratégicos corresponde, em média, a um ponto para cada 250 imóveis existentes na localidade.\nIV – O número previsto de armadilhas de oviposição corresponde a uma armadilha para cada 225 imóveis ou nove quarteirões.\nEstão corretas as afirmativas:",
+   "alternativas": [
+    "I, II, III e IV.",
+    "I e II, apenas.",
+    "III e IV, apenas.",
+    "I, III e IV, apenas."
+   ],
+   "gabarito": "A",
+   "explicacao": "Todas corretas, segundo o gabarito (baseado no manual do PEAa). Fórmulas que caem muito:\n• IIP = imóveis positivos ÷ imóveis pesquisados × 100.\n• Índice de Breteau = depósitos positivos ÷ imóveis pesquisados × 100. Atenção: o denominador é imóveis, não depósitos.\n• Índice por Tipo de Recipiente = depósitos positivos de um tipo ÷ total de depósitos positivos × 100.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224616)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-11",
+   "dificuldade": 2,
+   "enunciado": "No serviço marítimo ou fluvial associado ao serviço portuário, uma embarcação procedente de localidade sabidamente infestada aporta em município não infestado. Neste caso, assinale a alternativa que contém a conduta técnica correta.",
+   "alternativas": [
+    "A embarcação será inspecionada e tratada no fundeadouro de visitas, situado a pelo menos 300 metros da orla portuária da localidade não infestada.",
+    "A embarcação fica dispensada de inspeção quando apresentar certificado sanitário emitido no porto de origem, cabendo ao comandante apenas o registro de chegada.",
+    "A inspeção deve limitar-se aos porões estanques da embarcação, sendo os demais depósitos considerados irrelevantes para a detecção de focos do vetor.",
+    "A embarcação deve ser inspecionada exclusivamente no cais de atracação comercial, sendo vedado o deslocamento para pontos de fundeio destinados a essa finalidade."
+   ],
+   "gabarito": "A",
+   "explicacao": "Uma embarcação vinda de área infestada não pode encostar direto no cais de um município não infestado. Ela é inspecionada e tratada antes, no fundeadouro de visitas, afastado da orla, para que mosquitos e ovos não cheguem à terra. A inspeção vale para todos os depósitos com água da embarcação, não só os porões, e o certificado do porto de origem não dispensa a inspeção.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224615)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-10",
+   "dificuldade": 2,
+   "enunciado": "No manejo ambiental voltado à eliminação de criadouros de Aedes aegypti existem condutas específicas para a utilização de recipientes domésticos e de áreas comuns. Desta forma, assinale a alternativa correta.",
+   "alternativas": [
+    "As bromélias e outros vegetais que acumulam água entre as folhas devem ser mantidos, desde que tratados periodicamente com larvicida biológico de baixa toxicidade.",
+    "As floreiras existentes em cemitérios, por serem consideradas pontos estratégicos, devem ser furadas por baixo ou preenchidas com areia grossa.",
+    "As calhas devem ser mantidas obstruídas parcialmente, de modo a reduzir a velocidade do escoamento pluvial e evitar o acúmulo de sedimentos.",
+    "Os fragmentos de vidro fixados sobre muros devem ser removidos com uso exclusivo de cimento, sendo vedado o emprego de areia grossa para esse fim."
+   ],
+   "gabarito": "B",
+   "explicacao": "Manejo ambiental é eliminar o lugar onde a água para. Vasos e floreiras de cemitério (um ponto estratégico) devem ser furados no fundo ou cheios de areia grossa. Calhas ficam sempre desobstruídas. Os cacos de vidro em muros têm os espaços que acumulam água preenchidos com areia ou cimento. Para bromélias, a recomendação é evitar o acúmulo de água, e não manter a planta com larvicida.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224614)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-10",
+   "dificuldade": 1,
+   "enunciado": "No manuseio de inseticidas organofosforados e piretróides pelos agentes de campo, o manual recomenda determinado cuidado específico em relação a um grupo de trabalhadoras. Nesse sentido, assinale a alternativa correta.",
+   "alternativas": [
+    "Mulheres gestantes devem evitar o trabalho direto com inseticidas, sendo remanejadas para outras atividades durante esse período.",
+    "Mulheres em qualquer condição de saúde podem manusear normalmente os inseticidas, desde que utilizem óculos de proteção durante a pesagem da carga.",
+    "O manuseio de inseticidas piretróides dispensa o uso de luvas quando a formulação estiver diluída em água na proporção recomendada pelo fabricante.",
+    "O transporte do temephós em sacos plásticos é recomendado apenas nas regiões de clima quente, onde o risco de volatilização do produto é considerado maior."
+   ],
+   "gabarito": "A",
+   "explicacao": "Gestantes (e lactantes) não devem manusear inseticidas. São remanejadas para outras atividades, como educação em saúde e pesquisa larvária sem tratamento. Luvas e demais EPI são obrigatórios mesmo com o produto diluído.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224613)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 3,
+   "enunciado": "Sobre o histórico de presença do Aedes aegypti no território brasileiro, analise as afirmativas abaixo:\nI – O vetor foi considerado erradicado do território nacional em 1958, conforme declaração da XV Conferência Sanitária Panamericana.\nII – A reintrodução do vetor ocorreu na cidade de Belém, no Pará, em 1967, seguida de nova eliminação do último foco em 1973.\nIII – A reintrodução definitiva do vetor no país, sem posterior declaração de erradicação, ocorreu na cidade de Salvador, na Bahia, em 1976.\nIV – O Aedes albopictus foi identificado pela primeira vez no Brasil em terreno de universidade situada no Município de Itaguaí, no Rio de Janeiro, em 1986.\nEstão corretas as afirmativas:",
+   "alternativas": [
+    "I, II, III e IV.",
+    "II e III, apenas.",
+    "I, III e IV, apenas.",
+    "I e IV, apenas."
+   ],
+   "gabarito": "A",
+   "explicacao": "Todas corretas. Linha do tempo:\n• 1958: erradicado (XV Conferência Sanitária Pan-Americana).\n• 1967: reintroduzido em Belém/PA.\n• 1973: eliminado de novo.\n• 1976: volta por Salvador/BA e nunca mais foi erradicado.\n• 1986: o Aedes albopictus é achado pela primeira vez no Brasil, no terreno da Universidade Federal Rural do RJ, em Itaguaí. É uma questão “de casa” para o RJ!",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224612)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-10",
+   "dificuldade": 2,
+   "enunciado": "Assinale a alternativa que contém a substância larvicida empregada na rotina do PEAa que atua de forma análoga ao hormônio juvenil dos insetos, impedindo o desenvolvimento das formas imaturas para a fase adulta.",
+   "alternativas": [
+    "Temephós granulado, aplicado em concentração de uma parte por milhão nos depósitos de consumo humano.",
+    "Bacillus thuringiensis israelensis, empregado de forma rotativa com o temephós para retardar a resistência das larvas.",
+    "Metoprene, substância que atua sobre larvas e pupas, bloqueando a metamorfose para a forma adulta do mosquito.",
+    "Cloreto de sódio em solução concentrada, empregado rotineiramente em substituição ao temephós nos grandes centros urbanos."
+   ],
+   "gabarito": "C",
+   "explicacao": "Metoprene é um regulador de crescimento: imita o hormônio juvenil e impede a larva/pupa de virar adulto. Os outros agem de outro jeito:\n• Temephós é um organofosforado (inseticida químico) que mata a larva.\n• Bti é um larvicida biológico: uma bactéria cuja toxina destrói o intestino da larva.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224611)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 2,
+   "enunciado": "Em um município do Estrato IV, a vigilância entomológica detecta a presença do vetor em um ponto estratégico. Assinale a alternativa correta sobre a delimitação de foco decorrente dessa detecção.",
+   "alternativas": [
+    "A pesquisa larvária e o tratamento focal devem abranger a totalidade dos imóveis situados em um raio de até 300 metros a partir do ponto onde o foco foi detectado.",
+    "A pesquisa larvária deve ser restrita ao imóvel onde a armadilha foi instalada, sendo dispensável a inspeção dos imóveis vizinhos até nova confirmação laboratorial.",
+    "A delimitação de foco é atividade exclusiva de municípios infestados, cabendo aos municípios do Estrato IV apenas o registro estatístico da ocorrência.",
+    "A pesquisa larvária deve abranger um raio de 300 metros, porém restrita aos pontos estratégicos cadastrados, dispensando os imóveis residenciais do entorno."
+   ],
+   "gabarito": "A",
+   "explicacao": "Delimitação de foco acontece em área não infestada: achou o vetor em PE ou armadilha, faz pesquisa larvária e tratamento focal em todos os imóveis num raio de 300 m em volta do foco. É justamente para impedir que a área vire infestada.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224610)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 2,
+   "enunciado": "Diante da confirmação de caso autóctone de dengue por isolamento viral em determinada localidade infestada, o bloqueio de transmissão deverá ser executado segundo o seguinte critério:",
+   "alternativas": [
+    "aplicação isolada de larvicida biológico nos depósitos do quarteirão onde reside o caso confirmado, dispensando qualquer medida espacial complementar.",
+    "aplicação de UBV pesado em toda a extensão do município, independentemente da delimitação geográfica em torno do caso confirmado.",
+    "aplicação de tratamento perifocal restrito aos pontos estratégicos localizados a até um quilômetro do caso confirmado, dispensando o controle larvário.",
+    "aplicação de equipamento de UBV portátil para nebulização domiciliar, concomitante ao controle larvário, na área delimitada em torno de, no mínimo, nove quarteirões próximos ao caso."
+   ],
+   "gabarito": "D",
+   "explicacao": "Bloqueio de transmissão serve para matar os mosquitos adultos que podem estar infectados perto do caso. Usa nebulização (UBV portátil, casa a casa) junto com controle larvário, numa área em torno do caso de no mínimo 9 quarteirões (o quarteirão do caso e os 8 vizinhos).",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224609)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-11",
+   "dificuldade": 2,
+   "enunciado": "O Plano de Erradicação do Aedes aegypti organiza suas atividades operacionais em fases sucessivas. Marque a alternativa correta acerca da fase de consolidação.",
+   "alternativas": [
+    "A fase de consolidação antecede a fase de ataque, concentrando-se no recrutamento e capacitação dos recursos humanos que atuarão posteriormente no combate ao vetor.",
+    "A fase de consolidação mantém o tratamento químico com a mesma intensidade da fase de ataque, ampliando o ciclo de inspeção para cobrir 100% dos imóveis semanalmente.",
+    "A fase de consolidação repete as atividades da fase de ataque, exceto o tratamento, buscando eliminar resíduos da infestação diante da possibilidade de eclosão tardia de ovos remanescentes.",
+    "A fase de consolidação é caracterizada pela substituição integral da pesquisa larvária por armadilhas de oviposição, medida adotada apenas nos municípios do Estrato IV."
+   ],
+   "gabarito": "C",
+   "explicacao": "As fases do PEAa vão nesta ordem: preparatória → ataque → consolidação → manutenção (vigilância). Na consolidação, repete-se o trabalho do ataque, mas sem o tratamento. O motivo é pegar focos residuais, já que ovos antigos podem eclodir tardiamente.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224608)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-11",
+   "dificuldade": 3,
+   "enunciado": "Sobre a estratificação entomoepidemiológica dos municípios adotada pelo PEAa, analise as afirmativas.\nI – O Estrato I compreende áreas com transmissão de dengue clássico por pelo menos dois anos, consecutivos ou não, com circulação simultânea ou sucedânea de mais de um sorotipo, com risco de ocorrência de febre hemorrágica por dengue e/ou ocorrência de casos de FHD.\nII – O Estrato II corresponde a áreas com transmissão de dengue clássico, sem a exigência de circulação de mais de um sorotipo viral.\nIII – O Estrato III abrange áreas infestadas pelo Aedes aegypti, ainda que sem confirmação de transmissão viral local.\nIV – O Estrato IV refere-se a municípios não infestados, nos quais a detecção do vetor exclusivamente em armadilhas já caracteriza a infestação municipal.\nV – Nos municípios do Estrato IV, o levantamento de índice amostral é realizado em ciclos quadrimensais, e não bimensais.\nEstão corretas as afirmativas:",
+   "alternativas": [
+    "I, II, III e V, apenas.",
+    "I, II e IV, apenas.",
+    "II, III e IV, apenas.",
+    "I, III, IV e V, apenas."
+   ],
+   "gabarito": "A",
+   "explicacao": "Os estratos são:\n• I: dengue há 2 anos ou mais, com mais de um sorotipo (risco de FHD).\n• II: dengue clássico.\n• III: infestado, sem transmissão.\n• IV: não infestado.\nA IV está errada: achar o vetor só em armadilha não torna o município infestado. Isso leva à delimitação de foco (raio de 300 m).",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224607)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 2,
+   "enunciado": "Assinale a alternativa que apresenta corretamente a diferença entre o Aedes aegypti e o Aedes albopictus, quanto à sua adaptação ambiental e importância operacional para o combate ao vetor.",
+   "alternativas": [
+    "O Aedes albopictus restringe-se ao ambiente estritamente urbano, enquanto o Aedes aegypti apresenta ampla distribuição rural, invertendo o padrão clássico de domesticidade descrito para a espécie.",
+    "O Aedes albopictus alimenta-se com exclusividade de sangue humano, condição que facilita sua identificação em campo em relação ao Aedes aegypti, que também se alimenta da seiva de vegetais.",
+    "O Aedes albopictus é menos resistente ao frio que o Aedes aegypti, fato que restringe sua presença às regiões de clima tropical úmido do litoral brasileiro.",
+    "O Aedes albopictus possui maior valência ecológica, ocupando criadouros domésticos e também ocos de árvores e bambus no meio rural, o que dificulta o emprego da mesma metodologia usada para o Aedes aegypti."
+   ],
+   "gabarito": "D",
+   "explicacao": "“Maior valência ecológica” quer dizer que o albopictus se adapta a mais ambientes. Ele usa criadouros domésticos e naturais (ocos de árvores, bambus) e vive também no meio rural e na mata. Isso dificulta aplicar a mesma metodologia do aegypti, que é urbano e doméstico. Ele também tolera mais o frio e pica humanos e outros animais.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224606)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 1,
+   "enunciado": "Durante a pesquisa larvária em depósitos domiciliares, o comportamento da larva do Aedes aegypti diante de estímulos luminosos orienta diretamente a técnica de coleta empregada pelo agente de saúde. Assinale a alternativa que apresenta esse comportamento e sua implicação operacional.",
+   "alternativas": [
+    "A larva é atraída pela luz e se desloca para a superfície ao ser incidido o feixe luminoso, o que permite sua captura direta com a pipeta antes de qualquer manuseio do pesca-larvas.",
+    "A larva permanece imóvel diante de qualquer estímulo externo, respirando por brânquias abdominais, sendo indiferente ao uso de lanterna durante a inspeção do depósito.",
+    "A larva é fotófoba e, sob feixe de luz, desloca-se rapidamente para o fundo do recipiente, exigindo que o agente percorra com o pesca-larvas a superfície junto à parede antes desse deslocamento.",
+    "A larva migra para a região mais quente do depósito quando exposta à luz, comportamento que dispensa o uso de pesca-larvas em depósitos de pequena profundidade."
+   ],
+   "gabarito": "C",
+   "explicacao": "A larva do Aedes aegypti é fotófoba (foge da luz) e desce rápido para o fundo quando iluminada ou perturbada. Por isso o agente deve passar o pesca-larvas junto à parede, perto da superfície, antes que ela fuja. Ela respira na superfície por um sifão, e não por brânquias.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224605)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 1,
+   "enunciado": "No ciclo evolutivo do Aedes aegypti, a fase de ovo apresenta uma particularidade biológica que compromete diretamente as estratégias de erradicação do vetor. Assinale a alternativa correta sobre essa característica.",
+   "alternativas": [
+    "O ovo do Aedes aegypti necessita de imersão contínua em água desde a postura, o que restringe sua dispersão a recipientes já preenchidos por líquido no momento da oviposição.",
+    "O ovo, uma vez completado o desenvolvimento embrionário, resiste a longos períodos de dessecação, podendo eclodir mesmo depois de mais de um ano em ambiente seco, favorecendo a dispersão passiva.",
+    "O ovo depositado pela fêmea eclode em até seis horas quando exposto à luz solar direta, sendo esse o principal fator de proliferação em áreas urbanas adensadas.",
+    "O ovo, por ser depositado em cachos sobre a lâmina d´água, tem eclosão sincronizada, o que facilita sua identificação e remoção mecânica pelos agentes de campo."
+   ],
+   "gabarito": "B",
+   "explicacao": "Os ovos são postos na parede do recipiente, logo acima da água, e não em cachos sobre a água. Depois de completar o desenvolvimento do embrião, resistem à seca por mais de um ano e eclodem quando a água volta. Assim viajam em pneus e vasos (dispersão passiva). Por isso é preciso esfregar as paredes dos recipientes, e não só esvaziar.",
+   "fonte": "MARANATHA Assessoria · 2026 · Prefeitura de Cruzmaltina/PR · Agente de Endemias (QConcursos Q4224604)"
+  }
+ ]
+}

@@ -6,6 +6,7 @@ import { editalDoSeed } from '@/test/fixtures';
 import { atualizarCadernoLocal } from './hooks';
 import pacote from './pacotes/autorais-v1.json';
 import pacoteMunicipio from './pacotes/municipio-v1.json';
+import pacoteProvas from './pacotes/provas-v1.json';
 import cartoesMunicipio from '@/features/flashcards/pacotes/municipio-v1.json';
 import cartoesGerais from '@/features/flashcards/pacotes/cartoes-v1.json';
 import { hashCartao } from '@/features/flashcards/agendador';
@@ -149,6 +150,29 @@ describe('treino e desempenho', () => {
     c = atualizarCadernoLocal(c, { questaoId: 'q5', escolha: 0, correta: true, respondidaEm: 'd' });
     expect(c[0]).toMatchObject({ acertos_seguidos: 2, resolvido: true });
     expect(atualizarCadernoLocal([], { questaoId: 'q9', escolha: 0, correta: true, respondidaEm: 'e' })).toEqual([]);
+  });
+});
+
+describe('pacote de provas reais', () => {
+  const provas = prepararPacote(pacoteProvas as Pacote);
+  const topicos = new Set(editalDoSeed().topicos.map((t) => t.id));
+
+  it('mantém a ordem e o gabarito originais e guarda a prova de origem', () => {
+    pacoteProvas.questoes.forEach((orig, i) => {
+      const q = provas[i];
+      expect(q.alternativas).toEqual(orig.alternativas);
+      expect(q.gabarito).toBe(['A', 'B', 'C', 'D', 'E'].indexOf(orig.gabarito));
+      expect(q.gabarito).toBeLessThan(q.alternativas.length);
+      expect(q.origem).toBe('importada');
+      expect(q.fonte).toMatch(/2026 · Prefeitura de .+ \(QConcursos Q\d+\)$/);
+      expect(topicos.has(q.topico_id!)).toBe(true);
+      expect(q.topico_id!.startsWith(q.disciplina_id)).toBe(true);
+    });
+  });
+
+  it('não repete questões de outros pacotes', () => {
+    const todas = [...preparadas, ...prepararPacote(pacoteMunicipio as Pacote), ...provas].map((q) => q.hash);
+    expect(new Set(todas).size).toBe(todas.length);
   });
 });
 

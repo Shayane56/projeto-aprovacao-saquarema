@@ -2,6 +2,7 @@ import { screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import pacote from '@/features/questoes/pacotes/autorais-v1.json';
 import pacoteMunicipio from '@/features/questoes/pacotes/municipio-v1.json';
+import pacoteProvas from '@/features/questoes/pacotes/provas-v1.json';
 import { prepararPacote, type Pacote } from '@/features/questoes/pacotes/instalar';
 import { atualizarCadernoLocal } from '@/features/questoes/hooks';
 import type { ItemCaderno, NovaQuestao, Questao, Resposta } from '@/features/questoes/tipos';
@@ -9,7 +10,7 @@ import type { SimuladoDetalhado } from '@/features/simulados/tipos';
 import { editalDoSeed, etapasDoSeed } from './fixtures';
 import { renderizarApp, USUARIA } from './renderizar';
 
-const BANCO: Questao[] = [...prepararPacote(pacote as Pacote), ...prepararPacote(pacoteMunicipio as Pacote)].map((q, i) => ({ ...q, id: `q${i}`, texto_id: null, criado_em: '2026-11-13T00:00:00Z' }));
+const BANCO: Questao[] = [...prepararPacote(pacote as Pacote), ...prepararPacote(pacoteMunicipio as Pacote), ...prepararPacote(pacoteProvas as Pacote)].map((q, i) => ({ ...q, id: `q${i}`, texto_id: null, criado_em: '2026-11-13T00:00:00Z' }));
 const CRASE = BANCO.find((q) => q.topico_id === 'ace26-pt-16')!;
 
 const m = vi.hoisted(() => ({
@@ -100,7 +101,7 @@ beforeEach(() => {
 });
 
 describe('praticar', () => {
-  it('instala os pacotes de questões autorais (gerais + Município) quando o banco está vazio', async () => {
+  it('instala os pacotes de questões autorais (gerais, Município e provas reais) quando o banco está vazio', async () => {
     m.questoes = [];
     renderizarApp('/praticar');
     await waitFor(() => expect(m.inserir).toHaveBeenCalledWith(USUARIA.id, expect.any(Array)));
