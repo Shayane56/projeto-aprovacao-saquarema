@@ -2822,6 +2822,294 @@
    "explicacao": "“Exo-” (fora, externo) é prefixo grego, como em exoesqueleto e exótico. Prefixo + palavra = derivação prefixal: exo + planeta.",
    "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Auxiliar Administrativo (questão 30) · gabarito definitivo",
    "texto": "ibam-arraial-vida-espaco"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "A afirmação de que a “internet Millennial está morta” deve ser compreendida, no texto, como:",
+   "alternativas": [
+    "abandono total da internet pelos Millennials",
+    "extinção definitiva das antigas tecnologias digitais",
+    "perda do protagonismo cultural digital dos Millennials",
+    "substituição completa da presença dos Millennials na rede por ausência geracional"
+   ],
+   "gabarito": "C",
+   "explicacao": "O próprio texto esclarece no 2º§: “Isso não significa que as pessoas nesta faixa etária estejam abandonando a rede… elas ainda estão lá, mas algo mudou”. E depois: “a sua era de protagonismo na rede passou”. “Morta” é figurado: a perda é de protagonismo. As erradas exageram com “total”, “definitiva” e “completa”.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Fiscal de Posturas (questão 21) · gabarito não oficial",
+   "texto": "ibam-arraial-millennial"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 2,
+   "enunciado": "No texto, a enumeração de plataformas e serviços extintos ou já pouco acessados cumpre, sobretudo, a função de:",
+   "alternativas": [
+    "listar nostalgicamente tecnologias antigas",
+    "comprovar empiricamente a tese defendida",
+    "criticar escolhas tecnológicas dos Millennials",
+    "contextualizar historicamente a evolução técnica da internet"
+   ],
+   "gabarito": "B",
+   "explicacao": "A tese é que a internet Millennial “está morta”. A lista (Orkut, MSN, Fotolog, Tumblr…) funciona como prova concreta dessa tese: mostra, com exemplos reais, o que desapareceu ou perdeu relevância. A D é a pegadinha: a lista até tem ordem cronológica (anos 2000, anos 2010), mas o objetivo não é contar a história técnica, e sim sustentar o argumento.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Fiscal de Posturas (questão 22) · gabarito não oficial",
+   "texto": "ibam-arraial-millennial"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 2,
+   "enunciado": "Segundo o texto, a principal diferença entre a internet Millennial e a internet dominada por plataformas algorítmicas está:",
+   "alternativas": [
+    "no design das interfaces",
+    "na forma de mediação do conteúdo",
+    "na velocidade de circulação da informação",
+    "no grande número de usuários conectados"
+   ],
+   "gabarito": "B",
+   "explicacao": "Antes, as conexões sociais mediavam a cultura digital e o usuário era proativo (“faça você mesmo”). Agora, “as conexões sociais como mediador da cultura digital perdem protagonismo”, e são os algoritmos que fazem a entrega dos conteúdos. A diferença central é quem media o conteúdo.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Fiscal de Posturas (questão 23) · gabarito não oficial",
+   "texto": "ibam-arraial-millennial"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 3,
+   "enunciado": "No último parágrafo, a fala de Manuela Barem introduz no texto:",
+   "alternativas": [
+    "um dado técnico",
+    "uma visão emocional da especialista",
+    "uma opinião contraditória à argumentação principal",
+    "uma interpretação política acerca da transformação digital"
+   ],
+   "gabarito": "D",
+   "explicacao": "A fala começa emotiva (“Acho que fomos roubados… dói saber”), mas o que ela acrescenta ao texto é uma leitura política: as big techs querem “tirar nossa autonomia”, “controlar e filtrar a informação”, e “Isso é um projeto de poder”. A B é a pegadinha. Não é dado técnico (A) e não contradiz o texto, ao contrário, reforça (C). Gabarito resolvido por mim: confira quando tiver o oficial.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Fiscal de Posturas (questão 24) · gabarito não oficial",
+   "texto": "ibam-arraial-millennial"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "De acordo com o texto, na prática, a ascensão das big techs resulta diretamente em:",
+   "alternativas": [
+    "redução da autonomia do usuário",
+    "fortalecimento das conexões sociais",
+    "democratização do acesso à informação",
+    "maior diversidade de conteúdos midiáticos"
+   ],
+   "gabarito": "A",
+   "explicacao": "Inagaki diz que as pessoas ficaram “muito mais acomodadas”. A internet se torna “mais passiva, com os algoritmos fazendo a entrega dos conteúdos”, e Manuela afirma que as big techs estão “tentando tirar nossa autonomia”. As conexões sociais perdem protagonismo, o oposto da B.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Fiscal de Posturas (questão 25) · gabarito não oficial",
+   "texto": "ibam-arraial-millennial"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-04",
+   "dificuldade": 1,
+   "enunciado": "No trecho “Isso não significa que as pessoas nesta faixa etária estejam abandonando a rede [...]” (2º parágrafo), o termo “Isso” retoma, coesivamente, a:",
+   "alternativas": [
+    "internet",
+    "rede digital atual",
+    "morte literal da internet",
+    "afirmação de que a “internet Millennial” estaria morta"
+   ],
+   "gabarito": "D",
+   "explicacao": "“Isso” retoma a ideia inteira do parágrafo anterior: a afirmação de que a “internet Millennial” está morta. Pronome demonstrativo retomando uma frase inteira é coesão anafórica. A C erra porque o texto nega o sentido literal.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Fiscal de Posturas (questão 26) · gabarito não oficial",
+   "texto": "ibam-arraial-millennial"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-07-01",
+   "dificuldade": 1,
+   "enunciado": "No trecho “As formas de expressão, os artefatos digitais e a cultura online associados aos Millennials estão desaparecendo ou perdendo relevância” (2º parágrafo), o emprego da locução “estão desaparecendo” expressa valor semântico de:",
+   "alternativas": [
+    "estado permanente",
+    "ação pontual concluída",
+    "processo em desenvolvimento",
+    "resultado definitivo e irreversível no tempo"
+   ],
+   "gabarito": "C",
+   "explicacao": "Estar + gerúndio (estão desaparecendo, perdendo) indica ação em curso, que ainda está acontecendo: um processo em desenvolvimento. Ação concluída seria “desapareceram”.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Fiscal de Posturas (questão 27) · gabarito não oficial",
+   "texto": "ibam-arraial-millennial"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-13",
+   "dificuldade": 3,
+   "enunciado": "No título do texto (“Pode ser doloroso para alguns, mas é hora de reconhecer: a internet Millennial está morta”), os dois-pontos introduzem uma ideia de:",
+   "alternativas": [
+    "síntese conclusiva",
+    "consequência",
+    "enumeração",
+    "oposição"
+   ],
+   "gabarito": "A",
+   "explicacao": "Depois dos dois-pontos vem a ideia central, que resume e conclui o que se deve “reconhecer”: a internet Millennial está morta. É uma síntese conclusiva. Não é enumeração (não há lista), não é oposição (a oposição está no “mas”) e não é consequência. Gabarito resolvido por mim: confira quando tiver o oficial.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Fiscal de Posturas (questão 29) · gabarito não oficial",
+   "texto": "ibam-arraial-millennial"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-15",
+   "dificuldade": 2,
+   "enunciado": "“Mas não são só os serviços e ferramentas que se tornaram obsoletos” (5º parágrafo). Nesse trecho, o elemento “que” introduz uma oração subordinada:",
+   "alternativas": [
+    "adjetiva restritiva",
+    "adjetiva explicativa",
+    "substantiva objetiva direta",
+    "substantiva objetiva indireta"
+   ],
+   "gabarito": "A",
+   "explicacao": "O “que” é pronome relativo: retoma “serviços e ferramentas” (= os quais se tornaram obsoletos). Oração com pronome relativo é adjetiva. Sem vírgula, ela restringe o sentido, por isso é restritiva. A explicativa viria entre vírgulas. Seria substantiva se o “que” fosse conjunção integrante, completando um verbo.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Fiscal de Posturas (questão 30) · gabarito não oficial",
+   "texto": "ibam-arraial-millennial"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "A ideia principal do texto é:",
+   "alternativas": [
+    "informar sobre a ocorrência de terremotos sucessivos na Venezuela e seus impactos.",
+    "relatar os esforços do governo da Colômbia diante dos terremotos na Venezuela.",
+    "apresentar a ordem dos terremotos associados à falha de Boconó.",
+    "descrever os danos materiais causados em Zulia."
+   ],
+   "gabarito": "A",
+   "explicacao": "Notícia: informa o fato (terremotos sucessivos no oeste da Venezuela) e seus impactos (onde foram sentidos, danos, equipes em campo). C e D são partes do texto, não a ideia principal. A Colômbia só sentiu os tremores, e o texto não fala de esforços do governo colombiano.",
+   "fonte": "IBAM · 2025 · Câmara Municipal de Paraíba do Sul/RJ · Recepcionista (questão 11) · gabarito não oficial",
+   "texto": "ibam-paraiba-terremoto"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "O texto informa que os tremores foram sentidos até em cidades colombianas como Bucaramanga, Bogotá, Cartagena e Medellín. A partir desse dado, infere-se que:",
+   "alternativas": [
+    "o impacto dos terremotos limitou-se ao seu epicentro.",
+    "os abalos tiveram repercussão apenas em nível nacional.",
+    "a Colômbia foi o país mais afetado, com registros de maiores danos estruturais.",
+    "a intensidade dos tremores demonstra que o fenômeno ultrapassou fronteiras nacionais."
+   ],
+   "gabarito": "D",
+   "explicacao": "Se foram sentidos em outro país, os tremores ultrapassaram as fronteiras da Venezuela. Por isso A e B são falsas. A C inventa uma informação: os danos relatados são em Zulia, na Venezuela.",
+   "fonte": "IBAM · 2025 · Câmara Municipal de Paraíba do Sul/RJ · Recepcionista (questão 12) · gabarito não oficial",
+   "texto": "ibam-paraiba-terremoto"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "No texto, há a apresentação de uma sequência de fatos. A sequência está corretamente representada em:",
+   "alternativas": [
+    "tremor de 6 → relato de danos → tremor de 5,4 → avaliação de estruturas.",
+    "tremor de 5,4 → tremor de 6 → relato de danos em Zulia → atuação das equipes.",
+    "tremor de 5,4 → avaliação das estruturas → tremor de 6 → atuação das equipes.",
+    "tremor de 6 → atuação das equipes → registro em Bogotá → relato de danos em hospital."
+   ],
+   "gabarito": "B",
+   "explicacao": "A ordem do texto é:\n1. Tremor de 5,4, às 18h21.\n2. Tremor de 6, às 23h51.\n3. Relatos de danos em Zulia.\n4. Equipes em campo avaliando os estragos.\nOs horários resolvem a questão: o de 5,4 veio primeiro.",
+   "fonte": "IBAM · 2025 · Câmara Municipal de Paraíba do Sul/RJ · Recepcionista (questão 13) · gabarito não oficial",
+   "texto": "ibam-paraiba-terremoto"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "No trecho “Ao longo do dia, mais de uma dezena de tremores foram registrados” (1º parágrafo), a expressão “mais de uma dezena” pode ser substituída, sem alteração de sentido, por:",
+   "alternativas": [
+    "aproximadamente dez.",
+    "exatamente dez.",
+    "menos de dez.",
+    "mais de dez."
+   ],
+   "gabarito": "D",
+   "explicacao": "Dezena = 10, então “mais de uma dezena” = mais de dez. Curiosidade de concordância: com “mais de um(a)” + coletivo, o verbo pode ir ao plural concordando com o termo seguinte (“tremores foram registrados”).",
+   "fonte": "IBAM · 2025 · Câmara Municipal de Paraíba do Sul/RJ · Recepcionista (questão 14) · gabarito não oficial",
+   "texto": "ibam-paraiba-terremoto"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-06",
+   "dificuldade": 2,
+   "enunciado": "“Já o terremoto de magnitude 6 foi registrado às 23h51, com epicentro a 45 quilômetros a leste de Bachaquero, em Zulia, e profundidade de 16,4 quilômetros” (3º parágrafo).\nNo texto, o emprego da palavra “Já” tem a função de:",
+   "alternativas": [
+    "indicar contraste temporal, estabelecendo diferença entre os momentos dos tremores.",
+    "indicar uma conclusão sobre os efeitos dos dois tremores em destaque.",
+    "reforçar a intensidade do primeiro abalo descrito.",
+    "negar uma ideia presente no parágrafo anterior."
+   ],
+   "gabarito": "A",
+   "explicacao": "O “Já” no início da frase introduz o segundo tremor em contraste com o primeiro, descrito no parágrafo anterior: 18h21 × 23h51. Equivale a “por sua vez” ou “por outro lado”. Não nega nada, apenas contrapõe.",
+   "fonte": "IBAM · 2025 · Câmara Municipal de Paraíba do Sul/RJ · Recepcionista (questão 15) · gabarito não oficial",
+   "texto": "ibam-paraiba-terremoto"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-07-01",
+   "dificuldade": 1,
+   "enunciado": "No trecho “Equipes de segurança do Estado, Defesa Civil, engenheiros e técnicos municipais seguem em campo para avaliar os estragos” (8º parágrafo), o verbo “seguem” assume valor de:",
+   "alternativas": [
+    "futuro, indicando uma ação que será realizada posteriormente.",
+    "deslocamento espacial, indicando que as equipes caminham em direção ao local afetado.",
+    "ordem, indicando um comando às equipes para que se desloquem até os locais afetados.",
+    "continuidade de uma ação, indicando permanência das equipes no exercício de sua atividade."
+   ],
+   "gabarito": "D",
+   "explicacao": "Aqui “seguem em campo” = continuam em campo. É um verbo de continuidade, como permanecer e continuar, e não de deslocamento (B). Está no presente do indicativo, sem valor de futuro nem de ordem.",
+   "fonte": "IBAM · 2025 · Câmara Municipal de Paraíba do Sul/RJ · Recepcionista (questão 16) · gabarito não oficial",
+   "texto": "ibam-paraiba-terremoto"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-12",
+   "dificuldade": 1,
+   "enunciado": "No trecho “[...] com epicentro a 40 quilômetros ao nordeste de La Ceiba, no estado de Trujillo” (2º parágrafo), a palavra “quilômetros” recebe acento gráfico porque é:",
+   "alternativas": [
+    "paroxítona",
+    "polissílaba",
+    "proparoxítona",
+    "oxítona terminada em “s”."
+   ],
+   "gabarito": "C",
+   "explicacao": "qui-LÔ-me-tros: a sílaba tônica é a antepenúltima, então é proparoxítona, e todas as proparoxítonas são acentuadas. Ser polissílaba não é regra de acento. Observação: a prova indica o 3º parágrafo, mas pela numeração do texto o trecho está no 2º.",
+   "fonte": "IBAM · 2025 · Câmara Municipal de Paraíba do Sul/RJ · Recepcionista (questão 18) · gabarito não oficial",
+   "texto": "ibam-paraiba-terremoto"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-13",
+   "dificuldade": 1,
+   "enunciado": "No sexto parágrafo do texto, no fragmento “— Estamos avaliando os danos estruturais que até este momento foram reportados”, o uso do travessão indica:",
+   "alternativas": [
+    "a marcação de discurso direto, sinalizando fala do governador.",
+    "a presença de um trecho explicativo inserido pelo narrador.",
+    "a separação entre sujeito e predicado, para dar ênfase.",
+    "uma interrupção para destacar um termo da oração."
+   ],
+   "gabarito": "A",
+   "explicacao": "No início do parágrafo, o travessão introduz a fala de alguém (discurso direto), e logo depois vem “indicou o governador”. Travessão no meio da frase pode isolar explicação (B), mas não é o caso. E nunca se separa sujeito de predicado com pontuação.",
+   "fonte": "IBAM · 2025 · Câmara Municipal de Paraíba do Sul/RJ · Recepcionista (questão 19) · gabarito não oficial",
+   "texto": "ibam-paraiba-terremoto"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-17",
+   "dificuldade": 1,
+   "enunciado": "Dentre as frases a seguir, a única em que todas as palavras estão grafadas segundo a norma-padrão da língua portuguesa é:",
+   "alternativas": [
+    "Agente precisa entender que o caso apresenta excessões.",
+    "A imprensão que tive é que eles têm dificuldades com o caso.",
+    "O cérebro dos seres humanos evoluiu com o passar do tempo.",
+    "Nosso geito de lidar com os problemas não agradou todo mundo."
+   ],
+   "gabarito": "C",
+   "explicacao": "Os erros:\n• “Agente” → a gente (o pronome é separado; agente é profissão, como o seu cargo!);\n• “excessões” → exceções;\n• “imprensão” → impressão;\n• “geito” → jeito.\nA C está toda correta.",
+   "fonte": "IBAM · 2025 · Câmara Municipal de Paraíba do Sul/RJ · Recepcionista (questão 20) · gabarito não oficial",
+   "texto": "ibam-paraiba-terremoto"
   }
  ],
  "textos": {
@@ -2848,6 +3136,14 @@
   "ibam-arraial-vida-espaco": {
    "titulo": "Existe vida fora da Terra, no espaço? Ou será que estamos sozinhos?",
    "conteudo": "1º§ Você já se perguntou se existe vida em outros planetas? Essa é uma das perguntas mais intrigantes da ciência. Até agora, sabemos de algo animador: nossa galáxia é repleta de planetas, muitos com características parecidas com as da Terra. Mesmo assim, ainda não encontramos nenhuma prova de que não estamos sozinhos no universo. A busca por vida fora da Terra está apenas começando e levanta cada vez mais perguntas.\n\n2º§ Há milhares de anos, a humanidade olha para o céu com curiosidade. Hoje, sabe-se que as estrelas não estão sozinhas: a existência de milhares de planetas fora do nosso Sistema Solar já está confirmada. E mais: existem trilhões de outros planetas na Via Láctea! Entre eles, muitos têm tamanho e temperatura parecidos com os da Terra, orbitando em regiões chamadas de “zonas habitáveis” – onde a água líquida poderia existir. Essas regiões são especiais porque a presença de água é considerada essencial para o desenvolvimento da vida como conhecemos.\n\n3º§ Apesar dessas descobertas, o silêncio do cosmos continua misterioso. Essa ausência de sinais de vida inteligente é conhecida como o paradoxo de Fermi. O cientista Enrico Fermi perguntou: “Se o universo é tão vasto e antigo, onde está todo mundo?”. Mesmo com tanto tempo e espaço para que formas de vida inteligente se espalhem, até agora não encontramos nada. Essa questão nos intriga e nos inspira a continuar procurando. Será que estamos olhando nos lugares certos? Ou talvez a vida exista de formas tão diferentes que nem conseguimos reconhecê-la?\n\n4º§ Cientistas desenvolveram algo chamado equação de Drake para estimar quantas civilizações inteligentes podem existir. Embora muitas das variáveis da equação ainda sejam um mistério, ela nos dá esperança. Sabemos que existem inúmeras estrelas com planetas ao seu redor e que algumas dessas condições podem favorecer o surgimento da vida. Isso é como juntar as peças de um quebra-cabeças gigante do qual ainda temos poucas partes. Além disso, as tecnologias estão avançando, o que significa que podemos obter respostas mais rápidas e precisas no futuro.\n\n5º§ Estamos em um momento emocionante da ciência. Telescópios mais potentes estão sendo construídos para olhar mais longe e com mais detalhes. Eles ajudam os cientistas a analisar atmosferas de exoplanetas em busca de sinais de vida, como oxigênio ou metano. Cada descoberta aproxima a humanidade da resposta para a grande pergunta: estamos sozinhos no universo? Recentemente, tecnologias como o Telescópio James Webb estão trazendo imagens e dados que jamais imaginamos, permitindo explorar o cosmos com mais precisão.\n\n6º§ Enquanto isso, a Terra é o único lugar onde sabemos que existe vida. Isso torna nosso planeta incrivelmente especial e nos lembra da importância de cuidarmos dele. Cada planta, animal e ecossistema é uma peça valiosa nesse quebra-cabeças da vida. E quem sabe? Talvez, em algum canto distante do cosmos, haja alguém também olhando para o espaço, se perguntando se nós estamos aqui. Por enquanto, o silêncio do universo é um convite à exploração e à reflexão sobre nosso lugar nesse vasto mistério.\n\nGABRIELA P. BAILAS. Adaptado de folha.uol.com.br, 13/12/2024."
+  },
+  "ibam-arraial-millennial": {
+   "titulo": "Pode ser doloroso para alguns, mas é hora de reconhecer: a internet Millennial está morta",
+   "conteudo": "As formas de expressão, os artefatos digitais e a cultura online associados aos Millennials estão desaparecendo ou perdendo relevância em uma inevitável troca de guarda geracional sobre a relevância do domínio digital; o protagonismo agora é da geração Z\n\n1º§ Em 2026, os membros mais novos da geração Millennial se tornarão trintões. É um marco que sinaliza para os nascidos entre 1981 e 1996 a plenitude da vida adulta. Para alguns deles pode ser doloroso, mas junto desta celebração é chegado também o momento de reconhecer: a “internet Millennial”, tal como a conhecemos nos últimos 25 anos, está morta.\n\n2º§ Isso não significa que as pessoas nesta faixa etária estejam abandonando a rede, ou deixando de se adaptar aos novos formatos e linguagens — elas ainda estão lá, mas algo mudou. As formas de expressão, os artefatos digitais e a cultura online associados aos Millennials estão desaparecendo ou perdendo relevância em uma inevitável troca de guarda geracional sobre a relevância do domínio digital.\n\n3º§ Se você acha que “fds” significa “final de semana” no dialeto atual da internet, ou se acha que o emoji de caveira tem conotação negativa, a sua era de protagonismo na rede passou. Saem os Millenials, entra a geração Z.\n\n4º§ A lista de artefatos digitais dos Millenials que desapareceu ou perdeu relevância é extensa. Ao olhar para os anos 2000, a fila de aposentados inclui Orkut, Fotolog, Flogão, Trama Virtual, MySpace, MSN, Blogger, Google Reader e todos os serviços de compartilhamentos de arquivos. Quando os anos 2010 entram no radar, surgem nomes como BuzzFeed, VICE, Gawker Media, Tumblr e até o “Facebook do velho testamento” (quando a rede de Mark Zuckerberg tinha aspecto mais social). Não dá nem para dizer que os GIFs, os filtros de fotos do Instagram e o Twitter (hoje chamado de X) gozam do mesmo prestígio de outrora.\n\n5º§ Mas não são só os serviços e ferramentas que se tornaram obsoletos: o ambiente que permitia a existência desta internet também já saiu de cena. “Com o avanço das tecnologias e a ascensão das big techs, as pessoas acabaram ficando muito mais acomodadas”, diz Alexandre Inagaki, consultor de redes sociais e pioneiro dos blogs no Brasil.\n\n6º§ Ele faz referência ao fato de que a estrutura da internet Millennial exigia que os usuários fossem proativos. A rede era aberta e fragmentada em diversos serviços, longe da lógica de plataforma fechada que ganhou força na segunda metade dos anos 2010 com a economia dos apps. Construir e consumir algo naquela época exigia uma certa lógica punk de “faça você mesmo” — é dessa lógica que surge a internet colaborativa, batizada de “web 2.0”.\n\n7º§ O que substitui esse modelo a partir da segunda metade dos anos 2010 é uma estrutura de plataformas controladas por gigantes da tecnologia, que disputam intensamente a atenção dos usuários por meio de algoritmos viciantes. As conexões sociais como mediador da cultura digital perdem protagonismo e a internet se torna mais passiva, com os algoritmos fazendo a entrega dos conteúdos.\n\n8º§ “Acho que fomos roubados. Para um Millennial, dói saber como a internet era e o que ela se tornou. As big techs estão tentando tirar nossa autonomia. Elas querem controlar e filtrar a informação que chega na gente. Querem controlar como a gente consome, procura e busca informação. Isso é um projeto de poder”, afirma Manuela Barem, fundadora e ex-editora chefe do BuzzFeed Brasil.\n\nEstadão, link/cultura digital (acesso em 07/01/2026). Excerto."
+  },
+  "ibam-paraiba-terremoto": {
+   "titulo": "Vídeo mostra momento em que terremoto atinge cidade na Venezuela; impacto de tremores sucessivos foi sentido até na Colômbia",
+   "conteudo": "Abalos de magnitude 5,4 e 6 ocorreram com intervalo de menos de seis horas; não há registro de vítimas fatais\n\n1º§ O oeste da Venezuela foi atingido por uma sequência de terremotos na quarta-feira, todos associados ao sistema de falhas de Boconó, segundo a Fundação Venezuelana de Investigações Sismológicas (Funvisis). Ao longo do dia, mais de uma dezena de tremores foram registrados, dois deles de maior intensidade: um de magnitude 5,4 no início da noite e outro, mais forte, de magnitude 6, horas depois. Até o momento, não há registro de vítimas.\n\n2º§ O primeiro tremor ocorreu às 18h21, com epicentro a 40 quilômetros ao nordeste de La Ceiba, no estado de Trujillo, e a 40 quilômetros ao sudeste de Bachaquero. O abalo, de profundidade de 26,5 quilômetros, foi sentido não apenas em Zulia, mas também em Táchira, Lara, Mérida, Barinas, Trujillo, Aragua e até em Caracas.\n\n3º§ Já o terremoto de magnitude 6 foi registrado às 23h51, com epicentro a 45 quilômetros a leste de Bachaquero, em Zulia, e profundidade de 16,4 quilômetros.\n\n4º§ O impacto alcançou estados como Falcón, Lara, Yaracuy, Portuguesa e Trujillo, além de cidades da Colômbia, entre elas Bucaramanga, Bogotá, Cartagena e Medellín.\n\n5º§ Em Zulia, há relatos de danos em estruturas públicas e religiosas.\n\n6º§ — Estamos avaliando os danos estruturais que até este momento foram reportados, entre eles, o Hospital Luis Razetti, na localidade de Pueblo Nuevo, no município Baralt; a ponte de San Pedro, também nesse município — indicou o governador nas imediações da Igreja Santa Bárbara, em Maracaibo, capital do estado, que sofreu danos em sua torre.\n\n7º§ Ainda segundo o governador, também foram constatados problemas no Hospital Geral do Sul, em Maracaibo, além de falhas em semáforos e suspensão do serviço elétrico em setores do município Jesús Enrique Lossada.\n\n8º§ Equipes de segurança do Estado, Defesa Civil, engenheiros e técnicos municipais seguem em campo para avaliar os estragos. O balanço detalhado dos prejuízos deve ser conhecido nas próximas horas.\n\nO Globo, 25/09/2025. Texto adaptado."
   }
  }
 }

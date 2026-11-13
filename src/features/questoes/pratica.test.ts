@@ -165,7 +165,7 @@ describe('pacote de provas reais', () => {
       expect(q.gabarito).toBe(['A', 'B', 'C', 'D', 'E'].indexOf(orig.gabarito));
       expect(q.gabarito).toBeLessThan(q.alternativas.length);
       expect(q.origem).toBe('importada');
-      expect(q.fonte).toMatch(/^.+ · 20\d\d · Prefeitura de .+\/[A-Z]{2} · .+$/);
+      expect(q.fonte).toMatch(/^.+ · 20\d\d · (Prefeitura|Câmara Municipal) de .+\/[A-Z]{2} · .+$/);
       expect(topicos.has(q.topico_id!)).toBe(true);
       expect(q.topico_id!.startsWith(q.disciplina_id)).toBe(true);
     });
