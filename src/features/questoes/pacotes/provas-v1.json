@@ -2222,6 +2222,446 @@
    "gabarito": "C",
    "explicacao": "Art. 25: “A Câmara terá comissões permanentes e especiais.” As permanentes tratam de matérias por área. As especiais são criadas pelo Plenário para um fim determinado. Há também as CPIs, com poderes de investigação. Ordinárias e extraordinárias são tipos de sessão, não de comissão. Fonte: Lei Orgânica de Saquarema, art. 25.",
    "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Auxiliar de Educação Infantil (questão 40) · gabarito definitivo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "A informação de que o Brasil alcançou “o menor patamar da série histórica” permite concluir que:",
+   "alternativas": [
+    "a redução registrada em 2025 eliminou o analfabetismo no país",
+    "o índice de 2025 representa o menor valor observado desde o início da série considerada pelo levantamento",
+    "a queda observada em 2025 comprova que as desigualdades educacionais deixaram de influenciar os indicadores nacionais",
+    "a pesquisa demonstra que todas as regiões brasileiras reduziram o analfabetismo exatamente na mesma proporção entre 2016 e 2025"
+   ],
+   "gabarito": "B",
+   "explicacao": "“Menor patamar da série histórica” = o menor valor desde que a série começou (2016). A taxa ainda é de 4,9%, então não foi eliminada. O próprio texto mostra desigualdades e diferenças entre regiões. As erradas exageram: “eliminou”, “deixaram de influenciar”, “exatamente na mesma proporção”.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 21) · gabarito definitivo",
+   "texto": "ibam-saq-pae-analfabetismo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-02",
+   "dificuldade": 1,
+   "enunciado": "Considerando a organização temática do texto, a sequência predominante de desenvolvimento consiste em:",
+   "alternativas": [
+    "apresentar um resultado geral e, posteriormente, detalhá-lo por diferentes recortes populacionais",
+    "defender uma opinião sobre educação antes de expor exemplos que confirmariam a posição defendida no texto",
+    "narrar acontecimentos históricos para justificar as diferenças verificadas entre regiões, faixas etárias e grupos raciais na atualidade",
+    "comparar metodologias de pesquisas anteriores com procedimentos empregados pelo IBGE para explicar as alterações observadas em 2025"
+   ],
+   "gabarito": "A",
+   "explicacao": "O 1º parágrafo traz o dado geral (8,4 milhões, taxa de 4,9%). Os seguintes detalham por recortes: região (Nordeste), idade (60+), raça, sexo, crianças e jovens. É um texto expositivo, que não defende opinião (B) nem narra (C).",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 22) · gabarito definitivo",
+   "texto": "ibam-saq-pae-analfabetismo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "A leitura do texto permite concluir que os diferentes indicadores apresentados sustentam a ideia de que:",
+   "alternativas": [
+    "a escolarização ampliou-se de forma homogênea em todos os segmentos da sociedade brasileira",
+    "a redução do analfabetismo tornou irrelevantes as diferenças educacionais entre gerações e grupos sociais",
+    "a redução do analfabetismo resulta da ampliação da frequência das crianças à educação infantil, conforme indicam os dados apresentados",
+    "os avanços educacionais convivem com desigualdades persistentes, exigindo que os resultados sejam interpretados de forma contextualizada"
+   ],
+   "gabarito": "D",
+   "explicacao": "É a tese que aparece já no subtítulo: “queda no analfabetismo, MAS desigualdades… seguem marcantes”. Os dados mostram avanço (menor taxa da série) e desigualdade (Nordeste, idosos, pretos e pardos). A C inventa uma relação de causa que o texto não faz.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 23) · gabarito definitivo",
+   "texto": "ibam-saq-pae-analfabetismo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-06",
+   "dificuldade": 1,
+   "enunciado": "“O percentual caiu em relação a 2019, mostrando melhora, embora o desafio de inclusão educacional e produtiva siga relevante” (9º parágrafo). Nesse trecho, o conectivo “embora” evidencia relação semântica de:",
+   "alternativas": [
+    "causa",
+    "finalidade",
+    "concessão",
+    "consequência"
+   ],
+   "gabarito": "C",
+   "explicacao": "“Embora” é conjunção concessiva: admite um fato contrário (o desafio continua) que não impede o fato principal (houve melhora). Outras concessivas: ainda que, mesmo que, apesar de que, conquanto. Elas pedem o verbo no subjuntivo (“siga”).",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 24) · gabarito definitivo",
+   "texto": "ibam-saq-pae-analfabetismo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-03",
+   "dificuldade": 1,
+   "enunciado": "A organização das informações ao longo do texto permite concluir que o objetivo predominante é:",
+   "alternativas": [
+    "defender a necessidade de rever os critérios utilizados pelo IBGE para medir os níveis de escolarização da população",
+    "explicar as causas das desigualdades educacionais brasileiras a partir da análise das condições econômicas e familiares da população",
+    "relatar resultados recentes sobre a educação brasileira, contextualizando-os por meio de diferentes indicadores demográficos e sociais",
+    "ir de encontro com os resultados da pesquisa, priorizando a comparação entre indicadores educacionais de diferentes grupos da população brasileira"
+   ],
+   "gabarito": "C",
+   "explicacao": "É uma reportagem: relata os resultados da PNAD Educação 2025 e os contextualiza (região, idade, raça, sexo). Ela não critica o IBGE (A) nem explica as causas das desigualdades (B). A D diz que o texto “vai de encontro” aos resultados, ou seja, os contraria, o que é falso. Cuidado: “ir ao encontro de” = concordar; “ir de encontro a” = discordar.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 25) · gabarito definitivo",
+   "texto": "ibam-saq-pae-analfabetismo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-07-01",
+   "dificuldade": 1,
+   "enunciado": "“A maior razão apontada para abandono ou nunca ter frequentado a escola foi a necessidade de trabalhar [...]” (8º parágrafo). Nesse trecho, a forma verbal “foi” corresponde ao:",
+   "alternativas": [
+    "pretérito perfeito do indicativo do verbo IR",
+    "pretérito perfeito do indicativo do verbo SER",
+    "pretérito imperfeito do indicativo do verbo IR",
+    "pretérito imperfeito do indicativo do verbo SER"
+   ],
+   "gabarito": "B",
+   "explicacao": "“Foi” pode ser do verbo ir ou do verbo ser, e quem decide é o sentido. Aqui “A maior razão foi a necessidade” liga o sujeito a uma característica: é verbo de ligação, o verbo SER. Tempo: pretérito perfeito (o imperfeito seria “era”). Teste: troque por “é” e veja que funciona (“a maior razão é…”).",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 26) · gabarito definitivo",
+   "texto": "ibam-saq-pae-analfabetismo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-07-05",
+   "dificuldade": 2,
+   "enunciado": "“A falta de escola ou creche na localidade, ausência de vaga ou recusa por idade também apareceram entre os motivos mais citados” (7º parágrafo). Quanto à classe gramatical, nesse trecho, as palavras “falta” e “recusa” podem ser classificadas, respectivamente, como:",
+   "alternativas": [
+    "verbo e adjetivo",
+    "verbo e substantivo",
+    "substantivo e adjetivo",
+    "substantivo e substantivo"
+   ],
+   "gabarito": "D",
+   "explicacao": "A pegadinha é que “falta” e “recusa” também existem como verbos (“ele falta”, “ela recusa”). No trecho, porém, vêm com determinantes e nomeiam fatos: “A falta de escola”, “recusa por idade”, os dois núcleos do sujeito de “apareceram”. São substantivos.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 27) · gabarito definitivo",
+   "texto": "ibam-saq-pae-analfabetismo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-09",
+   "dificuldade": 1,
+   "enunciado": "Considerando a linguagem empregada na reportagem, pode-se afirmar que o texto:",
+   "alternativas": [
+    "constrói sua argumentação por meio de personificações que aproximam o leitor dos fenômenos sociais analisados",
+    "privilegia linguagem denotativa, compatível com a finalidade de apresentar informações e resultados de pesquisa",
+    "utiliza metáforas para substituir os dados estatísticos por imagens que intensificam o impacto da informação",
+    "recorre predominantemente à hipérbole para enfatizar a gravidade dos problemas educacionais apresentados"
+   ],
+   "gabarito": "B",
+   "explicacao": "Reportagem com dados (percentuais, milhões, anos) usa palavras no sentido literal: linguagem denotativa e função referencial. Figuras de linguagem como personificação, metáfora e hipérbole não predominam.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 28) · gabarito definitivo",
+   "texto": "ibam-saq-pae-analfabetismo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-13",
+   "dificuldade": 1,
+   "enunciado": "No trecho “Pesquisa do IBGE mostra queda no analfabetismo, mas desigualdades entre regiões, faixas etárias e grupos raciais seguem marcantes”, o emprego da vírgula antes da conjunção “mas” justifica-se porque:",
+   "alternativas": [
+    "separa duas orações que mantêm entre si relação de adição",
+    "marca a intercalação de uma informação de natureza explicativa",
+    "indica a elipse de um termo facilmente recuperável pelo contexto",
+    "separa duas orações coordenadas, evidenciando uma relação de contraste entre elas"
+   ],
+   "gabarito": "D",
+   "explicacao": "Regra: usa-se vírgula antes de conjunções coordenativas adversativas (mas, porém, contudo, todavia). As duas orações, “mostra queda” e “desigualdades seguem marcantes”, são coordenadas e se opõem.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 29) · gabarito definitivo",
+   "texto": "ibam-saq-pae-analfabetismo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-14-02",
+   "dificuldade": 2,
+   "enunciado": "“Em nove anos, o índice nacional recuou de 6,7%, em 2016, para 4,9%, em 2025, alcançando o menor patamar da série histórica iniciada naquele ano” (2º parágrafo). O termo “Em nove anos” classifica-se sintaticamente como:",
+   "alternativas": [
+    "adjunto adverbial",
+    "adjunto adnominal",
+    "oração coordenada assindética",
+    "oração subordinada adverbial temporal"
+   ],
+   "gabarito": "A",
+   "explicacao": "“Em nove anos” indica tempo e modifica o verbo “recuou”. Como não tem verbo, não é oração (C e D estão erradas): é um adjunto adverbial de tempo, deslocado para o início, por isso com vírgula. O adjunto adnominal (B) acompanha um substantivo.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 30) · gabarito definitivo",
+   "texto": "ibam-saq-pae-analfabetismo"
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "dificuldade": 1,
+   "enunciado": "A frota comandada por Martim Afonso de Souza que chegou à região de Saquarema em 1531 era composta por duas naus, um galeão e o seguinte número de caravelas:",
+   "alternativas": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "gabarito": "B",
+   "explicacao": "“Foi organizada uma frota composta de 2 naus, 1 galeão, 2 caravelas e 400 pessoas, entre tripulantes e passageiros”, confiada a Martim Afonso pela carta régia de 20 de novembro de 1530. Guarde: 2 naus, 1 galeão, 2 caravelas, 400 pessoas. Fonte: documento do IBAM sobre Saquarema.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 31) · gabarito definitivo"
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "dificuldade": 1,
+   "enunciado": "A vila de Saquarema foi elevada à categoria de cidade e sede de município pelo Decreto Estadual n.º 28, do ano de 1890. Seus dois distritos foram criados e instalados no ano de:",
+   "alternativas": [
+    "1892",
+    "1896",
+    "1901",
+    "1906"
+   ],
+   "gabarito": "A",
+   "explicacao": "Em 1892 foram criados os distritos de Mato Grosso e Palmital. Depois mudaram de nome:\n• Palmital virou Bacaxá (1938);\n• Mato Grosso virou Maranguá (1943) e depois Sampaio Correa (1946).\nFonte: documento do IBAM sobre Saquarema.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 32) · gabarito definitivo"
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-02",
+   "dificuldade": 1,
+   "enunciado": "Uma afirmativa correta sobre Alberto de Oliveira, personalidade ilustre de Saquarema, está apresentada na seguinte alternativa:",
+   "alternativas": [
+    "é o autor do hino de Saquarema",
+    "foi um dos escritores mais premiados de sua geração",
+    "recebeu o título de tenente-coronel da Guarda Nacional",
+    "foi poeta, considerado precursor do parnasianismo no Brasil"
+   ],
+   "gabarito": "D",
+   "explicacao": "Alberto de Oliveira (1857) é poeta parnasiano, precursor do movimento ao lado de Olavo Bilac e Raimundo Correia (a “tríade parnasiana”). As outras descrevem outras personalidades do mesmo documento:\n• “um dos escritores mais premiados de sua geração” é Walmir Ayala;\n• “tenente-coronel da Guarda Nacional” é o Barão de Saquarema;\n• o hino tem outro autor.\nTípico do IBAM: os distratores vêm do mesmo capítulo. Fonte: documento do IBAM sobre Saquarema, Personalidades.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 33) · gabarito definitivo"
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "dificuldade": 1,
+   "enunciado": "O Atlas Municipal de Saquarema informa a existência de 46 bairros no Município, dos quais fazem parte do Distrito-sede:",
+   "alternativas": [
+    "7",
+    "16",
+    "21",
+    "25"
+   ],
+   "gabarito": "B",
+   "explicacao": "Atlas Municipal (2024): 46 bairros, sendo 16 na Sede, 24 em Bacaxá e 6 em Sampaio Correa. Macete: Bacaxá tem mais da metade dos bairros. Fonte: documento do IBAM sobre Saquarema, Distritos e Bairros.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 34) · gabarito definitivo"
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "dificuldade": 1,
+   "enunciado": "A primeira sede da Câmara Municipal de Saquarema foi construída no século XIX e assim funcionou até o ano de:",
+   "alternativas": [
+    "1932",
+    "1955",
+    "1978",
+    "1993"
+   ],
+   "gabarito": "C",
+   "explicacao": "O prédio foi sede da Câmara e da Prefeitura de 1841 até 1978. Hoje funciona ali a Casa de Cultura Walmir Ayala, com a biblioteca municipal. O prédio foi doado pelo Barão de Saquarema. Fonte: documento do IBAM sobre Saquarema.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 35) · gabarito definitivo"
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "dificuldade": 1,
+   "enunciado": "Conforme a Lei Orgânica de Saquarema, um dos requisitos para a criação de novo Distrito é a existência, na área ou povoação, de moradias em número, pelo menos, de:",
+   "alternativas": [
+    "1.000",
+    "700",
+    "500",
+    "300"
+   ],
+   "gabarito": "A",
+   "explicacao": "Art. 6º (redação da Emenda nº 005/2012), requisitos cumulativos:\nI – eleitorado de no mínimo 5% do total do Município e arrecadação de no mínimo 5 milésimos por cento da arrecadação municipal de impostos;\nII – na povoação-sede, pelo menos mil moradias, escola pública, posto de saúde e posto policial.\nFonte: Lei Orgânica de Saquarema, art. 6º.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 36) · gabarito definitivo"
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "dificuldade": 2,
+   "enunciado": "Conforme a Lei Orgânica de Saquarema, constitui competência privativa do Município:",
+   "alternativas": [
+    "estabelecer e implantar política de educação para segurança do trânsito",
+    "fomentar e desenvolver o turismo no Município, através de programas específicos",
+    "elaborar o orçamento anual e plurianual de investimentos, bem como a Lei de Diretrizes Orçamentárias",
+    "outorgar isenções e anistias fiscais, ou permitir a remissão de dívidas, sem interesse público justificado, sob pena de nulidade"
+   ],
+   "gabarito": "C",
+   "explicacao": "Elaborar o orçamento é competência privativa (art. 10, VI). Trânsito e turismo (A e B) estão no art. 11, XI e XII, a competência comum com a União e o Estado. A D é uma proibição: isenção sem interesse público justificado é nula. Mesmo truque das outras provas do IBAM: misturar o art. 10 (privativa) com o art. 11 (comum). Fonte: Lei Orgânica de Saquarema, arts. 10 e 11.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 37) · gabarito definitivo"
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "dificuldade": 1,
+   "enunciado": "Conforme a Lei Orgânica de Saquarema, na hipótese de impedimento do Prefeito e do Vice-Prefeito ou de vacância dos respectivos mandatos, quem assume a Administração Municipal é o:",
+   "alternativas": [
+    "Presidente da Câmara",
+    "Procurador-Geral do Município",
+    "Vereador mais idoso em exercício",
+    "Secretário Municipal de Governo"
+   ],
+   "gabarito": "A",
+   "explicacao": "Art. 62: em caso de impedimento do Prefeito e do Vice, ou de vacância, assume o Presidente da Câmara. Se não houver Vice e a vacância for nos três primeiros anos, há nova eleição em 90 dias. Se for no último ano, o Presidente da Câmara completa o mandato (art. 63). Fonte: Lei Orgânica de Saquarema, arts. 62 e 63.",
+   "fonte": "IBAM · 2026 · Prefeitura de Saquarema/RJ · Profissional de Apoio ao Estudante com Deficiência (questão 38) · gabarito definitivo"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 2,
+   "enunciado": "No texto, o autor aborda um processo social que envolve a relação entre idade e comportamento. No que diz respeito ao tempo cronológico, tal processo pode ser explicado como uma forma de:",
+   "alternativas": [
+    "fragmentação",
+    "valorização",
+    "subversão",
+    "aceitação"
+   ],
+   "gabarito": "C",
+   "explicacao": "Crianças “adultizadas” e adultos “infantilizados” invertem o que se espera de cada idade: é uma subversão (inversão, desordem) do tempo cronológico. O autor fala em “rota de colisão com nossos relógios biológicos” e em relação “disfuncional” com o tempo. Não há aceitação nem valorização.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Agente de Defesa Civil (questão 21) · gabarito definitivo",
+   "texto": "ibam-arraial-adultizacao"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-07-04",
+   "dificuldade": 2,
+   "enunciado": "O radical adult- está presente em invenções vocabulares recentes, utilizadas no texto. Dentre elas, aquela formada por processo de composição é:",
+   "alternativas": [
+    "adultizar",
+    "adultizadas",
+    "adultização",
+    "adultescente"
+   ],
+   "gabarito": "D",
+   "explicacao": "“Adultescente” junta duas palavras (adulto + adolescente), formando uma composição por aglutinação, com perda de sons. As outras são derivação, com sufixos sobre o radical: adult + -izar, adultiz + -ado e adultiz + -ação.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Agente de Defesa Civil (questão 22) · gabarito definitivo",
+   "texto": "ibam-arraial-adultizacao"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-04",
+   "dificuldade": 2,
+   "enunciado": "“As fronteiras entre eles vêm se tornando menos nítidas, por razões variadas que ainda aguardam estudos aprofundados.” (2º parágrafo)\nA declaração feita na frase acima esclarece a seguinte expressão usada anteriormente no 2º parágrafo:",
+   "alternativas": [
+    "invenções vocabulares",
+    "problemas novos",
+    "velhas etapas",
+    "territórios delimitados"
+   ],
+   "gabarito": "D",
+   "explicacao": "A frase anterior diz que as fases da vida “pareciam territórios delimitados com razoável segurança”. A frase citada esclarece essa imagem: as fronteiras desses territórios estão ficando menos nítidas. O pronome “eles” retoma esses territórios (as fases da vida).",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Agente de Defesa Civil (questão 23) · gabarito definitivo",
+   "texto": "ibam-arraial-adultizacao"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-05",
+   "dificuldade": 2,
+   "enunciado": "“E as palavras, como sempre, correm atrás dos fatos.” (2º parágrafo)\nDe acordo com a frase citada, entre “palavras” e “fatos” há uma relação de:",
+   "alternativas": [
+    "atemporalidade",
+    "simultaneidade",
+    "adversidade",
+    "causalidade"
+   ],
+   "gabarito": "D",
+   "explicacao": "Primeiro surgem os fatos (os fenômenos sociais) e depois a língua cria palavras para nomeá-los, como “adultização”. Os fatos causam as palavras: é causalidade. “Correr atrás” mostra que as palavras vêm depois, então não há simultaneidade.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Agente de Defesa Civil (questão 24) · gabarito definitivo",
+   "texto": "ibam-arraial-adultizacao"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-13",
+   "dificuldade": 2,
+   "enunciado": "“Seja como for, o que me parece indiscutível é que todos esses fatores se organizam sob a batuta do fenômeno mais socialmente relevante – para o bem e para o mal, mais para este que para aquele – do século 21: a rede-socialização desenfreada de tudo o que existe no mundo.” (3º parágrafo)\nO uso dos dois-pontos assume, em relação ao termo “fenômeno”, o papel de introduzir uma:",
+   "alternativas": [
+    "exemplificação",
+    "generalização",
+    "especificação",
+    "comparação"
+   ],
+   "gabarito": "C",
+   "explicacao": "Os dois-pontos apresentam qual é o “fenômeno mais socialmente relevante”: a rede-socialização. Dizer exatamente qual é o termo é especificação. Exemplificação seria dar um caso entre vários.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Agente de Defesa Civil (questão 25) · gabarito definitivo",
+   "texto": "ibam-arraial-adultizacao"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-07-05",
+   "dificuldade": 1,
+   "enunciado": "“[...] o fenômeno mais socialmente relevante – para o bem e para o mal, mais para este que para aquele – do século 21 [...]” (3º parágrafo)\nAs palavras “bem” e “mal”, no trecho, são classificadas como substantivos pela seguinte razão:",
+   "alternativas": [
+    "nomeiam algo",
+    "delimitam ação",
+    "indicam qualificação",
+    "apresentam circunstância"
+   ],
+   "gabarito": "A",
+   "explicacao": "Precedidas de artigo (“o bem”, “o mal”), as palavras nomeiam conceitos: são substantivos. Como advérbios (“fez bem”, “agiu mal”), indicariam circunstância de uma ação (D).",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Agente de Defesa Civil (questão 26) · gabarito definitivo",
+   "texto": "ibam-arraial-adultizacao"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-07-01",
+   "dificuldade": 1,
+   "enunciado": "“Se vemos proliferar expressões como ‘os 60 são os novos 40’ [...]” (4º parágrafo)\nAo substituir a conjunção “se” pela conjunção “caso”, o verbo “ver” deverá ser flexionado no seguinte tempo e modo:",
+   "alternativas": [
+    "futuro do subjuntivo",
+    "presente do indicativo",
+    "presente do subjuntivo",
+    "futuro do presente do indicativo"
+   ],
+   "gabarito": "C",
+   "explicacao": "“Caso” pede presente do subjuntivo: “Caso vejamos proliferar…”. Correlações úteis:\n• Se + futuro do subjuntivo (“se virmos”).\n• Se + presente do indicativo (“se vemos”).\n• Caso + presente do subjuntivo (“caso vejamos”).\nNunca diga “caso virmos”.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Agente de Defesa Civil (questão 27) · gabarito definitivo",
+   "texto": "ibam-arraial-adultizacao"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "No 4º parágrafo, ao classificar “melhor idade” como eufemismo, o autor expressa um ponto de vista em relação ao uso de tal expressão. A partir do texto, tal ponto de vista pode ser caracterizado como uma forma de:",
+   "alternativas": [
+    "questionamento",
+    "consentimento",
+    "ambiguidade",
+    "neutralidade"
+   ],
+   "gabarito": "A",
+   "explicacao": "O autor diz que “melhor idade” substitui “a outrora digna, mas hoje aparentemente inaceitável, ‘velhice’”. O tom é crítico: ele questiona o costume de suavizar a palavra. Não há concordância nem neutralidade.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Agente de Defesa Civil (questão 28) · gabarito definitivo",
+   "texto": "ibam-arraial-adultizacao"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-14-02",
+   "dificuldade": 3,
+   "enunciado": "Considere o trecho “é nessa dor que deitam raízes tanto as religiões quanto as artes” (5º parágrafo). As funções dos termos “raízes” e “tanto as religiões quanto as artes” estão identificadas, respectivamente, em:",
+   "alternativas": [
+    "sujeito e objeto direto",
+    "objeto direto e sujeito",
+    "adjunto adverbial e sujeito",
+    "objeto direto e adjunto adverbial"
+   ],
+   "gabarito": "B",
+   "explicacao": "Coloque na ordem direta: “Tanto as religiões quanto as artes deitam raízes nessa dor”. Quem deita raízes? As religiões e as artes, que são o sujeito composto, posposto ao verbo. Deitam o quê? Raízes, o objeto direto. O “é… que” é só expressão de realce.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Agente de Defesa Civil (questão 29) · gabarito definitivo",
+   "texto": "ibam-arraial-adultizacao"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-05",
+   "dificuldade": 2,
+   "enunciado": "A última frase do texto (“Só pode ser porque dá lucro, esse deus sem metafísica.”), em relação às que a antecedem no parágrafo, expressa sentido de:",
+   "alternativas": [
+    "finalidade",
+    "explicação",
+    "consequência",
+    "conformidade"
+   ],
+   "gabarito": "B",
+   "explicacao": "Depois de constatar que o transtorno com o tempo virou “a única universalidade possível”, o autor diz o porquê: “Só pode ser porque dá lucro”. É uma explicação, marcada pelo “porque”. “Esse deus sem metafísica” retoma o lucro.",
+   "fonte": "IBAM · 2025 · Prefeitura de Arraial do Cabo/RJ · Agente de Defesa Civil (questão 30) · gabarito definitivo",
+   "texto": "ibam-arraial-adultizacao"
   }
  ],
  "textos": {
@@ -2236,6 +2676,14 @@
   "ibam-saq-aei-memoria": {
    "titulo": "A falta de atenção e a memória",
    "conteudo": "1º§ Perguntei quantos achavam que a memória estava pior. Formada por cerca de 500 estudantes de medicina, mais da metade da plateia levantou a mão. Comentei que se tratava de uma epidemia de Alzheimer juvenil. Eles riram.\n\n2º§ Perda de memória talvez seja a queixa mais frequente nas consultas médicas de hoje. No passado, esse fenômeno ficava restrito aos poucos que insistiam em viver mais do que 70 ou 80 anos. Todos encaravam com naturalidade os avós que repetiam cinco vezes a mesma pergunta e passavam o dia à procura de objetos deixados sabe Deus onde. Consideravam esses esquecimentos “esclerose da idade”. Diziam: “Minha avó é capaz de esquecer do que foi servido no almoço, mas tem uma memória prodigiosa, lembra de fatos que ocorreram quando tinha sete anos de idade”.\n\n3º§ Em linhas gerais, existem dois grandes grupos de memórias: as de longa e as de curta duração, estas também chamadas de memória de trabalho. As primeiras persistem por décadas ou pelo resto da vida, especialmente quando são gravadas em momentos de forte emoção. Razão pela qual não esquecemos o lugar em que estávamos ao receber a notícia da morte de um ente querido ou da queda das Torres Gêmeas, em Nova York, ou da rua em que nos roubaram o celular. A memória de trabalho, ao contrário, é descartável, grava por pouco tempo os acontecimentos que nos ajudam a tocar a rotina diária. Por exemplo, lembro que deixei um copo de água na mesa ao lado ou que fiquei de telefonar para minha irmã ao meio-dia ou que preciso lavar a xícara do café que acabei de tomar. Depois de executadas essas tarefas, tais lembranças serão varridas do cérebro, de modo a deixar espaço livre para outras.\n\n4º§ No conto “Funes el memorioso”, publicado em 1942, Jorge Luis Borges narra a vida de Ireneo Funes, jovem uruguaio que depois de um acidente desenvolve a capacidade de memorizar nos mínimos detalhes tudo o que acontece ao seu redor: o rosto de uma pessoa que acabou de conhecer e que nunca mais verá, o formato das nuvens no céu dia após dia, a disposição das folhas das árvores, as ações mais insignificantes executadas em casa. Essas habilidades, no entanto, deixavam os circuitos neuronais de sua memória tão sobrecarregados que Funes se tornou incapaz de raciocínios elementares, de pensamentos abstratos, de fazer associação de fatos e generalizações. Seu cérebro passava os dias inundado de informações inúteis que o impediam de organizar as ideias para tomar decisões racionais.\n\n5º§ Dizer que somos o que está arquivado em nossa memória é parte da verdade; não podemos esquecer que também somos as memórias que nosso cérebro decidiu desprezar. Voltemos aos desmemoriados de hoje. No caso dos mais velhos, há várias causas: entre elas, o envelhecimento cerebral, o volume crescente de informações armazenadas no decorrer dos anos, a dificuldade de encontrar espaço livre no hardware para arquivá-las e o desgaste na produção de neurotransmissores essenciais. Esses fenômenos, no entanto, não explicam a epidemia de desmemoriados jovens. Como em pessoas de 20 ou 30 anos são muito raras as degenerações neurológicas, é bem provável que a causa do problema esteja ligada à falta de atenção. São tantos os estímulos simultâneos a que estão submetidas, que esse requisito fundamental para a consolidação de memórias se perde.\n\n6º§ Num trabalho conduzido anos atrás, pesquisadores submeteram jovens universitários a uma bateria de testes de atenção, em três situações distintas. Na primeira, eles deixavam o celular fora da sala em que os testes seriam aplicados; na segunda, entravam com o celular e os desligavam antes de começar a responder; na terceira, o celular permanecia ligado durante a realização dos testes. Os maiores índices de acertos ocorreram quando os celulares ficavam do lado de fora. Os piores, quando permaneciam ligados. Os testes aplicados quando os aparelhos estavam ao alcance das mãos, mas desligados, apresentaram resultados intermediários. Quer dizer, a simples presença do celular já é capaz de propiciar a desatenção.\n\n7º§ A seleção natural não moldou o cérebro humano para dar conta da infinidade de desafios cognitivos impostos pela vida on-line. Se lembrarmos que os mesmos fatores de risco estão por trás das crises de ansiedade e de depressão que afligem crianças e adultos de todas as idades, concluiremos que não está fácil preservar a sanidade mental no mundo de hoje.\n\nDRAUZIO VARELLA. Adaptado de folha.uol.com.br, 08/04/2026."
+  },
+  "ibam-saq-pae-analfabetismo": {
+   "titulo": "Brasil tem menor taxa de analfabetismo da série histórica em 2025",
+   "conteudo": "Pesquisa do IBGE mostra queda no analfabetismo, mas desigualdades entre regiões, faixas etárias e grupos raciais seguem marcantes\n\n1º§ O Brasil tinha, em 2025, 8,4 milhões de pessoas com 15 anos ou mais de idade analfabetas, o que representa uma taxa de 4,9%. Em relação a 2024, houve queda de 0,4 ponto percentual, com redução de cerca de 592 mil pessoas no país.\n\n2º§ Em nove anos, o índice nacional recuou de 6,7%, em 2016, para 4,9%, em 2025, alcançando o menor patamar da série histórica iniciada naquele ano. Os dados fazem parte da Pesquisa Nacional por Amostra de Domicílios Contínua: Educação 2025, divulgada pelo IBGE.\n\n3º§ A Região Nordeste concentrava 57,4% do total de analfabetos do país, com 4,8 milhões de pessoas. O analfabetismo também atingia principalmente a população idosa: havia 4,8 milhões de analfabetos com 60 anos ou mais, o equivalente a 14,9% desse grupo etário.\n\n4º§ Entre pessoas com 60 anos ou mais, pretos ou pardos tinham taxa de analfabetismo de 20,6%, quase três vezes a de brancos, de 7,3%. Quando se considera a população de 15 a 59 anos, a taxa cai para 2,6%, sinalizando maior acesso à escolarização nas gerações mais jovens.\n\n5º§ Em 2025, a taxa de analfabetismo entre mulheres de 15 anos ou mais foi de 4,6%, ante 5,2% entre os homens. Na população com 60 anos ou mais, as mulheres passaram a ter índice menor que o dos homens, com 13,7% contra 14,1%, indicando avanço histórico na escolarização feminina.\n\n6º§ Entre as pessoas de 25 anos ou mais, 59,4% das mulheres e 55,2% dos homens haviam concluído ao menos a educação básica obrigatória. Já entre brancos, 64,9% tinham completado esse ciclo, contra 51,3% entre pretos ou pardos, diferença de 13,6 pontos percentuais que ainda mostra desigualdade educacional relevante.\n\n7º§ No caso das crianças de 0 a 3 anos que não frequentavam creche, a principal justificativa dos pais ou responsáveis foi a decisão da própria família. A falta de escola ou creche na localidade, ausência de vaga ou recusa por idade também apareceram entre os motivos mais citados.\n\n8º§ Entre jovens de 14 a 29 anos, 7,7 milhões não haviam concluído o ensino médio em 2025. A maior razão apontada para abandono ou nunca ter frequentado a escola foi a necessidade de trabalhar, seguida por falta de interesse em estudar, gravidez e problemas de saúde.\n\n9º§ O país tinha ainda 46,6 milhões de jovens de 15 a 29 anos, dos quais 17,5% não trabalhavam, não estudavam e nem frequentavam curso de qualificação profissional. O percentual caiu em relação a 2019, mostrando melhora, embora o desafio de inclusão educacional e produtiva siga relevante. (com informações de Ana Cristina Campos, da Agência Brasil)\n\nJornal do Brasil, junho de 2026 (com informações da Agência Brasil). Texto adaptado."
+  },
+  "ibam-arraial-adultizacao": {
+   "titulo": "Adultização e outras brigas com o tempo",
+   "conteudo": "1º§ A palavra “adultização” virou senha para um vasto mundo criminoso que prospera à vista de todos na internet, incentivado pela dinâmica algorítmica de redes sociais desreguladas. Esse é o xis do problema, mas quero falar aqui de uma questão mais sutil de linguagem.\n\n2º§ Adultização – título do excelente vídeo-bomba do youtuber Felca sobre exploração sexual de menores e substantivo não dicionarizado, criado de forma regular a partir do também recente verbo “adultizar” – é uma das invenções vocabulares a que nossa linguagem tem recorrido para dar conta de problemas novos nas velhas etapas de crescimento de uma vida humana. Infância, adolescência, idade adulta, maturidade e velhice pareciam territórios delimitados com razoável segurança e estabilidade no século passado. As fronteiras entre eles vêm se tornando menos nítidas, por razões variadas que ainda aguardam estudos aprofundados. E as palavras, como sempre, correm atrás dos fatos.\n\n3º§ É razoável supor que entrem nessa conta fenômenos como o esgotamento dos velhos modelos de crescimento econômico, o aumento da expectativa de vida, o narcisismo como patologia coletiva, o consumismo como religião suprema, os avanços da medicina estética e o sucesso do discurso coach picareta (com perdão da redundância) de que todo mundo pode ser o que quiser. Seja como for, o que me parece indiscutível é que todos esses fatores se organizam sob a batuta do fenômeno mais socialmente relevante – para o bem e para o mal, mais para este que para aquele – do século 21: a rede-socialização desenfreada de tudo o que existe no mundo.\n\n4º§ Nesse território dentro do espelho, crianças adultizadas – como aqueles tragicômicos empreendedores mirins que aparecem no vídeo do momento falando mal da escola e morrendo de rir de Aristóteles – encontram seu correspondente simétrico em adultos infantilizados, fixados em bonecos, brinquedos, histórias pueris e até chupetas. Se vemos proliferar expressões como “os 60 são os novos 40” e meninas obcecadas por produtos de beleza algumas décadas antes da hora, também cunhamos neologismos como “adultescente” (adulto + adolescente, ou seja, o adulto que reluta em crescer) e eufemismos como “melhor idade” (para substituir a outrora digna, mas hoje aparentemente inaceitável, “velhice”).\n\n5º§ Será que estamos fadados a essa rota de colisão com nossos relógios biológicos? Sermos uma espécie que sabe que vai morrer sempre foi um problema sério, claro, o maior de todos os problemas – é nessa dor que deitam raízes tanto as religiões quanto as artes. Contudo, por que nossa relação com o tempo ficou de repente tão disfuncional?\n\n6º§ Não é difícil encontrar na língua e na linguagem sintomas de que esse tipo de transtorno dismórfico-temporal aspira a ser a única universalidade possível num mundo em que as big techs têm mais poder do que tinha a Igreja Católica na Idade Média. Só pode ser porque dá lucro, esse deus sem metafísica.\n\nSÉRGIO RODRIGUES. Adaptado de folha.uol.com.br, 13/08/2025."
   }
  }
 }
