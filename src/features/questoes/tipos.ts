@@ -20,6 +20,8 @@ export interface Questao {
   numero_original: number | null;
   dificuldade: number | null;
   criado_em: string;
+  /** Impressão digital do conteúdo (enunciado + alternativas); identifica a questão sem duplicar. */
+  hash?: string;
 }
 
 /** Dados para criar uma questão (o banco preenche id, dono e data). */

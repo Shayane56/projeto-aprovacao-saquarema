@@ -14,7 +14,7 @@ async function buscarTudo<T>(consulta: (de: number, ate: number) => PromiseLike<
 }
 
 const COLUNAS_QUESTAO =
-  'id, disciplina_id, topico_id, texto_id, enunciado, alternativas, gabarito, anulada, explicacao, origem, fonte, numero_original, dificuldade, criado_em';
+  'id, disciplina_id, topico_id, texto_id, enunciado, alternativas, gabarito, anulada, explicacao, origem, fonte, numero_original, dificuldade, criado_em, hash';
 
 export const buscarQuestoes = () =>
   buscarTudo<Questao>((de, ate) => supabase.from('questoes').select(COLUNAS_QUESTAO).order('criado_em').order('id').range(de, ate));

@@ -123,15 +123,18 @@ export function useInstalarPacotes() {
 
   useEffect(() => {
     if (!usuario || !questoes.data || tentou.current) return;
+    // Cache antigo (sem a impressão digital): espera os dados atualizados do servidor.
+    if (questoes.data.some((q) => !q.hash)) return;
     tentou.current = true;
     void (async () => {
       const pacotes = await carregarPacotesAutorais();
       const todas = pacotes.flatMap(prepararPacote);
-      const porEnunciado = new Map(questoes.data.map((q) => [q.enunciado, q] as [string, Questao]));
-      const faltando = todas.filter((q) => !porEnunciado.has(q.enunciado));
+      // Identifica pela impressão digital (enunciado + alternativas): duas questões podem ter o mesmo enunciado.
+      const porHash = new Map(questoes.data.map((q) => [q.hash!, q] as [string, Questao]));
+      const faltando = todas.filter((q) => !porHash.has(q.hash));
       // Correções vindas do pacote (ex.: gabarito oficial conferido) em questões já instaladas.
       const corrigir = todas.flatMap((q) => {
-        const atual = porEnunciado.get(q.enunciado);
+        const atual = porHash.get(q.hash);
         if (!atual || atual.origem !== q.origem) return [];
         return atual.fonte !== q.fonte || atual.gabarito !== q.gabarito ? [{ id: atual.id, fonte: q.fonte, gabarito: q.gabarito }] : [];
       });

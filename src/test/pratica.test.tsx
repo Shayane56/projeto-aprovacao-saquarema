@@ -128,6 +128,17 @@ describe('praticar', () => {
     expect(m.atualizarQuestao).not.toHaveBeenCalled();
   });
 
+  it('instala questões diferentes com o mesmo enunciado (identifica pelo conteúdo completo)', async () => {
+    const enunciado = 'Conforme a Lei Orgânica de Saquarema, constitui competência privativa do Município:';
+    const gemeas = BANCO.filter((q) => q.enunciado === enunciado);
+    expect(gemeas).toHaveLength(2);
+    m.questoes = BANCO.filter((q) => q.id !== gemeas[1].id);
+    renderizarApp('/praticar');
+    await waitFor(() => expect(m.inserir).toHaveBeenCalledTimes(1));
+    expect((m.inserir.mock.calls[0][1] as { hash: string }[]).map((q) => q.hash)).toEqual([gemeas[1].hash]);
+    expect(m.atualizarQuestao).not.toHaveBeenCalled();
+  });
+
   it('aplica correções do pacote (ex.: gabarito oficial conferido) em questões já instaladas', async () => {
     const alvo = BANCO.find((q) => q.fonte?.includes('gabarito definitivo'))!;
     m.questoes = BANCO.map((q) => (q.id === alvo.id ? { ...q, fonte: q.fonte!.replace('definitivo', 'não oficial') } : q));
