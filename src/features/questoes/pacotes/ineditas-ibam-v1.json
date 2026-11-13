@@ -74,6 +74,146 @@
    ],
    "gabarito": "B",
    "explicacao": "“Mas” é uma conjunção adversativa. O silêncio da moradora faria o leitor esperar indiferença, e o “mas” quebra essa expectativa: ela age na hora. A alternativa A erra o sentido, porque a ação contradiz o desinteresse em vez de confirmá-lo. Conclusão seria marcada por “portanto” ou “logo”, e explicação, por “pois” ou “porque”. Esse tipo de questão, que pede o sentido do conectivo no contexto, aparece nas duas provas do IBAM de Saquarema.\nTexto autoral, criado para esta questão."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-10",
+   "dificuldade": 2,
+   "enunciado": "Durante uma visita domiciliar em Saquarema, o Agente de Combate às Endemias encontra um gato com feridas na face que não cicatrizam. A tutora relata que o animal costuma brigar com outros gatos da rua. Considerando a suspeita de esporotricose, NÃO é recomendado orientar a família a:",
+   "alternativas": [
+    "manter o gato separado de outros animais durante o tratamento veterinário",
+    "utilizar luvas ao manipular o animal doente e ao higienizar o ambiente",
+    "enterrar o cadáver no quintal, caso o animal venha a óbito",
+    "procurar atendimento caso alguém da casa apresente ferida que não cicatriza após arranhadura"
+   ],
+   "gabarito": "C",
+   "explicacao": "A esporotricose é causada por um fungo, o Sporothrix. É transmitida principalmente por arranhadura, mordida ou contato com as secreções de gatos doentes, e o Rio de Janeiro é área de grande número de casos.\nO cadáver do animal não deve ser enterrado, porque o fungo pode permanecer no solo e contaminar o ambiente. A recomendação é a cremação.\nAs alternativas A, B e D são orientações corretas: isolar o animal, usar luvas e procurar atendimento se surgir ferida após arranhadura.\nFonte: Ministério da Saúde, orientações sobre esporotricose humana e animal."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-07",
+   "dificuldade": 2,
+   "enunciado": "A Lei nº 13.301/2016 autoriza, em situação de risco de dengue, chikungunya e zika, o ingresso forçado em imóveis no caso de abandono, ausência ou recusa de pessoa que possa permitir o acesso do agente público. Para esse fim, considera-se AUSÊNCIA a impossibilidade de localização de pessoa que possa permitir o acesso ao imóvel na hipótese de:",
+   "alternativas": [
+    "uma visita devidamente notificada, dentro do intervalo de cinco dias",
+    "duas visitas devidamente notificadas, em dias e períodos alternados, dentro do intervalo de dez dias",
+    "três visitas devidamente notificadas, no mesmo período do dia, dentro do intervalo de quinze dias",
+    "duas visitas realizadas no mesmo dia, em períodos diferentes, dentro do intervalo de trinta dias"
+   ],
+   "gabarito": "B",
+   "explicacao": "O texto da lei é: “duas visitas devidamente notificadas, em dias e períodos alternados, dentro do intervalo de 10 (dez) dias”.\nMacete: 2 visitas, 10 dias, dias e períodos alternados.\nNão é o agente que decide entrar à força: o ingresso forçado é medida da autoridade sanitária, e o agente precisa estar regularmente designado e identificado. O IBAM costuma cobrar números literais da lei, como fez com os prazos da Lei Orgânica.\nFonte: Lei nº 13.301/2016, art. 1º, §§ 1º e 2º."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-06",
+   "dificuldade": 2,
+   "enunciado": "Uma criança foi mordida na mão pelo cão de um vizinho, que está aparentemente saudável. O agente orienta a família a lavar imediatamente o ferimento com água e sabão e a procurar a unidade de saúde. Quanto ao animal agressor, segundo o protocolo do Ministério da Saúde, ele deve ser:",
+   "alternativas": [
+    "sacrificado imediatamente, para exame laboratorial do cérebro",
+    "observado por 5 dias, período suficiente para descartar a raiva em qualquer mamífero",
+    "observado por 30 dias, desde que esteja vacinado contra a raiva",
+    "observado por 10 dias, conduta que se aplica apenas a cães e gatos"
+   ],
+   "gabarito": "D",
+   "explicacao": "Cães e gatos podem ser observados por 10 dias. Se o animal continuar saudável nesse período, o caso tem conduta mais branda.\nA observação vale só para cães e gatos. Agressão por morcego é sempre considerada grave, com soro e vacina, e o morcego não é “observado”. O sacrifício (A) não é a conduta padrão.\nFonte: Ministério da Saúde, Protocolo de Profilaxia da Raiva Humana."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-10",
+   "dificuldade": 1,
+   "enunciado": "No controle de roedores, o conjunto de medidas preventivas que visam impedir o acesso, o abrigo e a alimentação dos ratos, como o acondicionamento correto do lixo, a vedação de frestas e a remoção de entulhos, é denominado:",
+   "alternativas": [
+    "antirratização",
+    "desratização",
+    "desinsetização",
+    "desinfecção"
+   ],
+   "gabarito": "A",
+   "explicacao": "• Antirratização = prevenção: tirar dos ratos água, alimento, abrigo e acesso.\n• Desratização = eliminação direta dos roedores, por exemplo com raticidas.\n• Desinsetização é contra insetos, e desinfecção é contra micro-organismos.\nO controle de roedores é peça-chave na prevenção da leptospirose.\nFonte: Ministério da Saúde, Manual de Controle de Roedores."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-04",
+   "dificuldade": 1,
+   "enunciado": "Um morador entrega ao agente de endemias um inseto que encontrou no quarto e que suspeita ser um barbeiro. Sobre a conduta adequada nessa situação, é correto afirmar que o morador deve ser orientado a:",
+   "alternativas": [
+    "esmagar o inseto imediatamente, para evitar que ele fuja e infeste a casa",
+    "aplicar inseticida doméstico em aerossol e descartar o inseto no lixo comum",
+    "capturar o inseto sem tocá-lo com as mãos desprotegidas, usando luva ou saco plástico, e encaminhá-lo ao serviço de saúde ou Posto de Informação de Triatomíneos (PIT)",
+    "manter o inseto em casa, em pote fechado, até que apresente sintomas da doença"
+   ],
+   "gabarito": "C",
+   "explicacao": "O barbeiro (triatomíneo) não deve ser esmagado nem tocado com as mãos, porque as fezes dele podem conter o Trypanosoma cruzi.\nA captura é feita com proteção, e o inseto é levado ao serviço de saúde ou ao PIT para identificação e exame. Esse encaminhamento é uma ação de vigilância entomológica com participação da comunidade.\nFonte: Ministério da Saúde, vigilância da doença de Chagas."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-03",
+   "dificuldade": 2,
+   "enunciado": "Durante a visita, o agente encontra um morador com diagnóstico de dengue e orienta a família sobre os sinais de alarme, que indicam a necessidade de retorno imediato ao serviço de saúde. São sinais de alarme da dengue, EXCETO:",
+   "alternativas": [
+    "dor abdominal intensa e contínua",
+    "dor atrás dos olhos (dor retro-orbitária)",
+    "vômitos persistentes",
+    "sangramento de mucosas, como gengiva e nariz"
+   ],
+   "gabarito": "B",
+   "explicacao": "A dor retro-orbitária é sintoma comum da dengue, junto com febre, dor no corpo e manchas, mas não é sinal de alarme.\nOs sinais de alarme costumam surgir na fase crítica, por volta da queda da febre:\n• dor abdominal intensa e contínua;\n• vômitos persistentes;\n• sangramento de mucosas;\n• acúmulo de líquidos;\n• hipotensão postural ou desmaio;\n• aumento do fígado;\n• sonolência ou irritabilidade;\n• aumento progressivo do hematócrito.\nFonte: Ministério da Saúde, Dengue: diagnóstico e manejo clínico."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 2,
+   "enunciado": "No controle do Aedes aegypti, o tratamento perifocal consiste na:",
+   "alternativas": [
+    "aplicação de uma camada de inseticida de ação residual nas paredes externas dos criadouros situados em pontos estratégicos",
+    "aplicação de larvicida no interior dos depósitos de água que não podem ser eliminados nem protegidos",
+    "nebulização de inseticida a ultrabaixo volume (UBV) em todos os quarteirões da localidade",
+    "remoção mecânica de recipientes que possam acumular água, sem uso de produtos químicos"
+   ],
+   "gabarito": "A",
+   "explicacao": "• Tratamento focal: larvicida dentro do depósito (B).\n• Tratamento perifocal: adulticida de ação residual nas paredes externas dos criadouros, em pontos estratégicos, com aspersor.\n• UBV: nebulização espacial contra o mosquito adulto (C).\n• Controle mecânico: eliminar recipientes (D).\nO tratamento perifocal é feito em pontos estratégicos, como borracharias, ferros-velhos e cemitérios.\nFonte: Diretrizes do Programa Nacional de Controle da Dengue (PNCD)."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-11",
+   "dificuldade": 1,
+   "enunciado": "Durante a pesquisa larvária, o agente encontra, no quintal de uma residência sem abastecimento regular, um tonel com água armazenada para uso doméstico, apoiado diretamente no chão. No boletim de campo, esse depósito deve ser classificado no grupo:",
+   "alternativas": [
+    "A1, que corresponde aos depósitos elevados ligados à rede pública",
+    "B, que corresponde aos pequenos depósitos móveis, como vasos e garrafas",
+    "C, que corresponde aos depósitos fixos, como calhas, ralos e lajes",
+    "A2, que corresponde aos depósitos ao nível do solo para armazenamento doméstico"
+   ],
+   "gabarito": "D",
+   "explicacao": "• A1: caixa-d’água elevada ligada à rede.\n• A2: armazenamento ao nível do solo (tonel, tambor, barril, tina, pote, cisterna).\n• B: pequenos depósitos móveis (vasos, pratos, garrafas).\n• C: depósitos fixos (calhas, ralos, lajes, piscinas sem tratamento).\n• D1: pneus. D2: lixo e sucata.\n• E: naturais (bromélias, ocos de árvore).\nEm áreas com abastecimento irregular, o A2 é um dos depósitos que mais aparecem.\nFonte: Diretrizes do PNCD, classificação de depósitos."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-04",
+   "dificuldade": 2,
+   "enunciado": "Em determinado ano, um município com 50.000 habitantes registrou 200 casos confirmados de dengue, dos quais 4 evoluíram para óbito. A taxa de letalidade da dengue nesse município, no período, foi de:",
+   "alternativas": [
+    "0,008%",
+    "0,4%",
+    "2%",
+    "4%"
+   ],
+   "gabarito": "C",
+   "explicacao": "Letalidade = óbitos pela doença ÷ casos da doença × 100. Aqui: 4 ÷ 200 × 100 = 2%. Ela mede a gravidade da doença.\nAs outras alternativas são as pegadinhas:\n• A (0,008%) é a mortalidade: óbitos ÷ população (4 ÷ 50.000 × 100);\n• B (0,4%) é a incidência: casos ÷ população (200 ÷ 50.000 × 100);\n• D usa o número de óbitos como se fosse percentual.\nMacete: letalidade = entre os doentes; mortalidade = entre todos.\nFonte: conceitos básicos de epidemiologia (Ministério da Saúde)."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-12",
+   "dificuldade": 1,
+   "enunciado": "A falta de saneamento básico favorece a ocorrência de doenças de transmissão fecal-oral, adquiridas pela ingestão de água ou alimentos contaminados por fezes. São exemplos desse grupo de doenças, EXCETO:",
+   "alternativas": [
+    "hepatite A",
+    "cólera",
+    "febre tifoide",
+    "leptospirose"
+   ],
+   "gabarito": "D",
+   "explicacao": "Hepatite A, cólera e febre tifoide são transmitidas pela via fecal-oral (água e alimentos contaminados).\nA leptospirose também tem relação com saneamento, mas o contágio é pelo contato da pele ou das mucosas com água ou lama contaminadas pela urina de roedores, e não pela ingestão de fezes. Essa pegadinha (doença ligada ao saneamento, mas com outra via de transmissão) é bem típica.\nFonte: Ministério da Saúde, doenças relacionadas ao saneamento ambiental inadequado."
   }
  ]
 }
