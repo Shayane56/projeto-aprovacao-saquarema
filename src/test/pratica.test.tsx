@@ -106,11 +106,13 @@ describe('praticar', () => {
     renderizarApp('/praticar');
     await waitFor(() => expect(m.inserir).toHaveBeenCalledWith(USUARIA.id, expect.any(Array)));
     expect(m.inserir.mock.calls[0][1]).toHaveLength(BANCO.length);
-    // O texto de apoio do pacote é criado uma vez e ligado às questões que o usam.
-    expect(m.criarTexto).toHaveBeenCalledTimes(1);
+    // Cada texto de apoio do pacote é criado uma vez e ligado às questões que o usam.
+    const textos = pacoteProvas.textos as Record<string, { titulo: string }>;
+    expect(m.criarTexto).toHaveBeenCalledTimes(Object.keys(textos).length);
     expect(m.criarTexto).toHaveBeenCalledWith(USUARIA.id, expect.stringContaining('doença de Chagas'), expect.stringContaining('9º§'));
     const inseridas = m.inserir.mock.calls[0][1] as Record<string, unknown>[];
-    expect(inseridas.filter((q) => q.texto_id === 'texto-1')).toHaveLength(6);
+    const comTexto = pacoteProvas.questoes.filter((q) => 'texto' in q).length;
+    expect(inseridas.filter((q) => q.texto_id === 'texto-1')).toHaveLength(comTexto);
     expect(inseridas.every((q) => !('texto' in q))).toBe(true);
     expect(await screen.findByText(new RegExp(`${BANCO.length} questões no seu banco`))).toBeInTheDocument();
   });
