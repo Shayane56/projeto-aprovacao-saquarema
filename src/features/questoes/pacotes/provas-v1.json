@@ -547,6 +547,531 @@
    "gabarito": "A",
    "explicacao": "CF, art. 37: legalidade, impessoalidade, moralidade, publicidade e eficiência. O macete é LIMPE. Eficiência nunca autoriza descumprir a lei, e a moralidade é obrigatória (ato imoral pode ser anulado).",
    "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201023)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-01",
+   "dificuldade": 1,
+   "enunciado": "A Constituição Federal de 1988 estabelece os princípios fundamentais que orientam a organização do Estado brasileiro, definindo valores essenciais que devem nortear a atuação dos Poderes Públicos e assegurar a proteção dos direitos da população. Esses princípios constituem a base do Estado Democrático de Direito e devem ser observados por todos os entes da Federação e pelos agentes públicos no exercício de suas funções. Assinale a alternativa CORRETA.",
+   "alternativas": [
+    "A cidadania e a dignidade da pessoa humana figuram entre os fundamentos da República Federativa do Brasil.",
+    "Os Municípios não integram a organização político-administrativa da República Federativa do Brasil.",
+    "A Constituição estabelece como fundamento da República a supremacia de um dos Poderes sobre os demais.",
+    "A soberania nacional pode ser exercida exclusivamente pelo Presidente da República."
+   ],
+   "gabarito": "A",
+   "explicacao": "CF, art. 1º: os fundamentos são soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa e pluralismo político. O macete é SO-CI-DI-VA-PLU. Os Municípios integram a Federação (art. 18), e os Poderes são independentes e harmônicos entre si (art. 2º), sem supremacia de um sobre os outros.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201022)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-09",
+   "dificuldade": 1,
+   "enunciado": "As figuras de linguagem são recursos expressivos utilizados para tornar a comunicação mais intensa, criativa e significativa. Entre elas, destaca-se a personificação (ou prosopopeia), caracterizada pela atribuição de características, ações ou sentimentos humanos a seres inanimados ou irracionais.\nLeia o trecho a seguir: \"As paredes daquela antiga biblioteca guardavam histórias que jamais seriam esquecidas.\"\nConsiderando o efeito de sentido produzido pela linguagem empregada no trecho, assinale a alternativa que identifica corretamente a figura de linguagem predominante.",
+   "alternativas": [
+    "Metáfora.",
+    "Hipérbole.",
+    "Personificação (prosopopeia).",
+    "Antítese."
+   ],
+   "gabarito": "C",
+   "explicacao": "As paredes (ser inanimado) “guardavam histórias”, uma ação de quem lembra e conserva memórias. Isso é personificação. Antítese seria a oposição de ideias (ex.: “amor e ódio”), e hipérbole, o exagero.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201011)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-16",
+   "dificuldade": 1,
+   "enunciado": "O emprego do acento indicativo de crase depende da ocorrência simultânea da preposição a exigida pelo termo regente e do artigo feminino a ou as que antecede o termo seguinte. O domínio dessa regra é importante para a redação de documentos oficiais e para a comunicação escrita de acordo com a norma-padrão.\nConsiderando as regras de regência nominal e verbal e o uso da crase, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "Os candidatos chegaram à tempo para a realização da prova.",
+    "A palestrante dirigiu-se à todas as pessoas presentes no auditório.",
+    "O servidor encaminhou o documento à diretora da escola.",
+    "A reunião terá início à partir das oito horas."
+   ],
+   "gabarito": "C",
+   "explicacao": "“Encaminhar algo a alguém” + “a diretora” = à diretora. Os erros das outras:\n• “a tempo” tem palavra masculina;\n• “a todas” tem pronome indefinido, que não aceita artigo;\n• “a partir” tem verbo.\nRegra rápida: antes de masculino, verbo e pronome indefinido, nunca há crase.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201010)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-14-02",
+   "dificuldade": 1,
+   "enunciado": "A concordância verbal estabelece a relação entre o verbo e o sujeito da oração. Em alguns casos, verbos impessoais, como haver no sentido de existir e fazer indicando tempo decorrido, possuem regras específicas previstas pela norma-padrão da Língua Portuguesa, sendo frequentes em provas de concursos públicos.\nCom base nessas regras, assinale a alternativa em que a concordância verbal está correta.",
+   "alternativas": [
+    "Fazem cinco anos que o projeto foi implantado.",
+    "Haviam muitos candidatos aguardando o início da prova.",
+    "Existe muitas soluções para esse problema.",
+    "Faz três meses que a obra foi concluída."
+   ],
+   "gabarito": "D",
+   "explicacao": "“Fazer” (tempo) e “haver” (existir) são impessoais e ficam no singular: Faz três meses, Havia muitos candidatos. Já “existir” é pessoal e concorda com o sujeito: Existem muitas soluções. Cuidado para não confundir os dois verbos!",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201009)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-17",
+   "dificuldade": 1,
+   "enunciado": "A ortografia oficial da Língua Portuguesa passou por alterações com a implementação do Novo Acordo Ortográfico, tornando indispensável que o candidato domine a grafia correta das palavras mais utilizadas na comunicação escrita. O conhecimento das normas ortográficas é essencial tanto para a produção textual quanto para a interpretação de documentos oficiais.\nAssinale a alternativa em que todas as palavras estão escritas de acordo com a norma-padrão da língua portuguesa.",
+   "alternativas": [
+    "Exceção – benefício – privilégio – análise.",
+    "Excessão – benefício – privilégio – análise.",
+    "Exceção – benefíçio – previlégio – análise.",
+    "Exessão – benefício – privilégio – análize."
+   ],
+   "gabarito": "A",
+   "explicacao": "Grafias certas: exceção (com xc e ç), benefício, privilégio (com i: PRIvilégio) e análise (com s). Nunca há ç antes de e ou i (benefíçio está errado).",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201008)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-01",
+   "dificuldade": 1,
+   "enunciado": "Leia o texto:\n“A tecnologia modificou profundamente as relações humanas e a forma como as pessoas se comunicam. Atualmente, é possível conversar instantaneamente com indivíduos que estão em diferentes partes do mundo, compartilhar informações em tempo real e realizar diversas atividades por meio de dispositivos digitais. Entretanto, o uso excessivo dessas ferramentas pode reduzir os momentos de convivência presencial e comprometer a qualidade das relações sociais. Dessa forma, o grande desafio da sociedade contemporânea não consiste em abandonar a tecnologia, mas em aprender a utilizá-la de maneira consciente e equilibrada.”\nConsiderando as informações apresentadas no texto, bem como a intenção do autor ao abordar os efeitos do avanço tecnológico nas relações humanas, assinale a alternativa CORRETA.",
+   "alternativas": [
+    "O autor defende que a tecnologia deve ser eliminada da rotina das pessoas para que a convivência social seja restabelecida.",
+    "O texto apresenta apenas aspectos negativos relacionados ao uso das tecnologias digitais.",
+    "O autor reconhece que a tecnologia oferece benefícios, mas destaca a importância de seu uso consciente e equilibrado.",
+    "O texto afirma que as relações presenciais foram totalmente substituídas pela comunicação digital."
+   ],
+   "gabarito": "C",
+   "explicacao": "O texto mostra os dois lados: os benefícios (conversar com o mundo, informação em tempo real) e, depois do “Entretanto”, os riscos. A conclusão (“não consiste em abandonar..., mas em aprender a utilizá-la”) é o uso equilibrado. As erradas exageram com “eliminada”, “apenas” e “totalmente”.",
+   "fonte": "Instituto Fênix · 2026 · Prefeitura de Dois Irmãos/RS · Agente de Endemias (QConcursos Q4201007)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-12",
+   "dificuldade": 1,
+   "enunciado": "Em uma área com histórico de insuficiência de infraestrutura sanitária, o agente de endemias identifica aumento de casos de síndrome diarreica aguda em diferentes faixas etárias. Os casos apresentam padrão de ocorrência comunitária, sem vínculo direto entre indivíduos, e são investigados no contexto de condições ambientais locais. Considerando os possíveis mecanismos de transmissão associados aos agentes infecciosos envolvidos, assinale a alternativa correta.",
+   "alternativas": [
+    "A transmissão ocorre por contato direto entre pessoas infectadas.",
+    "A infecção está associada principalmente à transmissão vetorial por mosquitos em ambientes urbanos.",
+    "O agente etiológico envolvido depende da resposta imunológica individual, sem influência das condições ambientais.",
+    "A transmissão está relacionada à via fecal-oral, frequentemente associada à contaminação da água por micro-organismos patogênicos em áreas com saneamento inadequado."
+   ],
+   "gabarito": "D",
+   "explicacao": "Diarreia em vários moradores sem contato entre si, numa área sem saneamento, aponta para uma fonte comum: água ou alimento contaminado por fezes (via fecal-oral). Exemplos: cólera, hepatite A, rotavírus e parasitoses.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153981)"
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-18",
+   "dificuldade": 1,
+   "enunciado": "De acordo com a Lei nº 8.142/1990, sobre a participação da comunidade no Sistema Único de Saúde (SUS), assinale a afirmativa correta.",
+   "alternativas": [
+    "A participação da comunidade acontece por meio de consultas médicas periódicas.",
+    "A participação da comunidade ocorre por meio dos Conselhos de Saúde e das Conferências de Saúde.",
+    "A gestão do SUS não permite participação direta da população nas decisões de saúde, sendo esta feita por meio de representantes eleitos.",
+    "A participação popular ocorre através de reuniões mensais dos representantes da população local com as secretarias municipais de saúde, chamadas Conselhos de Saúde."
+   ],
+   "gabarito": "B",
+   "explicacao": "Lei 8.142, art. 1º: as instâncias colegiadas são a Conferência de Saúde (a cada 4 anos, avalia a situação e propõe diretrizes) e o Conselho de Saúde (permanente e deliberativo). O Conselho tem governo, prestadores, profissionais e usuários, com 50% de usuários. Por isso a D está errada: não é uma “reunião mensal da população com a secretaria”.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153980)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-06",
+   "dificuldade": 3,
+   "enunciado": "Considerando o uso de sistemas de informação e prontuário eletrônico no trabalho do agente de endemias, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) As informações preenchidas nos sistemas eletrônicos possuem finalidade documental, permanecendo arquivadas após o registro.\n( ) O registro das visitas domiciliares pode ser realizado de forma coletiva por microárea, sem a identificação individual dos domicílios acompanhados.\n( ) O prontuário eletrônico é utilizado para registros de dados clínicos dos usuários por médicos e enfermeiros, não sendo aplicável às atividades do agente de endemias.\nA sequência está correta em",
+   "alternativas": [
+    "V, V, F.",
+    "F, F, F.",
+    "F, F, V.",
+    "V, V, V."
+   ],
+   "gabarito": "B",
+   "explicacao": "Gabarito: todas falsas.\n• 1ª: os dados não servem só para ficar arquivados. São usados para planejar, monitorar e avaliar as ações.\n• 2ª: cada visita é registrada por domicílio, com identificação.\n• 3ª: o prontuário e os sistemas (e-SUS) também recebem os registros do ACE.\nA 1ª é a mais discutível, porque o registro também é um documento. Pense assim: para a banca, o que vale é a informação servir para agir.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153979)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-07",
+   "dificuldade": 3,
+   "enunciado": "Determinado agente de endemias atua em um território com registros recorrentes de focos do mosquito transmissor da dengue. Considerando os fundamentos do trabalho e as atividades do agente de endemias, assinale a afirmativa correta.",
+   "alternativas": [
+    "As ações são organizadas com base na demanda espontânea dos moradores, conforme procura pelos serviços.",
+    "O trabalho envolve atuação contínua no território, com identificação de riscos, orientação à população e articulação com a equipe de saúde.",
+    "As atividades realizadas no território são definidas a partir dos parâmetros operacionais relacionados ao monitoramento da infestação vetorial.",
+    "As atividades do agente no território são estruturadas conforme o planejamento operacional da vigilância municipal nas áreas previamente classificadas."
+   ],
+   "gabarito": "B",
+   "explicacao": "Questão de “mais completa”. A pergunta pede os fundamentos do trabalho do ACE: atuação contínua no território, identificação de riscos, educação e integração com a equipe. C e D não são absurdas, mas reduzem o trabalho a parâmetros e planejamento operacional. A está errada porque o ACE vai ao território (busca ativa) e não espera a procura dos moradores.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153978)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-05",
+   "dificuldade": 1,
+   "enunciado": "Na área rural de determinado município, o agente de endemias participa de ações de vigilância após identificação de casos de esquistossomose. Considerando o ciclo de transmissão da doença e as medidas de controle, assinale a afirmativa correta.",
+   "alternativas": [
+    "A infecção ocorre por contato com secreções de animais infectados, sendo o controle baseado na vigilância de reservatórios animais.",
+    "A presença de caramujos em coleções de água doce está relacionada ao ciclo da doença, sendo importante orientar a população sobre evitar contato com água potencialmente contaminada.",
+    "O monitoramento da esquistossomose concentra-se na identificação de áreas com circulação respiratória da doença, especialmente em períodos de maior permanência domiciliar da população.",
+    "A transmissão da esquistossomose está relacionada ao consumo de água contaminada, motivo pelo qual as ações de vigilância concentram-se no monitoramento da potabilidade da água distribuída."
+   ],
+   "gabarito": "B",
+   "explicacao": "Ciclo da esquistossomose:\n1. Ovos do Schistosoma mansoni saem nas fezes.\n2. Na água doce, viram miracídios, que entram no caramujo Biomphalaria.\n3. O caramujo libera cercárias.\n4. As cercárias penetram ativamente na pele de quem entra na água.\nO contágio é pelo contato com a água (banho, pesca, lavar roupa), e não por bebê-la. Daí a orientação de evitar essas águas, além do saneamento.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153977)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-01",
+   "dificuldade": 2,
+   "enunciado": "Em um município com registro de casos de leishmaniose visceral, o agente de controle de endemias participa de ações de vigilância entomológica e controle ambiental. Considerando o ciclo de transmissão da doença e o papel do agente de endemias, analise as afirmativas a seguir.\nI. A aplicação de inseticida em ambientes internos elimina a necessidade de ações ambientais no peridomicílio.\nII. O vetor da leishmaniose se desenvolve em água parada, sendo o controle baseado na eliminação de recipientes com água.\nIII. A presença de matéria orgânica e umidade favorece a proliferação de flebotomíneos, sendo recomendadas ações de limpeza ambiental e manejo do peridomicílio como medidas de controle.\nEstá correto o que se afirma apenas em",
+   "alternativas": [
+    "II.",
+    "III.",
+    "I e II.",
+    "II e III."
+   ],
+   "gabarito": "B",
+   "explicacao": "O flebotomíneo (mosquito-palha) não se cria na água: suas larvas vivem em solo úmido com matéria orgânica (folhas, frutos caídos, fezes de animais). Por isso o controle é feito com limpeza do quintal e destino do lixo orgânico. O inseticida não dispensa esse manejo. Não confunda com o Aedes, que se cria em água parada.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153976)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-07",
+   "dificuldade": 1,
+   "enunciado": "Considere, hipoteticamente, que, no município de Alagoa, a equipe de Vigilância em Saúde utiliza mapas digitais para identificar áreas com maior concentração de casos de dengue. O agente de endemias recebe a orientação de reorganizar suas visitas domiciliares com base nessas informações. Tendo em vista o uso do geoprocessamento e a territorialização no trabalho do agente de endemias, assinale a afirmativa correta.",
+   "alternativas": [
+    "A territorialização baseia-se na divisão administrativa do município, sendo pouco influenciada por indicadores epidemiológicos.",
+    "O geoprocessamento é empregado principalmente para registro administrativo das visitas, tendo menor relação com a definição de prioridades no território.",
+    "O uso de ferramentas de geoprocessamento tem relevância superior às visitas domiciliares, uma vez que permite identificar os focos de transmissão à distância.",
+    "A utilização de mapas com identificação de áreas de maior risco permite direcionar as ações, otimizando o planejamento e priorizando intervenções no território."
+   ],
+   "gabarito": "D",
+   "explicacao": "Mapas mostram onde está o risco, e isso orienta onde agir primeiro. A territorialização usa dados epidemiológicos, não só limites administrativos. O mapa complementa a visita domiciliar, mas não a substitui: é na visita que se acha e elimina o criadouro.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153975)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-07",
+   "dificuldade": 2,
+   "enunciado": "Durante visitas domiciliares em um território com aumento de casos de dengue, o agente de endemias identifica criadouros de determinado vetor em diferentes imóveis. Em uma residência, o morador recusa a entrada do agente, mesmo após orientação sobre os riscos à saúde coletiva. Considerando os fundamentos do trabalho do agente de endemias, a ética profissional e as ações de vigilância em saúde, a conduta mais adequada é:",
+   "alternativas": [
+    "Comunicar à autoridade policial competente mais próxima para solicitação de mandado de busca e inspeção.",
+    "Realizar a entrada no imóvel com base no risco sanitário identificado, priorizando a eliminação dos criadouros.",
+    "Encerrar a visita, não retornar àquele domicílio em ciclos futuros e delegar ao morador a responsabilidade pelo controle dos vetores no imóvel.",
+    "Registrar a recusa, comunicar a equipe responsável e manter a orientação ao morador, articulando ações com a vigilância para continuidade das medidas de controle."
+   ],
+   "gabarito": "D",
+   "explicacao": "Na recusa, o agente não força a entrada nem chama a polícia por conta própria. Ele registra a recusa (é uma das pendências do boletim), comunica a supervisão, continua orientando o morador e volta a tentar nos próximos ciclos. A entrada forçada só ocorre em situações previstas em lei e por decisão da autoridade sanitária, nunca por iniciativa do agente.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153974)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-02",
+   "dificuldade": 1,
+   "enunciado": "A atuação dos agentes de endemias está baseada em princípios do Sistema Único de Saúde (SUS), como a integralidade, a territorialização e a participação social. Considerando os fundamentos que orientam o trabalho desses profissionais, é correto afirmar que:",
+   "alternativas": [
+    "Atuam na identificação de riscos e desenvolvem ações educativas no território.",
+    "Concentram-se na execução de procedimentos técnicos em ambiente hospitalar.",
+    "Atuam de forma independente das estratégias de vigilância em saúde e das diretrizes do SUS.",
+    "São direcionadas prioritariamente ao atendimento clínico individual de pessoas com sintomas de doenças infecciosas."
+   ],
+   "gabarito": "A",
+   "explicacao": "O ACE trabalha no território (não no hospital), integrado à vigilância em saúde, identificando riscos e fazendo educação em saúde. Ele não faz atendimento clínico.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153973)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-02",
+   "dificuldade": 2,
+   "enunciado": "A Lei nº 11.350/2006 estabelece as atribuições e competências do agente de endemias, orientando sua atuação no controle de doenças e agravos. Com base nessa legislação, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) Exerce atividades como diagnóstico de doenças e prescrição de tratamentos à população.\n( ) Organiza e executa ações administrativas internas, com foco na gestão de recursos e planejamento institucional.\n( ) Registra, para fins exclusivos de controle e planejamento das ações de saúde, de nascimentos, óbitos, doenças e outros agravos à saúde.\nA sequência está correta em",
+   "alternativas": [
+    "F, F, F.",
+    "V, F, V.",
+    "F, V, F.",
+    "V, V, V."
+   ],
+   "gabarito": "A",
+   "explicacao": "Todas falsas. O ACE não diagnostica nem prescreve, e também não faz gestão administrativa interna. A pegadinha está na 3ª: o registro de nascimentos, óbitos, doenças e agravos “para fins exclusivos de controle e planejamento” é atribuição do Agente Comunitário de Saúde (ACS), e não do ACE (Lei 11.350, art. 3º). O ACE cuida da vigilância, prevenção e controle de doenças e de fatores ambientais (art. 4º).",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153972)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-02",
+   "dificuldade": 2,
+   "enunciado": "A atuação integrada entre agentes de endemias e agentes comunitários de saúde fortalece as ações de vigilância e atenção à saúde no território, promovendo maior resolutividade e articulação entre equipes. A Diretriz Nacional para Atuação Integrada dos Agentes de Endemias e Agentes Comunitários de Saúde orienta essa integração. Considerando tal diretriz, assinale a afirmativa correta.",
+   "alternativas": [
+    "A integração atua como elo entre a comunidade e o território, identificando as condições de saúde da população.",
+    "Os agentes atuam como parte essencial da estrutura do território e tal integração agrega expertise em vigilância em saúde.",
+    "Realizar ações que possibilitem o conhecimento, pela comunidade, de informações obtidas em levantamentos socioepidemiológicos é o objetivo da equipe de saúde.",
+    "A atuação integrada envolve o planejamento conjunto de ações no território, o compartilhamento de informações e a realização de atividades complementares voltadas à promoção, prevenção e vigilância em saúde."
+   ],
+   "gabarito": "D",
+   "explicacao": "A integração ACS + ACE significa planejar juntos, compartilhar informações e fazer atividades complementares (promoção, prevenção e vigilância) no mesmo território. Desde 2018, a lei prevê que o ACE deve, preferencialmente, integrar a equipe de Atenção Básica.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153971)"
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-09",
+   "dificuldade": 1,
+   "enunciado": "A Atenção Primária à Saúde (APS) é a porta de entrada preferencial do Sistema Único de Saúde (SUS) e desempenha papel central na organização do cuidado. A Portaria nº 2.436 aprova a Política Nacional de Atenção Básica (PNAB), estabelecendo diretrizes para a organização das ações e serviços no território. Com base nessa normativa, é correto afirmar que a Atenção Básica:",
+   "alternativas": [
+    "Prioriza atendimentos por demanda espontânea, com menor desenvolvimento de ações no território.",
+    "Estrutura-se com base em atendimentos pontuais, direcionados a agravos específicos, com menor integração com a rede de atenção à saúde.",
+    "Organiza suas ações com foco predominante na assistência hospitalar, articulando-se com serviços especializados de média e alta complexidade.",
+    "Caracteriza-se por um conjunto de ações de saúde individuais e coletivas, desenvolvidas por equipes multiprofissionais, com foco na promoção, prevenção, diagnóstico, tratamento e reabilitação."
+   ],
+   "gabarito": "D",
+   "explicacao": "PNAB 2017 (Portaria 2.436), art. 2º: a Atenção Básica é “o conjunto de ações de saúde individuais, familiares e coletivas que envolvem promoção, prevenção, proteção, diagnóstico, tratamento, reabilitação, redução de danos, cuidados paliativos e vigilância em saúde”, feito por equipe multiprofissional, para população em território definido.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153970)"
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-16",
+   "dificuldade": 2,
+   "enunciado": "A vigilância em saúde constitui um conjunto de ações fundamentais no âmbito do Sistema Único de Saúde (SUS). Quanto à Política Nacional de Vigilância em Saúde (PNVS), é correto afirmar que:",
+   "alternativas": [
+    "Promove a cooperação e o intercâmbio técnico-científico no âmbito local.",
+    "Insere a vigilância em saúde no processo de hierarquização das ações e serviços de saúde.",
+    "Atua de forma integrada entre vigilâncias epidemiológica, sanitária, ambiental e saúde do trabalhador, considerando o território e os determinantes sociais.",
+    "Articula as ações de vigilância em saúde com as demais ações e serviços desenvolvidos e ofertados no SUS, para garantir a universalidade da atenção à saúde da população."
+   ],
+   "gabarito": "C",
+   "explicacao": "A PNVS (Resolução CNS 588/2018) integra as quatro vigilâncias (epidemiológica, sanitária, ambiental e saúde do trabalhador), considerando o território e os determinantes sociais. As erradas trocam palavras do texto oficial:\n• a cooperação técnico-científica é nacional e internacional, e não local;\n• a vigilância é inserida na regionalização, e não na hierarquização;\n• a articulação é para garantir a integralidade, e não a universalidade.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153969)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-02",
+   "dificuldade": 2,
+   "enunciado": "O trabalho do agente de endemias é essencial para o controle de doenças e agravos. Com base nos fundamentos do seu trabalho, é correto afirmar que o agente de endemias:",
+   "alternativas": [
+    "Ao desenvolver atividades voltadas ao território, contribui para o controle de doenças.",
+    "Necessita residir na área da comunidade em que atuar desde a data da aprovação no processo seletivo público.",
+    "Deve ter concluído, com aproveitamento, o curso de formação inicial, com carga horária mínima de trinta horas.",
+    "Precisa ter concluído o ensino médio, ou comprovar a conclusão do ensino médio no prazo máximo de dois anos."
+   ],
+   "gabarito": "A",
+   "explicacao": "Pegadinhas da Lei 11.350 (com as mudanças da Lei 13.595/2018):\n• Morar na comunidade é exigência do ACS, e não do ACE (B errada).\n• O curso de formação inicial tem no mínimo 40 horas, e não 30 (C errada).\n• O ACE precisa do ensino médio. Só quando não há candidato com ensino médio admite-se o fundamental, com prazo de 3 anos, e não 2, para concluir o médio (D errada).",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153968)"
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-20",
+   "dificuldade": 1,
+   "enunciado": "O processo saúde-doença é compreendido, na saúde pública, como um fenômeno dinâmico e multifatorial. Esse entendimento ultrapassa a visão tradicional centrada apenas na doença e incorpora aspectos relacionados ao modo de vida, às condições de trabalho, à renda, ao acesso a serviços de saúde, ao saneamento básico e à educação. Nesse sentido, o trabalho do agente de endemias é fundamental na identificação de fatores de risco presentes no território e na promoção de ações que contribuam para a melhoria das condições de saúde da população. Com base nessa perspectiva ampliada do processo saúde-doença, assinale a afirmativa correta.",
+   "alternativas": [
+    "A doença ocorre quando há falha individual na adoção de hábitos saudáveis no cotidiano.",
+    "O estado de saúde é determinado pela presença ou ausência de agentes infecciosos no organismo.",
+    "A saúde depende principalmente do acesso a serviços hospitalares para tratamento de enfermidades.",
+    "A saúde resulta da interação entre fatores biológicos, sociais, econômicos, culturais e ambientais que influenciam a vida das pessoas."
+   ],
+   "gabarito": "D",
+   "explicacao": "Pelo conceito ampliado, a saúde é multifatorial e socialmente determinada (Lei 8.080, art. 3º: alimentação, moradia, saneamento, meio ambiente, trabalho, renda, educação…). As erradas reduzem tudo a um fator só: culpa individual, micróbio ou hospital.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153967)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-04",
+   "dificuldade": 1,
+   "enunciado": "Durante reunião de planejamento em uma Unidade Básica de Saúde (UBS), a equipe analisa os dados demográficos do município e observa que, ao longo das últimas décadas, houve redução das taxas de natalidade e mortalidade, aumento da expectativa de vida e crescimento da proporção de pessoas idosas na população. A equipe reconhece que essas mudanças influenciam o perfil das necessidades de saúde da comunidade e exigem reorganização das ações e dos serviços ofertados. O fenômeno populacional descrito no caso hipotético corresponde ao processo denominado:",
+   "alternativas": [
+    "Regionalização da saúde, relacionada à organização dos serviços em redes assistenciais e territórios sanitários.",
+    "Transição epidemiológica, caracterizada pela mudança no perfil de morbimortalidade da população ao longo do tempo.",
+    "Determinação social da saúde, relacionada à influência das condições sociais, econômicas e ambientais sobre o processo saúde-doença.",
+    "Transição demográfica, caracterizada por mudanças nas taxas de natalidade e mortalidade que alteram a estrutura etária da população."
+   ],
+   "gabarito": "D",
+   "explicacao": "Natalidade, mortalidade e envelhecimento são mudanças na população (demografia): é a transição demográfica. A transição epidemiológica é a mudança nas doenças que mais adoecem e matam (das infecciosas para as crônicas). Elas andam juntas, mas o caso descreve a estrutura etária.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153966)"
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-23",
+   "dificuldade": 1,
+   "enunciado": "A notificação de doenças é um instrumento fundamental da vigilância epidemiológica, permitindo que as autoridades sanitárias acompanhem a ocorrência de agravos e adotem medidas de controle e prevenção na população. Considerando os critérios utilizados para inclusão de doenças na lista de notificação compulsória, assinale a afirmativa correta.",
+   "alternativas": [
+    "O critério de transcendência refere-se à distribuição geográfica dos hospitais responsáveis pelo atendimento especializado.",
+    "O critério de magnitude refere-se à frequência de ocorrência de uma doença e ao impacto que ela pode gerar na saúde da população.",
+    "O critério de vulnerabilidade relaciona-se à organização administrativa dos serviços hospitalares destinados ao tratamento de doenças raras.",
+    "O critério de potencial de disseminação está relacionado à disponibilidade de recursos financeiros para o funcionamento do sistema de saúde."
+   ],
+   "gabarito": "B",
+   "explicacao": "Critérios para entrar na lista:\n• Magnitude: frequência (incidência, prevalência, mortalidade).\n• Potencial de disseminação: capacidade de se espalhar.\n• Transcendência: gravidade e relevância social e econômica.\n• Vulnerabilidade: existência de instrumentos de prevenção e controle (ex.: vacina).\nEntram também os compromissos internacionais e as epidemias, surtos e agravos inusitados.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153965)"
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-05",
+   "dificuldade": 1,
+   "enunciado": "Uma mulher recém-chegada de outro município procura atendimento em uma Unidade Básica de Saúde (UBS) relatando dor abdominal e febre. Durante o acolhimento, ela informa que ainda não realizou cadastro na unidade. O profissional de saúde realiza a avaliação clínica e inicia o atendimento. A conduta descrita está de acordo com qual princípio do Sistema Único de Saúde (SUS)?",
+   "alternativas": [
+    "Hierarquização, que estabelece níveis progressivos de atenção em saúde.",
+    "Descentralização, que distribui responsabilidades entre as esferas de governo.",
+    "Universalidade, que garante acesso às ações e serviços de saúde a todas as pessoas.",
+    "Regionalização, que organiza os serviços em diferentes níveis de complexidade em determinada área geográfica."
+   ],
+   "gabarito": "C",
+   "explicacao": "Atender quem não tem cadastro é universalidade: acesso para todos, sem exigência prévia. Hierarquização, descentralização e regionalização são diretrizes de organização do sistema, e não de acesso.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153964)"
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-19",
+   "dificuldade": 1,
+   "enunciado": "A Atenção Básica constitui um componente essencial da organização do Sistema Único de Saúde (SUS), atuando como porta de entrada preferencial para os usuários, e coordenação do cuidado dentro das redes de atenção à saúde. Considerando a organização da Atenção Básica no Brasil, assinale a afirmativa correta.",
+   "alternativas": [
+    "A organização da Atenção Básica ocorre por meio de unidades hospitalares especializadas voltadas ao atendimento de demandas cirúrgicas.",
+    "A atuação das equipes da Atenção Básica concentra-se em serviços laboratoriais destinados à realização de exames de grande complexidade tecnológica.",
+    "A Atenção Básica estrutura-se prioritariamente para a realização de procedimentos hospitalares de alta complexidade voltados ao tratamento de doenças raras.",
+    "A Estratégia Saúde da Família (ESF) organiza o trabalho das equipes de saúde responsáveis por acompanhar a população de um território definido, promovendo ações de promoção, prevenção e cuidado em saúde."
+   ],
+   "gabarito": "D",
+   "explicacao": "A ESF é a estratégia prioritária da Atenção Básica. Sua equipe mínima tem médico, enfermeiro, técnico de enfermagem e ACS, e acompanha uma população adscrita de um território definido. Hospital, cirurgia e alta complexidade não são Atenção Básica.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153963)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-03",
+   "dificuldade": 1,
+   "enunciado": "Em determinado município brasileiro, a equipe da Estratégia Saúde da Família (ESF) observa aumento de pacientes com febre alta, dor no corpo, dor atrás dos olhos e manchas avermelhadas na pele. A vigilância epidemiológica identifica que vários bairros apresentam grande quantidade de recipientes com água parada, favorecendo a proliferação do mosquito transmissor. Diante dessa situação hipotética, a principal medida de controle coletivo para reduzir a transmissão da doença é:",
+   "alternativas": [
+    "Isolamento domiciliar de todos os pacientes com sintomas febris.",
+    "Realização de campanhas de suplementação vitamínica na população.",
+    "Administração rotineira de antibióticos para pessoas com febre na comunidade.",
+    "Intensificação das ações de eliminação de criadouros do mosquito em domicílios e espaços públicos."
+   ],
+   "gabarito": "D",
+   "explicacao": "Febre alta, dor no corpo, dor atrás dos olhos (retro-orbitária) e manchas vermelhas são o quadro típico da dengue. Como é transmitida pelo Aedes, a medida coletiva principal é eliminar criadouros. Antibiótico não age em vírus, e o isolamento não interrompe uma transmissão feita pelo mosquito.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153962)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-12",
+   "dificuldade": 1,
+   "enunciado": "Texto-base: notícia do Ministério da Saúde sobre o enfrentamento da doença de Chagas (gov.br, abril de 2026, adaptada).\nConsiderando a classificação das palavras quanto ao número de sílabas, são consideradas palavras trissílabas, EXCETO:",
+   "alternativas": [
+    "“ações”.",
+    "“captura”.",
+    "“detecção”.",
+    "“transmissão”."
+   ],
+   "gabarito": "A",
+   "explicacao": "Separação: a-ções (2 sílabas, dissílaba); cap-tu-ra, de-tec-ção e trans-mis-são (3 sílabas, trissílabas). Lembre: o “ç” não forma sílaba sozinho, e nos dígrafos rr, ss, sc, sç e xc as letras ficam em sílabas separadas (trans-mis-são).",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153961)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-11",
+   "dificuldade": 3,
+   "enunciado": "Texto-base: notícia do Ministério da Saúde sobre o enfrentamento da doença de Chagas (gov.br, abril de 2026, adaptada).\nAnalise o trecho “Entre os avanços estão a retomada do benznidazol pediátrico, [...]” e assinale a alternativa em que a reescrita mantém o sentido da frase.",
+   "alternativas": [
+    "“Entre os avanços estão o uso retroativo de benznidazol pediátrico, [...]”.",
+    "“Entre os avanços estão a recomendação de benznidazol pediátrico, [...]”.",
+    "“Entre os avanços estão o prosseguimento do uso de benznidazol pediátrico, [...]”.",
+    "“Entre os avanços estão a necessidade de tomar o benznidazol pediátrico duas vezes seguidas, [...]”."
+   ],
+   "gabarito": "C",
+   "explicacao": "A banca considerou “retomada” como “prosseguimento do uso”: o remédio voltou a ser usado e segue em uso. A rigor, “retomada” é recomeçar algo que tinha parado, mas entre as opções é a mais próxima. As outras mudam o sentido: “retroativo” é com efeito no passado, “recomendação” é só indicar, e a D inventa uma dose dupla.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153960)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-13",
+   "dificuldade": 2,
+   "enunciado": "Texto-base: notícia do Ministério da Saúde sobre o enfrentamento da doença de Chagas (gov.br, abril de 2026, adaptada).\nLeia o trecho: “A seleção foi baseada em critérios técnicos que consideram a interação dos insetos vetores com o ambiente e vulnerabilidade social, com prioridade para municípios classificados como de risco “muito alto” em índice composto (presença de vetores e condições socioambientais) e localidades com registro recente do vetor Triatoma infestans.”\nA respeito das aspas e dos parênteses utilizados no trecho, marque V para as afirmativas verdadeiras e F para as falsas.\n( ) As aspas destacam o valor da expressão “muito alto”.\n( ) Os parênteses intercalam uma explicação.\n( ) A informação disposta entre os parênteses é essencial para o entendimento do trecho.\n( ) Os parênteses podem ser substituídos pelas aspas sem prejuízo sintático.\nA sequência está correta em",
+   "alternativas": [
+    "V, V, F, F.",
+    "V, F, V, F.",
+    "F, V, F, V.",
+    "F, F, V, V."
+   ],
+   "gabarito": "A",
+   "explicacao": "1ª V: as aspas destacam a classificação “muito alto”. 2ª V: os parênteses explicam o que é o índice composto. 3ª F: o que vai entre parênteses é acessório; tirando, a frase continua com sentido. 4ª F: parênteses podem virar travessões ou vírgulas, e não aspas, que têm outra função (destaque e citação).",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153959)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-17",
+   "dificuldade": 2,
+   "enunciado": "Texto-base: notícia do Ministério da Saúde sobre o enfrentamento da doença de Chagas (gov.br, abril de 2026, adaptada).\nQual das palavras a seguir, retiradas do texto, é composta por dígrafo vocálico?",
+   "alternativas": [
+    "“Brasil”.",
+    "“doença”.",
+    "“Chagas”.",
+    "“ultrapassou”."
+   ],
+   "gabarito": "B",
+   "explicacao": "Dígrafo vocálico (ou nasal) é vogal + m/n que só nasaliza a vogal: em doença, o “en” soa como um som só. Em Chagas, o “ch” é dígrafo consonantal. Em ultrapassou, o “ss” também é consonantal (e o “ou” é ditongo). Brasil não tem dígrafo.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153958)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-07-05",
+   "dificuldade": 1,
+   "enunciado": "Texto-base: notícia do Ministério da Saúde sobre o enfrentamento da doença de Chagas (gov.br, abril de 2026, adaptada).\nDe acordo com a classificação morfológica, todas as palavras a seguir são consideradas advérbios, EXCETO:",
+   "alternativas": [
+    "“Hoje”.",
+    "“Ainda”.",
+    "“Durante”.",
+    "“Felizmente”."
+   ],
+   "gabarito": "C",
+   "explicacao": "“Durante” é preposição (liga termos: “durante a 18ª edição”). Já “hoje” é advérbio de tempo, “ainda” de tempo, e “felizmente” de modo.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153957)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-17",
+   "dificuldade": 1,
+   "enunciado": "Texto-base: notícia do Ministério da Saúde sobre o enfrentamento da doença de Chagas (gov.br, abril de 2026, adaptada).\nDe acordo com as normas de ortografia, qual das palavras a seguir é grafada com hífen, considerando a mesma regra utilizada em “anti-inflamatória”?",
+   "alternativas": [
+    "Micro-ondas.",
+    "Pré-operatório.",
+    "Mal-intencionado.",
+    "Ensino-aprendizagem."
+   ],
+   "gabarito": "A",
+   "explicacao": "Regra do anti-inflamatória: o prefixo termina com a mesma vogal que começa a palavra seguinte (anti + i, micro + o), e aí usa hífen. As outras usam hífen por outros motivos:\n• pré é prefixo tônico;\n• mal vem antes de vogal;\n• ensino-aprendizagem é uma composição.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153956)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-06",
+   "dificuldade": 3,
+   "enunciado": "Texto-base: notícia do Ministério da Saúde sobre o enfrentamento da doença de Chagas (gov.br, abril de 2026, adaptada).\nConsidere o trecho: “Nesse contexto, o Programa Brasil Saudável busca eliminar a doença como problema de saúde pública até 2030, [...]”. A conjunção “como”, empregada no trecho, estabelece uma relação de:",
+   "alternativas": [
+    "Causa.",
+    "Condição.",
+    "Comparação.",
+    "Conformidade."
+   ],
+   "gabarito": "C",
+   "explicacao": "Gabarito oficial: comparação. Questão discutível. Aqui “como” equivale a “enquanto” ou “na condição de” (eliminar a doença enquanto problema de saúde pública). Das opções, a banca ficou com comparação, o valor mais comum do “como”. Não seria causa (“como chovia, saí”) nem conformidade (“como diz o texto”). Se cair parecido no IBAM, tente pensar no sentido no contexto.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153955)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-12",
+   "dificuldade": 1,
+   "enunciado": "Texto-base: notícia do Ministério da Saúde sobre o enfrentamento da doença de Chagas (gov.br, abril de 2026, adaptada).\nDentre as palavras a seguir, qual é acentuada de acordo com a mesma regra de “país”?",
+   "alternativas": [
+    "“saúde”.",
+    "“Goiânia”.",
+    "“Anápolis”.",
+    "“vigilância”."
+   ],
+   "gabarito": "A",
+   "explicacao": "País e saúde seguem a regra do hiato: o i ou u tônico que forma sílaba sozinho (ou com s) leva acento (pa-ís, sa-ú-de). Anápolis é proparoxítona. Goiânia e vigilância são paroxítonas terminadas em ditongo.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153954)"
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-06",
+   "dificuldade": 1,
+   "enunciado": "Texto-base: notícia do Ministério da Saúde sobre o enfrentamento da doença de Chagas (gov.br, abril de 2026, adaptada).\nQuanto ao emprego semântico do termo “além de” no fragmento “Os resultados poderão subsidiar a avaliação de tecnologias à base de selênio [...], além de apoiar sua possível incorporação ao Sistema Único de Saúde (SUS).”, é correto afirmar que:",
+   "alternativas": [
+    "Introduz uma conclusão.",
+    "Exerce função de advérbio de lugar.",
+    "Reitera algo exposto anteriormente.",
+    "Exprime uma ideia com sentido de adição."
+   ],
+   "gabarito": "D",
+   "explicacao": "“Além de” acrescenta informação (= e também): os resultados vão subsidiar a avaliação e também apoiar a incorporação ao SUS. É um conectivo de adição, como “bem como” e “não só… mas também”.",
+   "fonte": "Instituto Consulplan · 2026 · Prefeitura de Alagoa/MG · Agente de Endemias (QConcursos Q4153953)"
   }
  ]
 }
