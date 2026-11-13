@@ -72,10 +72,11 @@ function textoDoPacote(pacote: Pacote, chave: string): TextoPacote {
 }
 
 export async function carregarPacotesAutorais(): Promise<Pacote[]> {
-  const [v1, municipio, provas] = await Promise.all([
+  const [v1, municipio, provas, ineditas] = await Promise.all([
     import('./autorais-v1.json'),
     import('./municipio-v1.json'),
     import('./provas-v1.json'),
+    import('./ineditas-ibam-v1.json'),
   ]);
-  return [v1.default as Pacote, municipio.default as Pacote, provas.default as Pacote];
+  return [v1.default as Pacote, municipio.default as Pacote, provas.default as Pacote, ineditas.default as Pacote];
 }

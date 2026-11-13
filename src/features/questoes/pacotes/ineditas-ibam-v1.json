@@ -1,0 +1,79 @@
+{
+ "id": "ineditas-ibam-v1",
+ "nome": "Questões inéditas no padrão IBAM",
+ "fonte": "Questão inédita · padrão IBAM",
+ "origem": "autoral",
+ "embaralhar": false,
+ "questoes": [
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-01",
+   "dificuldade": 1,
+   "enunciado": "Em 1937, a Força Aérea Brasileira (FAB) construiu, na restinga do distrito-sede de Saquarema, um campo de pouso. De acordo com o material oficial sobre o município, essa construção tinha o propósito de:",
+   "alternativas": [
+    "servir como ponto de defesa e vigilância da costa, diante da guerra que se anunciava",
+    "facilitar o escoamento da produção de açúcar e álcool da Usina Santa Luiza",
+    "atender ao fluxo de veranistas das camadas médias que passaram a frequentar o município",
+    "receber os romeiros que se dirigiam às festas religiosas de Nossa Senhora de Nazareth"
+   ],
+   "gabarito": "A",
+   "explicacao": "O campo de pouso foi criado para a defesa e a vigilância da costa, por causa da Segunda Guerra Mundial, que se anunciava. Depois da guerra, passou a ser subordinado à Escola de Cadetes da FAB e a ser usado no treinamento de pilotos.\nAs alternativas erradas trazem fatos reais do mesmo documento, mas de outro contexto:\n• a Usina Santa Luiza tinha trem próprio para escoar a produção;\n• o veraneio das camadas médias começou a partir de 1955;\n• as romarias eram de quando Saquarema era “centro religioso”.\nFonte: documento do IBAM sobre Saquarema, seção “Aeroporto”."
+  },
+  {
+   "disciplina": "ace26-mun",
+   "topico": "ace26-mun-03",
+   "dificuldade": 2,
+   "enunciado": "A Lei Orgânica de Saquarema distingue as competências privativas do Município das competências que ele exerce em comum com a União e o Estado. Constitui competência PRIVATIVA do Município:",
+   "alternativas": [
+    "cuidar da saúde e assistência pública, da proteção e garantia das pessoas portadoras de deficiência",
+    "proteger o meio ambiente e combater a poluição em qualquer de suas formas",
+    "dispor sobre registro, vacinação e captura de animais, com a finalidade de erradicar as moléstias de que possam ser portadores ou transmissores",
+    "preservar as florestas, a fauna e a flora"
+   ],
+   "gabarito": "C",
+   "explicacao": "A alternativa C está no art. 10, XXXV, que lista as competências privativas. As alternativas A, B e D estão no art. 11, que trata da competência comum ao Município, à União e ao Estado (os incisos II, V e VI). É o mesmo truque da questão 36 da prova de Auxiliar de Educação Infantil (IBAM/Saquarema 2026). E tem tudo a ver com o seu cargo: o controle de zoonoses é atribuição do Município.\nFonte: Lei Orgânica de Saquarema, arts. 10 e 11."
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-11",
+   "dificuldade": 2,
+   "enunciado": "Após a realização do Levantamento Rápido de Índices para Aedes aegypti (LIRAa), um bairro de Saquarema apresentou Índice de Infestação Predial (IIP) de 2,4%. Considerando os parâmetros adotados pelo Ministério da Saúde, essa situação é classificada como:",
+   "alternativas": [
+    "satisfatória, dispensando a intensificação das ações de controle",
+    "de alerta, exigindo a intensificação das ações de eliminação de criadouros",
+    "de risco de surto, por superar o limite de 1% estabelecido para essa classificação",
+    "de epidemia, por indicar a transmissão sustentada do vírus no território"
+   ],
+   "gabarito": "B",
+   "explicacao": "Pelas Diretrizes Nacionais do Ministério da Saúde, a classificação pelo IIP é:\n• menos de 1%: satisfatório;\n• de 1% a 3,9%: alerta;\n• 4% ou mais: risco de surto.\nCom 2,4%, o bairro está em alerta. A alternativa C erra o limite: 1% marca o início do alerta, não do risco. A D confunde índice do mosquito com casos da doença: o IIP mede a presença de larvas nos imóveis, não a transmissão do vírus.\nFonte: Diretrizes Nacionais para Prevenção e Controle de Epidemias de Dengue (MS, 2009)."
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-08-07",
+   "dificuldade": 2,
+   "enunciado": "De acordo com a Lei nº 8.080/1990, compete à direção municipal do Sistema Único de Saúde (SUS), EXCETO:",
+   "alternativas": [
+    "planejar, organizar, controlar e avaliar as ações e os serviços de saúde e gerir e executar os serviços públicos de saúde",
+    "executar serviços de vigilância epidemiológica, vigilância sanitária, alimentação e nutrição, saneamento básico e saúde do trabalhador",
+    "formar consórcios administrativos intermunicipais",
+    "definir e coordenar os sistemas de redes integradas de assistência de alta complexidade"
+   ],
+   "gabarito": "D",
+   "explicacao": "As alternativas A, B e C estão no art. 18 da Lei 8.080 (incisos I, IV e VII), que lista as competências da direção municipal. A D está no art. 16, III, “a”, e é competência da direção nacional: alta complexidade e redes integradas são coordenadas pelo Ministério da Saúde.\nMacete: o Município executa (vigilância, atenção básica), e a União define e coordena os grandes sistemas.\nFonte: Lei nº 8.080/1990, arts. 16 e 18."
+  },
+  {
+   "disciplina": "ace26-pt",
+   "topico": "ace26-pt-06",
+   "dificuldade": 2,
+   "enunciado": "Leia o texto a seguir:\n“O agente de combate às endemias bateu à porta às oito horas. A moradora, desconfiada, só abriu o portão depois de ver o crachá. No quintal, ele encontrou três vasos com água acumulada nos pratinhos e uma caixa-d’água sem tampa. Explicou que bastava uma tampinha de garrafa com água parada para o mosquito se reproduzir. Ela ouviu em silêncio, mas, antes que ele fosse embora, já tinha virado os pratinhos e prometido comprar uma tampa nova.”\nNo último período, o conectivo “mas” estabelece uma relação de:",
+   "alternativas": [
+    "adição, acrescentando uma ação que confirma o desinteresse da moradora pela orientação recebida",
+    "oposição, contrapondo o silêncio da moradora, que poderia sugerir indiferença, à atitude imediata de eliminar os criadouros",
+    "conclusão, apresentando a mudança de atitude da moradora como consequência lógica de seu silêncio",
+    "explicação, justificando o motivo pelo qual a moradora permaneceu calada durante a visita"
+   ],
+   "gabarito": "B",
+   "explicacao": "“Mas” é uma conjunção adversativa. O silêncio da moradora faria o leitor esperar indiferença, e o “mas” quebra essa expectativa: ela age na hora. A alternativa A erra o sentido, porque a ação contradiz o desinteresse em vez de confirmá-lo. Conclusão seria marcada por “portanto” ou “logo”, e explicação, por “pois” ou “porque”. Esse tipo de questão, que pede o sentido do conectivo no contexto, aparece nas duas provas do IBAM de Saquarema.\nTexto autoral, criado para esta questão."
+  }
+ ]
+}

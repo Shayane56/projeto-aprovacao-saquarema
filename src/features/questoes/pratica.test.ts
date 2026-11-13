@@ -7,6 +7,7 @@ import { atualizarCadernoLocal } from './hooks';
 import pacote from './pacotes/autorais-v1.json';
 import pacoteMunicipio from './pacotes/municipio-v1.json';
 import pacoteProvas from './pacotes/provas-v1.json';
+import pacoteIneditas from './pacotes/ineditas-ibam-v1.json';
 import cartoesMunicipio from '@/features/flashcards/pacotes/municipio-v1.json';
 import cartoesGerais from '@/features/flashcards/pacotes/cartoes-v1.json';
 import { hashCartao } from '@/features/flashcards/agendador';
@@ -173,6 +174,29 @@ describe('pacote de provas reais', () => {
   it('não repete questões de outros pacotes', () => {
     const todas = [...preparadas, ...prepararPacote(pacoteMunicipio as Pacote), ...provas].map((q) => q.hash);
     expect(new Set(todas).size).toBe(todas.length);
+  });
+});
+
+describe('pacote de questões inéditas no padrão IBAM', () => {
+  const ineditas = prepararPacote(pacoteIneditas as Pacote);
+  const topicos = new Set(editalDoSeed().topicos.map((t) => t.id));
+
+  it('mantém o gabarito aprovado, 4 alternativas, tópico do edital e a marca de inédita', () => {
+    pacoteIneditas.questoes.forEach((orig, i) => {
+      const q = ineditas[i];
+      expect(q.alternativas).toEqual(orig.alternativas);
+      expect(q.alternativas).toHaveLength(4);
+      expect(q.gabarito).toBe(['A', 'B', 'C', 'D'].indexOf(orig.gabarito));
+      expect(q.origem).toBe('autoral');
+      expect(q.fonte).toBe('Questão inédita · padrão IBAM');
+      expect(topicos.has(q.topico_id!)).toBe(true);
+      expect(q.topico_id!.startsWith(q.disciplina_id)).toBe(true);
+    });
+  });
+
+  it('não repete questões de outros pacotes', () => {
+    const outros = [preparadas, prepararPacote(pacoteMunicipio as Pacote), prepararPacote(pacoteProvas as Pacote)].flat().map((q) => q.hash);
+    for (const q of ineditas) expect(outros).not.toContain(q.hash);
   });
 });
 
