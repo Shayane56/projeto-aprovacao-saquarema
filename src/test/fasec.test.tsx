@@ -110,6 +110,17 @@ describe('flashcards', () => {
     expect(inseridos).not.toContain('Dengue: agente e vetor?');
   });
 
+  it('cartão de ocultar palavras: a frente tem a lacuna e o verso destaca a palavra que faltava', async () => {
+    m.cartoes = [{ ...cartao(1, 'A febre amarela urbana não ocorre no Brasil desde _____.'), verso: 'A febre amarela urbana não ocorre no Brasil desde [[1942]].' }];
+    renderizarApp('/flashcards/estudar');
+    const u = userEvent.setup();
+    expect(await screen.findByText('A febre amarela urbana não ocorre no Brasil desde _____.')).toBeInTheDocument();
+    await u.click(screen.getByRole('button', { name: 'Mostrar resposta' }));
+    const destaque = screen.getByText('1942');
+    expect(destaque.tagName).toBe('MARK');
+    expect(screen.queryByText(/\[\[/)).not.toBeInTheDocument();
+  });
+
   it('estudo: mostra a frente, revela o verso e registra a nota', async () => {
     m.cartoes = [cartao(1, 'Vetor da malária?'), cartao(2, 'Vetor da dengue?')];
     renderizarApp('/flashcards/estudar');

@@ -9,6 +9,7 @@ import { useAgora } from '@/shared/hooks/useAgora';
 import { Botao, Carregando, ErroCarga } from '@/shared/ui';
 import { resumirCartoes } from './agendador';
 import { useAlterarCartao, useFlashcards, useInstalarCartoes, useRevisoesHoje } from './hooks';
+import { TextoCartao } from './TextoCartao';
 
 const semAcento = (s: string) => s.normalize('NFD').replace(/\p{Diacritic}/gu, '').toLowerCase();
 const ROTULO_ESTADO = ['Novo', 'Aprendendo', 'Em revisão', 'Reaprendendo'];
@@ -97,7 +98,7 @@ export function FlashcardsPage() {
             {filtrados.slice(0, 200).map((c) => (
               <li key={c.id} className={cn('cartao p-4', c.suspenso && 'opacity-55')}>
                 <p className="font-medium">{c.frente}</p>
-                <p className="mt-1 text-sm text-suave">{c.verso}</p>
+                <p className="mt-1 text-sm text-suave"><TextoCartao texto={c.verso} /></p>
                 <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-suave">
                   <span>{c.suspenso ? 'Suspenso' : ROTULO_ESTADO[c.state]}</span>
                   {c.state !== 0 && <span>próxima: {new Date(c.due).toLocaleDateString('pt-BR')}</span>}

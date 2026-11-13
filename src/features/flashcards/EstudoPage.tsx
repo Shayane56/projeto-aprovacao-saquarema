@@ -10,6 +10,7 @@ import { BarraProgresso, Botao, Carregando, ErroCarga } from '@/shared/ui';
 import { criarAgendador, montarFilaEstudo, preverNotas } from './agendador';
 import { useFlashcards, useRevisar, useRevisoesHoje } from './hooks';
 import { NOTAS } from './tipos';
+import { TextoCartao } from './TextoCartao';
 
 export function EstudoPage() {
   const { usuario } = useAuth();
@@ -75,7 +76,7 @@ export function EstudoPage() {
               <span className="text-suave">{atual.state === 0 ? 'Cartão novo' : atual.state === 2 ? 'Revisão' : 'Aprendendo'}</span>
             </div>
             <p className="mt-5 whitespace-pre-line text-lg font-semibold leading-snug">{atual.frente}</p>
-            {verso && <p className="mt-5 whitespace-pre-line border-t border-borda pt-5 text-[16px] leading-relaxed">{atual.verso}</p>}
+            {verso && <p className="mt-5 whitespace-pre-line border-t border-borda pt-5 text-[16px] leading-relaxed"><TextoCartao texto={atual.verso} /></p>}
           </article>
 
           {!verso ? (
