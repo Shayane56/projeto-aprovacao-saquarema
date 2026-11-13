@@ -1378,6 +1378,306 @@
    "gabarito": "A",
    "explicacao": "A informação ambiental serve para decidir onde agir antes de o problema acontecer, ou seja, direcionar a prevenção para os cenários de risco. Ela não confirma diagnóstico (isso é laboratório e clínica), e registrar só para descrever não é tomar decisão.",
    "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias (QConcursos Q4143614)"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-12",
+   "dificuldade": 2,
+   "enunciado": "Em áreas com abastecimento intermitente, práticas domiciliares de armazenamento de água podem interferir na qualidade microbiológica e favorecer a ocorrência de agravos à saúde. Considerando esse contexto, a situação de maior risco sanitário está associada à(ao):",
+   "alternativas": [
+    "Armazenamento em recipientes submetidos a uso frequente, com renovação periódica do volume de água.",
+    "Utilização de reservatórios protegidos contra contato com o ambiente externo.",
+    "Manutenção de recipientes que permitem interação com o ambiente e possíveis fontes de contaminação.",
+    "Adoção de práticas de higienização associadas ao manejo da água armazenada."
+   ],
+   "gabarito": "C",
+   "explicacao": "Recipiente aberto, em contato com o ambiente, é o de maior risco: entra sujeira, a água é contaminada por mãos e canecas e o Aedes faz criadouro. As outras alternativas descrevem boas práticas: renovar a água, proteger o reservatório e higienizar.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-03",
+   "dificuldade": 1,
+   "enunciado": "A Vigilância da Qualidade da Água para Consumo Humano (VIGIAGUA) utiliza indicadores microbiológicos para avaliar a segurança sanitária da água distribuída à população, conforme padrões estabelecidos em legislação federal. De acordo com a Portaria GM/MS nº 888/2021, a detecção de Escherichia coli em uma amostra de água na rede de distribuição deve ser interpretada como:",
+   "alternativas": [
+    "Um indicador de conformidade, não exigindo ações de correção por parte do responsável.",
+    "Uma presença de contaminação de origem fecal, exigindo medidas corretivas imediatas.",
+    "Um parâmetro estético e sensorial, relacionado apenas ao sabor e odor da água.",
+    "Uma falha exclusiva no parâmetro de turbidez, sem riscos diretos à saúde humana."
+   ],
+   "gabarito": "B",
+   "explicacao": "A E. coli vive no intestino. Se aparece na água, houve contaminação por fezes, e o padrão exige ausência dela em 100 mL. Achou E. coli, é preciso agir na hora: investigar, corrigir (desinfecção, reparo da rede) e comunicar.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-03",
+   "dificuldade": 1,
+   "enunciado": "No âmbito da vigilância sanitária relacionada à área de alimentos, a atuação preventiva assume papel central na proteção da saúde coletiva. A finalidade principal dessa atuação consiste em:",
+   "alternativas": [
+    "Atuação voltada ao controle de eventos associados a surtos alimentares já identificados.",
+    "Desenvolvimento de ações de fiscalização em serviços e estabelecimentos de saúde.",
+    "Avaliação de características físicas e sensoriais dos produtos alimentícios.",
+    "Redução de riscos à saúde ao longo das etapas de produção, armazenamento e consumo de alimentos."
+   ],
+   "gabarito": "D",
+   "explicacao": "A palavra-chave é “preventiva”: reduzir os riscos em toda a cadeia do alimento, antes de alguém adoecer. Controlar surto já identificado (A) é atuação depois do problema. A B fala de serviços de saúde, outra área da vigilância sanitária.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-09",
+   "dificuldade": 1,
+   "enunciado": "No ciclo do Aedes aegypti, a fase larval apresenta características que orientam diretamente as estratégias de controle. A descrição correta dessa fase está expressa em:",
+   "alternativas": [
+    "Estágio terrestre com resistência à dessecação.",
+    "Fase reprodutiva responsável pela deposição de ovos.",
+    "Desenvolvimento em ambiente aquático com atividade alimentar intensa.",
+    "Período de inatividade metabólica sem alimentação."
+   ],
+   "gabarito": "C",
+   "explicacao": "As fases são ovo → larva (4 estágios) → pupa → adulto. A larva vive na água e se alimenta muito de matéria orgânica, por isso o controle mira a água: eliminar criadouro e usar larvicida. Quem resiste à seca é o ovo (A). Quem não se alimenta é a pupa (D). Quem põe ovos é a fêmea adulta (B).",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-11",
+   "dificuldade": 2,
+   "enunciado": "No processo de estratificação territorial para o controle da dengue, a definição de áreas prioritárias para intervenção considera a integração de indicadores entomológicos, ambientais e epidemiológicos. A classificação dessas áreas como prioritárias está relacionada à(ao):",
+   "alternativas": [
+    "Distribuição homogênea de casos no território, independentemente das condições ambientais locais.",
+    "Presença de infraestrutura urbana consolidada com monitoramento sistemático de indicadores.",
+    "Predomínio de áreas com baixa densidade populacional e reduzida circulação de pessoas.",
+    "Convergência de fatores ambientais propícios à proliferação do vetor associada a evidências recentes de transmissão."
+   ],
+   "gabarito": "D",
+   "explicacao": "Área prioritária é onde se somam ambiente favorável ao vetor (índice alto, criadouros) e transmissão recente (casos). As outras descrevem situações de menor risco ou ignoram o ambiente.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-05",
+   "dificuldade": 3,
+   "enunciado": "Em territórios com limitações na infraestrutura de saneamento básico, a persistência de condições ambientais específicas interfere na estruturação dos processos epidemiológicos relacionados a doenças infecciosas. À luz dos determinantes ambientais da saúde e da dinâmica de transmissão, essa relação é mais adequadamente compreendida a partir do entendimento de que tais condições:",
+   "alternativas": [
+    "Atuam na configuração das vias de transmissão ao interferirem na interação entre reservatórios, mecanismos de disseminação e suscetibilidade dos grupos populacionais expostos.",
+    "Influenciam a ocorrência de agravos ao integrarem o conjunto de determinantes que condicionam a interação entre agente, hospedeiro e ambiente nos contextos territoriais.",
+    "Repercutem sobre os processos de adoecimento ao modificarem condições ambientais que afetam a persistência e a dispersão de agentes infecciosos no território.",
+    "Participam da conformação dos perfis epidemiológicos ao interferirem na distribuição espaço-temporal dos agravos e na dinâmica de exposição populacional."
+   ],
+   "gabarito": "A",
+   "explicacao": "Questão muito difícil: as quatro são verdadeiras em algum grau. O enunciado pede a relação com a “dinâmica de transmissão”, e a A é a única que fala da cadeia de transmissão completa (reservatório, como o agente se espalha e quem é suscetível). As outras tratam de partes: tríade em geral (B), o agente no ambiente (C) e distribuição dos casos (D). Se errar, não se preocupe, é questão de banca para separar candidatos.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-03",
+   "dificuldade": 1,
+   "enunciado": "No desenvolvimento de ações de controle de endemias, estratégias de educação ambiental têm sido incorporadas às práticas de vigilância em saúde, considerando a dinâmica social, cultural e ambiental dos territórios. Nesse contexto, a finalidade dessas estratégias está associada à(ao):",
+   "alternativas": [
+    "Organização de fluxos institucionais voltados ao monitoramento de agravos.",
+    "Desenvolvimento de ações educativas padronizadas sem participação ativa da comunidade.",
+    "Ampliação da capacidade operacional dos serviços de saúde no território.",
+    "Construção de práticas coletivas que favoreçam a redução contínua de riscos no ambiente."
+   ],
+   "gabarito": "D",
+   "explicacao": "Educação ambiental serve para a comunidade construir hábitos coletivos que reduzam os riscos de forma permanente. Para o IDIB, a resposta certa sempre envolve a participação da população; “padronizadas, sem participação” (B) é o oposto.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-07",
+   "dificuldade": 3,
+   "enunciado": "Durante a realização de visitas domiciliares, o Agente de Combate às Endemias identifica situações que demandam definição de condutas no território, considerando os riscos observados e as possibilidades de intervenção. Nessa perspectiva, a atuação técnica do agente caracteriza-se por:",
+   "alternativas": [
+    "Definição de condutas a partir da análise das situações observadas, orientando intervenções compatíveis com as condições identificadas no território.",
+    "Definição de ações com base na análise das atividades previstas para execução, considerando a adequação das intervenções às condições operacionais do serviço.",
+    "Planejamento de intervenções a partir da análise das informações produzidas nas visitas, considerando sua aplicação nas ações desenvolvidas no território.",
+    "Estruturação das ações com base na análise das informações coletadas, orientando a organização das atividades no território."
+   ],
+   "gabarito": "A",
+   "explicacao": "O enunciado fala em definir condutas diante dos riscos observados. A A é a única que liga o que foi observado a uma intervenção compatível com aquela situação. A B parte do que estava previsto pelo serviço, não do que foi visto. C e D falam de planejar e organizar atividades, não de decidir a conduta na visita.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-sus",
+   "topico": "ace26-sus-11",
+   "dificuldade": 1,
+   "enunciado": "Em uma área com risco de doenças imunopreveníveis, a ampliação da cobertura vacinal foi priorizada pela equipe de saúde. Aponte a alternativa que expressa corretamente o principal efeito epidemiológico dessa estratégia.",
+   "alternativas": [
+    "Substituição das ações de vigilância epidemiológica.",
+    "Redução da circulação de agentes infecciosos na população.",
+    "Tratamento direto de indivíduos já doentes.",
+    "Ausência de impacto na dinâmica de transmissão."
+   ],
+   "gabarito": "B",
+   "explicacao": "Com muita gente vacinada, o agente infeccioso encontra poucos suscetíveis e circula menos. É a imunidade coletiva (ou de rebanho), que protege até quem não pode se vacinar. A vacina previne (não trata) e não substitui a vigilância.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-04",
+   "dificuldade": 1,
+   "enunciado": "Durante uma atividade educativa, foram abordadas formas de prevenção das hepatites virais associadas à exposição a material biológico. Selecione a alternativa que apresenta corretamente a via de transmissão envolvida.",
+   "alternativas": [
+    "Contato com solo contaminado por agentes infecciosos.",
+    "Picada de mosquito vetor urbano.",
+    "Ingestão de água contendo microrganismos patogênicos.",
+    "Exposição a sangue e fluidos corporais contaminados."
+   ],
+   "gabarito": "D",
+   "explicacao": "“Material biológico” = sangue e fluidos corporais, e essa é a via das hepatites B, C e D: agulhas, objetos cortantes compartilhados, relação sexual e transmissão da mãe para o bebê. A hepatite A (e a E) é transmitida pela via fecal-oral, com água e alimento (alternativa C), mas não é a do enunciado.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08",
+   "dificuldade": 2,
+   "enunciado": "A hantavirose é uma zoonose viral grave, a qual exige que o Agente de Combate às Endemias (ACE) dê orientações precisas à população sobre o manejo de ambientes que possam ter servido de abrigo para roedores silvestres. Para a limpeza de locais fechados com suspeita de presença de excretas de roedores, a recomendação técnica correta que visa impedir a transmissão aérea do vírus é:",
+   "alternativas": [
+    "Realizar a varredura a seco de todo o local para remoção imediata de ninhos e fezes.",
+    "Umidificar as superfícies e excretas com solução desinfetante antes de qualquer limpeza.",
+    "Utilizar apenas ventiladores potentes para dispersar a poeira antes de entrar no recinto.",
+    "Aplicar inseticidas aerossóis para eliminar pulgas que possam transmitir o vírus no ambiente."
+   ],
+   "gabarito": "B",
+   "explicacao": "A hantavirose se pega respirando poeira com partículas de urina, fezes e saliva de roedores silvestres. Por isso:\n• Nunca varrer a seco, nem levantar poeira com ventilador.\n• Antes, abrir portas e janelas para arejar (cerca de 30 minutos).\n• Molhar tudo com desinfetante (ex.: água sanitária diluída) e só depois limpar com pano úmido.\nNão é transmitida por pulga.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-07",
+   "dificuldade": 1,
+   "enunciado": "Após chuvas intensas, áreas urbanas apresentaram acúmulo de água contaminada e aumento da presença de roedores. Indique a alternativa que apresenta o principal fator associado ao risco de infecção.",
+   "alternativas": [
+    "Contato com água contaminada por urina de animais infectados.",
+    "Aumento da população de insetos vetores urbanos.",
+    "Exposição a superfícies secas em ambientes internos.",
+    "Ingestão de alimentos industrializados armazenados inadequadamente."
+   ],
+   "gabarito": "A",
+   "explicacao": "Enchente + ratos = leptospirose. A bactéria sai na urina do rato e entra pela pele (sobretudo com ferida ou depois de muito tempo na água) e pelas mucosas. Os sintomas aparecem em geral 1 a 30 dias depois do contato.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-01",
+   "dificuldade": 1,
+   "enunciado": "Em uma área com registro de leishmaniose, a presença do vetor em ambiente domiciliar e peridomiciliar exige compreensão da cadeia epidemiológica. Aponte a alternativa que descreve corretamente o mecanismo de infecção humana.",
+   "alternativas": [
+    "Ingestão de água contaminada com o agente etiológico.",
+    "Transmissão direta entre indivíduos infectados.",
+    "Inoculação do agente pelo inseto vetor durante o repasto sanguíneo.",
+    "Exposição a superfícies contaminadas no ambiente domiciliar."
+   ],
+   "gabarito": "C",
+   "explicacao": "A fêmea do flebotomíneo (mosquito-palha, birigui) pica um animal infectado, como o cão, e depois uma pessoa, inoculando a Leishmania ao se alimentar de sangue (repasto sanguíneo). Não há transmissão por água, superfície ou contato entre pessoas.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08",
+   "dificuldade": 2,
+   "enunciado": "O Ministério da Saúde, por meio de suas normas técnicas, define estratégias específicas para a vigilância, prevenção e controle de zoonoses de relevância para a saúde pública. Essas ações são direcionadas de acordo com a biologia do agente e o comportamento dos reservatórios. No contexto das diretrizes oficiais, as zoonoses são tecnicamente caracterizadas como agravos:",
+   "alternativas": [
+    "Transmitidos entre seres humanos em contextos de circulação de agentes infecciosos.",
+    "Cuja cadeia de transmissão ocorre naturalmente entre animais vertebrados e seres humanos.",
+    "Associados à participação de vetores biológicos em determinados ciclos de transmissão.",
+    "Envolvendo a interação entre agentes infecciosos, reservatórios animais e populações humanas em contextos ambientais específicos."
+   ],
+   "gabarito": "B",
+   "explicacao": "Definição clássica (OMS, usada pelo Ministério da Saúde): zoonoses são doenças e infecções naturalmente transmissíveis entre animais vertebrados e o ser humano. Exemplos: raiva, leptospirose, leishmaniose e esporotricose. A D é parecida, mas genérica; a B traz a definição técnica.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-11",
+   "dificuldade": 1,
+   "enunciado": "Em uma área com alto risco de contração de febre amarela, a vigilância epidemiológica intensificou ações após a confirmação de circulação viral em regiões adjacentes, com o objetivo de reduzir o risco de adoecimento e a possibilidade de disseminação da doença na população local. Nesse contexto, a medida mais adequada para o controle da febre amarela é:",
+   "alternativas": [
+    "Uso de antibióticos profiláticos em grupos populacionais sob risco potencial de exposição.",
+    "Isolamento de indivíduos com sinais clínicos compatíveis, visando reduzir a transmissão direta.",
+    "Imunização por meio de vacina específica com indução de resposta imune eficaz e prolongada.",
+    "Monitoramento de alimentos e superfícies domiciliares como estratégia central de interrupção do ciclo da doença."
+   ],
+   "gabarito": "C",
+   "explicacao": "A principal medida contra a febre amarela é a vacina. No Brasil, é dose única para a maioria das pessoas a partir dos 5 anos, com reforço para quem tomou antes. O vírus não responde a antibiótico e não há transmissão direta entre pessoas: ela depende do mosquito.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-12",
+   "dificuldade": 2,
+   "enunciado": "No processo de análise territorial, a identificação simultânea de acúmulo de resíduos sólidos, presença de água parada e ocorrência de animais sinantrópicos exige interpretação integrada dos determinantes envolvidos. Sob a ótica da vigilância em saúde, a leitura técnica adequada desses achados corresponde a uma:",
+   "alternativas": [
+    "Configuração de cenário ambiental que demanda monitoramento, sem indicação de intervenção estruturada.",
+    "Situação que expressa desequilíbrios ambientais capazes de favorecer a manutenção de ciclos de transmissão de agravos.",
+    "Condição associada à alteração de parâmetros ambientais, com impacto indireto e não determinante na ocorrência de agravos.",
+    "Situação que requer acompanhamento contínuo, com intervenções condicionadas à evolução dos indicadores ambientais."
+   ],
+   "gabarito": "B",
+   "explicacao": "Lixo, água parada e animais sinantrópicos juntos formam um desequilíbrio que mantém doenças circulando (dengue, leptospirose, escorpionismo…). As erradas minimizam o problema: “sem intervenção”, “não determinante”, “esperar os indicadores”.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-12",
+   "dificuldade": 1,
+   "enunciado": "Em uma comunidade que apresenta ausência de esgotamento sanitário e manejo inadequado de resíduos sólidos, observa-se um aumento sistemático de agravos à saúde. A relação direta entre essas condições ambientais e o perfil epidemiológico local é explicada pelo(a):",
+   "alternativas": [
+    "Influência sobre a organização visual do ambiente, com repercussões meramente indiretas na saúde coletiva.",
+    "Associação a padrões de adoecimento relacionados a condições ambientais e características do território.",
+    "Fenômeno influenciado por variações climáticas e condições ambientais presentes no território.",
+    "Favorecimento da exposição da população a agentes infecciosos presentes no ambiente contaminado."
+   ],
+   "gabarito": "D",
+   "explicacao": "O enunciado pede a relação direta. Sem esgoto e com lixo, a população fica exposta a agentes infecciosos no ambiente (fezes, urina de rato, vetores). A B só diz que existe uma associação, sem explicar o mecanismo. A C muda o foco para o clima.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-07",
+   "dificuldade": 2,
+   "enunciado": "A visita domiciliar constitui o eixo estruturante do processo de trabalho do Agente de Combate às Endemias (ACE). Segundo as diretrizes vigentes, essa atividade deve integrar as ações de vigilância epidemiológica e ambiental com as práticas de promoção da saúde no território. O elemento que caracteriza a natureza técnica-reflexiva dessa atuação, diferenciando-a de uma execução meramente operacional, corresponde à(ao):",
+   "alternativas": [
+    "Registro de informações territoriais para fins de consolidação de dados administrativos.",
+    "Aplicação padronizada de intervenções químicas em todos os reservatórios de água do imóvel.",
+    "Capacidade de realizar o diagnóstico do território e orientar intervenções adequadas ao contexto.",
+    "Identificação de características estruturais do domicílio sem articulação com a análise do contexto territorial."
+   ],
+   "gabarito": "C",
+   "explicacao": "“Técnica-reflexiva” = pensar sobre o que se vê. O ACE analisa (faz o diagnóstico do território) e adapta a intervenção ao contexto. Registrar só para fins administrativos, aplicar produto em tudo ou olhar a casa isolada do território é execução “meramente operacional”.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-07",
+   "dificuldade": 1,
+   "enunciado": "Após período de chuvas intensas, houve aumento do contato da população com água contaminada em áreas alagadas. Identifique a alternativa que descreve corretamente o mecanismo de transmissão da leptospirose.",
+   "alternativas": [
+    "Penetração do agente por pele lesada ou mucosas em contato com água contaminada.",
+    "Inoculação por mosquito vetor urbano.",
+    "Transmissão respiratória entre indivíduos.",
+    "Ingestão de alimentos industrializados contaminados."
+   ],
+   "gabarito": "A",
+   "explicacao": "A Leptospira entra pela pele com ferimentos, pela pele íntegra depois de muito tempo na água e pelas mucosas (olhos, boca). Não há mosquito nem transmissão entre pessoas.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
+  },
+  {
+   "disciplina": "ace26-ce",
+   "topico": "ace26-ce-08-11",
+   "dificuldade": 2,
+   "enunciado": "Em uma área de mata com registro de epizootias em primatas não humanos, foi confirmada circulação do vírus da febre amarela. Indique a alternativa que caracteriza corretamente o ciclo epidemiológico envolvido.",
+   "alternativas": [
+    "Transmissão direta entre seres humanos em ambiente urbano.",
+    "Disseminação por água contaminada em áreas rurais.",
+    "Contágio por secreções corporais humanas.",
+    "Circulação do vírus entre primatas e mosquitos silvestres."
+   ],
+   "gabarito": "D",
+   "explicacao": "Ciclo silvestre da febre amarela: o vírus circula entre macacos e mosquitos da mata (Haemagogus e Sabethes). A pessoa se infecta ao entrar na mata. Macaco morto (epizootia) é sinal de alerta e deve ser notificado. Os macacos não transmitem a doença: são vítimas e sentinelas. O ciclo urbano, com Aedes aegypti, não é registrado no Brasil desde 1942.",
+   "fonte": "IDIB · 2026 · Prefeitura de Goianinha/RN · Agente de Endemias"
   }
  ],
  "textos": {
