@@ -22,6 +22,7 @@ const m = vi.hoisted(() => ({
   responder: vi.fn(),
   atualizarCaderno: vi.fn(),
   criarTexto: vi.fn(),
+  atualizarQuestao: vi.fn(),
   iniciar: vi.fn(),
   marcar: vi.fn(),
   finalizar: vi.fn(),
@@ -47,6 +48,7 @@ vi.mock('@/features/questoes/api', () => ({
   responder: m.responder,
   atualizarCaderno: m.atualizarCaderno,
   criarTexto: m.criarTexto,
+  atualizarQuestao: m.atualizarQuestao,
 }));
 vi.mock('@/features/flashcards/api', () => ({ buscarFlashcards: async () => [], buscarRevisoesDesde: async () => [], inserirFlashcards: async () => 0 }));
 vi.mock('@/features/plano/api', () => ({ buscarSessoes: async () => [], concluirSessao: async () => {}, desfazerSessao: async () => {} }));
@@ -79,6 +81,7 @@ beforeEach(() => {
     m.caderno = (m.caderno as ItemCaderno[]).map((i) => (i.questao_id === v.questaoId ? { ...i, ...v.dados } : i));
   });
   m.criarTexto.mockReset().mockResolvedValue('texto-1');
+  m.atualizarQuestao.mockReset().mockResolvedValue(undefined);
   m.iniciar.mockReset().mockImplementation(async (tipo: 'completo' | 'rapido', duracao: number, ids: string[]) => {
     m.simulado = {
       id: 'sim1', tipo, status: 'em_andamento', duracao_seg: duracao, iniciado_em: new Date().toISOString(), finalizado_em: null, resultado: null,
@@ -120,6 +123,16 @@ describe('praticar', () => {
   it('não reinstala quando o pacote já está no banco', async () => {
     renderizarApp('/praticar');
     expect(await screen.findByText(new RegExp(`${BANCO.length} questões no seu banco`))).toBeInTheDocument();
+    expect(m.inserir).not.toHaveBeenCalled();
+    expect(m.atualizarQuestao).not.toHaveBeenCalled();
+  });
+
+  it('aplica correções do pacote (ex.: gabarito oficial conferido) em questões já instaladas', async () => {
+    const alvo = BANCO.find((q) => q.fonte?.includes('gabarito definitivo'))!;
+    m.questoes = BANCO.map((q) => (q.id === alvo.id ? { ...q, fonte: q.fonte!.replace('definitivo', 'não oficial') } : q));
+    renderizarApp('/praticar');
+    await waitFor(() => expect(m.atualizarQuestao).toHaveBeenCalledWith(alvo.id, { fonte: alvo.fonte, gabarito: alvo.gabarito }));
+    expect(m.atualizarQuestao).toHaveBeenCalledTimes(1);
     expect(m.inserir).not.toHaveBeenCalled();
   });
 

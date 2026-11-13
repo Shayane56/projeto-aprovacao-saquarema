@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { useAuth } from '@/features/auth/AuthProvider';
 import { queryClient } from '@/lib/queryClient';
 import {
-  atualizarCaderno, buscarCaderno, buscarQuestoes, buscarRespostas, buscarTextos, criarTexto, inserirQuestoes, responder,
+  atualizarCaderno, atualizarQuestao, buscarCaderno, buscarQuestoes, buscarRespostas, buscarTextos, criarTexto, inserirQuestoes, responder,
   type AtualizarCaderno, type Responder,
 } from './api';
 import { carregarPacotesAutorais, prepararPacote } from './pacotes/instalar';
@@ -127,11 +127,18 @@ export function useInstalarPacotes() {
     void (async () => {
       const pacotes = await carregarPacotesAutorais();
       const todas = pacotes.flatMap(prepararPacote);
-      const existentes = new Set(questoes.data.map((q) => q.enunciado));
-      const faltando = todas.filter((q) => !existentes.has(q.enunciado));
-      if (faltando.length === 0) return setEstado('pronto');
+      const porEnunciado = new Map(questoes.data.map((q) => [q.enunciado, q] as [string, Questao]));
+      const faltando = todas.filter((q) => !porEnunciado.has(q.enunciado));
+      // Correções vindas do pacote (ex.: gabarito oficial conferido) em questões já instaladas.
+      const corrigir = todas.flatMap((q) => {
+        const atual = porEnunciado.get(q.enunciado);
+        if (!atual || atual.origem !== q.origem) return [];
+        return atual.fonte !== q.fonte || atual.gabarito !== q.gabarito ? [{ id: atual.id, fonte: q.fonte, gabarito: q.gabarito }] : [];
+      });
+      if (faltando.length === 0 && corrigir.length === 0) return setEstado('pronto');
       setEstado('instalando');
       try {
+        for (const c of corrigir) await atualizarQuestao(c.id, { fonte: c.fonte, gabarito: c.gabarito });
         // Textos de apoio: reaproveita o que já existe na conta (mesmo conteúdo) ou cria.
         const idsTexto = new Map<string, string>();
         if (faltando.some((q) => q.texto)) {
@@ -143,7 +150,7 @@ export function useInstalarPacotes() {
           }
         }
         const prontas = faltando.map(({ texto, ...q }) => ({ ...q, texto_id: texto ? idsTexto.get(texto.conteudo)! : null }));
-        await inserirQuestoes(usuario.id, prontas);
+        if (prontas.length > 0) await inserirQuestoes(usuario.id, prontas);
         await qc.invalidateQueries({ queryKey: chavesPratica.textos(usuario.id) });
         await qc.invalidateQueries({ queryKey: chavesPratica.questoes(usuario.id) });
         setEstado('pronto');
