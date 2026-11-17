@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" role="img" aria-label="Sinais de desidratação na cólera indicados por chamadas em uma figura humana">
+  <defs>
+    <linearGradient id="dh-pele" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f3e3d3"/><stop offset="100%" stop-color="#e8cfb8"/></linearGradient>
+    <linearGradient id="dh-copo" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#eef3f4"/><stop offset="50%" stop-color="#ffffff"/><stop offset="100%" stop-color="#e2eaec"/></linearGradient>
+    <filter id="dh-sombra" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/></filter>
+  </defs>
+  <!-- figura: cabeça e tronco -->
+  <g stroke="#c9a88a" stroke-width="2.5" fill="url(#dh-pele)">
+    <path d="M300 400 C 300 330, 330 300, 380 296 C 430 300, 460 330, 460 400 Z"/>
+    <rect x="362" y="250" width="36" height="52" rx="10"/>
+    <ellipse cx="380" cy="190" rx="70" ry="82"/>
+  </g>
+  <path d="M310 172 C 312 112, 352 96, 382 98 C 420 100, 452 120, 452 170 C 440 140, 420 128, 380 128 C 344 128, 322 142, 310 172 Z" fill="#5b4636"/>
+  <!-- olhos fundos (olheiras) -->
+  <g fill="#c7a58e" opacity="0.8"><ellipse cx="352" cy="192" rx="17" ry="12"/><ellipse cx="408" cy="192" rx="17" ry="12"/></g>
+  <g fill="#3b2a1c"><ellipse cx="352" cy="190" rx="5" ry="4"/><ellipse cx="408" cy="190" rx="5" ry="4"/></g>
+  <path d="M338 176 c 8 -5, 20 -5, 28 0 M394 176 c 8 -5, 20 -5, 28 0" stroke="#5b4636" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <!-- boca seca -->
+  <path d="M362 236 c 10 -6, 26 -6, 36 0" stroke="#b5604a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <g stroke="#e7cfc0" stroke-width="1.2"><path d="M368 233 l 2 4 M376 231 l 1 4 M384 231 l -1 4 M392 233 l -2 4"/></g>
+  <!-- gotas de suor frio / sede: balão -->
+  <g transform="translate(470 92)">
+    <path d="M0 26 C 0 10, 14 0, 40 0 C 66 0, 80 10, 80 26 C 80 42, 66 52, 40 52 L 26 52 L 12 64 L 16 50 C 6 46, 0 38, 0 26 Z" fill="#fff" stroke="#9fd8ef" stroke-width="2"/>
+    <path d="M40 12 C 40 12, 30 24, 30 31 A 10 10 0 0 0 50 31 C 50 24, 40 12, 40 12 Z" fill="#4fb0e0"/>
+  </g>
+  <!-- mão com prega cutânea -->
+  <g transform="translate(470 300)">
+    <path d="M0 40 C 20 20, 60 14, 110 18 C 128 20, 132 34, 118 38 L 70 42 C 90 44, 120 46, 136 50 C 150 54, 146 70, 132 68 L 70 64 C 40 66, 18 70, 0 72 Z" fill="url(#dh-pele)" stroke="#c9a88a" stroke-width="2.5"/>
+    <path d="M52 30 C 56 12, 72 12, 76 30" fill="#ead2bd" stroke="#c9a88a" stroke-width="2"/>
+    <path d="M58 6 l 4 10 M70 6 l -4 10" stroke="#566577" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- copo "água de arroz" -->
+  <g transform="translate(160 300)">
+    <path d="M0 0 L 70 0 L 62 96 L 8 96 Z" fill="url(#dh-copo)" stroke="#9fb0b5" stroke-width="2.5"/>
+    <path d="M4 26 L 66 26 L 62 96 L 8 96 Z" fill="#f2efe4"/>
+    <g fill="#ffffff" stroke="#e0dac8" stroke-width="0.8"><ellipse cx="22" cy="48" rx="4" ry="2"/><ellipse cx="44" cy="60" rx="4" ry="2"/><ellipse cx="30" cy="76" rx="4" ry="2"/><ellipse cx="50" cy="38" rx="4" ry="2"/><ellipse cx="18" cy="84" rx="4" ry="2"/></g>
+  </g>
+
+  <!-- chamadas -->
+  <g fill="none" stroke="#13858a" stroke-width="2">
+    <polyline points="342,196 250,150 232,150"/>
+    <polyline points="380,236 250,236 232,236"/>
+    <polyline points="550,118 560,70 566,70"/>
+    <polyline points="540,320 560,256 566,256"/>
+    <polyline points="420,360 560,410 566,410"/>
+    <polyline points="196,344 150,300"/>
+  </g>
+  <g fill="#13858a"><circle cx="342" cy="196" r="4"/><circle cx="380" cy="236" r="4"/><circle cx="550" cy="118" r="4"/><circle cx="540" cy="320" r="4"/><circle cx="420" cy="360" r="4"/><circle cx="196" cy="344" r="4"/></g>
+  <g filter="url(#dh-sombra)" fill="#fff" stroke="#b9dfdc">
+    <rect x="14" y="120" width="218" height="60" rx="10"/>
+    <rect x="14" y="206" width="218" height="60" rx="10"/>
+    <rect x="566" y="40" width="182" height="60" rx="10"/>
+    <rect x="566" y="226" width="182" height="76" rx="10"/>
+    <rect x="566" y="380" width="182" height="76" rx="10"/>
+    <rect x="14" y="246" width="0" height="0"/>
+    <rect x="14" y="282" width="138" height="60" rx="10"/>
+  </g>
+  <text font-size="12" fill="#1b2733"><tspan x="26" y="144" font-weight="700" fill="#0b4f5c">Olhos fundos</tspan><tspan x="26" dy="16">e sem lágrimas</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="26" y="230" font-weight="700" fill="#0b4f5c">Boca e língua secas</tspan><tspan x="26" dy="16">lábios rachados</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="578" y="64" font-weight="700" fill="#0b4f5c">Sede intensa</tspan><tspan x="578" dy="16">bebe água com avidez</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="578" y="250" font-weight="700" fill="#0b4f5c">Sinal da prega</tspan><tspan x="578" dy="16">a pele beliscada volta</tspan><tspan x="578" dy="16">devagar ao lugar</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="578" y="404" font-weight="700" fill="#b8331f">Casos graves</tspan><tspan x="578" dy="16">câimbras, pulso fraco,</tspan><tspan x="578" dy="16">pouca urina, choque</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="26" y="306" font-weight="700" fill="#0b4f5c">Fezes em</tspan><tspan x="26" dy="16">“água de arroz”</tspan></text>
+  <text x="196" y="420" text-anchor="middle" font-size="10.5" fill="#566577" font-style="italic">líquidas, esbranquiçadas,</text>
+  <text x="196" y="434" text-anchor="middle" font-size="10.5" fill="#566577" font-style="italic">sem sangue</text>
+</svg>

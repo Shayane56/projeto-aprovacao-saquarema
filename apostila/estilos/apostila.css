@@ -217,7 +217,7 @@ table.tabela.lado-a-lado th:nth-child(3) { background: var(--ambar-escuro); }
 
 /* ---------- Sumário ---------- */
 .sumario-lista { list-style: none; padding: 0; margin: 0; }
-.sumario-lista li { display: flex; align-items: baseline; gap: 2mm; margin: 0; padding: 1.5mm 0; font-size: 10pt; }
+.sumario-lista li { display: flex; align-items: baseline; gap: 2mm; margin: 0; padding: 1.2mm 0; font-size: 9.8pt; }
 .sumario-lista li .pontos { flex: 1; border-bottom: 0.4mm dotted #b8c6ca; transform: translateY(-1mm); }
 .sumario-lista li .pg { font: 600 9.5pt 'Poppins'; color: var(--petroleo); min-width: 7mm; text-align: right; }
 .sumario-lista li.nivel-1 { margin-top: 3mm; padding: 2.4mm 3mm; background: var(--teal-claro); border-radius: 2.4mm; font: 700 11pt 'Poppins'; color: var(--petroleo); }
@@ -347,3 +347,33 @@ ul.check > li.nao::before { content: '✕'; color: var(--coral); }
 .revisao-bloco .icone { color: var(--teal); }
 .frase-final { margin: 5mm 0 2mm; padding: 4mm 6mm; border: 0.5mm dashed var(--coral); border-radius: 4mm; text-align: center; background: #fffaf8; }
 .frase-final .manuscrito { display: block; font-size: 19pt; line-height: 1.2; margin-bottom: 1.4mm; }
+
+/* ---------- Fontes do capítulo ---------- */
+.fontes { font-size: 7.8pt; line-height: 1.45; color: var(--suave); border-top: 0.35mm solid var(--linha); padding-top: 2mm; margin: 3mm 0; text-align: left; }
+.fontes b { color: var(--petroleo); font-family: 'Poppins'; font-weight: 600; }
+
+/* ---------- Abertura: variação "água" ---------- */
+.abertura.agua { background: radial-gradient(120% 90% at 85% 10%, #3aa6d6 0%, #1a6f99 38%, #0b3f4b 100%); }
+.figura-70 svg { max-width: 70% !important; }
+
+/* ---------- Linha do tempo histórica ---------- */
+.linha-do-tempo { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; margin: 2mm 0 3mm; position: relative; }
+.linha-do-tempo::before { content: ''; position: absolute; left: 3mm; right: 3mm; top: 3.2mm; height: 0.8mm; background: var(--teal-medio); border-radius: 0.4mm; }
+.linha-do-tempo .marco { position: relative; padding: 8mm 2.4mm 0 0; }
+.linha-do-tempo .marco::before { content: ''; position: absolute; left: 1.4mm; top: 1.6mm; width: 4mm; height: 4mm; border-radius: 50%; background: #fff; border: 1mm solid var(--teal); box-sizing: border-box; }
+.linha-do-tempo .marco.destaque::before { border-color: var(--coral); }
+.linha-do-tempo .marco b { display: block; font: 700 10pt 'Poppins'; color: var(--petroleo); margin-bottom: 0.6mm; }
+.linha-do-tempo .marco span { display: block; font-size: 8.4pt; line-height: 1.38; color: var(--tinta); }
+
+/* ---------- Planos de hidratação ---------- */
+.planos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 2mm 0; }
+.plano { position: relative; border-radius: 3mm; padding: 3mm 3.2mm 3mm 3.2mm; border: 0.4mm solid; }
+.plano .letra { position: absolute; right: 3mm; top: 1mm; font: 800 26pt/1 'Poppins'; opacity: 0.22; }
+.plano b { display: block; font: 700 10pt 'Poppins'; margin-bottom: 1mm; }
+.plano span:last-child { display: block; font-size: 8.8pt; line-height: 1.42; }
+.plano.a { background: var(--verde-claro); border-color: #9fd6bb; } .plano.a b, .plano.a .letra { color: var(--verde-escuro); }
+.plano.b { background: var(--ambar-claro); border-color: #f3cf91; } .plano.b b, .plano.b .letra { color: var(--ambar-escuro); }
+.plano.c { background: var(--coral-claro); border-color: #f1b3a7; } .plano.c b, .plano.c .letra { color: var(--coral-escuro); }
+.chips-abertura { position: absolute; left: 18mm; right: 18mm; top: 200mm; display: flex; flex-wrap: wrap; justify-content: center; gap: 2.4mm; }
+.chips-abertura span { font: 600 8.6pt 'Poppins'; color: #fff; background: rgba(255,255,255,0.12); border: 0.3mm solid rgba(255,255,255,0.4); border-radius: 3mm; padding: 1.2mm 3.2mm; }
+.gabarito-tira.g10 { grid-template-columns: repeat(10, 1fr); }

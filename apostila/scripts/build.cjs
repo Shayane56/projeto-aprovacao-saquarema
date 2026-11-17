@@ -21,7 +21,7 @@ const RAIZ = path.resolve(__dirname, '..');
 const SAIDA = path.join(RAIZ, 'saida');
 const NOME_PDF = 'Apostila-ACE-Saquarema.pdf';
 const TITULO_OBRA = 'Apostila ACE · Saquarema 2027';
-const ENTRADAS_POR_PAGINA = 26;
+const ENTRADAS_POR_PAGINA = 30;
 
 const ler = (p) => fs.readFileSync(path.join(RAIZ, p), 'utf8');
 

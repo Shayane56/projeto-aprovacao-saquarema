@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="O Vibrio cholerae em forma de vírgula e a ação da toxina colérica nas células do intestino, que liberam água e sais">
+  <defs>
+    <radialGradient id="ti-corpo" cx="40%" cy="35%" r="75%"><stop offset="0%" stop-color="#b8f0d8"/><stop offset="60%" stop-color="#4fc59a"/><stop offset="100%" stop-color="#22906a"/></radialGradient>
+    <linearGradient id="ti-luz" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8f6fb"/><stop offset="100%" stop-color="#cdebf4"/></linearGradient>
+    <marker id="ti-seta" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2b8fc4"/></marker>
+  </defs>
+  <!-- painel 1: o vibrião -->
+  <rect x="8" y="8" width="268" height="314" rx="18" fill="#fff" stroke="#b9dfdc" stroke-width="2"/>
+  <text x="142" y="38" text-anchor="middle" class="t-titulo" font-size="15" fill="#0b4f5c">O agente</text>
+  <text x="142" y="57" text-anchor="middle" font-size="11.5" fill="#566577" font-style="italic">Vibrio cholerae</text>
+  <g transform="translate(46 132) scale(0.56)"><path d="M0 100 C 30 30, 120 0, 190 30" stroke="#1c7a58" stroke-width="66" stroke-linecap="round" fill="none"/><path d="M0 100 C 30 30, 120 0, 190 30" stroke="url(#ti-corpo)" stroke-width="58" stroke-linecap="round" fill="none"/><path d="M10 78 C 40 30, 110 12, 170 28" stroke="#ffffff" stroke-opacity="0.45" stroke-width="9" stroke-linecap="round" fill="none"/><g fill="#1c7a58" opacity="0.3"><circle cx="40" cy="70" r="6"/><circle cx="96" cy="40" r="5"/><circle cx="150" cy="36" r="5"/></g><path d="M214 46 C 240 70, 262 22, 292 44 C 322 66, 342 22, 372 44" stroke="#2aa77b" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+  <g fill="none" stroke="#13858a" stroke-width="1.8"><polyline points="70,160 50,214 30,214"/><polyline points="210,152 236,176 250,176"/></g>
+  <g fill="#13858a"><circle cx="70" cy="160" r="3.5"/><circle cx="210" cy="152" r="3.5"/></g>
+  <text font-size="11" fill="#1b2733"><tspan x="22" y="232" font-weight="700" fill="#0b4f5c">bactéria curva</tspan><tspan x="22" dy="14">“em vírgula”</tspan></text>
+  <text font-size="11" fill="#1b2733" text-anchor="end"><tspan x="262" y="196" font-weight="700" fill="#0b4f5c">flagelo</tspan><tspan x="262" dy="14">(muito móvel)</tspan></text>
+  <text font-size="11" fill="#566577"><tspan x="24" y="270">Gram-negativa. Sensível ao</tspan><tspan x="24" dy="15">calor, à acidez e ao cloro;</tspan><tspan x="24" dy="15">resiste bem na água.</tspan></text>
+
+  <!-- painel 2: intestino -->
+  <rect x="288" y="8" width="464" height="314" rx="18" fill="#fff" stroke="#b9dfdc" stroke-width="2"/>
+  <text x="520" y="38" text-anchor="middle" class="t-titulo" font-size="15" fill="#0b4f5c">O que a toxina faz no intestino</text>
+  <!-- luz do intestino -->
+  <rect x="304" y="54" width="432" height="118" rx="10" fill="url(#ti-luz)"/>
+  <text x="318" y="74" font-size="10.5" fill="#566577" font-style="italic">interior do intestino delgado</text>
+  <!-- vibriões grudados -->
+  <g transform="translate(330 144) rotate(-15) scale(0.15)"><path d="M0 100 C 30 30, 120 0, 190 30" stroke="#1c7a58" stroke-width="66" stroke-linecap="round" fill="none"/><path d="M0 100 C 30 30, 120 0, 190 30" stroke="url(#ti-corpo)" stroke-width="58" stroke-linecap="round" fill="none"/><path d="M214 46 C 240 70, 262 22, 292 44 C 322 66, 342 22, 372 44" stroke="#2aa77b" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+  <g transform="translate(470 142) rotate(10) scale(0.15)"><path d="M0 100 C 30 30, 120 0, 190 30" stroke="#1c7a58" stroke-width="66" stroke-linecap="round" fill="none"/><path d="M0 100 C 30 30, 120 0, 190 30" stroke="url(#ti-corpo)" stroke-width="58" stroke-linecap="round" fill="none"/><path d="M214 46 C 240 70, 262 22, 292 44 C 322 66, 342 22, 372 44" stroke="#2aa77b" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+  <g transform="translate(612 144) rotate(-5) scale(0.15)"><path d="M0 100 C 30 30, 120 0, 190 30" stroke="#1c7a58" stroke-width="66" stroke-linecap="round" fill="none"/><path d="M0 100 C 30 30, 120 0, 190 30" stroke="url(#ti-corpo)" stroke-width="58" stroke-linecap="round" fill="none"/><path d="M214 46 C 240 70, 262 22, 292 44 C 322 66, 342 22, 372 44" stroke="#2aa77b" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+  <!-- toxina (pontos) -->
+  <g fill="#e0533d"><circle cx="372" cy="166" r="3"/><circle cx="384" cy="160" r="2.6"/><circle cx="512" cy="164" r="3"/><circle cx="524" cy="158" r="2.6"/><circle cx="652" cy="166" r="3"/><circle cx="664" cy="160" r="2.6"/></g>
+  <!-- células do intestino -->
+  <g fill="#fbe3d6" stroke="#d9a58a" stroke-width="2">
+    <rect x="304" y="172" width="70" height="78" rx="6"/><rect x="376" y="172" width="70" height="78" rx="6"/><rect x="448" y="172" width="70" height="78" rx="6"/>
+    <rect x="520" y="172" width="70" height="78" rx="6"/><rect x="592" y="172" width="70" height="78" rx="6"/><rect x="664" y="172" width="72" height="78" rx="6"/>
+  </g>
+  <g fill="#d48a6e"><ellipse cx="339" cy="222" rx="12" ry="9"/><ellipse cx="411" cy="222" rx="12" ry="9"/><ellipse cx="483" cy="222" rx="12" ry="9"/><ellipse cx="555" cy="222" rx="12" ry="9"/><ellipse cx="627" cy="222" rx="12" ry="9"/><ellipse cx="700" cy="222" rx="12" ry="9"/></g>
+  <!-- água e sais saindo -->
+  <g stroke="#2b8fc4" stroke-width="3" fill="none" marker-end="url(#ti-seta)">
+    <path d="M411 196 L 411 120"/><path d="M555 196 L 555 120"/><path d="M700 196 L 700 120"/>
+  </g>
+  <g fill="#4fb0e0"><path d="M424 104 c 0 -8, 6 -14, 6 -14 c 0 0, 6 6, 6 14 a 6 6 0 0 1 -12 0 z"/><path d="M568 104 c 0 -8, 6 -14, 6 -14 c 0 0, 6 6, 6 14 a 6 6 0 0 1 -12 0 z"/><path d="M712 98 c 0 -8, 6 -14, 6 -14 c 0 0, 6 6, 6 14 a 6 6 0 0 1 -12 0 z"/></g>
+  <text x="430" y="94" font-size="10.5" fill="#1d6f99" font-weight="700">água + sais</text>
+  <!-- legenda -->
+  <g font-size="11" fill="#1b2733">
+    <circle cx="312" cy="268" r="4" fill="#e0533d"/><text x="322" y="272">toxina colérica</text>
+    <path d="M430 268 h 22" stroke="#2b8fc4" stroke-width="3" marker-end="url(#ti-seta)"/><text x="460" y="272">saída de água e sais</text>
+  </g>
+  <text font-size="11.5" fill="#1b2733"><tspan x="306" y="296">A toxina faz as células <tspan font-weight="700">“liberarem” muita água e sais</tspan>.</tspan><tspan x="306" dy="16">A mucosa não é destruída: por isso a diarreia é <tspan font-weight="700">aquosa e sem sangue</tspan>.</tspan></text>
+</svg>

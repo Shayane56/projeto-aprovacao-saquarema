@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-label="Ilustração do Vibrio cholerae: bactéria curva, em forma de vírgula, com um flagelo">
+  <defs>
+    <radialGradient id="vb-corpo" cx="40%" cy="35%" r="75%"><stop offset="0%" stop-color="#b8f0d8"/><stop offset="60%" stop-color="#4fc59a"/><stop offset="100%" stop-color="#22906a"/></radialGradient>
+    <radialGradient id="vb-corpo2" cx="40%" cy="35%" r="75%"><stop offset="0%" stop-color="#d6f5e8"/><stop offset="100%" stop-color="#6fcfab"/></radialGradient>
+  </defs>
+  <!-- vibriões pequenos ao fundo -->
+  <g opacity="0.55">
+    <g transform="translate(62 70) rotate(-25) scale(0.32)"><path d="M0 100 C 30 30, 120 0, 190 30" stroke="#8fd9bb" stroke-width="66" stroke-linecap="round" fill="none"/><path d="M0 100 C 30 30, 120 0, 190 30" stroke="url(#vb-corpo2)" stroke-width="58" stroke-linecap="round" fill="none"/><path d="M214 46 C 240 70, 262 22, 292 44 C 322 66, 342 22, 372 44" stroke="#9fe0c6" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+    <g transform="translate(330 40) rotate(40) scale(0.26)"><path d="M0 100 C 30 30, 120 0, 190 30" stroke="#8fd9bb" stroke-width="66" stroke-linecap="round" fill="none"/><path d="M0 100 C 30 30, 120 0, 190 30" stroke="url(#vb-corpo2)" stroke-width="58" stroke-linecap="round" fill="none"/><path d="M214 46 C 240 70, 262 22, 292 44 C 322 66, 342 22, 372 44" stroke="#9fe0c6" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+    <g transform="translate(40 230) rotate(10) scale(0.24)"><path d="M0 100 C 30 30, 120 0, 190 30" stroke="#8fd9bb" stroke-width="66" stroke-linecap="round" fill="none"/><path d="M0 100 C 30 30, 120 0, 190 30" stroke="url(#vb-corpo2)" stroke-width="58" stroke-linecap="round" fill="none"/><path d="M214 46 C 240 70, 262 22, 292 44 C 322 66, 342 22, 372 44" stroke="#9fe0c6" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+    <g transform="translate(340 220) rotate(-60) scale(0.22)"><path d="M0 100 C 30 30, 120 0, 190 30" stroke="#8fd9bb" stroke-width="66" stroke-linecap="round" fill="none"/><path d="M0 100 C 30 30, 120 0, 190 30" stroke="url(#vb-corpo2)" stroke-width="58" stroke-linecap="round" fill="none"/><path d="M214 46 C 240 70, 262 22, 292 44 C 322 66, 342 22, 372 44" stroke="#9fe0c6" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+  </g>
+  <!-- vibrião principal -->
+  <g transform="translate(46 124) scale(0.95)"><path d="M0 100 C 30 30, 120 0, 190 30" stroke="#1c7a58" stroke-width="66" stroke-linecap="round" fill="none"/><path d="M0 100 C 30 30, 120 0, 190 30" stroke="url(#vb-corpo)" stroke-width="58" stroke-linecap="round" fill="none"/><path d="M10 78 C 40 30, 110 12, 170 28" stroke="#ffffff" stroke-opacity="0.45" stroke-width="9" stroke-linecap="round" fill="none"/><g fill="#1c7a58" opacity="0.3"><circle cx="40" cy="70" r="6"/><circle cx="96" cy="40" r="5"/><circle cx="150" cy="36" r="5"/></g><path d="M214 46 C 240 70, 262 22, 292 44 C 322 66, 342 22, 372 44" stroke="#2aa77b" stroke-width="7" stroke-linecap="round" fill="none"/></g>
+</svg>
