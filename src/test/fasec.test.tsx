@@ -58,7 +58,7 @@ vi.mock('@/features/flashcards/api', () => ({
   atualizarFlashcard: async () => {},
   excluirFlashcard: async () => {},
 }));
-vi.mock('@/features/plano/api', () => ({ buscarSessoes: async () => [], concluirSessao: m.concluir, desfazerSessao: async () => {} }));
+vi.mock('@/features/plano/api', () => ({ buscarSessoes: async () => [], concluirSessao: m.concluir, desfazerSessao: async () => {} , buscarCronograma: async () => [], firmarDias: async () => {}, apagarDiasDesde: async () => {} }));
 
 const cartao = (i: number, frente: string): Flashcard => ({
   id: `c${i}`, disciplina_id: 'ace26-ce', topico_id: null, questao_id: null, frente, verso: `resposta ${i}`, origem: 'autoral', suspenso: false,

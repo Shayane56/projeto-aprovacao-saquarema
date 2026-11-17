@@ -1,5 +1,5 @@
 import { exigir, supabase } from '@/lib/supabase';
-import type { TipoSessao } from './gerador';
+import type { SessaoPlano, TipoSessao } from './gerador';
 
 export interface SessaoConcluida {
   chave: string;
@@ -24,4 +24,29 @@ export async function concluirSessao(userId: string, s: Omit<SessaoConcluida, 'c
 
 export async function desfazerSessao(userId: string, chave: string): Promise<void> {
   exigir(await supabase.from('sessoes_estudo').delete().eq('user_id', userId).eq('chave', chave));
+}
+
+export interface DiaCronograma {
+  data: string;
+  sessoes: SessaoPlano[];
+}
+
+/** Dias firmados do cronograma a partir de uma data. */
+export async function buscarCronograma(desde: string): Promise<DiaCronograma[]> {
+  return exigir(await supabase.from('cronograma_dias').select('data, sessoes').gte('data', desde).order('data').limit(400)) as DiaCronograma[];
+}
+
+/** Guarda dias do cronograma (não sobrescreve dias já firmados). */
+export async function firmarDias(userId: string, dias: DiaCronograma[]): Promise<void> {
+  if (!dias.length) return;
+  exigir(
+    await supabase
+      .from('cronograma_dias')
+      .upsert(dias.map((d) => ({ user_id: userId, data: d.data, sessoes: d.sessoes })), { onConflict: 'user_id,data', ignoreDuplicates: true }),
+  );
+}
+
+/** Apaga os dias firmados a partir de uma data (para refazer depois de mudar a disponibilidade). */
+export async function apagarDiasDesde(userId: string, desde: string): Promise<void> {
+  exigir(await supabase.from('cronograma_dias').delete().eq('user_id', userId).gte('data', desde));
 }

@@ -9,12 +9,17 @@ export interface PreferenciasEstudo {
   diaSimulado: number;
   /** Cartões novos por dia nos flashcards. */
   novosPorDia: number;
+  /** Minutos por dia reservados para recuperar atrasos (15, 30 ou 45). */
+  margemRecuperacao: number;
 }
+
+export const MARGENS_RECUPERACAO = [15, 30, 45] as const;
 
 export const PREFERENCIAS_PADRAO: PreferenciasEstudo = {
   minutosPorDia: [120, 120, 120, 120, 120, 120, 240],
   diaSimulado: 6,
   novosPorDia: 15,
+  margemRecuperacao: 30,
 };
 
 export function normalizarPreferencias(p: unknown): PreferenciasEstudo {
@@ -26,6 +31,7 @@ export function normalizarPreferencias(p: unknown): PreferenciasEstudo {
     minutosPorDia: minutos,
     diaSimulado: Number.isInteger(x.diaSimulado) && x.diaSimulado! >= 0 && x.diaSimulado! <= 6 ? x.diaSimulado! : PREFERENCIAS_PADRAO.diaSimulado,
     novosPorDia: Math.max(0, Math.min(100, Math.round(Number(x.novosPorDia ?? PREFERENCIAS_PADRAO.novosPorDia)))),
+    margemRecuperacao: (MARGENS_RECUPERACAO as readonly number[]).includes(Number(x.margemRecuperacao)) ? Number(x.margemRecuperacao) : PREFERENCIAS_PADRAO.margemRecuperacao,
   };
 }
 

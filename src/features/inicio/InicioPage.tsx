@@ -11,6 +11,7 @@ import { resumirCartoes } from '@/features/flashcards/agendador';
 import { useFlashcards, useRevisoesHoje } from '@/features/flashcards/hooks';
 import { usePreferencias } from '@/features/perfil/preferencias';
 import { usePlano, useSessoes } from '@/features/plano/hooks';
+import { CartaoStatusAtrasos } from '@/features/plano/StatusAtrasos';
 import { blocoPrioritario, pct } from '@/features/edital/progresso';
 import { contagemAte, dataLocal, dataPorExtenso, horaLocal, maiuscula, plural } from '@/lib/datas';
 import { corDe } from '@/shared/cores';
@@ -30,7 +31,7 @@ export function InicioPage() {
   const respostas = useRespostas();
   const caderno = useCaderno();
   const simulados = useSimulados();
-  const { plano } = usePlano();
+  const { plano, recuperacao, hoje: hojePlano } = usePlano();
   const sessoes = useSessoes();
   const cartoes = useFlashcards();
   const revisoesHoje = useRevisoesHoje();
@@ -53,6 +54,9 @@ export function InicioPage() {
         <p className="text-sm text-suave">{saudacao(agora)}{nome ? `, ${nome}` : ''}!</p>
         <h1 className="text-2xl font-bold tracking-tight">Rumo à aprovação</h1>
       </div>
+
+      {/* Status do cronograma: em dia / atrasos leves / atenção */}
+      {recuperacao && <CartaoStatusAtrasos recuperacao={recuperacao} margem={estudo.margemRecuperacao} hoje={hojePlano} />}
 
       {/* Contagem regressiva */}
       {prova && contagem && (
@@ -98,6 +102,7 @@ export function InicioPage() {
                 <span className="block font-semibold">Plano de hoje</span>
                 <span className="block text-sm text-suave">
                   {dia ? (total.length ? `${concluidas} de ${total.length} sessões feitas` : 'Dia de folga') : 'Montando…'}
+                  {recuperacao?.hoje.length ? ` · + ${recuperacao.hoje.length} de recuperação` : ''}
                 </span>
                 {proxima && <span className="mt-0.5 block truncate text-xs text-primaria">Próxima: {proxima.titulo}</span>}
               </span>

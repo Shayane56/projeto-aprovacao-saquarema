@@ -9,7 +9,11 @@
  * caderno de erros (a cada 3 dias) → revisão dos tópicos estudados há 7 dias →
  * tarefas novas, alternando os blocos na proporção CE 55% · PT 27% · SUS/Mun. 18%.
  * A última semana é só de revisão e simulados; a véspera é leve.
- * O plano é recalculado sempre a partir do estado atual — nada fica "atrasado".
+ *
+ * Cronograma firmado: os dias já guardados (`fixos`) são usados como estão; o que
+ * está atrasado (`reservados`) não é planejado de novo — vai para a recuperação
+ * (ver cronograma.ts). Cada dia de estudo reserva uma margem (`margemRecuperacao`)
+ * onde a recuperação é encaixada; sem atrasos, a margem vira reforço.
  */
 import { diasEntre } from '@/lib/datas';
 import type { Edital, MapaProgresso, StatusTopico, Topico } from '@/features/edital/tipos';
@@ -35,6 +39,10 @@ export interface DiaPlano {
   fase: FaseDia;
   minutosDisponiveis: number;
   sessoes: SessaoPlano[];
+  /** Minutos reservados no dia para recuperar atrasos (ou reforço, quando não há atraso). */
+  margem: number;
+  /** true quando o dia veio do cronograma guardado. */
+  firmado: boolean;
 }
 
 export interface Plano {
@@ -62,6 +70,14 @@ export interface EntradaPlano {
   hoje: string;
   dataProva: string;
   prefs: PreferenciasEstudo;
+  /** Minutos por dia de estudo reservados para recuperar atrasos (0 = sem margem). */
+  margemRecuperacao?: number;
+  /** Dias já firmados (data → sessões), usados como estão. */
+  fixos?: Map<string, SessaoPlano[]>;
+  /** Tarefas que não devem ser planejadas de novo (atrasadas), no formato de `chaveTarefa`. */
+  reservados?: Set<string>;
+  /** Teorias já estudadas (data em que foram feitas → tópicos), para marcar a revisão de 7 dias. */
+  estudadas?: Map<string, string[]>;
 }
 
 const PARTICIPACAO: Record<string, number> = { 'ace26-bloco-ce': 0.55, 'ace26-bloco-pt': 0.27, 'ace26-bloco-sm': 0.18 };
@@ -82,6 +98,18 @@ interface Tarefa {
   blocoId: string;
 }
 
+/** Identifica a tarefa de um tópico (para não planejar duas vezes). */
+export const chaveTarefa = (tipo: string, topicoId: string) => `${tipo}|${topicoId}`;
+
+/** Margem de recuperação de um dia: até 30% do tempo disponível, só em dias com 1h ou mais. */
+export function margemDoDia(disponivel: number, margem: number): number {
+  if (margem <= 0 || disponivel < 60) return 0;
+  return Math.min(margem, Math.floor((disponivel * 0.3) / 5) * 5);
+}
+
+/** Revisão de 7 dias (só faz sentido depois de estudar a teoria do tópico). */
+export const ehRevisaoDeSeteDias = (s: Pick<SessaoPlano, 'tipo' | 'titulo'>) => s.tipo === 'revisao' && s.titulo.startsWith('Revisão: ');
+
 export function somarDias(data: string, n: number): string {
   const d = new Date(`${data}T12:00:00Z`);
   d.setUTCDate(d.getUTCDate() + n);
@@ -96,6 +124,23 @@ function linkQuestoes(t: Topico) {
   return `/praticar/questoes?disciplina=${t.disciplina_id}&topico=${t.id}&modo=todas`;
 }
 
+/** Peso de cada tópico na prova: pontos do bloco ÷ itens do bloco (÷ subitens, quando houver). */
+export function pesoDosTopicos(edital: Edital): Map<string, number> {
+  const filhos = new Map<string, number>();
+  for (const t of edital.topicos) if (t.parent_id) filhos.set(t.parent_id, (filhos.get(t.parent_id) ?? 0) + 1);
+  const blocoDe = new Map(edital.disciplinas.map((d) => [d.id, d.bloco_id]));
+  const pontosBloco = new Map(edital.blocos.map((b) => [b.id, b.num_questoes * b.valor_questao]));
+  const itensPorBloco = new Map<string, number>();
+  for (const t of edital.topicos) if (!t.parent_id) itensPorBloco.set(blocoDe.get(t.disciplina_id)!, (itensPorBloco.get(blocoDe.get(t.disciplina_id)!) ?? 0) + 1);
+  const pesos = new Map<string, number>();
+  for (const t of edital.topicos) {
+    const blocoId = blocoDe.get(t.disciplina_id)!;
+    const pontosItem = pontosBloco.get(blocoId)! / itensPorBloco.get(blocoId)!;
+    pesos.set(t.id, t.parent_id ? pontosItem / (filhos.get(t.parent_id) ?? 1) : pontosItem);
+  }
+  return pesos;
+}
+
 /** Tarefas de estudo (teoria/questões) de todos os tópicos, por bloco, em ordem de prioridade. */
 export function montarTarefas(e: EntradaPlano): Map<string, Tarefa[]> {
   const { edital, progresso } = e;
@@ -103,17 +148,14 @@ export function montarTarefas(e: EntradaPlano): Map<string, Tarefa[]> {
   for (const t of edital.topicos) if (t.parent_id) filhos.set(t.parent_id, [...(filhos.get(t.parent_id) ?? []), t]);
   const porId = new Map(edital.topicos.map((t) => [t.id, t]));
   const blocoDe = new Map(edital.disciplinas.map((d) => [d.id, d.bloco_id]));
-  const pontosBloco = new Map(edital.blocos.map((b) => [b.id, b.num_questoes * b.valor_questao]));
-  const itensPorBloco = new Map<string, number>();
-  for (const t of edital.topicos) if (!t.parent_id) itensPorBloco.set(blocoDe.get(t.disciplina_id)!, (itensPorBloco.get(blocoDe.get(t.disciplina_id)!) ?? 0) + 1);
+  const pesos = pesoDosTopicos(edital);
 
   const filas = new Map<string, Tarefa[]>(edital.blocos.map((b) => [b.id, []]));
   for (const t of edital.topicos) {
     if (filhos.has(t.id)) continue; // itens com subitens são estudados pelos subitens
     const pai = t.parent_id ? porId.get(t.parent_id) : undefined;
     const blocoId = blocoDe.get(t.disciplina_id)!;
-    const pontosItem = pontosBloco.get(blocoId)! / itensPorBloco.get(blocoId)!;
-    const peso = pai ? pontosItem / filhos.get(pai.id)!.length : pontosItem;
+    const peso = pesos.get(t.id)!;
     const status = progresso[t.id] ?? 'nao_iniciado';
     const base = MINUTOS[pai ? 'subitem' : 'item'][status];
     const d = e.desempenho.get(t.id);
@@ -139,6 +181,20 @@ export function gerarPlano(e: EntradaPlano): Plano {
   const usados = new Map(blocos.map((b) => [b.id, 0]));
   const estudadosEm = new Map<string, Tarefa[]>(); // data → teorias planejadas (para revisão em +7 dias)
   const dias: DiaPlano[] = [];
+  const fixos = e.fixos ?? new Map<string, SessaoPlano[]>();
+  const porId = new Map(e.edital.topicos.map((t) => [t.id, t]));
+  const blocoDaDisciplina = new Map(e.edital.disciplinas.map((d) => [d.id, d.bloco_id]));
+  const paiDe = (t: Topico) => (t.parent_id ? porId.get(t.parent_id) : undefined);
+  // Teorias já feitas em dias anteriores também ganham a revisão de 7 dias.
+  for (const [data, ids] of e.estudadas ?? []) {
+    const tarefas = ids.map((id) => porId.get(id)).filter((t): t is Topico => Boolean(t))
+      .map((t) => ({ tipo: 'teoria' as const, topico: t, titulo: tituloDe(t, paiDe(t)), minutos: 0, prioridade: 0, blocoId: blocoDaDisciplina.get(t.disciplina_id) ?? '' }));
+    if (tarefas.length) estudadosEm.set(data, tarefas);
+  }
+  // Não planeja de novo o que já está firmado em algum dia ou atrasado.
+  const ocupados = new Set(e.reservados ?? []);
+  for (const s of [...fixos.values()].flat()) if (s.topico_id) ocupados.add(chaveTarefa(s.tipo, s.topico_id));
+  for (const [b, fila] of filas) filas.set(b, fila.filter((t) => !ocupados.has(chaveTarefa(t.tipo, t.topico.id))));
   let fimDaTeoria: string | null = null;
   let minutosPlanejados = 0;
 
@@ -160,20 +216,40 @@ export function gerarPlano(e: EntradaPlano): Plano {
     let fase: FaseDia = faltam === 0 ? 'prova' : faltam === 1 ? 'vespera' : faltam <= 7 ? 'revisao_final' : 'estudo';
     if (fase === 'prova') {
       add({ tipo: 'simulado', titulo: 'Dia da prova', detalhe: 'Portão abre 14h00 e fecha 15h00 · início 15h10 · leve documento com foto e caneta preta', minutos: 0, disciplina_id: null, topico_id: null, link: '/concurso', ref: 'prova' });
-      dias.push({ data, diaSemana: ds, fase, minutosDisponiveis: disponivel, sessoes });
+      dias.push({ data, diaSemana: ds, fase, minutosDisponiveis: disponivel, sessoes, margem: 0, firmado: false });
       break;
     }
+    const fixo = fixos.get(data);
+    if (fixo) {
+      // Dia firmado: usa as sessões guardadas (e conta as teorias para a revisão de 7 dias).
+      const teorias: Tarefa[] = [];
+      for (const s of fixo) {
+        sessoes.push(s);
+        const b = s.disciplina_id ? blocoDaDisciplina.get(s.disciplina_id) : undefined;
+        if (b && usados.has(b)) usados.set(b, usados.get(b)! + s.minutos);
+        const t = s.topico_id ? porId.get(s.topico_id) : undefined;
+        if (s.tipo === 'teoria' && t) { teorias.push({ tipo: 'teoria', topico: t, titulo: s.titulo, minutos: s.minutos, prioridade: 0, blocoId: b ?? '' }); fimDaTeoria = data; }
+      }
+      estudadosEm.set(data, teorias);
+      minutosPlanejados += fixo.reduce((t, x) => t + x.minutos, 0);
+      const faseFixa: FaseDia = disponivel < SESSAO_MIN ? 'folga' : fase;
+      dias.push({ data, diaSemana: ds, fase: faseFixa, minutosDisponiveis: disponivel, sessoes, margem: faseFixa === 'estudo' ? margemDoDia(disponivel, e.margemRecuperacao ?? 0) : 0, firmado: true });
+      continue;
+    }
     if (disponivel < SESSAO_MIN) {
-      dias.push({ data, diaSemana: ds, fase: 'folga', minutosDisponiveis: disponivel, sessoes });
+      dias.push({ data, diaSemana: ds, fase: 'folga', minutosDisponiveis: disponivel, sessoes, margem: 0, firmado: false });
       continue;
     }
 
     const flash = Math.min(resta, fase === 'estudo' ? (disponivel >= 45 ? 15 : 10) : 20);
     add({ tipo: 'flashcards', titulo: 'Flashcards do dia', detalhe: 'Revisão espaçada: cartões vencidos e novos', minutos: flash, disciplina_id: null, topico_id: null, link: '/flashcards/estudar' });
+    // Margem de recuperação: fica livre no cronograma para encaixar atrasos (ou reforço).
+    const margem = fase === 'estudo' ? margemDoDia(disponivel, e.margemRecuperacao ?? 0) : 0;
+    resta -= margem;
 
     if (fase === 'vespera') {
       if (resta >= SESSAO_MIN) add({ tipo: 'revisao', titulo: 'Revisão leve', detalhe: 'Releia anotações e o caderno de erros. Confira local, horário e documentos. Durma cedo.', minutos: Math.min(resta, 40), disciplina_id: null, topico_id: null, link: '/praticar/erros', ref: 'vespera' });
-      dias.push({ data, diaSemana: ds, fase, minutosDisponiveis: disponivel, sessoes });
+      dias.push({ data, diaSemana: ds, fase, minutosDisponiveis: disponivel, sessoes, margem: 0, firmado: false });
       minutosPlanejados += sessoes.reduce((s, x) => s + x.minutos, 0);
       continue;
     }
@@ -234,7 +310,7 @@ export function gerarPlano(e: EntradaPlano): Plano {
     }
 
     minutosPlanejados += sessoes.reduce((s, x) => s + x.minutos, 0);
-    dias.push({ data, diaSemana: ds, fase, minutosDisponiveis: disponivel, sessoes });
+    dias.push({ data, diaSemana: ds, fase, minutosDisponiveis: disponivel, sessoes, margem, firmado: false });
   }
 
   const pendentes = [...filas.values()].flat().map((t) => ({ topico_id: t.topico.id, titulo: t.titulo, minutos: t.minutos }));

@@ -39,8 +39,10 @@ export function EstatisticasPage() {
   const evolucao = evolucaoSimulados(simulados.data);
   const porDisciplina = acertoPorDisciplina(edital.data, questoes.data, respostas.data);
   const fracos = topicosFracos(edital.data, questoes.data, respostas.data);
-  const semanas = minutosPorSemana(sessoes.data ?? [], hoje);
-  const ultimos7 = (sessoes.data ?? []).filter((s) => s.data > somarDias(hoje, -7)).reduce((t, s) => t + s.minutos, 0);
+  // Conta o tempo no dia em que foi estudado (um atraso recuperado conta no dia da recuperação).
+  const estudadas = (sessoes.data ?? []).map((s) => ({ ...s, data: s.concluida_em ? dataLocal(new Date(s.concluida_em)) : s.data }));
+  const semanas = minutosPorSemana(estudadas, hoje);
+  const ultimos7 = estudadas.filter((s) => s.data > somarDias(hoje, -7)).reduce((t, s) => t + s.minutos, 0);
   const acima = prev.esperado >= prev.minimo;
   const riscos = prev.blocos.filter((b) => (b.chanceDeZerar ?? 0) > 0.01);
 

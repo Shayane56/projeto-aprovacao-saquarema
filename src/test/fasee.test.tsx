@@ -34,7 +34,7 @@ vi.mock('@/features/questoes/api', () => ({
 }));
 vi.mock('@/features/simulados/api', () => ({ listarSimulados: async () => [...m.simulados] }));
 vi.mock('@/features/flashcards/api', () => ({ buscarFlashcards: async () => [], buscarRevisoesDesde: async () => [], inserirFlashcards: async () => 0 }));
-vi.mock('@/features/plano/api', () => ({ buscarSessoes: async () => [{ chave: 'x', data: '2026-11-13', tipo: 'teoria', disciplina_id: null, topico_id: null, titulo: 't', minutos: 90, concluida_em: '' }], concluirSessao: async () => {}, desfazerSessao: async () => {} }));
+vi.mock('@/features/plano/api', () => ({ buscarSessoes: async () => [{ chave: 'x', data: '2026-11-13', tipo: 'teoria', disciplina_id: null, topico_id: null, titulo: 't', minutos: 90, concluida_em: '' }], concluirSessao: async () => {}, desfazerSessao: async () => {} , buscarCronograma: async () => [], firmarDias: async () => {}, apagarDiasDesde: async () => {} }));
 vi.mock('@/features/materiais/api', () => ({
   listarMateriais: async () => [...m.materiais],
   listarAnotacoes: async () => [],
