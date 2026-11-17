@@ -377,3 +377,11 @@ ul.check > li.nao::before { content: '✕'; color: var(--coral); }
 .chips-abertura { position: absolute; left: 18mm; right: 18mm; top: 200mm; display: flex; flex-wrap: wrap; justify-content: center; gap: 2.4mm; }
 .chips-abertura span { font: 600 8.6pt 'Poppins'; color: #fff; background: rgba(255,255,255,0.12); border: 0.3mm solid rgba(255,255,255,0.4); border-radius: 3mm; padding: 1.2mm 3.2mm; }
 .gabarito-tira.g10 { grid-template-columns: repeat(10, 1fr); }
+
+/* ---------- Fontes com links ---------- */
+.tabela-fontes { font-size: 8.4pt; }
+.tabela-fontes td { padding: 1.7mm 2.4mm !important; }
+.tabela-fontes td:first-child { font-weight: 400; color: var(--tinta); }
+.tabela-fontes a { color: var(--teal); font-weight: 700; text-decoration: underline; text-decoration-thickness: 0.25mm; text-underline-offset: 0.6mm; }
+.tabela-fontes .org { display: block; font-size: 7.4pt; color: var(--suave); margin-top: 0.4mm; }
+.tabela-fontes .dom { color: var(--petroleo); font-weight: 600; }

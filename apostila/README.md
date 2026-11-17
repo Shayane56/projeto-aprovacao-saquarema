@@ -30,8 +30,8 @@ da página: nesse caso, lista as páginas no final e termina com código 2.
 ### Numeração dos arquivos
 
 - `00-capa.html`, `01-apresentacao.html` (onde fica o marcador `<!-- SUMARIO -->`)
-- Capítulo 1 (Leishmanioses — edital 8.1): `10-…` a `14-…`
-- Capítulo 2 (Cólera — edital 8.2): `20-…` a `23-…`
+- Capítulo 1 (Leishmanioses — edital 8.1): `10-…` a `15-…` (o `15` é a página de fontes com links)
+- Capítulo 2 (Cólera — edital 8.2): `20-…` a `24-…` (o `24` é a página de fontes com links)
 - Próximos capítulos: `30-…`, `40-…`, e assim por diante, na ordem do edital.
 
 ## Convenções
@@ -47,7 +47,8 @@ da página: nesse caso, lista as páginas no final e termina com código 2.
 
 ## Fontes do conteúdo
 
-Cada capítulo termina com a lista das suas fontes (no gabarito comentado).
+Cada capítulo termina com uma página **“Fontes e links para verificação”**, com links clicáveis no PDF
+(tabela `.tabela-fontes`; cada título é um `<a href>`).
 
 Manuais e guias do Ministério da Saúde (Guia de Vigilância em Saúde; Manual de Vigilância e
 Controle da Leishmaniose Visceral; Manual de Vigilância da Leishmaniose Tegumentar), normas
