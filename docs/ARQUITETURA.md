@@ -84,6 +84,16 @@ As **estatísticas** (`src/features/estatisticas/calculos.ts`) são funções pu
 A previsão de nota usa as últimas 40 respostas de cada bloco (mínimo 10), multiplica pelos pesos da prova
 e mostra a faixa de ±1 desvio-padrão e a chance de zerar o bloco.
 
+## Cronograma firmado (recuperação de atrasos)
+
+| Tabela / módulo | Conteúdo |
+|---|---|
+| `cronograma_dias` | um dia por linha (`sessoes` em JSON); a janela de 7 dias é gravada ao abrir o app, sem sobrescrever dias já guardados |
+| `src/features/plano/cronograma.ts` | atrasos (prioridade, dispensas), recuperados, distribuição nas margens, previsão e status |
+| `perfis.preferencias.estudo.margemRecuperacao` | minutos por dia reservados para recuperar (15/30/45) |
+
+O gerador usa os dias firmados como estão e não replaneja o que está atrasado. Mudar a disponibilidade refaz os dias a partir de amanhã.
+
 ## Testes
 
 - Lógica: cálculo de progresso, datas no fuso de Brasília, situação das etapas, integridade dos dados do edital.

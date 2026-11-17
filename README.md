@@ -35,6 +35,13 @@ App web instalável (PWA) para Android e computador, com login e dados sincroniz
 - **Anotações por tópico**: no edital, toque em "Anotar" em qualquer tópico; salva sozinho enquanto você escreve (também offline). Todas ficam reunidas em Materiais → Anotações, com busca.
 - **Estatísticas**: previsão de nota na prova (com faixa provável e alerta de risco de zerar bloco), evolução nos simulados com a linha dos 60%, acerto por disciplina, tópicos para reforçar e horas de estudo por semana. Todo gráfico tem "Ver em tabela".
 
+## Recuperação de atrasos
+
+- **Cronograma com memória:** os próximos 7 dias do plano ficam guardados. O que passa do dia sem ser feito vira **atraso**, com a data de origem.
+- **Status no Início, em 3 cores:** em dia (verde), atrasos leves (amarelo) ou atenção (vermelho), com a previsão de quando você fica em dia.
+- **Hoje dividido em duas partes:** "Cronograma de hoje" e "Recuperação". A recuperação usa uma margem reservada no dia (15, 30 ou 45 min); sem atrasos, a margem vira reforço.
+- **O que ficou para trás e como recuperar:** pendente × recuperado, distribuição dia a dia (o que vale mais na prova primeiro) e os botões "Encaixar hoje" e "Já sei isso".
+
 ## Fases
 
 | Fase | Situação |
