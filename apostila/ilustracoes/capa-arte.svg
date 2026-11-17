@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 620" role="img" aria-label="Ilustração da capa: cidade à beira-mar com igreja no morro, casas, lupa e mosquito">
+  <defs>
+    <linearGradient id="cp-mar" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2bb3b1"/><stop offset="100%" stop-color="#0f6470"/></linearGradient>
+    <linearGradient id="cp-morro" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3f9e7a"/><stop offset="100%" stop-color="#21705a"/></linearGradient>
+    <linearGradient id="cp-lente" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.12"/></linearGradient>
+  </defs>
+  <!-- sol -->
+  <circle cx="660" cy="150" r="70" fill="#f0a12f" opacity="0.95"/>
+  <circle cx="660" cy="150" r="100" fill="#ffd38a" opacity="0.16"/>
+  <!-- morro com igreja -->
+  <path d="M0 360 C 60 300, 120 250, 190 230 C 240 216, 280 236, 320 280 C 350 312, 380 340, 420 360 Z" fill="url(#cp-morro)"/>
+  <g transform="translate(160 150)">
+    <rect x="0" y="40" width="64" height="48" fill="#ffffff"/>
+    <path d="M-6 42 L 32 16 L 70 42 Z" fill="#e8f1f2"/>
+    <rect x="22" y="-10" width="20" height="54" fill="#ffffff"/>
+    <path d="M20 -10 L 32 -32 L 44 -10 Z" fill="#e8f1f2"/>
+    <path d="M32 -46 v14 M26 -40 h12" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <rect x="27" y="4" width="10" height="14" rx="5" fill="#9fc9cd"/>
+    <rect x="25" y="62" width="14" height="26" rx="7" fill="#9fc9cd"/>
+    <rect x="6" y="56" width="10" height="14" rx="5" fill="#9fc9cd"/><rect x="48" y="56" width="10" height="14" rx="5" fill="#9fc9cd"/>
+  </g>
+  <!-- mar com ondas -->
+  <path d="M0 360 C 120 350, 260 372, 420 360 C 580 348, 720 366, 840 356 L 840 620 L 0 620 Z" fill="url(#cp-mar)"/>
+  <g fill="none" stroke="#bfeeea" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <path d="M40 410 c 20 -14, 40 -14, 60 0 c 20 14, 40 14, 60 0"/>
+    <path d="M220 460 c 20 -14, 40 -14, 60 0 c 20 14, 40 14, 60 0"/>
+    <path d="M60 520 c 20 -14, 40 -14, 60 0 c 20 14, 40 14, 60 0"/>
+  </g>
+  <!-- faixa de areia e casas -->
+  <path d="M380 372 C 520 360, 700 372, 840 362 L 840 620 L 380 620 C 420 560, 420 460, 380 372 Z" fill="#f4e3c3"/>
+  <g>
+    <rect x="470" y="420" width="90" height="70" fill="#fff" stroke="#c9b08a" stroke-width="2.5"/>
+    <path d="M458 424 L 515 380 L 572 424 Z" fill="#e0533d"/>
+    <rect x="484" y="440" width="26" height="22" fill="#9fd8e6" stroke="#8aa3a8" stroke-width="2"/>
+    <rect x="522" y="446" width="24" height="44" fill="#9a6a45"/>
+    <rect x="600" y="440" width="110" height="80" fill="#fff" stroke="#c9b08a" stroke-width="2.5"/>
+    <path d="M588 444 L 655 396 L 722 444 Z" fill="#f0a12f"/>
+    <rect x="616" y="462" width="30" height="24" fill="#9fd8e6" stroke="#8aa3a8" stroke-width="2"/>
+    <rect x="664" y="470" width="28" height="50" fill="#9a6a45"/>
+    <rect x="740" y="456" width="80" height="64" fill="#fff" stroke="#c9b08a" stroke-width="2.5"/>
+    <path d="M730 460 L 780 424 L 830 460 Z" fill="#13858a"/>
+    <rect x="756" y="474" width="24" height="20" fill="#9fd8e6" stroke="#8aa3a8" stroke-width="2"/>
+  </g>
+  <!-- palmeira -->
+  <g>
+    <path d="M440 520 C 444 470, 440 430, 430 396" fill="none" stroke="#8a5a33" stroke-width="9" stroke-linecap="round"/>
+    <g fill="#2a9a68"><path d="M430 396 C 400 380, 372 384, 356 400 C 384 394, 408 398, 430 400 Z"/><path d="M430 396 C 450 372, 480 368, 500 380 C 476 382, 452 390, 432 400 Z"/><path d="M430 396 C 420 370, 400 356, 378 356 C 398 368, 414 382, 428 400 Z"/><path d="M430 396 C 452 390, 476 400, 486 420 C 466 408, 448 402, 430 400 Z"/></g>
+  </g>
+  <!-- lupa sobre a casa -->
+  <g transform="translate(560 300)">
+    <circle cx="0" cy="0" r="92" fill="url(#cp-lente)" stroke="#ffffff" stroke-width="14"/>
+    <circle cx="0" cy="0" r="92" fill="none" stroke="#0b4f5c" stroke-width="3" opacity="0.35"/>
+    <path d="M66 66 L 132 132" stroke="#ffffff" stroke-width="22" stroke-linecap="round"/>
+    <path d="M66 66 L 132 132" stroke="#0b4f5c" stroke-width="3" stroke-linecap="round" opacity="0.25"/>
+    <!-- mosquito dentro da lente -->
+    <g transform="translate(-48 -46) scale(0.3)">
+      <path d="M206 142 C 214 96, 246 44, 300 18 C 306 52, 286 104, 222 150 Z" fill="#f6eedc" stroke="#c9a76c" stroke-width="5"/>
+      <path d="M196 140 C 186 92, 196 40, 232 8 C 248 42, 240 98, 210 146 Z" fill="#f6eedc" stroke="#c9a76c" stroke-width="5"/>
+      <path d="M226 168 C 262 160, 312 172, 344 198 C 356 208, 352 222, 336 222 C 300 222, 258 206, 228 192 Z" fill="#d6b277" stroke="#a37b43" stroke-width="5"/>
+      <path d="M168 172 C 166 140, 190 120, 214 124 C 238 128, 248 150, 240 176 C 234 196, 208 204, 188 198 C 176 194, 169 186, 168 172 Z" fill="#dfbd84" stroke="#a37b43" stroke-width="5"/>
+      <g fill="none" stroke="#a87e45" stroke-width="7" stroke-linecap="round"><polyline points="184,192 150,236 120,290"/><polyline points="204,198 200,244 198,290"/><polyline points="222,192 254,240 268,290"/></g>
+      <ellipse cx="156" cy="182" rx="20" ry="18" fill="#dfbd84" stroke="#a37b43" stroke-width="5"/>
+      <ellipse cx="150" cy="178" rx="10" ry="12" fill="#3b2a1c"/>
+      <path d="M146 168 C 126 146, 104 132, 74 122 M152 166 C 140 140, 124 116, 102 96" fill="none" stroke="#8a6532" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+  <!-- prancheta -->
+  <g transform="translate(110 420) rotate(-8)">
+    <rect x="0" y="0" width="120" height="156" rx="10" fill="#fff" stroke="#0b4f5c" stroke-width="3"/>
+    <rect x="38" y="-10" width="44" height="20" rx="6" fill="#f0a12f"/>
+    <g stroke="#2a9a68" stroke-width="5" stroke-linecap="round" fill="none">
+      <path d="M16 36 l 8 8 l 14 -16"/><path d="M16 76 l 8 8 l 14 -16"/><path d="M16 116 l 8 8 l 14 -16"/>
+    </g>
+    <g stroke="#b9dfdc" stroke-width="6" stroke-linecap="round"><path d="M50 38 h56"/><path d="M50 78 h56"/><path d="M50 118 h44"/></g>
+  </g>
+</svg>

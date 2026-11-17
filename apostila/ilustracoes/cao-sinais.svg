@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" role="img" aria-label="Cão com os principais sinais da leishmaniose visceral canina indicados por chamadas">
+  <defs>
+    <linearGradient id="cs-pelo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9a35f"/>
+      <stop offset="100%" stop-color="#c08443"/>
+    </linearGradient>
+    <filter id="cs-sombra" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <!-- chão -->
+  <ellipse cx="400" cy="372" rx="190" ry="12" fill="#0b4f5c" opacity="0.10"/>
+
+  <!-- cauda -->
+  <path d="M262 214 C 230 196, 214 168, 222 132" fill="none" stroke="#c08443" stroke-width="16" stroke-linecap="round"/>
+  <!-- pernas de trás (fundo) -->
+  <rect x="292" y="262" width="26" height="102" rx="12" fill="#b77a3b"/>
+  <rect x="452" y="262" width="26" height="102" rx="12" fill="#b77a3b"/>
+  <!-- corpo magro -->
+  <path d="M258 214 C 262 182, 300 172, 360 176 C 420 180, 470 172, 510 178 C 546 184, 556 214, 546 244 C 538 268, 512 276, 480 274 C 440 272, 410 262, 380 264 C 340 266, 300 276, 280 264 C 262 252, 256 236, 258 214 Z" fill="url(#cs-pelo)" stroke="#9b6630" stroke-width="2.5"/>
+  <!-- costelas aparentes (emagrecimento) -->
+  <g fill="none" stroke="#9b6630" stroke-width="2.4" stroke-linecap="round" opacity="0.8">
+    <path d="M410 196 C 404 214, 404 232, 410 250"/>
+    <path d="M428 194 C 422 214, 422 234, 428 254"/>
+    <path d="M446 192 C 440 212, 440 234, 446 256"/>
+    <path d="M464 192 C 458 212, 458 234, 464 256"/>
+  </g>
+  <!-- descamação e falhas de pelo no dorso -->
+  <g fill="#fff6e6" stroke="#e4caa0" stroke-width="1">
+    <ellipse cx="330" cy="186" rx="14" ry="6"/>
+    <ellipse cx="368" cy="182" rx="9" ry="4"/>
+    <ellipse cx="300" cy="196" rx="7" ry="3.5"/>
+  </g>
+  <g fill="#ffffff"><circle cx="322" cy="178" r="1.6"/><circle cx="338" cy="176" r="1.4"/><circle cx="352" cy="179" r="1.6"/><circle cx="378" cy="175" r="1.3"/><circle cx="310" cy="186" r="1.4"/></g>
+  <!-- pernas da frente -->
+  <rect x="314" y="262" width="26" height="104" rx="12" fill="url(#cs-pelo)" stroke="#9b6630" stroke-width="2"/>
+  <rect x="488" y="258" width="26" height="108" rx="12" fill="url(#cs-pelo)" stroke="#9b6630" stroke-width="2"/>
+  <!-- patas -->
+  <ellipse cx="327" cy="366" rx="18" ry="8" fill="#a86d32"/>
+  <ellipse cx="501" cy="366" rx="18" ry="8" fill="#a86d32"/>
+  <!-- unhas compridas (onicogrifose) -->
+  <g fill="none" stroke="#5b3a1a" stroke-width="3" stroke-linecap="round">
+    <path d="M512 366 C 528 366, 538 372, 542 380"/>
+    <path d="M506 370 C 520 372, 528 378, 530 386"/>
+    <path d="M338 366 C 352 366, 360 372, 364 380"/>
+  </g>
+  <!-- pescoço e cabeça -->
+  <path d="M510 186 C 520 160, 540 140, 566 138 C 596 136, 618 150, 624 172 C 646 176, 662 186, 664 198 C 666 212, 652 218, 634 216 C 616 214, 600 212, 588 222 C 572 236, 548 240, 534 232 C 516 222, 504 206, 510 186 Z" fill="url(#cs-pelo)" stroke="#9b6630" stroke-width="2.5"/>
+  <!-- focinho com ferida -->
+  <ellipse cx="660" cy="192" rx="8" ry="7" fill="#2b1d12"/>
+  <circle cx="642" cy="200" r="4" fill="#d9483a" opacity="0.85"/>
+  <circle cx="634" cy="204" r="2.4" fill="#d9483a" opacity="0.7"/>
+  <!-- orelha caída com ponta ferida -->
+  <path d="M560 146 C 540 150, 528 176, 534 206 C 536 216, 548 218, 552 208 C 560 190, 566 168, 570 150 Z" fill="#a86d32" stroke="#8a5525" stroke-width="2"/>
+  <circle cx="540" cy="208" r="5" fill="#d9483a"/>
+  <circle cx="548" cy="212" r="3" fill="#d9483a" opacity="0.8"/>
+  <!-- "óculos": perda de pelo ao redor do olho -->
+  <ellipse cx="598" cy="170" rx="16" ry="12" fill="#f4d7b0" stroke="#e2bc8a" stroke-width="1.5"/>
+  <ellipse cx="599" cy="170" rx="5.5" ry="6" fill="#2b1d12"/>
+  <circle cx="597" cy="168" r="1.6" fill="#fff"/>
+
+  <!-- chamadas -->
+  <g fill="none" stroke="#13858a" stroke-width="2" stroke-dasharray="1 0">
+    <polyline points="606,160 640,96 662,96"/>
+    <polyline points="538,214 514,110 492,64"/>
+    <polyline points="650,206 684,244"/>
+    <polyline points="540,384 600,420 616,420"/>
+    <polyline points="430,214 404,116 320,64"/>
+    <polyline points="330,186 262,96 140,64"/>
+  </g>
+  <g fill="#13858a"><circle cx="606" cy="160" r="4"/><circle cx="538" cy="214" r="4"/><circle cx="650" cy="206" r="4"/><circle cx="540" cy="384" r="4"/><circle cx="430" cy="214" r="4"/><circle cx="330" cy="186" r="4"/></g>
+
+  <g filter="url(#cs-sombra)">
+    <rect x="610" y="58" width="146" height="58" rx="10" fill="#fff" stroke="#b9dfdc"/>
+    <rect x="404" y="20" width="176" height="44" rx="10" fill="#fff" stroke="#b9dfdc"/>
+    <rect x="612" y="244" width="144" height="58" rx="10" fill="#fff" stroke="#b9dfdc"/>
+    <rect x="560" y="400" width="196" height="58" rx="10" fill="#fff" stroke="#b9dfdc"/>
+    <rect x="292" y="102" width="0" height="0" fill="none"/>
+    <rect x="236" y="20" width="160" height="44" rx="10" fill="#fff" stroke="#b9dfdc"/>
+    <rect x="16" y="20" width="212" height="44" rx="10" fill="#fff" stroke="#b9dfdc"/>
+  </g>
+  <text font-size="12" fill="#1b2733">
+    <tspan x="622" y="80" font-weight="700" fill="#0b4f5c">“Óculos”</tspan>
+    <tspan x="622" dy="16">perda de pelo ao</tspan>
+    <tspan x="622" dy="15">redor dos olhos</tspan>
+  </text>
+  <text font-size="12" fill="#1b2733">
+    <tspan x="416" y="40" font-weight="700" fill="#0b4f5c">Feridas nas orelhas</tspan>
+    <tspan x="416" dy="15">(principalmente nas pontas)</tspan>
+  </text>
+  <text font-size="12" fill="#1b2733">
+    <tspan x="624" y="266" font-weight="700" fill="#0b4f5c">Feridas no focinho</tspan>
+    <tspan x="624" dy="16">e em outras áreas</tspan>
+    <tspan x="624" dy="15">da pele</tspan>
+  </text>
+  <text font-size="12" fill="#1b2733">
+    <tspan x="572" y="422" font-weight="700" fill="#0b4f5c">Unhas muito crescidas</tspan>
+    <tspan x="572" dy="16">= <tspan font-style="italic">onicogrifose</tspan> (sinal clássico)</tspan>
+  </text>
+  <text font-size="12" fill="#1b2733">
+    <tspan x="248" y="40" font-weight="700" fill="#0b4f5c">Emagrecimento</tspan>
+    <tspan x="248" dy="15">(costelas aparentes)</tspan>
+  </text>
+  <text font-size="12" fill="#1b2733">
+    <tspan x="28" y="40" font-weight="700" fill="#0b4f5c">Queda de pelos</tspan>
+    <tspan x="28" dy="15">e descamação da pele (“caspa”)</tspan>
+  </text>
+
+  <!-- faixa de alerta -->
+  <rect x="16" y="404" width="520" height="54" rx="12" fill="#fdebe7" stroke="#e0533d" stroke-width="1.5"/>
+  <circle cx="44" cy="431" r="13" fill="#e0533d"/>
+  <text x="44" y="436" text-anchor="middle" fill="#fff" class="t-titulo" font-size="15">!</text>
+  <text font-size="12.5" fill="#1b2733">
+    <tspan x="66" y="426" font-weight="700" fill="#b8331f">Muitos cães infectados não mostram nenhum sinal</tspan>
+    <tspan x="66" dy="17">— e, mesmo assim, podem infectar o flebotomíneo e transmitir.</tspan>
+  </text>
+</svg>

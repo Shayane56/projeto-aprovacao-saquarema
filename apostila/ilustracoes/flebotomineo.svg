@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-label="Ilustração de um flebotomíneo (mosquito-palha) visto de lado, com as asas levantadas em V">
+  <defs>
+    <radialGradient id="fl-corpo" cx="45%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#f1d9a6"/>
+      <stop offset="60%" stop-color="#d9b47a"/>
+      <stop offset="100%" stop-color="#b58a4c"/>
+    </radialGradient>
+    <linearGradient id="fl-asa" x1="0" y1="1" x2="0.6" y2="0">
+      <stop offset="0%" stop-color="#efe3c8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#fbf6ea" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="fl-abd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2c089"/>
+      <stop offset="100%" stop-color="#b98d50"/>
+    </linearGradient>
+  </defs>
+  <!-- sombra -->
+  <ellipse cx="215" cy="292" rx="150" ry="9" fill="#0b4f5c" opacity="0.10"/>
+  <!-- pernas (atrás) -->
+  <g fill="none" stroke="#9c7440" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="212,190 236,232 228,290"/>
+    <polyline points="196,192 178,240 160,290"/>
+    <polyline points="226,186 278,214 318,290"/>
+  </g>
+  <!-- asas levantadas em V, com franja de pelos -->
+  <g>
+    <path d="M206 142 C 214 96, 246 44, 300 18 C 306 52, 286 104, 222 150 Z" fill="url(#fl-asa)" stroke="#c9a76c" stroke-width="2"/>
+    <path d="M196 140 C 186 92, 196 40, 232 8 C 248 42, 240 98, 210 146 Z" fill="url(#fl-asa)" stroke="#c9a76c" stroke-width="2"/>
+    <g stroke="#c9a76c" stroke-width="1.2" fill="none" opacity="0.8">
+      <path d="M212 140 C 232 104, 258 64, 296 24"/>
+      <path d="M218 132 C 240 108, 262 80, 292 46"/>
+      <path d="M204 138 C 206 98, 214 56, 230 14"/>
+      <path d="M200 128 C 198 96, 208 64, 222 36"/>
+    </g>
+    <g stroke="#b9945a" stroke-width="1" opacity="0.7">
+      <path d="M300 18 l6 -6 M296 30 l8 -3 M291 44 l8 0 M284 60 l8 2 M274 78 l7 4 M262 96 l6 5 M246 114 l5 6"/>
+      <path d="M232 8 l-3 -8 M226 20 l-7 -5 M220 34 l-8 -3 M214 50 l-8 -1 M208 66 l-8 1 M204 84 l-8 3 M202 102 l-7 5"/>
+    </g>
+  </g>
+  <!-- abdome alongado, segmentado e peludo -->
+  <path d="M226 168 C 262 160, 312 172, 344 198 C 356 208, 352 222, 336 222 C 300 222, 258 206, 228 192 Z" fill="url(#fl-abd)" stroke="#a37b43" stroke-width="2"/>
+  <g stroke="#a37b43" stroke-width="1.4" fill="none" opacity="0.7">
+    <path d="M250 166 C 248 178, 248 190, 252 200"/>
+    <path d="M272 168 C 270 182, 272 196, 276 208"/>
+    <path d="M294 174 C 292 188, 296 202, 300 214"/>
+    <path d="M316 184 C 314 196, 318 208, 322 218"/>
+  </g>
+  <g stroke="#8a6532" stroke-width="1" opacity="0.6">
+    <path d="M262 164 l-2 -6 M284 168 l0 -7 M306 176 l2 -6 M328 188 l4 -5 M346 206 l6 -3 M340 222 l4 5 M310 220 l1 6 M282 212 l-1 6 M256 202 l-2 6"/>
+  </g>
+  <!-- tórax "corcunda" -->
+  <path d="M168 172 C 166 140, 190 120, 214 124 C 238 128, 248 150, 240 176 C 234 196, 208 204, 188 198 C 176 194, 169 186, 168 172 Z" fill="url(#fl-corpo)" stroke="#a37b43" stroke-width="2"/>
+  <g stroke="#8a6532" stroke-width="1.1" opacity="0.65">
+    <path d="M190 128 l-3 -7 M202 124 l-1 -8 M216 124 l2 -8 M230 130 l4 -6 M240 142 l6 -4 M174 146 l-6 -4 M170 162 l-7 -1"/>
+  </g>
+  <!-- pernas (frente) -->
+  <g fill="none" stroke="#a87e45" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="184,192 150,236 120,290"/>
+    <polyline points="204,198 200,244 198,290"/>
+    <polyline points="222,192 254,240 268,290"/>
+  </g>
+  <!-- cabeça -->
+  <ellipse cx="156" cy="182" rx="20" ry="18" fill="url(#fl-corpo)" stroke="#a37b43" stroke-width="2"/>
+  <ellipse cx="150" cy="178" rx="10" ry="12" fill="#3b2a1c"/>
+  <ellipse cx="147" cy="174" rx="3" ry="3.5" fill="#fff" opacity="0.55"/>
+  <!-- probóscide e palpos -->
+  <path d="M142 194 L 124 222" stroke="#8a6532" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M148 196 C 140 210, 144 222, 136 236" fill="none" stroke="#a37b43" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- antenas longas e pilosas -->
+  <g fill="none" stroke="#8a6532" stroke-width="2" stroke-linecap="round">
+    <path d="M146 168 C 126 146, 104 132, 74 122"/>
+    <path d="M152 166 C 140 140, 124 116, 102 96"/>
+  </g>
+  <g fill="#8a6532">
+    <circle cx="132" cy="152" r="2"/><circle cx="116" cy="140" r="2"/><circle cx="100" cy="131" r="2"/><circle cx="86" cy="126" r="2"/>
+    <circle cx="140" cy="140" r="2"/><circle cx="130" cy="124" r="2"/><circle cx="118" cy="110" r="2"/><circle cx="108" cy="101" r="2"/>
+  </g>
+</svg>

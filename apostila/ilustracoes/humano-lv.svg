@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-label="Silhueta humana com fígado e baço aumentados e os principais sinais da leishmaniose visceral">
+  <defs>
+    <linearGradient id="hl-pele" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3e3d3"/>
+      <stop offset="100%" stop-color="#e8cfb8"/>
+    </linearGradient>
+    <filter id="hl-sombra" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <!-- silhueta (vista de frente) -->
+  <g stroke="#c9a88a" stroke-width="2.5" fill="url(#hl-pele)">
+    <circle cx="380" cy="70" r="44"/>
+    <path d="M362 112 L 398 112 L 400 132 L 360 132 Z"/>
+    <!-- tronco com barriga aumentada -->
+    <path d="M300 140 C 330 128, 430 128, 460 140 C 482 150, 490 176, 488 210 C 486 240, 470 262, 476 300 C 486 360, 470 410, 430 428 C 400 440, 360 440, 330 428 C 290 410, 274 360, 284 300 C 290 262, 274 240, 272 210 C 270 176, 278 150, 300 140 Z"/>
+    <!-- braços finos (emagrecimento) -->
+    <path d="M300 146 C 270 156, 252 200, 248 252 C 246 290, 248 330, 252 370 L 270 370 C 270 330, 272 292, 278 254 C 282 222, 290 196, 300 186 Z"/>
+    <path d="M460 146 C 490 156, 508 200, 512 252 C 514 290, 512 330, 508 370 L 490 370 C 490 330, 488 292, 482 254 C 478 222, 470 196, 460 186 Z"/>
+    <!-- pernas -->
+    <path d="M334 428 L 344 510 L 372 510 L 376 436 Z"/>
+    <path d="M426 428 L 416 510 L 388 510 L 384 436 Z"/>
+  </g>
+  <!-- costelas -->
+  <g fill="none" stroke="#d1b293" stroke-width="2" opacity="0.8">
+    <path d="M318 176 C 340 186, 360 188, 380 186 C 400 188, 420 186, 442 176"/>
+    <path d="M314 196 C 338 206, 360 208, 380 206 C 400 208, 422 206, 446 196"/>
+  </g>
+  <!-- fígado aumentado (lado direito do corpo = esquerda da imagem) -->
+  <path d="M296 238 C 310 220, 360 218, 392 230 C 408 236, 404 256, 388 264 C 368 274, 344 292, 326 312 C 312 326, 294 318, 292 296 C 290 274, 286 254, 296 238 Z" fill="#b5523f" opacity="0.92" stroke="#8c3a2b" stroke-width="2"/>
+  <!-- baço muito aumentado (lado esquerdo do corpo = direita da imagem) -->
+  <path d="M420 230 C 446 222, 470 238, 472 268 C 474 306, 466 350, 444 372 C 428 388, 410 380, 412 360 C 414 334, 420 312, 414 286 C 410 262, 404 238, 420 230 Z" fill="#7c4f9e" opacity="0.92" stroke="#5b3577" stroke-width="2"/>
+  <!-- termômetro (febre) -->
+  <g transform="translate(420 34)">
+    <rect x="0" y="0" width="12" height="44" rx="6" fill="#fff" stroke="#e0533d" stroke-width="2"/>
+    <rect x="3.5" y="16" width="5" height="26" rx="2.5" fill="#e0533d"/>
+    <circle cx="6" cy="48" r="9" fill="#e0533d"/>
+  </g>
+
+  <!-- chamadas -->
+  <g fill="none" stroke="#13858a" stroke-width="2">
+    <polyline points="432,56 470,40 520,40"/>
+    <polyline points="330,250 240,214 216,214"/>
+    <polyline points="450,300 548,262 560,262"/>
+    <polyline points="300,170 220,120 216,120"/>
+    <polyline points="380,400 470,452 548,452"/>
+    <polyline points="252,330 242,330"/>
+  </g>
+  <g fill="#13858a"><circle cx="432" cy="56" r="4"/><circle cx="330" cy="250" r="4"/><circle cx="450" cy="300" r="4"/><circle cx="300" cy="170" r="4"/><circle cx="380" cy="400" r="4"/><circle cx="250" cy="330" r="4"/></g>
+  <g filter="url(#hl-sombra)" fill="#fff" stroke="#b9dfdc">
+    <rect x="520" y="14" width="226" height="60" rx="10"/>
+    <rect x="14" y="184" width="202" height="60" rx="10"/>
+    <rect x="560" y="226" width="186" height="76" rx="10"/>
+    <rect x="14" y="92" width="202" height="60" rx="10"/>
+    <rect x="548" y="420" width="198" height="60" rx="10"/>
+    <rect x="10" y="300" width="232" height="60" rx="10"/>
+  </g>
+  <text font-size="12" fill="#1b2733"><tspan x="532" y="38" font-weight="700" fill="#0b4f5c">Febre de longa duração</tspan><tspan x="532" dy="16">irregular, por semanas ou meses</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="26" y="208" font-weight="700" fill="#b5523f">Fígado aumentado</tspan><tspan x="26" dy="16">= hepatomegalia</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="572" y="250" font-weight="700" fill="#7c4f9e">Baço muito aumentado</tspan><tspan x="572" dy="16">= esplenomegalia</tspan><tspan x="572" dy="16">(sinal marcante da LV)</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="26" y="116" font-weight="700" fill="#0b4f5c">Emagrecimento e</tspan><tspan x="26" dy="16">fraqueza progressivos</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="560" y="444" font-weight="700" fill="#0b4f5c">Barriga volumosa</tspan><tspan x="560" dy="16">pelo fígado e baço grandes</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="22" y="324" font-weight="700" fill="#0b4f5c">Palidez (anemia)</tspan><tspan x="22" dy="16">e, em casos graves, sangramentos</tspan></text>
+</svg>

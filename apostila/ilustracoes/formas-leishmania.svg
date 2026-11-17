@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="As duas formas da Leishmania: amastigota dentro de macrófago e promastigota com flagelo">
+  <defs>
+    <radialGradient id="fm-cel" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#fdeef3"/><stop offset="100%" stop-color="#f5cfdc"/></radialGradient>
+  </defs>
+  <!-- painel amastigota -->
+  <rect x="10" y="10" width="360" height="280" rx="18" fill="#fff" stroke="#b9dfdc" stroke-width="2"/>
+  <text x="190" y="42" text-anchor="middle" class="t-titulo" font-size="17" fill="#b86e00">AMASTIGOTA</text>
+  <text x="190" y="62" text-anchor="middle" font-size="12" fill="#566577">no hospedeiro vertebrado (cão, ser humano)</text>
+  <!-- macrófago -->
+  <path d="M120 120 C 140 86, 230 82, 260 112 C 290 140, 282 210, 246 234 C 210 256, 140 252, 116 220 C 94 190, 100 150, 120 120 Z" fill="url(#fm-cel)" stroke="#d48aa6" stroke-width="2.5"/>
+  <ellipse cx="226" cy="196" rx="26" ry="20" fill="#b4729a" opacity="0.85"/>
+  <g fill="#7a3f9a" stroke="#5b2c75" stroke-width="1.5">
+    <ellipse cx="150" cy="140" rx="11" ry="8"/><ellipse cx="176" cy="128" rx="11" ry="8"/><ellipse cx="200" cy="146" rx="11" ry="8"/>
+    <ellipse cx="160" cy="168" rx="11" ry="8"/><ellipse cx="188" cy="176" rx="11" ry="8"/><ellipse cx="146" cy="196" rx="11" ry="8"/>
+    <ellipse cx="174" cy="206" rx="11" ry="8"/><ellipse cx="216" cy="122" rx="11" ry="8"/>
+  </g>
+  <g fill="#3d1b55"><circle cx="152" cy="140" r="3"/><circle cx="178" cy="128" r="3"/><circle cx="202" cy="146" r="3"/><circle cx="162" cy="168" r="3"/><circle cx="190" cy="176" r="3"/><circle cx="148" cy="196" r="3"/><circle cx="176" cy="206" r="3"/><circle cx="218" cy="122" r="3"/></g>
+  <text font-size="11.5" fill="#1b2733"><tspan x="40" y="266">Pequena, arredondada, <tspan font-weight="700">sem flagelo</tspan> livre;</tspan><tspan x="40" dy="15">vive e se multiplica <tspan font-weight="700">dentro de macrófagos</tspan>.</tspan></text>
+  <text x="270" y="222" font-size="10.5" fill="#566577" font-style="italic">macrófago</text>
+
+  <!-- seta -->
+  <g transform="translate(380 150)">
+    <path d="M0 -12 L 0 12" stroke="none"/>
+  </g>
+
+  <!-- painel promastigota -->
+  <rect x="390" y="10" width="360" height="280" rx="18" fill="#fff" stroke="#b9dfdc" stroke-width="2"/>
+  <text x="570" y="42" text-anchor="middle" class="t-titulo" font-size="17" fill="#13858a">PROMASTIGOTA</text>
+  <text x="570" y="62" text-anchor="middle" font-size="12" fill="#566577">no inseto vetor (flebotomíneo)</text>
+  <g>
+    <path d="M470 160 C 470 140, 520 130, 580 138 C 610 142, 624 152, 624 160 C 624 168, 610 178, 580 182 C 520 190, 470 180, 470 160 Z" fill="#cdeee9" stroke="#13858a" stroke-width="2.5"/>
+    <ellipse cx="540" cy="160" rx="16" ry="12" fill="#13858a" opacity="0.7"/>
+    <ellipse cx="596" cy="160" rx="7" ry="5" fill="#0b4f5c"/>
+    <path d="M624 160 C 646 150, 660 172, 682 160 C 700 150, 712 168, 730 158" fill="none" stroke="#13858a" stroke-width="3" stroke-linecap="round"/>
+    <text x="680" y="140" font-size="10.5" fill="#566577" font-style="italic">flagelo</text>
+  </g>
+  <text font-size="11.5" fill="#1b2733"><tspan x="420" y="266">Alongada, com <tspan font-weight="700">flagelo</tspan> (se movimenta);</tspan><tspan x="420" dy="15">é a forma <tspan font-weight="700">inoculada</tspan> na pele pela picada.</tspan></text>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-label="Mapa mental das leishmanioses">
+<defs><filter id="mm-sombra" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/></filter>
+<radialGradient id="mm-centro" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#1b9a9a"/><stop offset="100%" stop-color="#0b4f5c"/></radialGradient></defs>
+<path d="M380 300 C 310.0 300, 310.0 106.0, 240 106.0" fill="none" stroke="#13858a" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="106.0" r="6" fill="#13858a"/>
+<path d="M380 300 C 310.0 300, 310.0 300.0, 240 300.0" fill="none" stroke="#b86e00" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="300.0" r="6" fill="#b86e00"/>
+<path d="M380 300 C 310.0 300, 310.0 494.0, 240 494.0" fill="none" stroke="#b8331f" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="494.0" r="6" fill="#b8331f"/>
+<path d="M380 300 C 450.0 300, 450.0 106.0, 520 106.0" fill="none" stroke="#6b59d3" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="106.0" r="6" fill="#6b59d3"/>
+<path d="M380 300 C 450.0 300, 450.0 300.0, 520 300.0" fill="none" stroke="#1d7650" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="300.0" r="6" fill="#1d7650"/>
+<path d="M380 300 C 450.0 300, 450.0 494.0, 520 494.0" fill="none" stroke="#0b4f5c" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="494.0" r="6" fill="#0b4f5c"/>
+<circle cx="380" cy="300" r="88" fill="#fff" opacity="0.9"/>
+<circle cx="380" cy="300" r="78" fill="url(#mm-centro)" filter="url(#mm-sombra)"/>
+<text x="380" y="294" text-anchor="middle" class="t-titulo" font-size="19" fill="#fff">Leishmanioses</text>
+<text x="380" y="316" text-anchor="middle" font-size="11.5" fill="#d6eeee">LV e LTA</text>
+<text x="380" y="332" text-anchor="middle" font-size="10.5" fill="#ffd38a">zoonose · notificação</text>
+<text x="380" y="346" text-anchor="middle" font-size="10.5" fill="#ffd38a">compulsória</text>
+<g filter="url(#mm-sombra)"><rect x="12" y="18" width="228" height="176" rx="14" fill="#fff" stroke="#13858a" stroke-width="2"/></g>
+<path d="M12 32 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#13858a"/>
+<text x="126.0" y="41" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">AGENTE</text>
+<circle cx="26" cy="70" r="3" fill="#13858a"/>
+<text x="36" y="74" font-size="11.4" fill="#1b2733">Leishmania (protozoário)</text>
+<circle cx="26" cy="93" r="3" fill="#13858a"/>
+<text x="36" y="97" font-size="11.4" fill="#1b2733">Amastigota → no hospedeiro</text>
+<circle cx="26" cy="116" r="3" fill="#13858a"/>
+<text x="36" y="120" font-size="11.4" fill="#1b2733">Promastigota → no vetor</text>
+<circle cx="26" cy="139" r="3" fill="#13858a"/>
+<text x="36" y="143" font-size="11.4" fill="#1b2733">LV: L. infantum (= chagasi)</text>
+<circle cx="26" cy="162" r="3" fill="#13858a"/>
+<text x="36" y="166" font-size="11.4" fill="#1b2733">LTA: L. braziliensis e outras</text>
+<g filter="url(#mm-sombra)"><rect x="12" y="212" width="228" height="176" rx="14" fill="#fff" stroke="#b86e00" stroke-width="2"/></g>
+<path d="M12 226 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#b86e00"/>
+<text x="126.0" y="235" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">VETOR</text>
+<circle cx="26" cy="264" r="3" fill="#b86e00"/>
+<text x="36" y="268" font-size="11.4" fill="#1b2733">Flebotomíneo: mosquito-palha,</text>
+<text x="36" y="291" font-size="11.4" fill="#1b2733">birigui, tatuquira</text>
+<circle cx="26" cy="310" r="3" fill="#b86e00"/>
+<text x="36" y="314" font-size="11.4" fill="#1b2733">Só a FÊMEA pica (sangue)</text>
+<circle cx="26" cy="333" r="3" fill="#b86e00"/>
+<text x="36" y="337" font-size="11.4" fill="#1b2733">Entardecer e noite</text>
+<circle cx="26" cy="356" r="3" fill="#b86e00"/>
+<text x="36" y="360" font-size="11.4" fill="#1b2733">Larvas: solo úmido e orgânico</text>
+<g filter="url(#mm-sombra)"><rect x="12" y="406" width="228" height="176" rx="14" fill="#fff" stroke="#b8331f" stroke-width="2"/></g>
+<path d="M12 420 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#b8331f"/>
+<text x="126.0" y="429" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">RESERVATÓRIOS</text>
+<circle cx="26" cy="458" r="3" fill="#b8331f"/>
+<text x="36" y="462" font-size="11.4" fill="#1b2733">LV urbana: o CÃO</text>
+<circle cx="26" cy="481" r="3" fill="#b8331f"/>
+<text x="36" y="485" font-size="11.4" fill="#1b2733">LV silvestre: raposas, marsupiais</text>
+<circle cx="26" cy="504" r="3" fill="#b8331f"/>
+<text x="36" y="508" font-size="11.4" fill="#1b2733">LTA: animais silvestres</text>
+<circle cx="26" cy="527" r="3" fill="#b8331f"/>
+<text x="36" y="531" font-size="11.4" fill="#1b2733">Na LTA, cão e cavalo são</text>
+<text x="36" y="554" font-size="11.4" fill="#1b2733">hospedeiros acidentais</text>
+<g filter="url(#mm-sombra)"><rect x="520" y="18" width="228" height="176" rx="14" fill="#fff" stroke="#6b59d3" stroke-width="2"/></g>
+<path d="M520 32 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#6b59d3"/>
+<text x="634.0" y="41" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">FORMAS CLÍNICAS</text>
+<circle cx="534" cy="70" r="3" fill="#6b59d3"/>
+<text x="544" y="74" font-size="11.4" fill="#1b2733">LV: febre longa, fígado e baço</text>
+<text x="544" y="97" font-size="11.4" fill="#1b2733">grandes, emagrecimento, anemia</text>
+<circle cx="534" cy="116" r="3" fill="#6b59d3"/>
+<text x="544" y="120" font-size="11.4" fill="#1b2733">LTA: úlcera indolor “em moldura”</text>
+<circle cx="534" cy="139" r="3" fill="#6b59d3"/>
+<text x="544" y="143" font-size="11.4" fill="#1b2733">Mucosa: nariz e boca</text>
+<circle cx="534" cy="162" r="3" fill="#6b59d3"/>
+<text x="544" y="166" font-size="11.4" fill="#1b2733">LV não tratada: letal em >90%</text>
+<g filter="url(#mm-sombra)"><rect x="520" y="212" width="228" height="176" rx="14" fill="#fff" stroke="#1d7650" stroke-width="2"/></g>
+<path d="M520 226 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#1d7650"/>
+<text x="634.0" y="235" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">DIAGNÓSTICO E TRATAMENTO</text>
+<circle cx="534" cy="264" r="3" fill="#1d7650"/>
+<text x="544" y="268" font-size="11.4" fill="#1b2733">Humano: teste rápido (rK39),</text>
+<text x="544" y="291" font-size="11.4" fill="#1b2733">parasitológico (medula)</text>
+<circle cx="534" cy="310" r="3" fill="#1d7650"/>
+<text x="544" y="314" font-size="11.4" fill="#1b2733">Antimoniato de meglumina;</text>
+<text x="544" y="337" font-size="11.4" fill="#1b2733">anfotericina B lipossomal</text>
+<circle cx="534" cy="356" r="3" fill="#1d7650"/>
+<text x="544" y="360" font-size="11.4" fill="#1b2733">Cão: DPP (triagem) + ELISA</text>
+<g filter="url(#mm-sombra)"><rect x="520" y="406" width="228" height="176" rx="14" fill="#fff" stroke="#0b4f5c" stroke-width="2"/></g>
+<path d="M520 420 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#0b4f5c"/>
+<text x="634.0" y="429" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">PREVENÇÃO E CONTROLE</text>
+<circle cx="534" cy="458" r="3" fill="#0b4f5c"/>
+<text x="544" y="462" font-size="11.4" fill="#1b2733">Manejo ambiental do quintal</text>
+<circle cx="534" cy="481" r="3" fill="#0b4f5c"/>
+<text x="544" y="485" font-size="11.4" fill="#1b2733">Telas, mosquiteiro, repelente</text>
+<circle cx="534" cy="504" r="3" fill="#0b4f5c"/>
+<text x="544" y="508" font-size="11.4" fill="#1b2733">Inseticida de ação residual</text>
+<circle cx="534" cy="527" r="3" fill="#0b4f5c"/>
+<text x="544" y="531" font-size="11.4" fill="#1b2733">Coleira com deltametrina 4%</text>
+<circle cx="534" cy="550" r="3" fill="#0b4f5c"/>
+<text x="544" y="554" font-size="11.4" fill="#1b2733">Notificação compulsória</text>
+</svg>

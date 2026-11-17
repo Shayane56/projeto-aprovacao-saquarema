@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-label="Ciclo de transmissão das leishmanioses em cinco etapas">
+  <defs>
+    <marker id="ct-seta" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#13858a"/>
+    </marker>
+    <radialGradient id="ct-centro" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e5f3f2"/>
+    </radialGradient>
+    <filter id="ct-sombra" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0b4f5c" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- trilho circular -->
+  <circle cx="380" cy="300" r="200" fill="none" stroke="#b9dfdc" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+  <!-- setas do ciclo (sentido horário) -->
+  <g fill="none" stroke="#13858a" stroke-width="3.5" marker-end="url(#ct-seta)">
+    <path d="M474 123 A 200 200 0 0 1 544 185"/>
+    <path d="M578 328 A 200 200 0 0 1 533 429"/>
+    <path d="M415 497 A 200 200 0 0 1 345 497"/>
+    <path d="M216 415 A 200 200 0 0 1 183 335"/>
+    <path d="M251 147 A 200 200 0 0 1 292 120"/>
+  </g>
+
+  <!-- centro -->
+  <circle cx="380" cy="300" r="112" fill="url(#ct-centro)" stroke="#13858a" stroke-width="2.5"/>
+  <g transform="translate(318 222) scale(0.30)">
+    <path d="M206 142 C 214 96, 246 44, 300 18 C 306 52, 286 104, 222 150 Z" fill="#f6eedc" stroke="#c9a76c" stroke-width="5"/>
+    <path d="M196 140 C 186 92, 196 40, 232 8 C 248 42, 240 98, 210 146 Z" fill="#f6eedc" stroke="#c9a76c" stroke-width="5"/>
+    <path d="M226 168 C 262 160, 312 172, 344 198 C 356 208, 352 222, 336 222 C 300 222, 258 206, 228 192 Z" fill="#d6b277" stroke="#a37b43" stroke-width="5"/>
+    <path d="M168 172 C 166 140, 190 120, 214 124 C 238 128, 248 150, 240 176 C 234 196, 208 204, 188 198 C 176 194, 169 186, 168 172 Z" fill="#dfbd84" stroke="#a37b43" stroke-width="5"/>
+    <g fill="none" stroke="#a87e45" stroke-width="7" stroke-linecap="round"><polyline points="184,192 150,236 120,290"/><polyline points="204,198 200,244 198,290"/><polyline points="222,192 254,240 268,290"/></g>
+    <ellipse cx="156" cy="182" rx="20" ry="18" fill="#dfbd84" stroke="#a37b43" stroke-width="5"/>
+    <ellipse cx="150" cy="178" rx="10" ry="12" fill="#3b2a1c"/>
+    <path d="M146 168 C 126 146, 104 132, 74 122 M152 166 C 140 140, 124 116, 102 96" fill="none" stroke="#8a6532" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="380" y="342" text-anchor="middle" class="t-titulo" font-size="16" fill="#0b4f5c">Ciclo de transmissão</text>
+  <text x="380" y="364" text-anchor="middle" font-size="13" fill="#566577" font-style="italic">Leishmania sp.</text>
+  <text x="380" y="384" text-anchor="middle" font-size="11.5" fill="#566577"><tspan x="380">vetor: fêmea do</tspan><tspan x="380" dy="14">flebotomíneo</tspan></text>
+
+  <!-- 1 -->
+  <g filter="url(#ct-sombra)"><rect x="268" y="18" width="224" height="96" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="292" cy="44" r="14" fill="#13858a"/><text x="292" y="49" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">1</text>
+  <text x="314" y="49" class="t-titulo" font-size="13.5" fill="#0b4f5c">Picada no infectado</text>
+  <text x="284" y="74" font-size="11.5" fill="#1b2733"><tspan x="284">A fêmea pica um cão (ou pessoa)</tspan><tspan x="284" dy="16">infectado e ingere as formas</tspan><tspan x="284" dy="16"><tspan font-weight="700">amastigotas</tspan> junto com o sangue.</tspan></text>
+
+  <!-- 2 -->
+  <g filter="url(#ct-sombra)"><rect x="524" y="196" width="224" height="112" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="548" cy="222" r="14" fill="#13858a"/><text x="548" y="227" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">2</text>
+  <text x="570" y="227" class="t-titulo" font-size="13.5" fill="#0b4f5c">Dentro do inseto</text>
+  <text x="540" y="252" font-size="11.5" fill="#1b2733"><tspan x="540">No intestino, viram <tspan font-weight="700">promastigotas</tspan></tspan><tspan x="540" dy="16">(com flagelo), multiplicam-se e</tspan><tspan x="540" dy="16">tornam-se infectantes</tspan><tspan x="540" dy="16">(<tspan font-style="italic">metacíclicas</tspan>).</tspan></text>
+
+  <!-- 3 -->
+  <g filter="url(#ct-sombra)"><rect x="440" y="458" width="236" height="96" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="464" cy="484" r="14" fill="#13858a"/><text x="464" y="489" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">3</text>
+  <text x="486" y="489" class="t-titulo" font-size="13.5" fill="#0b4f5c">Nova picada</text>
+  <text x="456" y="514" font-size="11.5" fill="#1b2733"><tspan x="456">Ao picar de novo para se alimentar,</tspan><tspan x="456" dy="16">o inseto <tspan font-weight="700">inocula</tspan> as promastigotas</tspan><tspan x="456" dy="16">na pele de outra pessoa ou animal.</tspan></text>
+
+  <!-- 4 -->
+  <g filter="url(#ct-sombra)"><rect x="84" y="458" width="236" height="96" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="108" cy="484" r="14" fill="#13858a"/><text x="108" y="489" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">4</text>
+  <text x="130" y="489" class="t-titulo" font-size="13.5" fill="#0b4f5c">Na pele do hospedeiro</text>
+  <text x="100" y="514" font-size="11.5" fill="#1b2733"><tspan x="100">Células de defesa (<tspan font-weight="700">macrófagos</tspan>)</tspan><tspan x="100" dy="16">englobam o parasita, que volta à</tspan><tspan x="100" dy="16">forma <tspan font-weight="700">amastigota</tspan> (sem flagelo).</tspan></text>
+
+  <!-- 5 -->
+  <g filter="url(#ct-sombra)"><rect x="12" y="140" width="232" height="140" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="36" cy="166" r="14" fill="#13858a"/><text x="36" y="171" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">5</text>
+  <text x="58" y="171" class="t-titulo" font-size="13.5" fill="#0b4f5c">Multiplicação</text>
+  <text x="28" y="196" font-size="11.5" fill="#1b2733"><tspan x="28">As amastigotas se multiplicam:</tspan><tspan x="28" dy="18"><tspan font-weight="700" fill="#b86e00">LV</tspan> → vão para baço, fígado</tspan><tspan x="28" dy="16">e medula óssea;</tspan><tspan x="28" dy="18"><tspan font-weight="700" fill="#13858a">LTA</tspan> → ficam na pele e/ou</tspan><tspan x="28" dy="16">nas mucosas.</tspan></text>
+</svg>

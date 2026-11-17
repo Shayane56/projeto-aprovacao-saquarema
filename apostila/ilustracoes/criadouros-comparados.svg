@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-label="Comparação dos criadouros: flebotomíneo no solo úmido com matéria orgânica e Aedes na água parada">
+  <defs>
+    <linearGradient id="cc-solo" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8a5a33"/><stop offset="100%" stop-color="#5e3b20"/></linearGradient>
+    <linearGradient id="cc-agua" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9fd8e6"/><stop offset="100%" stop-color="#4fb0c8"/></linearGradient>
+    <linearGradient id="cc-balde" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#d9e3e6"/><stop offset="50%" stop-color="#f4f8f9"/><stop offset="100%" stop-color="#c7d3d7"/></linearGradient>
+  </defs>
+  <!-- ======= painel flebotomíneo ======= -->
+  <rect x="8" y="8" width="366" height="344" rx="18" fill="#fff8ec" stroke="#f0c88a" stroke-width="2"/>
+  <text x="191" y="40" text-anchor="middle" class="t-titulo" font-size="16" fill="#b86e00">FLEBOTOMÍNEO (mosquito-palha)</text>
+  <text x="191" y="60" text-anchor="middle" font-size="12" fill="#566577">cria-se em <tspan font-weight="700" fill="#1b2733">TERRA ÚMIDA</tspan> — fases imaturas fora da água</text>
+  <!-- árvore -->
+  <rect x="330" y="150" width="16" height="66" rx="5" fill="#8a5a33"/>
+  <circle cx="338" cy="140" r="28" fill="#4f9d5d"/><circle cx="318" cy="160" r="16" fill="#5fae6a"/><circle cx="356" cy="162" r="15" fill="#5fae6a"/>
+  <text x="338" y="102" text-anchor="middle" font-size="10.5" fill="#566577" font-style="italic">sombra</text>
+  <!-- solo -->
+  <path d="M24 214 C 90 204, 160 220, 230 210 C 290 202, 330 214, 358 210 L 358 330 C 358 336, 352 340, 346 340 L 36 340 C 30 340, 24 336, 24 330 Z" fill="url(#cc-solo)"/>
+  <!-- folhas, frutos e fezes sobre o solo -->
+  <g>
+    <path d="M60 210 c 10 -12, 26 -12, 34 -2 c -10 8, -24 10, -34 2 z" fill="#c9a03a"/>
+    <path d="M120 214 c 8 -12, 24 -14, 34 -6 c -8 10, -24 12, -34 6 z" fill="#a8b84a"/>
+    <path d="M196 208 c 10 -10, 24 -10, 30 0 c -10 8, -22 8, -30 0 z" fill="#d18a3a"/>
+    <circle cx="250" cy="208" r="8" fill="#e05a3d"/><circle cx="266" cy="211" r="6" fill="#f0a12f"/>
+    <ellipse cx="160" cy="210" rx="9" ry="5" fill="#5b3a1a"/><ellipse cx="172" cy="206" rx="6" ry="4" fill="#6b4524"/>
+  </g>
+  <!-- fases no solo -->
+  <g fill="#fff" stroke="#3b2a1c" stroke-width="1"><ellipse cx="66" cy="252" rx="5" ry="3"/><ellipse cx="78" cy="256" rx="5" ry="3"/><ellipse cx="72" cy="246" rx="5" ry="3"/></g>
+  <g>
+    <path d="M128 262 c 6 -6, 12 6, 18 0 c 6 -6, 12 6, 18 0 c 6 -6, 12 6, 18 0" fill="none" stroke="#f3e2c4" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="186" cy="262" r="5" fill="#3b2a1c"/>
+  </g>
+  <path d="M252 266 c 0 -14, 22 -16, 26 -2 c 2 10, -8 16, -16 14 c -6 -2, -10 -6, -10 -12 z" fill="#e8cfa2" stroke="#8a6532" stroke-width="1.5"/>
+  <text font-size="11" fill="#fff" font-weight="700"><tspan x="52" y="288">ovos</tspan><tspan x="138" y="288">larva</tspan><tspan x="248" y="296">pupa</tspan></text>
+  <text font-size="11.5" fill="#ffe7c2"><tspan x="40" y="316">folhas, frutos caídos, fezes de animais,</tspan><tspan x="40" dy="15">sombra e umidade = criadouro ideal</tspan></text>
+  <!-- adulto voando -->
+  <g transform="translate(70 100) scale(0.26)">
+    <path d="M206 142 C 214 96, 246 44, 300 18 C 306 52, 286 104, 222 150 Z" fill="#f6eedc" stroke="#c9a76c" stroke-width="5"/>
+    <path d="M196 140 C 186 92, 196 40, 232 8 C 248 42, 240 98, 210 146 Z" fill="#f6eedc" stroke="#c9a76c" stroke-width="5"/>
+    <path d="M226 168 C 262 160, 312 172, 344 198 C 356 208, 352 222, 336 222 C 300 222, 258 206, 228 192 Z" fill="#d6b277" stroke="#a37b43" stroke-width="5"/>
+    <path d="M168 172 C 166 140, 190 120, 214 124 C 238 128, 248 150, 240 176 C 234 196, 208 204, 188 198 C 176 194, 169 186, 168 172 Z" fill="#dfbd84" stroke="#a37b43" stroke-width="5"/>
+    <g fill="none" stroke="#a87e45" stroke-width="7" stroke-linecap="round"><polyline points="184,192 150,236 120,290"/><polyline points="204,198 200,244 198,290"/><polyline points="222,192 254,240 268,290"/></g>
+    <ellipse cx="156" cy="182" rx="20" ry="18" fill="#dfbd84" stroke="#a37b43" stroke-width="5"/>
+    <ellipse cx="150" cy="178" rx="10" ry="12" fill="#3b2a1c"/>
+  </g>
+  <text x="168" y="114" font-size="11.5" fill="#1b2733" font-weight="700">adulto</text>
+  <text font-size="11" fill="#566577"><tspan x="168" y="129">voa ao entardecer</tspan><tspan x="168" dy="13">e à noite</tspan></text>
+
+  <!-- ======= painel Aedes ======= -->
+  <rect x="386" y="8" width="366" height="344" rx="18" fill="#eef8fb" stroke="#9fd8e6" stroke-width="2"/>
+  <text x="569" y="40" text-anchor="middle" class="t-titulo" font-size="16" fill="#0f6470">AEDES AEGYPTI (dengue)</text>
+  <text x="569" y="60" text-anchor="middle" font-size="12" fill="#566577">cria-se em <tspan font-weight="700" fill="#1b2733">ÁGUA PARADA</tspan> — larva e pupa vivem na água</text>
+  <!-- balde -->
+  <path d="M470 150 L 668 150 L 648 330 L 490 330 Z" fill="url(#cc-balde)" stroke="#9fb0b5" stroke-width="2.5"/>
+  <path d="M478 196 L 660 196 L 648 330 L 490 330 Z" fill="url(#cc-agua)" opacity="0.92"/>
+  <ellipse cx="569" cy="150" rx="99" ry="10" fill="#e6eef0" stroke="#9fb0b5" stroke-width="2.5"/>
+  <!-- ovos na parede, logo acima da água -->
+  <g fill="#1b2733"><ellipse cx="500" cy="186" rx="4" ry="2"/><ellipse cx="512" cy="184" rx="4" ry="2"/><ellipse cx="524" cy="187" rx="4" ry="2"/><ellipse cx="620" cy="185" rx="4" ry="2"/><ellipse cx="632" cy="187" rx="4" ry="2"/></g>
+  <!-- larvas e pupa na água -->
+  <g fill="none" stroke="#2b3a44" stroke-width="3" stroke-linecap="round">
+    <path d="M520 226 c 6 8, -4 14, 2 22 c 4 6, 0 10, 2 14"/>
+    <path d="M560 240 c -6 8, 4 14, -2 22 c -4 6, 0 10, -2 14"/>
+    <path d="M600 222 c 6 8, -4 14, 2 22 c 4 6, 0 10, 2 14"/>
+  </g>
+  <path d="M624 280 c 0 -12, 18 -14, 20 0 c 0 8, -6 12, -12 12 c -2 6, -8 6, -8 0 z" fill="#2b3a44"/>
+  <text font-size="11" fill="#fff" font-weight="700"><tspan x="500" y="314">larvas</tspan><tspan x="612" y="314">pupa</tspan></text>
+  <text font-size="11" fill="#1b2733" font-weight="700"><tspan x="672" y="186">ovos na</tspan><tspan x="672" dy="13">parede</tspan></text>
+  <!-- Aedes adulto (preto e branco) -->
+  <g transform="translate(430 76)">
+    <ellipse cx="30" cy="30" rx="16" ry="9" fill="#1b2733"/>
+    <path d="M22 24 l4 12 M30 22 l2 14 M38 24 l0 12" stroke="#fff" stroke-width="2.5"/>
+    <circle cx="10" cy="28" r="7" fill="#1b2733"/>
+    <path d="M14 22 C 26 0, 46 -2, 60 4 C 46 10, 32 18, 24 24 Z" fill="#d9eef3" stroke="#9fb0b5"/>
+    <g stroke="#1b2733" stroke-width="2.4" stroke-linecap="round" fill="none"><path d="M20 36 l-10 22"/><path d="M30 38 l-2 24"/><path d="M40 36 l10 22"/></g>
+    <g stroke="#fff" stroke-width="2.4" stroke-dasharray="3 4" fill="none"><path d="M20 36 l-10 22"/><path d="M30 38 l-2 24"/><path d="M40 36 l10 22"/></g>
+    <path d="M4 30 l-10 8" stroke="#1b2733" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <text x="500" y="100" font-size="11.5" fill="#1b2733" font-weight="700">adulto</text>
+  <text x="500" y="115" font-size="11" fill="#566577">pica mais durante o dia</text>
+</svg>
