@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="Lagoa com situações de risco para a esquistossomose numeradas">
+  <defs>
+    <linearGradient id="ce2-agua" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8fcfd8"/><stop offset="100%" stop-color="#4f9fb0"/></linearGradient>
+    <linearGradient id="ce2-ceu" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e3f3fa"/><stop offset="100%" stop-color="#f7fbfc"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="760" height="420" rx="18" fill="url(#ce2-ceu)"/>
+  <circle cx="690" cy="56" r="26" fill="#f6b955"/>
+  <rect x="0" y="150" width="760" height="270" fill="#a8d08d"/>
+  <path d="M40 230 C 120 190, 300 196, 420 210 C 560 224, 680 214, 740 250 C 760 290, 700 330, 600 334 C 460 340, 300 340, 160 330 C 70 324, 10 290, 40 230 Z" fill="url(#ce2-agua)"/>
+  <g fill="none" stroke="#d6f0f4" stroke-width="2" opacity="0.8"><path d="M140 260 c 20 -6, 40 6, 60 0"/><path d="M420 290 c 20 -6, 40 6, 60 0"/><path d="M560 250 c 20 -6, 40 6, 60 0"/></g>
+  <!-- vegetação aquática com caramujos -->
+  <g fill="#4f9d5d"><path d="M90 250 l -6 -40 l 10 38 z"/><path d="M100 250 l 2 -46 l 4 46 z"/><path d="M112 252 l 10 -40 l -4 40 z"/><path d="M640 300 l -6 -40 l 10 38 z"/><path d="M652 300 l 2 -46 l 4 46 z"/></g>
+  <g fill="#8a5a33" stroke="#5e3b20"><circle cx="104" cy="254" r="6"/><circle cx="120" cy="258" r="5"/><circle cx="650" cy="304" r="6"/></g>
+  <!-- cano de esgoto -->
+  <path d="M0 196 L 70 196 L 70 214" stroke="#7b8a90" stroke-width="12" fill="none"/>
+  <path d="M70 216 C 74 228, 82 232, 90 236" stroke="#8a7a4a" stroke-width="6" fill="none" opacity="0.8"/>
+  <!-- pessoa lavando roupa -->
+  <g transform="translate(250 196)">
+    <rect x="0" y="20" width="60" height="18" rx="4" fill="#9fb0b5"/>
+    <circle cx="20" cy="-18" r="10" fill="#c98a5a"/>
+    <path d="M10 -6 L 30 -6 L 34 22 L 6 22 Z" fill="#e0533d"/>
+    <path d="M30 0 L 52 18" stroke="#c98a5a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M14 22 L 10 50 M 28 22 L 32 50" stroke="#c98a5a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- criança nadando -->
+  <g transform="translate(460 262)">
+    <circle cx="0" cy="0" r="10" fill="#c98a5a"/>
+    <path d="M-30 6 c 10 -8, 20 -8, 28 0" stroke="#c98a5a" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M10 6 c 10 -8, 20 -8, 28 0" stroke="#c98a5a" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- pescador -->
+  <g transform="translate(600 196)">
+    <circle cx="0" cy="-20" r="10" fill="#c98a5a"/>
+    <path d="M-10 -8 L 10 -8 L 12 22 L -12 22 Z" fill="#13858a"/>
+    <path d="M-8 22 L -10 54 M 8 22 L 12 54" stroke="#2b3a44" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10 -2 L 70 -40" stroke="#7a5230" stroke-width="3"/><path d="M70 -40 L 76 40" stroke="#566577" stroke-width="1"/>
+  </g>
+  <!-- agricultor com pés na água -->
+  <g transform="translate(170 276)">
+    <circle cx="0" cy="-30" r="10" fill="#c98a5a"/>
+    <path d="M-10 -18 L 10 -18 L 12 10 L -12 10 Z" fill="#f0a12f"/>
+    <path d="M-6 10 L -8 34 M 6 10 L 8 34" stroke="#2b3a44" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-14 -40 h 28" stroke="#a8822e" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <!-- números -->
+  <g text-anchor="middle" fill="#fff">
+    <circle cx="70" cy="176" r="13" fill="#e0533d"/><text x="70" y="181" class="t-titulo" font-size="13">1</text>
+    <circle cx="130" cy="226" r="13" fill="#e0533d"/><text x="130" y="231" class="t-titulo" font-size="13">2</text>
+    <circle cx="300" cy="164" r="13" fill="#e0533d"/><text x="300" y="169" class="t-titulo" font-size="13">3</text>
+    <circle cx="500" cy="244" r="13" fill="#e0533d"/><text x="500" y="249" class="t-titulo" font-size="13">4</text>
+    <circle cx="630" cy="164" r="13" fill="#e0533d"/><text x="630" y="169" class="t-titulo" font-size="13">5</text>
+    <circle cx="206" cy="232" r="13" fill="#e0533d"/><text x="206" y="237" class="t-titulo" font-size="13">6</text>
+  </g>
+  <rect x="16" y="344" width="728" height="66" rx="12" fill="#fff" opacity="0.96"/>
+  <g font-size="11.5" fill="#1b2733">
+    <text x="30" y="366"><tspan font-weight="700" fill="#e0533d">1</tspan> Esgoto lançado na água: leva os ovos</text>
+    <text x="30" y="386"><tspan font-weight="700" fill="#e0533d">2</tspan> Caramujos na vegetação da margem</text>
+    <text x="30" y="406"><tspan font-weight="700" fill="#e0533d">3</tspan> Lavar roupa ou louça na lagoa</text>
+    <text x="400" y="366"><tspan font-weight="700" fill="#e0533d">4</tspan> Nadar e brincar na água</text>
+    <text x="400" y="386"><tspan font-weight="700" fill="#e0533d">5</tspan> Pescar com os pés na água</text>
+    <text x="400" y="406"><tspan font-weight="700" fill="#e0533d">6</tspan> Trabalhar na lavoura alagada (arroz, horta)</text>
+  </g>
+  <text x="24" y="40" class="t-titulo" font-size="14" fill="#0b4f5c">Água doce + caramujo + fezes humanas = risco</text>
+</svg>

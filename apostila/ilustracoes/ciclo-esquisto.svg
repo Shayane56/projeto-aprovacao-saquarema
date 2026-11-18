@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-label="Ciclo de transmissão da esquistossomose em cinco etapas">
+  <defs>
+    <marker id="ce-seta" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#13858a"/>
+    </marker>
+    <radialGradient id="ce-centro" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e5f3f2"/>
+    </radialGradient>
+    <filter id="ce-sombra" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0b4f5c" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- trilho circular -->
+  <circle cx="380" cy="300" r="200" fill="none" stroke="#b9dfdc" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+  <!-- setas do ciclo (sentido horário) -->
+  <g fill="none" stroke="#13858a" stroke-width="3.5" marker-end="url(#ce-seta)">
+    <path d="M474 123 A 200 200 0 0 1 544 185"/>
+    <path d="M578 328 A 200 200 0 0 1 533 429"/>
+    <path d="M415 497 A 200 200 0 0 1 345 497"/>
+    <path d="M216 415 A 200 200 0 0 1 183 335"/>
+    <path d="M251 147 A 200 200 0 0 1 292 120"/>
+  </g>
+
+  <!-- centro -->
+  <circle cx="380" cy="300" r="112" fill="url(#ce-centro)" stroke="#13858a" stroke-width="2.5"/>
+  <g transform="translate(320 210) scale(0.36)"><g class="caramujo">
+    <defs><radialGradient id="cx-concha" cx="45%" cy="40%" r="65%"><stop offset="0%" stop-color="#d9a873"/><stop offset="100%" stop-color="#8a5a33"/></radialGradient></defs>
+    <path d="M60 196 C 90 176, 250 172, 300 190 C 320 198, 318 214, 296 216 L 70 216 C 50 214, 46 204, 60 196 Z" fill="#6b5a4a" stroke="#4a3c30" stroke-width="2"/>
+    <path d="M78 196 C 64 170, 54 140, 40 110" stroke="#4a3c30" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M92 192 C 86 164, 82 136, 72 104" stroke="#4a3c30" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="66" cy="182" r="4" fill="#1b1b1b"/>
+    <circle cx="200" cy="120" r="88" fill="url(#cx-concha)" stroke="#6b4524" stroke-width="3"/>
+    <polyline points="284.0,120.0 283.2,128.4 281.6,136.6 279.1,144.6 275.9,152.3 271.9,159.5 267.3,166.3 262.0,172.6 256.1,178.3 249.8,183.3 242.9,187.7 235.8,191.3 228.3,194.2 220.6,196.2 212.8,197.5 204.9,198.0 197.1,197.8 189.3,196.7 181.8,194.9 174.5,192.3 167.5,189.0 161.0,185.1 154.9,180.5 149.3,175.4 144.3,169.8 139.9,163.7 136.1,157.2 133.0,150.5 130.7,143.5 129.1,136.3 128.2,129.1 128.0,121.8 128.6,114.6 129.9,107.5 131.8,100.7 134.5,94.1 137.8,87.8 141.6,81.9 146.0,76.5 151.0,71.6 156.3,67.2 162.0,63.4 168.1,60.2 174.4,57.7 180.9,55.8 187.5,54.6 194.2,54.0 200.8,54.2 207.4,55.0 213.8,56.4 220.0,58.5 225.9,61.2 231.5,64.4 236.7,68.1 241.5,72.4 245.7,77.0 249.5,82.1 252.7,87.5 255.4,93.1 257.5,98.9 258.9,104.9 259.7,110.9 260.0,117.0 259.6,123.0 258.6,128.9 257.0,134.6 254.9,140.2 252.3,145.4 249.1,150.3 245.5,154.9 241.5,159.0 237.1,162.7 232.4,165.9 227.5,168.5 222.3,170.7 217.0,172.3 211.6,173.4 206.1,173.9 200.7,173.9 195.3,173.3 190.1,172.1 185.0,170.5 180.1,168.4 175.6,165.8 171.3,162.8 167.4,159.4 163.9,155.7 160.8,151.6 158.1,147.3 155.9,142.8 154.2,138.1 153.0,133.3 152.3,128.5 152.1,123.6 152.3,118.8 153.1,114.1 154.3,109.5 155.9,105.1 158.0,100.9 160.5,97.0 163.3,93.3 166.5,90.0 169.9,87.1 173.6,84.6 177.5,82.4 181.5,80.7 185.7,79.4 189.9,78.6 194.2,78.1 198.4,78.1 202.6,78.6 206.7,79.4 210.6,80.7 214.4,82.3 217.9,84.3 221.2,86.6 224.2,89.2 226.9,92.1 229.3,95.1 231.3,98.4 233.0,101.9 234.3,105.4 235.2,109.1 235.7,112.7 235.9,116.4 235.7,120.0 235.1,123.5 234.2,127.0 233.0,130.3 231.4,133.4 229.6,136.3 227.5,138.9 225.2,141.3 222.6,143.5 219.9,145.3 217.1,146.9 214.1,148.1 211.1,149.0 208.0,149.6 204.9,149.9 201.9,149.8 198.9,149.5 196.0,148.9 193.2,147.9 190.6,146.7 188.1,145.3 185.8,143.7 183.7,141.8 181.9,139.8 180.3,137.6 178.9,135.3 177.8,132.9 177.0,130.5 176.4,128.0 176.1,125.5 176.1,123.0 176.3,120.6 176.7,118.2 177.4,116.0 178.3,113.8 179.4,111.8 180.6,110.0 182.1,108.3 183.6,106.8 185.3,105.5 187.1,104.4 188.9,103.5 190.8,102.8 192.8,102.3 194.7,102.1 196.6,102.0 198.4,102.1 200.2,102.5 201.9,103.0 203.6,103.6 205.1,104.4 206.4,105.4 207.7,106.4 208.8,107.6 209.7,108.8 210.5,110.1 211.2,111.5 211.6,112.8 212.0,114.2 212.1,115.6 212.1,116.9 212.0,118.2 211.7,119.4 211.3,120.6 210.8,121.6 210.3,122.6 209.6,123.5 208.8,124.3 208.0,124.9 207.2,125.5 206.3,125.9 205.4,126.2 204.6,126.4 203.7,126.5 202.9,126.5 202.1,126.4" fill="none" stroke="#6b4524" stroke-width="3"/>
+    <polyline points="284.0,120.0 283.2,128.4 281.6,136.6 279.1,144.6 275.9,152.3 271.9,159.5 267.3,166.3 262.0,172.6 256.1,178.3 249.8,183.3 242.9,187.7 235.8,191.3 228.3,194.2 220.6,196.2 212.8,197.5 204.9,198.0 197.1,197.8 189.3,196.7 181.8,194.9 174.5,192.3 167.5,189.0 161.0,185.1 154.9,180.5 149.3,175.4 144.3,169.8 139.9,163.7 136.1,157.2 133.0,150.5 130.7,143.5 129.1,136.3 128.2,129.1 128.0,121.8 128.6,114.6 129.9,107.5 131.8,100.7 134.5,94.1 137.8,87.8 141.6,81.9 146.0,76.5 151.0,71.6 156.3,67.2 162.0,63.4 168.1,60.2 174.4,57.7 180.9,55.8 187.5,54.6 194.2,54.0 200.8,54.2 207.4,55.0 213.8,56.4 220.0,58.5 225.9,61.2 231.5,64.4 236.7,68.1 241.5,72.4 245.7,77.0 249.5,82.1 252.7,87.5 255.4,93.1 257.5,98.9 258.9,104.9 259.7,110.9 260.0,117.0 259.6,123.0 258.6,128.9 257.0,134.6 254.9,140.2 252.3,145.4 249.1,150.3 245.5,154.9 241.5,159.0 237.1,162.7 232.4,165.9 227.5,168.5 222.3,170.7 217.0,172.3 211.6,173.4 206.1,173.9 200.7,173.9 195.3,173.3 190.1,172.1 185.0,170.5 180.1,168.4 175.6,165.8 171.3,162.8 167.4,159.4 163.9,155.7 160.8,151.6 158.1,147.3 155.9,142.8 154.2,138.1 153.0,133.3 152.3,128.5 152.1,123.6 152.3,118.8 153.1,114.1 154.3,109.5 155.9,105.1 158.0,100.9 160.5,97.0 163.3,93.3 166.5,90.0 169.9,87.1 173.6,84.6 177.5,82.4 181.5,80.7 185.7,79.4 189.9,78.6 194.2,78.1 198.4,78.1 202.6,78.6 206.7,79.4 210.6,80.7 214.4,82.3 217.9,84.3 221.2,86.6 224.2,89.2 226.9,92.1 229.3,95.1 231.3,98.4 233.0,101.9 234.3,105.4 235.2,109.1 235.7,112.7 235.9,116.4 235.7,120.0 235.1,123.5 234.2,127.0 233.0,130.3 231.4,133.4 229.6,136.3 227.5,138.9 225.2,141.3 222.6,143.5 219.9,145.3 217.1,146.9 214.1,148.1 211.1,149.0 208.0,149.6 204.9,149.9 201.9,149.8 198.9,149.5 196.0,148.9 193.2,147.9 190.6,146.7 188.1,145.3 185.8,143.7 183.7,141.8 181.9,139.8 180.3,137.6 178.9,135.3 177.8,132.9 177.0,130.5 176.4,128.0 176.1,125.5 176.1,123.0 176.3,120.6 176.7,118.2 177.4,116.0 178.3,113.8 179.4,111.8 180.6,110.0 182.1,108.3 183.6,106.8 185.3,105.5 187.1,104.4 188.9,103.5 190.8,102.8 192.8,102.3 194.7,102.1 196.6,102.0 198.4,102.1 200.2,102.5 201.9,103.0 203.6,103.6 205.1,104.4 206.4,105.4 207.7,106.4 208.8,107.6 209.7,108.8 210.5,110.1 211.2,111.5 211.6,112.8 212.0,114.2 212.1,115.6 212.1,116.9 212.0,118.2 211.7,119.4 211.3,120.6 210.8,121.6 210.3,122.6 209.6,123.5 208.8,124.3 208.0,124.9 207.2,125.5 206.3,125.9 205.4,126.2 204.6,126.4 203.7,126.5 202.9,126.5 202.1,126.4" fill="none" stroke="#f0d2a8" stroke-width="1" opacity="0.6"/>
+  </g></g>
+  <text x="380" y="342" text-anchor="middle" class="t-titulo" font-size="16" fill="#0b4f5c">Ciclo de transmissão</text>
+  <text x="380" y="364" text-anchor="middle" font-size="13" fill="#566577" font-style="italic">Schistosoma mansoni</text>
+  <text x="380" y="384" text-anchor="middle" font-size="11.5" fill="#566577"><tspan x="380">hospedeiro: caramujo</tspan><tspan x="380" dy="14" font-style="italic">Biomphalaria</tspan></text>
+
+  <!-- 1 -->
+  <g filter="url(#ce-sombra)"><rect x="268" y="18" width="224" height="96" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="292" cy="44" r="14" fill="#13858a"/><text x="292" y="49" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">1</text>
+  <text x="314" y="49" class="t-titulo" font-size="13.5" fill="#0b4f5c">Ovos nas fezes</text>
+  <text x="284" y="74" font-size="11.5" fill="#1b2733"><tspan x="284">Sem esgoto, as <tspan font-weight="700">fezes</tspan> de</tspan><tspan x="284" dy="16">pessoa infectada, com ovos,</tspan><tspan x="284" dy="16">chegam a rios e lagoas.</tspan></text>
+
+  <!-- 2 -->
+  <g filter="url(#ce-sombra)"><rect x="524" y="196" width="224" height="112" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="548" cy="222" r="14" fill="#13858a"/><text x="548" y="227" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">2</text>
+  <text x="570" y="227" class="t-titulo" font-size="13.5" fill="#0b4f5c">Miracídio</text>
+  <text x="540" y="252" font-size="11.5" fill="#1b2733"><tspan x="540">Na água doce, o ovo libera o</tspan><tspan x="540" dy="16"><tspan font-weight="700">miracídio</tspan> (larva ciliada), que</tspan><tspan x="540" dy="16">nada e <tspan font-weight="700">penetra no caramujo</tspan></tspan><tspan x="540" dy="16"><tspan font-style="italic">Biomphalaria</tspan>.</tspan></text>
+
+  <!-- 3 -->
+  <g filter="url(#ce-sombra)"><rect x="440" y="458" width="236" height="96" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="464" cy="484" r="14" fill="#13858a"/><text x="464" y="489" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">3</text>
+  <text x="486" y="489" class="t-titulo" font-size="13.5" fill="#0b4f5c">Cercárias na água</text>
+  <text x="456" y="514" font-size="11.5" fill="#1b2733"><tspan x="456">No caramujo, multiplica-se e,</tspan><tspan x="456" dy="16">após 4 a 7 semanas, libera</tspan><tspan x="456" dy="16"><tspan font-weight="700">cercárias</tspan> — com luz e calor.</tspan></text>
+
+  <!-- 4 -->
+  <g filter="url(#ce-sombra)"><rect x="84" y="458" width="236" height="96" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="108" cy="484" r="14" fill="#13858a"/><text x="108" y="489" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">4</text>
+  <text x="130" y="489" class="t-titulo" font-size="13.5" fill="#0b4f5c">Entrada pela pele</text>
+  <text x="100" y="514" font-size="11.5" fill="#1b2733"><tspan x="100">As cercárias <tspan font-weight="700">penetram</tspan></tspan><tspan x="100" dy="16"><tspan font-weight="700">ativamente na pele</tspan> ou mucosas</tspan><tspan x="100" dy="16">de quem entra na água.</tspan></text>
+
+  <!-- 5 -->
+  <g filter="url(#ce-sombra)"><rect x="12" y="140" width="232" height="140" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="36" cy="166" r="14" fill="#13858a"/><text x="36" y="171" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">5</text>
+  <text x="58" y="171" class="t-titulo" font-size="13.5" fill="#0b4f5c">Vermes adultos</text>
+  <text x="28" y="196" font-size="11.5" fill="#1b2733"><tspan x="28">Viram esquistossômulos, vão</tspan><tspan x="28" dy="16">pelo sangue ao fígado e viram</tspan><tspan x="28" dy="16"><tspan font-weight="700">vermes adultos</tspan> nas veias do</tspan><tspan x="28" dy="16">intestino. A fêmea põe ovos</tspan><tspan x="28" dy="16">— e o ciclo recomeça.</tspan></text>
+</svg>

@@ -417,3 +417,4 @@ table.tabela.tres th:nth-child(3) { background: var(--coral-escuro); }
 table.criadouros td:first-child { text-align: center; color: #fff; background: var(--coral) !important; font: 700 9pt 'Poppins'; }
 .abertura.terra { background: radial-gradient(120% 90% at 85% 10%, #c98a4a 0%, #8a4a2a 38%, #3d1f14 100%); }
 .fluxo-4 .passo-h span { font-size: 8.4pt; }
+.gabarito-tira.g8 { grid-template-columns: repeat(8, 1fr); }
