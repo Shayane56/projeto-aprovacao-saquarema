@@ -400,3 +400,18 @@ table.grupos tr.g-d td:first-child { color: #fff; background: var(--coral-escuro
 .selo-vacina { position: absolute; right: 3mm; top: 2.6mm; font: 700 7.2pt 'Poppins'; letter-spacing: 0.08em; text-transform: uppercase; background: var(--teal-claro); color: var(--petroleo); padding: 0.6mm 2.2mm; border-radius: 2mm; }
 .selo-vacina.verde { background: var(--verde-claro); color: var(--verde-escuro); }
 .chips-abertura.baixo { top: 216mm; }
+table.tabela.tres th:nth-child(3) { background: var(--coral-escuro); }
+
+/* ---------- Dengue: fórmulas e semáforo ---------- */
+.formulas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 2mm 0; }
+.formula { background: var(--teal-claro); border-radius: 3mm; padding: 2.8mm 3mm; border-top: 1.2mm solid var(--teal); }
+.formula b { display: block; font: 700 9.4pt 'Poppins'; color: var(--petroleo); margin-bottom: 1.2mm; line-height: 1.25; }
+.formula .conta { display: block; font: 600 8.6pt 'Inter'; background: #fff; border-radius: 2mm; padding: 1.4mm 2mm; margin-bottom: 1.2mm; color: var(--tinta); }
+.formula .conta i { font-style: normal; color: var(--teal); }
+.formula span:last-child { display: block; font-size: 8.4pt; line-height: 1.38; }
+.semaforo { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; border-radius: 3mm; overflow: hidden; margin: 1.6mm 0 2mm; }
+.semaforo > div { padding: 2.6mm 3mm; text-align: center; color: #fff; }
+.semaforo b { display: block; font: 800 15pt 'Poppins'; line-height: 1.1; }
+.semaforo span { font: 600 8.6pt 'Poppins'; letter-spacing: 0.06em; text-transform: uppercase; }
+.semaforo .verde { background: var(--verde); } .semaforo .ambar { background: var(--ambar-escuro); } .semaforo .coral { background: var(--coral); }
+table.criadouros td:first-child { text-align: center; color: #fff; background: var(--coral) !important; font: 700 9pt 'Poppins'; }
