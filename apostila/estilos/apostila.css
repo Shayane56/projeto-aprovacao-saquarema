@@ -415,3 +415,5 @@ table.tabela.tres th:nth-child(3) { background: var(--coral-escuro); }
 .semaforo span { font: 600 8.6pt 'Poppins'; letter-spacing: 0.06em; text-transform: uppercase; }
 .semaforo .verde { background: var(--verde); } .semaforo .ambar { background: var(--ambar-escuro); } .semaforo .coral { background: var(--coral); }
 table.criadouros td:first-child { text-align: center; color: #fff; background: var(--coral) !important; font: 700 9pt 'Poppins'; }
+.abertura.terra { background: radial-gradient(120% 90% at 85% 10%, #c98a4a 0%, #8a4a2a 38%, #3d1f14 100%); }
+.fluxo-4 .passo-h span { font-size: 8.4pt; }

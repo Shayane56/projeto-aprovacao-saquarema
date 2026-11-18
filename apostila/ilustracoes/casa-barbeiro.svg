@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" role="img" aria-label="Casa de pau a pique e quintal com os esconderijos do barbeiro numerados">
+  <defs>
+    <linearGradient id="cb-ceu" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff1d9"/><stop offset="100%" stop-color="#fffaf1"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="760" height="440" rx="18" fill="url(#cb-ceu)"/>
+  <rect x="0" y="320" width="760" height="120" fill="#e6cfa0"/>
+  <path d="M0 320 h760" stroke="#c9a86a" stroke-width="3"/>
+  <!-- casa de pau a pique -->
+  <rect x="200" y="160" width="290" height="160" fill="#c99a68" stroke="#8a6232" stroke-width="2.5"/>
+  <g stroke="#8a6232" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M220 190 l 14 10 l -6 14 l 12 8"/><path d="M300 240 l 10 -12 l 14 4"/><path d="M430 200 l -12 14 l 6 12"/><path d="M250 280 l 18 -6 l 6 14"/><path d="M440 290 l -16 -4"/>
+  </g>
+  <g fill="#6b4524"><ellipse cx="240" cy="206" rx="6" ry="3"/><ellipse cx="318" cy="236" rx="5" ry="3"/><ellipse cx="424" cy="214" rx="5" ry="3"/></g>
+  <!-- telhado de palha -->
+  <path d="M180 166 L 345 86 L 510 166 Z" fill="#d9b45a" stroke="#a8822e" stroke-width="2.5" stroke-linejoin="round"/>
+  <g stroke="#b08a34" stroke-width="1.5"><path d="M210 158 L 260 128 M240 162 L 300 120 M290 164 L 345 96 M400 164 L 345 96 M450 162 L 390 120 M480 158 L 430 128"/></g>
+  <!-- porta e janela -->
+  <rect x="320" y="226" width="50" height="94" fill="#7a5230"/>
+  <rect x="400" y="200" width="48" height="40" fill="#5b4636" stroke="#7a5230" stroke-width="3"/>
+  <!-- quadro na parede -->
+  <rect x="236" y="230" width="40" height="30" fill="#f4e3c3" stroke="#7a5230" stroke-width="3"/>
+  <!-- galinheiro -->
+  <g transform="translate(560 230)">
+    <rect x="0" y="20" width="120" height="70" fill="#d8b98a" stroke="#8a6232" stroke-width="2.5"/>
+    <path d="M-8 24 L 60 -8 L 128 24 Z" fill="#a8822e"/>
+    <g stroke="#8a6232" stroke-width="1.5"><path d="M14 26 v62 M28 26 v62 M42 26 v62 M56 26 v62 M70 26 v62 M84 26 v62 M98 26 v62"/></g>
+    <ellipse cx="46" cy="76" rx="15" ry="10" fill="#fff" stroke="#c9b08a"/><circle cx="60" cy="66" r="6" fill="#fff" stroke="#c9b08a"/><path d="M65 66 l 6 2 l -6 2 z" fill="#f0a12f"/>
+  </g>
+  <!-- amontoado de telhas, tijolos e lenha -->
+  <g transform="translate(70 300)">
+    <rect x="0" y="0" width="34" height="16" fill="#b5523f" stroke="#7a3428"/><rect x="34" y="0" width="34" height="16" fill="#b5523f" stroke="#7a3428"/><rect x="17" y="-16" width="34" height="16" fill="#c0634e" stroke="#7a3428"/>
+    <g fill="#8a5a33" stroke="#5e3b20"><rect x="76" y="-6" width="60" height="10" rx="5"/><rect x="80" y="4" width="60" height="10" rx="5"/><rect x="86" y="-16" width="56" height="10" rx="5"/></g>
+  </g>
+  <!-- paiol / depósito -->
+  <g transform="translate(40 190)">
+    <rect x="0" y="20" width="100" height="70" fill="#b89268" stroke="#7a5230" stroke-width="2"/>
+    <path d="M-6 24 L 50 -4 L 106 24 Z" fill="#9a7a4a"/>
+    <g fill="#e8c46a"><ellipse cx="30" cy="70" rx="8" ry="14"/><ellipse cx="50" cy="72" rx="8" ry="14"/><ellipse cx="70" cy="70" rx="8" ry="14"/></g>
+  </g>
+  <!-- barbeiros pequenos -->
+  <g fill="#3a2618"><ellipse cx="262" cy="212" rx="7" ry="3"/><ellipse cx="380" cy="132" rx="7" ry="3"/><ellipse cx="282" cy="262" rx="6" ry="3"/><ellipse cx="640" cy="262" rx="6" ry="3"/><ellipse cx="128" cy="292" rx="6" ry="3"/></g>
+  <g fill="#e8742c"><ellipse cx="262" cy="212" rx="3" ry="1.4"/><ellipse cx="380" cy="132" rx="3" ry="1.4"/><ellipse cx="282" cy="262" rx="3" ry="1.4"/><ellipse cx="640" cy="262" rx="3" ry="1.4"/><ellipse cx="128" cy="292" rx="3" ry="1.4"/></g>
+  <!-- números -->
+  <g text-anchor="middle" fill="#fff">
+    <circle cx="214" cy="182" r="13" fill="#e0533d"/><text x="214" y="187" class="t-titulo" font-size="13">1</text>
+    <circle cx="380" cy="110" r="13" fill="#e0533d"/><text x="380" y="115" class="t-titulo" font-size="13">2</text>
+    <circle cx="256" cy="282" r="13" fill="#e0533d"/><text x="256" y="287" class="t-titulo" font-size="13">3</text>
+    <circle cx="694" cy="226" r="13" fill="#e0533d"/><text x="694" y="231" class="t-titulo" font-size="13">4</text>
+    <circle cx="176" cy="296" r="13" fill="#e0533d"/><text x="176" y="301" class="t-titulo" font-size="13">5</text>
+    <circle cx="150" cy="196" r="13" fill="#e0533d"/><text x="150" y="201" class="t-titulo" font-size="13">6</text>
+  </g>
+  <!-- legenda -->
+  <rect x="16" y="334" width="728" height="92" rx="12" fill="#fff" opacity="0.96"/>
+  <g font-size="11.5" fill="#1b2733">
+    <text x="30" y="358"><tspan font-weight="700" fill="#e0533d">1</tspan> Frestas e rachaduras de paredes sem reboco</text>
+    <text x="30" y="382"><tspan font-weight="700" fill="#e0533d">2</tspan> Telhado de palha ou sapé</text>
+    <text x="30" y="406"><tspan font-weight="700" fill="#e0533d">3</tspan> Atrás de quadros, móveis, camas e colchões</text>
+    <text x="400" y="358"><tspan font-weight="700" fill="#e0533d">4</tspan> Galinheiros, chiqueiros e currais</text>
+    <text x="400" y="382"><tspan font-weight="700" fill="#e0533d">5</tspan> Amontoados de telhas, tijolos e lenha</text>
+    <text x="400" y="406"><tspan font-weight="700" fill="#e0533d">6</tspan> Paióis e depósitos</text>
+  </g>
+  <text x="744" y="40" text-anchor="end" class="t-titulo" font-size="14" fill="#7a3428">Onde o barbeiro se esconde de dia</text>
+</svg>

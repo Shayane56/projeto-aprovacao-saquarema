@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-label="Fase aguda com o sinal de Romaña e fase crônica com coração e órgãos digestivos aumentados">
+  <defs>
+    <linearGradient id="fc-pele" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f3e3d3"/><stop offset="100%" stop-color="#e8cfb8"/></linearGradient>
+    <filter id="fc-sombra" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/></filter>
+  </defs>
+  <!-- painel aguda -->
+  <rect x="8" y="8" width="300" height="364" rx="18" fill="#fff8ec" stroke="#f0c88a" stroke-width="2"/>
+  <text x="158" y="40" text-anchor="middle" class="t-titulo" font-size="15" fill="#b86e00">FASE AGUDA</text>
+  <text x="158" y="58" text-anchor="middle" font-size="11.5" fill="#566577">logo após a infecção · muitas vezes leve</text>
+  <ellipse cx="158" cy="170" rx="74" ry="88" fill="url(#fc-pele)" stroke="#c9a88a" stroke-width="2.5"/>
+  <path d="M86 150 C 86 92, 120 74, 158 74 C 200 74, 232 94, 230 150 C 214 116, 190 104, 158 104 C 124 104, 100 118, 86 150 Z" fill="#5b4636"/>
+  <!-- olho normal -->
+  <ellipse cx="190" cy="164" rx="11" ry="7" fill="#fff" stroke="#8a6a54"/><circle cx="190" cy="164" r="4" fill="#3b2a1c"/>
+  <path d="M176 150 c 8 -5, 20 -5, 28 0" stroke="#5b4636" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- olho com Romaña -->
+  <ellipse cx="126" cy="164" rx="24" ry="20" fill="#d89aa6" opacity="0.9"/>
+  <ellipse cx="126" cy="166" rx="18" ry="14" fill="#c9788a"/>
+  <path d="M112 168 c 8 3, 20 3, 28 0" stroke="#7a3d4a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M152 200 c 4 8, 8 8, 12 0" stroke="#b9775c" stroke-width="2" fill="none"/>
+  <path d="M138 226 c 12 8, 28 8, 40 0" stroke="#b5604a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="50" y="222" text-anchor="middle" font-size="11" font-weight="700" fill="#b8331f">Romaña</text>
+  <path d="M58 210 L 108 176" stroke="#b8331f" stroke-width="2"/>
+  <g filter="url(#fc-sombra)"><rect x="20" y="276" width="276" height="86" rx="12" fill="#fff" stroke="#b9dfdc"/></g>
+  <text font-size="11.5" fill="#1b2733"><tspan x="32" y="296" font-weight="700" fill="#b8331f">Sinal de Romaña</tspan><tspan x="32" dy="15">inchaço das pálpebras de <tspan font-weight="700">um olho só</tspan>,</tspan><tspan x="32" dy="15">indolor — porta de entrada pelo olho.</tspan><tspan x="32" dy="17">Febre prolongada, mal-estar, fígado e</tspan><tspan x="32" dy="15">baço aumentados, inchaço no corpo.</tspan></text>
+  <!-- painel crônica -->
+  <rect x="320" y="8" width="432" height="364" rx="18" fill="#fdebe7" stroke="#f1b3a7" stroke-width="2"/>
+  <text x="536" y="40" text-anchor="middle" class="t-titulo" font-size="15" fill="#b8331f">FASE CRÔNICA</text>
+  <text x="536" y="58" text-anchor="middle" font-size="11.5" fill="#566577">anos ou décadas depois</text>
+  <!-- tronco -->
+  <path d="M410 90 C 440 76, 520 76, 548 90 C 570 102, 574 140, 570 190 C 566 250, 560 300, 548 346 L 410 346 C 398 300, 392 250, 388 190 C 384 140, 388 102, 410 90 Z" fill="url(#fc-pele)" stroke="#c9a88a" stroke-width="2.5"/>
+  <!-- esôfago dilatado -->
+  <path d="M470 70 C 468 110, 452 130, 456 170 C 460 196, 476 200, 484 186 C 492 160, 480 130, 484 70 Z" fill="#e3a07a" stroke="#b36a44" stroke-width="2"/>
+  <!-- coração aumentado -->
+  <path d="M500 150 C 486 128, 452 134, 456 164 C 460 196, 500 220, 516 236 C 534 220, 568 196, 570 166 C 572 136, 536 130, 522 150 C 516 158, 506 158, 500 150 Z" fill="#d0574a" stroke="#9a3a30" stroke-width="2"/>
+  <!-- cólon dilatado -->
+  <path d="M420 300 C 410 268, 430 252, 470 254 C 510 256, 540 252, 548 272 C 556 296, 540 320, 520 326 C 500 332, 470 320, 460 336" fill="none" stroke="#c98a4a" stroke-width="22" stroke-linecap="round" opacity="0.92"/>
+  <g fill="none" stroke="#13858a" stroke-width="2">
+    <polyline points="476,110 600,96 612,96"/>
+    <polyline points="548,180 600,186 612,186"/>
+    <polyline points="540,300 600,290 612,290"/>
+  </g>
+  <g fill="#13858a"><circle cx="476" cy="110" r="4"/><circle cx="548" cy="180" r="4"/><circle cx="540" cy="300" r="4"/></g>
+  <g filter="url(#fc-sombra)" fill="#fff" stroke="#b9dfdc">
+    <rect x="612" y="70" width="132" height="54" rx="10"/>
+    <rect x="612" y="156" width="132" height="62" rx="10"/>
+    <rect x="612" y="262" width="132" height="54" rx="10"/>
+  </g>
+  <text font-size="11.5" fill="#1b2733"><tspan x="622" y="92" font-weight="700" fill="#0b4f5c">Megaesôfago</tspan><tspan x="622" dy="15">dificuldade de engolir</tspan></text>
+  <text font-size="11.5" fill="#1b2733"><tspan x="622" y="178" font-weight="700" fill="#b8331f">Coração aumentado</tspan><tspan x="622" dy="15">forma cardíaca:</tspan><tspan x="622" dy="15">a mais grave</tspan></text>
+  <text font-size="11.5" fill="#1b2733"><tspan x="622" y="284" font-weight="700" fill="#0b4f5c">Megacólon</tspan><tspan x="622" dy="15">intestino preso</tspan></text>
+  <rect x="332" y="330" width="80" height="0"/>
+  <text x="340" y="362" font-size="11" fill="#1b2733"><tspan font-weight="700" fill="#0b4f5c">A maioria</tspan> fica na forma indeterminada: infectada, mas sem sintomas.</text>
+</svg>

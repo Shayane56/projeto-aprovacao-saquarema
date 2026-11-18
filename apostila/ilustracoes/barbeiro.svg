@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img" aria-label="Ilustração de um barbeiro (triatomíneo) visto de cima, com cabeça alongada e borda do abdome listrada">
+  <circle cx="200" cy="160" r="150" fill="#ffffff" opacity="0.88"/>
+  <g transform="translate(16 0)"><g class="barbeiro">
+    <defs><clipPath id="bb-borda"><ellipse cx="258" cy="160" rx="112" ry="64"/></clipPath></defs>
+    <g stroke="#2a1c14" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="130,140 112,96 74,80"/><polyline points="130,180 112,224 74,240"/>
+      <polyline points="168,134 166,78 140,52"/><polyline points="168,186 166,242 140,268"/>
+      <polyline points="210,108 236,60 230,30"/><polyline points="210,212 236,260 230,290"/>
+    </g>
+    <ellipse cx="258" cy="160" rx="112" ry="64" fill="#e8742c"/>
+    <g clip-path="url(#bb-borda)"><rect x="176" y="90" width="10" height="140" fill="#2a1c14"/><rect x="200" y="90" width="10" height="140" fill="#2a1c14"/><rect x="224" y="90" width="10" height="140" fill="#2a1c14"/><rect x="248" y="90" width="10" height="140" fill="#2a1c14"/><rect x="272" y="90" width="10" height="140" fill="#2a1c14"/><rect x="296" y="90" width="10" height="140" fill="#2a1c14"/><rect x="320" y="90" width="10" height="140" fill="#2a1c14"/><rect x="344" y="90" width="10" height="140" fill="#2a1c14"/></g>
+    <ellipse cx="258" cy="160" rx="96" ry="50" fill="#3a2618"/>
+    <path d="M166 160 C 190 116, 268 104, 340 122 C 352 140, 352 180, 340 198 C 268 216, 190 204, 166 160 Z" fill="#4a3220"/>
+    <path d="M190 160 L 330 128 M190 160 L 330 192" stroke="#2a1c14" stroke-width="2.5"/>
+    <path d="M200 160 L 352 160" stroke="#2a1c14" stroke-width="2"/>
+    <path d="M150 160 L 182 138 L 182 182 Z" fill="#2a1c14"/>
+    <path d="M110 140 L 160 112 L 170 112 L 172 208 L 160 208 L 110 180 Z" fill="#3a2618" stroke="#2a1c14" stroke-width="2"/>
+    <path d="M122 140 L 160 122 M122 180 L 160 198" stroke="#e8742c" stroke-width="3"/>
+    <path d="M112 150 C 90 150, 60 154, 38 160 C 60 166, 90 170, 112 170 Z" fill="#3a2618" stroke="#2a1c14" stroke-width="2"/>
+    <ellipse cx="94" cy="148" rx="7" ry="5" fill="#120a06"/><ellipse cx="94" cy="172" rx="7" ry="5" fill="#120a06"/>
+    <g stroke="#2a1c14" stroke-width="3" fill="none" stroke-linecap="round"><path d="M66 156 C 50 140, 34 128, 14 122"/><path d="M66 164 C 50 180, 34 192, 14 198"/></g>
+  </g></g>
+</svg>

@@ -33,7 +33,8 @@ da página: nesse caso, lista as páginas no final e termina com código 2.
 - Capítulo 1 (Leishmanioses — edital 8.1): `10-…` a `15-…` (o `15` é a página de fontes com links)
 - Capítulo 2 (Cólera — edital 8.2): `20-…` a `24-…` (o `24` é a página de fontes com links)
 - Capítulo 3 (Dengue — edital 8.3): `30-…` a `34-…` (o `34` é a página de fontes com links)
-- Próximos capítulos: `40-…`, `50-…`, e assim por diante, na ordem do edital.
+- Capítulo 4 (Doença de Chagas — edital 8.4): `40-…` a `44-…`
+- Próximos capítulos: `50-…`, `60-…`, e assim por diante, na ordem do edital.
 
 ## Convenções
 
