@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="Ciclo de vida do Aedes aegypti: ovo, larva, pupa e adulto, com as fases imaturas na água">
+  <defs>
+    <linearGradient id="ca-agua" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#cfeefa"/><stop offset="100%" stop-color="#7cc6e6"/></linearGradient>
+    <marker id="ca-seta" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#f0a12f"/></marker>
+  </defs>
+  <rect x="8" y="8" width="744" height="314" rx="18" fill="#f7fbfc" stroke="#bfe3f2" stroke-width="2"/>
+  <!-- recipiente (corte) -->
+  <path d="M40 92 L 40 270 C 40 286, 52 296, 68 296 L 524 296 C 540 296, 552 286, 552 270 L 552 92" fill="none" stroke="#8aa3a8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M43 150 L 549 150 L 549 270 C 549 284, 540 293, 526 293 L 66 293 C 52 293, 43 284, 43 270 Z" fill="url(#ca-agua)"/>
+  <path d="M43 150 c 30 -6, 60 6, 90 0 c 30 -6, 60 6, 90 0 c 30 -6, 60 6, 90 0 c 30 -6, 60 6, 90 0 c 30 -6, 60 6, 90 0 c 30 -6, 46 4, 66 0" fill="none" stroke="#4fa8cc" stroke-width="2"/>
+  <!-- OVOS na parede, logo acima da água -->
+  <g fill="#1b2733"><ellipse cx="52" cy="124" rx="2.4" ry="6"/><ellipse cx="52" cy="108" rx="2.4" ry="6"/><ellipse cx="52" cy="138" rx="2.4" ry="6"/><ellipse cx="540" cy="118" rx="2.4" ry="6"/><ellipse cx="540" cy="134" rx="2.4" ry="6"/></g>
+  <g fill="none" stroke="#13858a" stroke-width="2"><polyline points="58,124 96,70 110,70"/></g>
+  <circle cx="58" cy="124" r="3.5" fill="#13858a"/>
+  <!-- LARVA pendurada na superfície -->
+  <g transform="translate(180 152)">
+    <path d="M0 0 l 4 10" stroke="#2b3a44" stroke-width="3" stroke-linecap="round"/>
+    <path d="M4 10 C 10 30, 0 46, 6 66 C 9 78, 4 86, 0 92" fill="none" stroke="#2b3a44" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="0" cy="96" r="7" fill="#2b3a44"/>
+    <g stroke="#2b3a44" stroke-width="1.4"><path d="M6 24 l 8 -3 M2 40 l -8 -2 M8 56 l 8 -2 M3 72 l -8 2"/></g>
+  </g>
+  <g transform="translate(232 152)">
+    <path d="M0 0 l 3 10" stroke="#2b3a44" stroke-width="3" stroke-linecap="round"/>
+    <path d="M3 10 C 0 30, 10 44, 4 64 C 2 74, 6 82, 8 88" fill="none" stroke="#2b3a44" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="8" cy="92" r="7" fill="#2b3a44"/>
+  </g>
+  <!-- PUPA em vírgula -->
+  <g transform="translate(330 156)">
+    <path d="M0 18 C 0 2, 22 -2, 30 10 C 38 22, 30 36, 18 38 C 18 52, 10 62, 2 66 C 8 54, 6 44, 2 36 C -2 30, 0 24, 0 18 Z" fill="#2b3a44"/>
+    <path d="M14 0 l 2 -6 M22 2 l 4 -6" stroke="#2b3a44" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <!-- ADULTO emergindo -->
+  <g transform="translate(392 56) scale(0.38)">
+    <path d="M180 126 C 232 96, 304 100, 346 124 C 306 134, 234 138, 182 136 Z" fill="#e3f0f4" stroke="#9fb0b5" stroke-width="3"/>
+    <path d="M192 138 C 240 136, 300 156, 338 184 C 344 190, 338 198, 328 196 C 290 190, 232 176, 194 168 Z" fill="#1f2b36"/>
+    <ellipse cx="166" cy="146" rx="32" ry="27" fill="#22303c"/>
+    <g fill="none" stroke="#fff" stroke-width="4"><path d="M152 128 C 142 140, 146 156, 156 164"/><path d="M180 128 C 190 140, 186 156, 176 164"/></g>
+    <circle cx="122" cy="148" r="16" fill="#22303c"/>
+    <path d="M108 156 L 42 198" stroke="#1b2733" stroke-width="5" stroke-linecap="round"/>
+    <g fill="none" stroke-linecap="round"><polyline points="150,166 118,210 90,266" stroke="#1b2733" stroke-width="6"/><polyline points="166,170 172,222 162,282" stroke="#1b2733" stroke-width="6"/><polyline points="150,166 118,210 90,266" stroke="#fff" stroke-width="6" stroke-dasharray="6 10"/><polyline points="166,170 172,222 162,282" stroke="#fff" stroke-width="6" stroke-dasharray="6 10"/></g>
+  </g>
+  <!-- setas entre as fases -->
+  <g stroke="#f0a12f" stroke-width="3.5" fill="none" marker-end="url(#ca-seta)">
+    <path d="M70 182 C 110 190, 140 200, 168 220"/>
+    <path d="M260 214 C 290 206, 306 200, 322 196"/>
+    <path d="M372 170 C 400 150, 420 136, 440 128"/>
+  </g>
+  <!-- rótulos -->
+  <g font-size="12" fill="#1b2733">
+    <rect x="110" y="44" width="150" height="52" rx="10" fill="#fff" stroke="#b9dfdc"/>
+    <text x="122" y="66" font-weight="700" fill="#0b4f5c">1. Ovo</text><text x="122" y="83">na parede, acima da água</text>
+    <rect x="150" y="248" width="120" height="40" rx="10" fill="#fff" stroke="#b9dfdc"/>
+    <text x="162" y="265" font-weight="700" fill="#0b4f5c">2. Larva</text><text x="162" y="280">vive na água</text>
+    <rect x="300" y="248" width="124" height="40" rx="10" fill="#fff" stroke="#b9dfdc"/>
+    <text x="312" y="265" font-weight="700" fill="#0b4f5c">3. Pupa</text><text x="312" y="280">não se alimenta</text>
+    <rect x="440" y="196" width="100" height="40" rx="10" fill="#fff" stroke="#b9dfdc"/>
+    <text x="452" y="213" font-weight="700" fill="#0b4f5c">4. Adulto</text><text x="452" y="228">sai voando</text>
+  </g>
+  <!-- painel lateral -->
+  <rect x="572" y="24" width="164" height="282" rx="14" fill="#0b4f5c"/>
+  <text x="586" y="52" class="t-titulo" font-size="13" fill="#ffd38a">O que saber</text>
+  <g font-size="11.2" fill="#ffffff">
+    <text x="586" y="78"><tspan font-weight="700">Ovo seco resiste</tspan></text><text x="586" y="93">mais de 1 ano (até</text><text x="586" y="108">~450 dias) e eclode</text><text x="586" y="123">quando a água volta.</text>
+    <text x="586" y="150"><tspan font-weight="700">Larva</tspan> respira na</text><text x="586" y="165">superfície e come</text><text x="586" y="180">matéria orgânica.</text>
+    <text x="586" y="207"><tspan font-weight="700">Ovo → adulto:</tspan> cerca</text><text x="586" y="222">de 10 dias no calor.</text>
+    <text x="586" y="249"><tspan font-weight="700">Prefere</tspan> água parada,</text><text x="586" y="264">limpa e na sombra,</text><text x="586" y="279">em recipientes.</text>
+  </g>
+</svg>

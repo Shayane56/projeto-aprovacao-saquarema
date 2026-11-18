@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="As três fases da dengue ao longo dos dias: febril, crítica e de recuperação">
+  <defs>
+    <linearGradient id="fd-curva" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#e0533d"/><stop offset="45%" stop-color="#f0a12f"/><stop offset="100%" stop-color="#2a9a68"/></linearGradient>
+  </defs>
+  <rect x="8" y="8" width="744" height="284" rx="18" fill="#fff" stroke="#b9dfdc" stroke-width="2"/>
+  <!-- faixas das fases -->
+  <rect x="70" y="40" width="250" height="170" fill="#fdebe7"/>
+  <rect x="320" y="40" width="210" height="170" fill="#fff3df"/>
+  <rect x="530" y="40" width="200" height="170" fill="#e6f5ee"/>
+  <text x="195" y="62" text-anchor="middle" class="t-titulo" font-size="13.5" fill="#b8331f">FASE FEBRIL</text>
+  <text x="425" y="62" text-anchor="middle" class="t-titulo" font-size="13.5" fill="#b86e00">FASE CRÍTICA</text>
+  <text x="630" y="62" text-anchor="middle" class="t-titulo" font-size="13.5" fill="#1d7650">RECUPERAÇÃO</text>
+  <!-- eixo -->
+  <line x1="70" y1="210" x2="730" y2="210" stroke="#566577" stroke-width="2"/>
+  <text x="730" y="228" text-anchor="end" font-size="11" fill="#566577">tempo de doença (esquema) →</text>
+  <text x="70" y="228" font-size="11" fill="#566577">início</text>
+  <!-- curva da febre -->
+  <path d="M70 120 C 90 84, 120 80, 160 84 C 210 88, 250 90, 280 100 C 310 112, 318 188, 352 194 C 420 198, 520 196, 730 194" fill="none" stroke="url(#fd-curva)" stroke-width="5" stroke-linecap="round"/>
+  <text x="96" y="104" font-size="11" fill="#b8331f" font-weight="700">febre alta (39–40 °C)</text>
+  <!-- alerta na defervescência -->
+  <g transform="translate(346 98)">
+    <path d="M0 -26 L 18 6 L -18 6 Z" fill="#e0533d"/>
+    <text x="0" y="2" text-anchor="middle" fill="#fff" class="t-titulo" font-size="15">!</text>
+  </g>
+  <text x="372" y="86" font-size="11" fill="#1b2733"><tspan x="370" font-weight="700" fill="#b8331f">Quando a febre cai</tspan><tspan x="370" dy="14">podem surgir os</tspan><tspan x="370" dy="14">sinais de alarme</tspan></text>
+  <!-- descrições -->
+  <g font-size="11" fill="#1b2733">
+    <text x="84" y="146"><tspan x="84">Dura 2 a 7 dias: dor de</tspan><tspan x="84" dy="14">cabeça, dor atrás dos olhos,</tspan><tspan x="84" dy="14">dores no corpo e juntas,</tspan><tspan x="84" dy="14">manchas vermelhas.</tspan></text>
+    <text x="334" y="140"><tspan x="334">Em geral do 3º ao 7º dia:</tspan><tspan x="334" dy="14">risco de <tspan font-weight="700">perda de plasma</tspan></tspan><tspan x="334" dy="14">dos vasos → choque.</tspan></text>
+    <text x="544" y="100"><tspan x="544">O líquido volta aos vasos;</tspan><tspan x="544" dy="14">melhora geral. Pode haver</tspan><tspan x="544" dy="14">coceira e cansaço.</tspan></text>
+  </g>
+  <!-- rodapé -->
+  <rect x="24" y="244" width="712" height="36" rx="10" fill="#0b4f5c"/>
+  <text x="380" y="267" text-anchor="middle" font-size="12" fill="#fff"><tspan font-weight="700" fill="#ffd38a">Pegadinha clássica:</tspan> o momento mais perigoso não é a febre alta, e sim <tspan font-weight="700">quando a febre baixa</tspan>.</text>
+</svg>

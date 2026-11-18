@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-label="Aedes aegypti com chamadas para as principais características">
+  <defs><filter id="aa-sombra" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/></filter></defs>
+  <ellipse cx="380" cy="352" rx="220" ry="10" fill="#0b4f5c" opacity="0.08"/>
+  <g transform="translate(100 -63) scale(1.45)"><g class="mosquito">
+    <path d="M180 126 C 232 96, 304 100, 346 124 C 306 134, 234 138, 182 136 Z" fill="#e3f0f4" fill-opacity="0.75" stroke="#9fb0b5" stroke-width="2"/>
+    <path d="M186 132 C 236 118, 296 120, 336 130" fill="none" stroke="#b9c8cc" stroke-width="1.2"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="150,166 118,210 90,266" stroke="#1b2733" stroke-width="5"/>
+      <polyline points="166,170 172,222 162,282" stroke="#1b2733" stroke-width="5"/>
+      <polyline points="184,164 238,196 290,168 336,146" stroke="#1b2733" stroke-width="5"/>
+      <polyline points="150,166 118,210 90,266" stroke="#ffffff" stroke-width="5" stroke-dasharray="5 9"/>
+      <polyline points="166,170 172,222 162,282" stroke="#ffffff" stroke-width="5" stroke-dasharray="5 9"/>
+      <polyline points="184,164 238,196 290,168 336,146" stroke="#ffffff" stroke-width="5" stroke-dasharray="5 9"/>
+    </g>
+    <path d="M192 138 C 240 136, 300 156, 338 184 C 344 190, 338 198, 328 196 C 290 190, 232 176, 194 168 Z" fill="#1f2b36" stroke="#0d151c" stroke-width="2"/>
+    <g stroke="#ffffff" stroke-width="3.2" stroke-linecap="round"><path d="M214 167 l 3 -6"/><path d="M238 172 l 3 -7"/><path d="M262 178 l 3 -7"/><path d="M286 184 l 3 -7"/><path d="M308 189 l 2 -6"/></g>
+    <ellipse cx="166" cy="146" rx="32" ry="27" fill="#22303c" stroke="#0d151c" stroke-width="2"/>
+    <g fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"><path d="M152 128 C 142 140, 146 156, 156 164"/><path d="M180 128 C 190 140, 186 156, 176 164"/><path d="M162 132 L 162 158"/><path d="M170 132 L 170 158"/></g>
+    <circle cx="122" cy="148" r="16" fill="#22303c" stroke="#0d151c" stroke-width="2"/>
+    <circle cx="116" cy="146" r="7" fill="#3b4a57"/><circle cx="114" cy="144" r="2" fill="#ffffff" opacity="0.8"/>
+    <path d="M108 156 L 42 198" stroke="#1b2733" stroke-width="4" stroke-linecap="round"/>
+    <path d="M110 152 L 76 168" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    <g fill="none" stroke="#1b2733" stroke-width="2.4" stroke-linecap="round"><path d="M112 138 C 96 122, 82 112, 64 106"/><path d="M116 136 C 106 116, 98 104, 86 92"/></g>
+  </g></g>
+  <g fill="none" stroke="#13858a" stroke-width="2">
+    <polyline points="341,140 300,48 250,48"/>
+    <polyline points="480,191 500,48 520,48"/>
+    <polyline points="201,198 120,200 100,200"/>
+    <polyline points="271,241 200,330 176,330"/>
+    <polyline points="578,215 600,262 616,262"/>
+  </g>
+  <g fill="#13858a"><circle cx="341" cy="140" r="4"/><circle cx="480" cy="191" r="4"/><circle cx="201" cy="198" r="4"/><circle cx="271" cy="241" r="4"/><circle cx="578" cy="215" r="4"/></g>
+  <g filter="url(#aa-sombra)" fill="#fff" stroke="#b9dfdc">
+    <rect x="40" y="18" width="210" height="60" rx="10"/>
+    <rect x="520" y="18" width="226" height="60" rx="10"/>
+    <rect x="14" y="170" width="86" height="60" rx="10"/>
+    <rect x="14" y="300" width="162" height="60" rx="10"/>
+    <rect x="616" y="232" width="132" height="60" rx="10"/>
+  </g>
+  <g filter="url(#aa-sombra)"><rect x="560" y="320" width="188" height="56" rx="12" fill="#fff8ec" stroke="#f0c88a"/></g>
+  <circle cx="586" cy="348" r="11" fill="#f0a12f"/>
+  <g stroke="#f0a12f" stroke-width="2.4" stroke-linecap="round"><path d="M586 330 v-4 M586 366 v4 M568 348 h-4 M604 348 h4"/></g>
+  <text font-size="12" fill="#1b2733"><tspan x="52" y="42" font-weight="700" fill="#0b4f5c">Desenho em “lira”</tspan><tspan x="52" dy="16">listras brancas no tórax</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="532" y="42" font-weight="700" fill="#0b4f5c">Escuro, com manchas brancas</tspan><tspan x="532" dy="16">no corpo e nas pernas</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="24" y="194" font-weight="700" fill="#b8331f">Só a</tspan><tspan x="24" dy="16">fêmea pica</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="26" y="324" font-weight="700" fill="#0b4f5c">Pernas listradas</tspan><tspan x="26" dy="16">anéis brancos</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="628" y="256" font-weight="700" fill="#0b4f5c">Pequeno</tspan><tspan x="628" dy="16">menos de 1 cm</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="606" y="344" font-weight="700" fill="#b86e00">Pica de dia</tspan><tspan x="606" dy="16">manhã e fim de tarde</tspan></text>
+</svg>
