@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-label="Gato com os principais sinais da esporotricose indicados por chamadas">
+  <defs><filter id="gs-sombra" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/></filter></defs>
+  <ellipse cx="380" cy="314" rx="140" ry="9" fill="#0b4f5c" opacity="0.08"/>
+  <g transform="translate(250 30)"><g class="gato">
+    <path d="M210 250 C 260 240, 300 200, 290 150 C 284 120, 300 96, 318 92" stroke="#c98a4a" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M90 250 C 70 200, 80 150, 120 130 C 160 112, 220 116, 240 150 C 260 186, 250 240, 220 256 Z" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <g stroke="#b8752e" stroke-width="5" opacity="0.6" stroke-linecap="round"><path d="M130 140 l -6 22"/><path d="M160 132 l -4 24"/><path d="M190 136 l 0 24"/></g>
+    <rect x="104" y="232" width="26" height="40" rx="12" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <rect x="180" y="232" width="26" height="40" rx="12" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <path d="M74 60 L 82 18 L 108 48 Z" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <path d="M150 48 L 170 14 L 182 58 Z" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <ellipse cx="126" cy="82" rx="58" ry="50" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <ellipse cx="104" cy="76" rx="8" ry="10" fill="#3b5a2e"/><ellipse cx="148" cy="76" rx="8" ry="10" fill="#3b5a2e"/>
+    <ellipse cx="104" cy="76" rx="3" ry="8" fill="#111"/><ellipse cx="148" cy="76" rx="3" ry="8" fill="#111"/>
+    <circle cx="126" cy="100" r="10" fill="#c9433a" opacity="0.95"/>
+    <circle cx="122" cy="98" r="4" fill="#e8806e"/>
+    <path d="M118 112 c 4 4, 12 4, 16 0" stroke="#7a3e22" stroke-width="2" fill="none"/>
+    <g stroke="#7a5230" stroke-width="1.5"><path d="M96 104 l -30 -4 M96 108 l -30 4 M156 104 l 30 -4 M156 108 l 30 4"/></g>
+    <circle cx="86" cy="40" r="5" fill="#c9433a" opacity="0.9"/>
+    <circle cx="118" cy="268" r="7" fill="#c9433a" opacity="0.9"/>
+    <circle cx="160" cy="180" r="9" fill="#c9433a" opacity="0.85"/><circle cx="176" cy="196" r="5" fill="#c9433a" opacity="0.8"/>
+  </g></g>
+  <g fill="none" stroke="#13858a" stroke-width="2">
+    <polyline points="376,130 300,60 230,60"/>
+    <polyline points="336,70 290,140 230,140"/>
+    <polyline points="410,210 520,90 530,90"/>
+    <polyline points="368,298 300,260 230,260"/>
+    <polyline points="440,240 520,230 530,230"/>
+  </g>
+  <g fill="#13858a"><circle cx="376" cy="130" r="4"/><circle cx="336" cy="70" r="4"/><circle cx="410" cy="210" r="4"/><circle cx="368" cy="298" r="4"/><circle cx="440" cy="240" r="4"/></g>
+  <g filter="url(#gs-sombra)" fill="#fff" stroke="#b9dfdc">
+    <rect x="16" y="30" width="214" height="62" rx="10"/>
+    <rect x="16" y="112" width="214" height="56" rx="10"/>
+    <rect x="530" y="60" width="216" height="62" rx="10"/>
+    <rect x="16" y="232" width="214" height="56" rx="10"/>
+    <rect x="530" y="200" width="216" height="62" rx="10"/>
+  </g>
+  <text font-size="12" fill="#1b2733"><tspan x="28" y="54" font-weight="700" fill="#b8331f">Ferida no nariz</tspan><tspan x="28" dy="16">o “nariz de palhaço”</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="28" y="134" font-weight="700" fill="#0b4f5c">Feridas na cabeça</tspan><tspan x="28" dy="16">e nas orelhas</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="542" y="84" font-weight="700" fill="#0b4f5c">Feridas que não cicatrizam</tspan><tspan x="542" dy="16">com pus, em qualquer parte</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="28" y="254" font-weight="700" fill="#0b4f5c">Feridas nas patas</tspan><tspan x="28" dy="16">espalhadas ao se lamber</tspan></text>
+  <text font-size="12" fill="#1b2733"><tspan x="542" y="224" font-weight="700" fill="#0b4f5c">Espirros e secreção</tspan><tspan x="542" dy="16">emagrecimento, apatia</tspan></text>
+  <g filter="url(#gs-sombra)"><rect x="250" y="300" width="0" height="0"/></g>
+</svg>

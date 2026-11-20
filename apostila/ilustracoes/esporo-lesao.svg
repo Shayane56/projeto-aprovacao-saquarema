@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 240" role="img" aria-label="Forma linfocutânea da esporotricose: ferida inicial na mão e nódulos em fila subindo pelo braço">
+  <defs><linearGradient id="el-pele" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f3e3d3"/><stop offset="100%" stop-color="#e8cfb8"/></linearGradient>
+  <filter id="el-sombra" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/></filter></defs>
+  <rect x="8" y="8" width="744" height="224" rx="18" fill="#fff" stroke="#b9dfdc" stroke-width="2"/>
+  <!-- braço deitado -->
+  <path d="M40 120 C 40 86, 80 70, 130 72 L 560 92 C 600 94, 620 110, 620 130 C 620 150, 600 166, 560 168 L 130 176 C 80 178, 40 160, 40 120 Z" fill="url(#el-pele)" stroke="#c9a88a" stroke-width="2.5"/>
+  <path d="M40 120 C 20 110, 14 96, 22 86 M42 132 C 22 140, 14 150, 20 160" stroke="#c9a88a" stroke-width="2" fill="none"/>
+  <!-- trajeto linfático -->
+  <path d="M110 122 C 220 126, 360 118, 560 124" stroke="#d48a7a" stroke-width="2" stroke-dasharray="4 5" fill="none"/>
+  <!-- lesão inicial (úlcera) -->
+  <circle cx="110" cy="122" r="16" fill="#c9433a"/><circle cx="110" cy="122" r="8" fill="#e8806e"/>
+  <!-- nódulos em fila -->
+  <g fill="#d0605a" stroke="#a83a34" stroke-width="1.5"><circle cx="220" cy="124" r="10"/><circle cx="320" cy="121" r="11"/><circle cx="420" cy="122" r="10"/><circle cx="510" cy="123" r="9"/></g>
+  <g fill="none" stroke="#13858a" stroke-width="2"><polyline points="110,104 110,52 140,52"/><polyline points="320,108 330,52 350,52"/></g>
+  <g filter="url(#el-sombra)" fill="#fff" stroke="#b9dfdc"><rect x="140" y="24" width="180" height="50" rx="10"/><rect x="350" y="24" width="270" height="50" rx="10"/></g>
+  <text font-size="11.5" fill="#1b2733"><tspan x="152" y="44" font-weight="700" fill="#b8331f">1. Lesão inicial</tspan><tspan x="152" dy="15">no local do arranhão</tspan></text>
+  <text font-size="11.5" fill="#1b2733"><tspan x="362" y="44" font-weight="700" fill="#0b4f5c">2. Nódulos em fila (“rosário”)</tspan><tspan x="362" dy="15">subindo pelo trajeto dos vasos linfáticos</tspan></text>
+  <g filter="url(#el-sombra)"><rect x="636" y="40" width="104" height="160" rx="12" fill="#0b4f5c"/></g>
+  <text font-size="11" fill="#fff"><tspan x="648" y="64" font-weight="700" fill="#ffd38a">Forma</tspan><tspan x="648" dy="15" font-weight="700" fill="#ffd38a">linfocutânea</tspan><tspan x="648" dy="20">a mais comum</tspan><tspan x="648" dy="15">no ser humano;</tspan><tspan x="648" dy="15">em geral nas</tspan><tspan x="648" dy="15">mãos e braços,</tspan><tspan x="648" dy="15">pouca dor</tspan></text>
+  <text x="40" y="214" font-size="11" fill="#566577" font-style="italic">Esquema didático, fora de escala.</text>
+</svg>

@@ -431,3 +431,4 @@ table.criadouros td:first-child { text-align: center; color: #fff; background: v
 .fp.ambar { background: var(--ambar-claro); border-color: #f3cf91; } .fp.ambar b { color: var(--ambar-escuro); } .fp.ambar .fp-tag { background: var(--ambar-escuro); }
 .fp.coral { background: var(--coral-claro); border-color: #f1b3a7; } .fp.coral b { color: var(--coral-escuro); } .fp.coral .fp-tag { background: var(--coral); }
 .gabarito-tira.g6 { grid-template-columns: repeat(6, 1fr); }
+.gabarito-tira.g5 { grid-template-columns: repeat(5, 1fr); }

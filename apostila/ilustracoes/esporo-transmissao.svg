@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-label="As duas formas de transmissão da esporotricose: pelo gato infectado e pelo contato com plantas e solo">
+  <defs><marker id="et-seta" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#e0533d"/></marker></defs>
+  <rect x="8" y="8" width="366" height="314" rx="18" fill="#fff8ec" stroke="#f0c88a" stroke-width="2"/>
+  <text x="191" y="38" text-anchor="middle" class="t-titulo" font-size="15" fill="#b86e00">Zoonótica — a principal hoje</text>
+  <text x="191" y="56" text-anchor="middle" font-size="11.5" fill="#566577">gato infectado → pessoa</text>
+  <g transform="translate(30 70) scale(0.62)"><g class="gato">
+    <path d="M210 250 C 260 240, 300 200, 290 150 C 284 120, 300 96, 318 92" stroke="#c98a4a" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M90 250 C 70 200, 80 150, 120 130 C 160 112, 220 116, 240 150 C 260 186, 250 240, 220 256 Z" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <g stroke="#b8752e" stroke-width="5" opacity="0.6" stroke-linecap="round"><path d="M130 140 l -6 22"/><path d="M160 132 l -4 24"/><path d="M190 136 l 0 24"/></g>
+    <rect x="104" y="232" width="26" height="40" rx="12" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <rect x="180" y="232" width="26" height="40" rx="12" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <path d="M74 60 L 82 18 L 108 48 Z" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <path d="M150 48 L 170 14 L 182 58 Z" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <ellipse cx="126" cy="82" rx="58" ry="50" fill="#e0a060" stroke="#a8692e" stroke-width="3"/>
+    <ellipse cx="104" cy="76" rx="8" ry="10" fill="#3b5a2e"/><ellipse cx="148" cy="76" rx="8" ry="10" fill="#3b5a2e"/>
+    <ellipse cx="104" cy="76" rx="3" ry="8" fill="#111"/><ellipse cx="148" cy="76" rx="3" ry="8" fill="#111"/>
+    <circle cx="126" cy="100" r="10" fill="#c9433a" opacity="0.95"/>
+    <circle cx="122" cy="98" r="4" fill="#e8806e"/>
+    <path d="M118 112 c 4 4, 12 4, 16 0" stroke="#7a3e22" stroke-width="2" fill="none"/>
+    <g stroke="#7a5230" stroke-width="1.5"><path d="M96 104 l -30 -4 M96 108 l -30 4 M156 104 l 30 -4 M156 108 l 30 4"/></g>
+    <circle cx="86" cy="40" r="5" fill="#c9433a" opacity="0.9"/>
+    <circle cx="118" cy="268" r="7" fill="#c9433a" opacity="0.9"/>
+    <circle cx="160" cy="180" r="9" fill="#c9433a" opacity="0.85"/><circle cx="176" cy="196" r="5" fill="#c9433a" opacity="0.8"/>
+  </g></g>
+  <!-- mão -->
+  <g transform="translate(260 120)">
+    <path d="M0 40 C 10 10, 50 0, 80 10 L 84 70 C 60 80, 20 80, 0 70 Z" fill="#f0d0b4" stroke="#c9a88a" stroke-width="2"/>
+    <g stroke="#c9433a" stroke-width="3" stroke-linecap="round"><path d="M14 30 l 50 18"/><path d="M14 42 l 50 18"/></g>
+  </g>
+  <path d="M220 160 L 254 160" stroke="#e0533d" stroke-width="3" marker-end="url(#et-seta)"/>
+  <text font-size="11.5" fill="#1b2733"><tspan x="26" y="262"><tspan font-weight="700">Arranhadura e mordida</tspan> do gato doente</tspan><tspan x="26" dy="16">ou contato com as <tspan font-weight="700">secreções das feridas</tspan>.</tspan><tspan x="26" dy="16">Espécie: <tspan font-style="italic">Sporothrix brasiliensis</tspan>.</tspan></text>
+  <rect x="386" y="8" width="366" height="314" rx="18" fill="#eef7ea" stroke="#b9dca8" stroke-width="2"/>
+  <text x="569" y="38" text-anchor="middle" class="t-titulo" font-size="15" fill="#1d7650">Clássica — “doença do jardineiro”</text>
+  <text x="569" y="56" text-anchor="middle" font-size="11.5" fill="#566577">solo e plantas → pessoa</text>
+  <!-- roseira -->
+  <path d="M470 250 C 470 200, 480 150, 500 110" stroke="#4f7a3a" stroke-width="6" fill="none"/>
+  <g fill="#4f7a3a"><path d="M478 200 l -12 -6 M488 160 l 12 -6"/><path d="M476 204 l -10 -8 l 4 -2 z M490 164 l 12 -4 l -2 4 z"/></g>
+  <g stroke="#4f7a3a" stroke-width="3"><path d="M472 220 l -10 -4 M480 180 l 10 -6 M494 136 l -10 -4"/></g>
+  <circle cx="504" cy="100" r="18" fill="#d04a5a"/><circle cx="498" cy="96" r="7" fill="#e87a88"/>
+  <ellipse cx="470" cy="94" rx="14" ry="7" fill="#5fae6a" transform="rotate(-30 470 94)"/>
+  <!-- solo e farpas -->
+  <path d="M400 252 C 460 244, 560 256, 740 246 L 740 260 L 400 260 Z" fill="#8a5a33"/>
+  <g stroke="#c9a06a" stroke-width="3"><path d="M560 248 l 30 -6 M600 250 l 24 -8"/></g>
+  <g transform="translate(620 130)">
+    <path d="M0 40 C 10 10, 50 0, 80 10 L 84 70 C 60 80, 20 80, 0 70 Z" fill="#f0d0b4" stroke="#c9a88a" stroke-width="2"/>
+    <circle cx="40" cy="40" r="5" fill="#c9433a"/>
+  </g>
+  <path d="M540 180 L 612 170" stroke="#e0533d" stroke-width="3" marker-end="url(#et-seta)"/>
+  <text font-size="11.5" fill="#1b2733"><tspan x="404" y="282">O fungo vive no <tspan font-weight="700">solo e em vegetais</tspan>; entra por</tspan><tspan x="404" dy="16">ferimento com <tspan font-weight="700">espinhos, farpas, palha</tspan>.</tspan><tspan x="404" dy="16">Atinge jardineiros, agricultores, floristas.</tspan></text>
+</svg>
