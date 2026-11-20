@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" role="img" aria-label="Comparação dos três roedores urbanos: ratazana, rato de telhado e camundongo">
+  <rect x="8" y="8" width="240" height="304" rx="16" fill="#fff" stroke="#d9e3e6" stroke-width="2"/>
+  <rect x="8" y="8" width="240" height="44" rx="16" fill="#0b4f5c"/><rect x="8" y="36" width="240" height="16" fill="#0b4f5c"/>
+  <text x="128" y="32" text-anchor="middle" class="t-titulo" font-size="13.5" fill="#fff">Ratazana</text>
+  <text x="128" y="47" text-anchor="middle" font-size="10.5" fill="#fff" font-style="italic">Rattus norvegicus</text>
+  <g transform="translate(46 86) scale(0.7)"><g>
+    <path d="M30 80 C 10 86, -10 82, -30 70" stroke="#5e5244" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M30 80 C 26 40, 80 20, 140 24 C 180 26, 204 40, 216 58 C 240 62, 256 72, 258 80 C 246 90, 220 92, 200 92 C 170 100, 80 104, 50 98 C 38 94, 30 88, 30 80 Z" fill="#8a7a6a" stroke="#5e5244" stroke-width="2.5"/>
+    <ellipse cx="196" cy="44" rx="9" ry="12" fill="#e8b8a8" stroke="#5e5244" stroke-width="2"/>
+    <circle cx="226" cy="64" r="4" fill="#1b1b1b"/>
+    <circle cx="258" cy="80" r="4" fill="#d98a8a"/>
+    <g stroke="#5e5244" stroke-width="1.2"><path d="M252 82 l 22 -6 M252 84 l 22 2 M252 86 l 20 8"/></g>
+    <g stroke="#5e5244" stroke-width="4" stroke-linecap="round"><path d="M80 98 l -6 14"/><path d="M180 94 l 4 16"/></g>
+  </g></g>
+  <text font-size="11" fill="#1b2733" y="226"><tspan x="24" dy="0">• A <tspan font-weight="700">maior</tspan>, corpo robusto</tspan><tspan x="24" dy="16">• Cauda <tspan font-weight="700">mais curta</tspan> que o corpo</tspan><tspan x="24" dy="16">• Vive em <tspan font-weight="700">tocas, esgotos</tspan>,</tspan><tspan x="24" dy="16">•   margens de córregos</tspan><tspan x="24" dy="16">• Principal na leptospirose</tspan></text>
+  <rect x="260" y="8" width="240" height="304" rx="16" fill="#fff" stroke="#d9e3e6" stroke-width="2"/>
+  <rect x="260" y="8" width="240" height="44" rx="16" fill="#6b59d3"/><rect x="260" y="36" width="240" height="16" fill="#6b59d3"/>
+  <text x="380" y="32" text-anchor="middle" class="t-titulo" font-size="13.5" fill="#fff">Rato de telhado</text>
+  <text x="380" y="47" text-anchor="middle" font-size="10.5" fill="#fff" font-style="italic">Rattus rattus</text>
+  <g transform="translate(320 100) scale(0.62)"><g>
+    <path d="M30 80 C -10 84, -40 70, -70 40" stroke="#2b2b33" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M30 80 C 26 40, 80 20, 140 24 C 180 26, 204 40, 216 58 C 240 62, 256 72, 258 80 C 246 90, 220 92, 200 92 C 170 100, 80 104, 50 98 C 38 94, 30 88, 30 80 Z" fill="#4a4a52" stroke="#2b2b33" stroke-width="2.5"/>
+    <ellipse cx="196" cy="44" rx="14" ry="17" fill="#e8b8a8" stroke="#2b2b33" stroke-width="2"/>
+    <circle cx="226" cy="64" r="4" fill="#1b1b1b"/>
+    <circle cx="258" cy="80" r="4" fill="#d98a8a"/>
+    <g stroke="#2b2b33" stroke-width="1.2"><path d="M252 82 l 22 -6 M252 84 l 22 2 M252 86 l 20 8"/></g>
+    <g stroke="#2b2b33" stroke-width="4" stroke-linecap="round"><path d="M80 98 l -6 14"/><path d="M180 94 l 4 16"/></g>
+  </g></g>
+  <text font-size="11" fill="#1b2733" y="226"><tspan x="276" dy="0">• Médio, corpo esguio</tspan><tspan x="276" dy="16">• Cauda <tspan font-weight="700">mais longa</tspan> que o corpo</tspan><tspan x="276" dy="16">• Orelhas grandes</tspan><tspan x="276" dy="16">• Ótimo escalador: vive em</tspan><tspan x="276" dy="16">•   <tspan font-weight="700">forros e telhados</tspan></tspan></text>
+  <rect x="512" y="8" width="240" height="304" rx="16" fill="#fff" stroke="#d9e3e6" stroke-width="2"/>
+  <rect x="512" y="8" width="240" height="44" rx="16" fill="#b86e00"/><rect x="512" y="36" width="240" height="16" fill="#b86e00"/>
+  <text x="632" y="32" text-anchor="middle" class="t-titulo" font-size="13.5" fill="#fff">Camundongo</text>
+  <text x="632" y="47" text-anchor="middle" font-size="10.5" fill="#fff" font-style="italic">Mus musculus</text>
+  <g transform="translate(590 126) scale(0.42)"><g>
+    <path d="M30 80 C -10 84, -40 70, -70 40" stroke="#6e6456" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M30 80 C 26 40, 80 20, 140 24 C 180 26, 204 40, 216 58 C 240 62, 256 72, 258 80 C 246 90, 220 92, 200 92 C 170 100, 80 104, 50 98 C 38 94, 30 88, 30 80 Z" fill="#a89c8c" stroke="#6e6456" stroke-width="2.5"/>
+    <ellipse cx="196" cy="44" rx="13" ry="16" fill="#e8b8a8" stroke="#6e6456" stroke-width="2"/>
+    <circle cx="226" cy="64" r="4" fill="#1b1b1b"/>
+    <circle cx="258" cy="80" r="4" fill="#d98a8a"/>
+    <g stroke="#6e6456" stroke-width="1.2"><path d="M252 82 l 22 -6 M252 84 l 22 2 M252 86 l 20 8"/></g>
+    <g stroke="#6e6456" stroke-width="4" stroke-linecap="round"><path d="M80 98 l -6 14"/><path d="M180 94 l 4 16"/></g>
+  </g></g>
+  <text font-size="11" fill="#1b2733" y="226"><tspan x="528" dy="0">• O <tspan font-weight="700">menor</tspan> (poucos cm)</tspan><tspan x="528" dy="16">• Orelhas grandes, focinho fino</tspan><tspan x="528" dy="16">• Vive <tspan font-weight="700">dentro das casas</tspan>,</tspan><tspan x="528" dy="16">•   em armários e despensas</tspan><tspan x="528" dy="16">• Entra por frestas pequenas</tspan></text>
+</svg>

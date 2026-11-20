@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img" aria-label="Ilustração de uma ratazana">
+  <circle cx="200" cy="160" r="150" fill="#ffffff" opacity="0.88"/>
+  <g transform="translate(60 92) scale(1.05)"><g>
+    <path d="M30 80 C 10 86, -10 82, -30 70" stroke="#5e5244" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M30 80 C 26 40, 80 20, 140 24 C 180 26, 204 40, 216 58 C 240 62, 256 72, 258 80 C 246 90, 220 92, 200 92 C 170 100, 80 104, 50 98 C 38 94, 30 88, 30 80 Z" fill="#8a7a6a" stroke="#5e5244" stroke-width="2.5"/>
+    <ellipse cx="196" cy="44" rx="9" ry="12" fill="#e8b8a8" stroke="#5e5244" stroke-width="2"/>
+    <circle cx="226" cy="64" r="4" fill="#1b1b1b"/>
+    <circle cx="258" cy="80" r="4" fill="#d98a8a"/>
+    <g stroke="#5e5244" stroke-width="1.2"><path d="M252 82 l 22 -6 M252 84 l 22 2 M252 86 l 20 8"/></g>
+    <g stroke="#5e5244" stroke-width="4" stroke-linecap="round"><path d="M80 98 l -6 14"/><path d="M180 94 l 4 16"/></g>
+  </g></g>
+</svg>

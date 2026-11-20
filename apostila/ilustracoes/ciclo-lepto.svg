@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-label="Cadeia de transmissão da leptospirose em cinco etapas">
+  <defs>
+    <marker id="cl-seta" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#13858a"/>
+    </marker>
+    <radialGradient id="cl-centro" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e5f3f2"/>
+    </radialGradient>
+    <filter id="cl-sombra" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0b4f5c" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- trilho circular -->
+  <circle cx="380" cy="300" r="200" fill="none" stroke="#b9dfdc" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+  <!-- setas do ciclo (sentido horário) -->
+  <g fill="none" stroke="#13858a" stroke-width="3.5" marker-end="url(#cl-seta)">
+    <path d="M474 123 A 200 200 0 0 1 544 185"/>
+    <path d="M578 328 A 200 200 0 0 1 533 429"/>
+    <path d="M415 497 A 200 200 0 0 1 345 497"/>
+    <path d="M216 415 A 200 200 0 0 1 183 335"/>
+    <path d="M251 147 A 200 200 0 0 1 292 120"/>
+  </g>
+
+  <!-- centro -->
+  <circle cx="380" cy="300" r="112" fill="url(#cl-centro)" stroke="#13858a" stroke-width="2.5"/>
+  <g transform="translate(318 240) scale(0.46)"><g>
+    <path d="M30 80 C 10 86, -10 82, -30 70" stroke="#5e5244" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M30 80 C 26 40, 80 20, 140 24 C 180 26, 204 40, 216 58 C 240 62, 256 72, 258 80 C 246 90, 220 92, 200 92 C 170 100, 80 104, 50 98 C 38 94, 30 88, 30 80 Z" fill="#8a7a6a" stroke="#5e5244" stroke-width="2.5"/>
+    <ellipse cx="196" cy="44" rx="9" ry="12" fill="#e8b8a8" stroke="#5e5244" stroke-width="2"/>
+    <circle cx="226" cy="64" r="4" fill="#1b1b1b"/>
+    <circle cx="258" cy="80" r="4" fill="#d98a8a"/>
+    <g stroke="#5e5244" stroke-width="1.2"><path d="M252 82 l 22 -6 M252 84 l 22 2 M252 86 l 20 8"/></g>
+    <g stroke="#5e5244" stroke-width="4" stroke-linecap="round"><path d="M80 98 l -6 14"/><path d="M180 94 l 4 16"/></g>
+  </g></g>
+  <text x="380" y="342" text-anchor="middle" class="t-titulo" font-size="16" fill="#0b4f5c">Cadeia de transmissão</text>
+  <text x="380" y="364" text-anchor="middle" font-size="13" fill="#566577" font-style="italic">Leptospira</text>
+  <text x="380" y="384" text-anchor="middle" font-size="11.5" fill="#566577"><tspan x="380">reservatório: ratos</tspan><tspan x="380" dy="14">(não há vetor)</tspan></text>
+
+  <!-- 1 -->
+  <g filter="url(#cl-sombra)"><rect x="268" y="18" width="224" height="96" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="292" cy="44" r="14" fill="#13858a"/><text x="292" y="49" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">1</text>
+  <text x="314" y="49" class="t-titulo" font-size="13.5" fill="#0b4f5c">Rato infectado</text>
+  <text x="284" y="74" font-size="11.5" fill="#1b2733"><tspan x="284">O rato (sobretudo a <tspan font-weight="700">ratazana</tspan>)</tspan><tspan x="284" dy="16">carrega a bactéria nos rins</tspan><tspan x="284" dy="16"><tspan font-weight="700">a vida toda</tspan>, sem adoecer.</tspan></text>
+
+  <!-- 2 -->
+  <g filter="url(#cl-sombra)"><rect x="524" y="196" width="224" height="112" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="548" cy="222" r="14" fill="#13858a"/><text x="548" y="227" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">2</text>
+  <text x="570" y="227" class="t-titulo" font-size="13.5" fill="#0b4f5c">Urina no ambiente</text>
+  <text x="540" y="252" font-size="11.5" fill="#1b2733"><tspan x="540">Elimina leptospiras pela</tspan><tspan x="540" dy="16"><tspan font-weight="700">urina</tspan> em esgotos, córregos,</tspan><tspan x="540" dy="16">lixo, quintais e terrenos.</tspan></text>
+
+  <!-- 3 -->
+  <g filter="url(#cl-sombra)"><rect x="440" y="458" width="236" height="96" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="464" cy="484" r="14" fill="#13858a"/><text x="464" y="489" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">3</text>
+  <text x="486" y="489" class="t-titulo" font-size="13.5" fill="#0b4f5c">Água e lama</text>
+  <text x="456" y="514" font-size="11.5" fill="#1b2733"><tspan x="456">Com a chuva, a urina se</tspan><tspan x="456" dy="16">mistura à <tspan font-weight="700">água de enchente</tspan></tspan><tspan x="456" dy="16">e à <tspan font-weight="700">lama</tspan>, onde a bactéria sobrevive.</tspan></text>
+
+  <!-- 4 -->
+  <g filter="url(#cl-sombra)"><rect x="84" y="458" width="236" height="96" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="108" cy="484" r="14" fill="#13858a"/><text x="108" y="489" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">4</text>
+  <text x="130" y="489" class="t-titulo" font-size="13.5" fill="#0b4f5c">Entrada no corpo</text>
+  <text x="100" y="514" font-size="11.5" fill="#1b2733"><tspan x="100">A bactéria entra pela <tspan font-weight="700">pele</tspan></tspan><tspan x="100" dy="16"><tspan font-weight="700">com feridas</tspan>, pela pele íntegra</tspan><tspan x="100" dy="16">muito tempo na água, ou mucosas.</tspan></text>
+
+  <!-- 5 -->
+  <g filter="url(#cl-sombra)"><rect x="12" y="140" width="232" height="140" rx="14" fill="#fff" stroke="#b9dfdc" stroke-width="2"/></g>
+  <circle cx="36" cy="166" r="14" fill="#13858a"/><text x="36" y="171" text-anchor="middle" fill="#fff" class="t-titulo" font-size="14">5</text>
+  <text x="58" y="171" class="t-titulo" font-size="13.5" fill="#0b4f5c">Doença</text>
+  <text x="28" y="196" font-size="11.5" fill="#1b2733"><tspan x="28">Após 1 a 30 dias (em geral</tspan><tspan x="28" dy="16">5 a 14), surgem febre, dor de</tspan><tspan x="28" dy="16">cabeça e <tspan font-weight="700">dor na panturrilha</tspan>.</tspan><tspan x="28" dy="16">A pessoa <tspan font-weight="700">não</tspan> transmite</tspan><tspan x="28" dy="16">para outras pessoas.</tspan></text>
+</svg>
