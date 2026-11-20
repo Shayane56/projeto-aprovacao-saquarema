@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-label="Ciclos silvestre e urbano da febre amarela">
+  <defs><marker id="fa-seta" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e0533d"/></marker></defs>
+  <rect x="8" y="8" width="366" height="364" rx="18" fill="#eef7ea" stroke="#b9dca8" stroke-width="2"/>
+  <text x="191" y="38" text-anchor="middle" class="t-titulo" font-size="15" fill="#1d7650">CICLO SILVESTRE</text>
+  <text x="191" y="56" text-anchor="middle" font-size="11.5" fill="#566577">o que existe hoje no Brasil</text>
+  <!-- árvores -->
+  <g><rect x="40" y="120" width="16" height="140" fill="#7a5230"/><circle cx="48" cy="110" r="40" fill="#4f9d5d"/><rect x="300" y="110" width="16" height="150" fill="#7a5230"/><circle cx="308" cy="100" r="44" fill="#4f9d5d"/></g>
+  <g transform="translate(50 70) scale(0.7)"><g class="macaco">
+    <path d="M60 120 C 30 130, 10 110, 20 86 C 26 72, 40 74, 40 86" stroke="#8a5a33" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <ellipse cx="70" cy="100" rx="26" ry="32" fill="#8a5a33"/>
+    <circle cx="70" cy="56" r="24" fill="#8a5a33"/>
+    <ellipse cx="70" cy="62" rx="15" ry="13" fill="#e8c8a0"/>
+    <circle cx="64" cy="56" r="3" fill="#1b1b1b"/><circle cx="76" cy="56" r="3" fill="#1b1b1b"/>
+    <path d="M64 68 c 4 3, 8 3, 12 0" stroke="#5a3a1a" stroke-width="2" fill="none"/>
+    <circle cx="46" cy="54" r="7" fill="#8a5a33"/><circle cx="94" cy="54" r="7" fill="#8a5a33"/>
+    <path d="M50 90 C 30 80, 26 60, 34 40" stroke="#8a5a33" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M90 90 C 110 80, 114 60, 106 40" stroke="#8a5a33" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M58 128 l -6 26 M82 128 l 6 26" stroke="#8a5a33" stroke-width="9" stroke-linecap="round"/>
+  </g></g>
+  <g transform="translate(180 120) scale(1.3)"><g><path d="M18 -2 C 30 -16, 50 -16, 60 -8 C 50 -4, 34 -2, 20 0 Z" fill="#e3f0f4" stroke="#9fb0b5"/><path d="M20 -1 C 34 -3, 50 -1, 60 4 C 58 8, 40 7, 20 4 Z" fill="#3a3a3a"/><circle cx="14" cy="1" r="6" fill="#3a3a3a"/><path d="M8 2 L -8 6" stroke="#3a3a3a" stroke-width="2"/><g stroke="#3a3a3a" stroke-width="1.6" fill="none"><path d="M18 4 l -6 14 M24 4 l 0 16 M30 4 l 8 14"/></g></g></g>
+  <rect x="140" y="88" width="122" height="20" rx="6" fill="#fff" opacity="0.9"/><text x="201" y="102" text-anchor="middle" font-size="11" fill="#1b2733" font-weight="700" font-style="italic">Haemagogus / Sabethes</text>
+  <g transform="translate(260 196)"><circle cx="0" cy="-30" r="12" fill="#c98a5a"/><path d="M-14 -16 L 14 -16 L 16 26 L -16 26 Z" fill="#f0a12f"/><path d="M-8 26 L -10 60 M 8 26 L 10 60" stroke="#2b3a44" stroke-width="7" stroke-linecap="round"/></g>
+  <path d="M120 150 C 150 130, 170 130, 186 128" stroke="#e0533d" stroke-width="2.5" fill="none" marker-end="url(#fa-seta)" marker-start="url(#fa-seta)"/>
+  <path d="M250 136 C 260 146, 262 152, 262 160" stroke="#e0533d" stroke-width="2.5" fill="none" marker-end="url(#fa-seta)"/>
+  <rect x="10" y="262" width="362" height="108" rx="16" fill="#e2efdb"/>
+  <text font-size="11.5" fill="#1b2733"><tspan x="24" y="286">• O vírus circula entre <tspan font-weight="700">macacos</tspan> e mosquitos</tspan><tspan x="24" dy="17">  silvestres, na copa das árvores.</tspan><tspan x="24" dy="17">• A pessoa se infecta ao entrar na mata</tspan><tspan x="24" dy="17">  ou viver perto dela: <tspan font-weight="700">hospedeiro acidental</tspan>.</tspan><tspan x="24" dy="17">• O macaco <tspan font-weight="700">não transmite</tspan>: é vítima e sentinela.</tspan></text>
+  <rect x="386" y="8" width="366" height="364" rx="18" fill="#eef1f6" stroke="#c4cddc" stroke-width="2"/>
+  <text x="569" y="38" text-anchor="middle" class="t-titulo" font-size="15" fill="#3a4a6a">CICLO URBANO</text>
+  <text x="569" y="56" text-anchor="middle" font-size="11.5" fill="#566577">sem casos no Brasil desde 1942</text>
+  <!-- prédios -->
+  <g fill="#c4cddc"><rect x="410" y="110" width="60" height="150"/><rect x="480" y="140" width="50" height="120"/><rect x="660" y="100" width="70" height="160"/></g>
+  <g fill="#eef1f6"><rect x="420" y="124" width="12" height="12"/><rect x="446" y="124" width="12" height="12"/><rect x="420" y="150" width="12" height="12"/><rect x="446" y="150" width="12" height="12"/><rect x="672" y="116" width="14" height="14"/><rect x="702" y="116" width="14" height="14"/><rect x="672" y="146" width="14" height="14"/><rect x="702" y="146" width="14" height="14"/></g>
+  <g transform="translate(520 196)"><circle cx="0" cy="-30" r="12" fill="#c98a5a"/><path d="M-14 -16 L 14 -16 L 16 26 L -16 26 Z" fill="#13858a"/><path d="M-8 26 L -10 60 M 8 26 L 10 60" stroke="#2b3a44" stroke-width="7" stroke-linecap="round"/></g>
+  <g transform="translate(640 196)"><circle cx="0" cy="-30" r="12" fill="#c98a5a"/><path d="M-14 -16 L 14 -16 L 16 26 L -16 26 Z" fill="#6b59d3"/><path d="M-8 26 L -10 60 M 8 26 L 10 60" stroke="#2b3a44" stroke-width="7" stroke-linecap="round"/></g>
+  <g transform="translate(560 120) scale(1.3)"><g><path d="M18 -2 C 30 -16, 50 -16, 60 -8 C 50 -4, 34 -2, 20 0 Z" fill="#e3f0f4" stroke="#9fb0b5"/><path d="M20 -1 C 34 -3, 50 -1, 60 4 C 58 8, 40 7, 20 4 Z" fill="#1f2b36"/><g stroke="#fff" stroke-width="1.5"><path d="M30 -1 l 1 5 M38 0 l 1 5 M46 1 l 1 4"/></g><circle cx="14" cy="1" r="6" fill="#1f2b36"/><path d="M8 2 L -8 6" stroke="#1f2b36" stroke-width="2"/><g stroke="#1f2b36" stroke-width="1.6" fill="none"><path d="M18 4 l -6 14 M24 4 l 0 16 M30 4 l 8 14"/></g></g></g>
+  <text x="590" y="104" text-anchor="middle" font-size="11" fill="#1b2733" font-weight="700">Aedes aegypti</text>
+  <path d="M524 158 C 532 146, 548 136, 568 132" stroke="#e0533d" stroke-width="2.5" fill="none" marker-end="url(#fa-seta)" marker-start="url(#fa-seta)"/>
+  <path d="M630 132 C 638 140, 642 148, 642 160" stroke="#e0533d" stroke-width="2.5" fill="none" marker-end="url(#fa-seta)"/>
+  <rect x="388" y="262" width="362" height="108" rx="16" fill="#e3e8f0"/>
+  <text font-size="11.5" fill="#1b2733"><tspan x="402" y="286">• O <tspan font-style="italic">Aedes aegypti</tspan> levaria o vírus de</tspan><tspan x="402" dy="17">  <tspan font-weight="700">pessoa para pessoa</tspan>, na cidade.</tspan><tspan x="402" dy="17">• Último caso urbano no Brasil: <tspan font-weight="700">1942</tspan>.</tspan><tspan x="402" dy="17">• O risco existe onde há <tspan font-style="italic">Aedes</tspan> e</tspan><tspan x="402" dy="17">  pessoas não vacinadas.</tspan></text>
+</svg>

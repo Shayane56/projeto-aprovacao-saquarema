@@ -39,7 +39,8 @@ da página: nesse caso, lista as páginas no final e termina com código 2.
 - Capítulo 7 (Leptospirose — edital 8.7): `70-…` a `73-…`
 - Capítulo 8 (Peste): `80-…` a `82-…`; Capítulo 9 (Malária): `90-…` a `92-…`
 - Capítulo 10 (Esporotricose): `a0-…` a `a2-…`
-- Próximo capítulo: `b0-…` (febre amarela). Os arquivos são montados em ordem alfabética, por isso depois de `9x` vem `ax`, `bx`…
+- Capítulo 11 (Febre amarela): `b0-…` a `b2-…`
+- Próximo capítulo: `c0-…`. Os arquivos são montados em ordem alfabética, por isso depois de `9x` vem `ax`, `bx`…
 
 ## Convenções
 
