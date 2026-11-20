@@ -432,3 +432,10 @@ table.criadouros td:first-child { text-align: center; color: #fff; background: v
 .fp.coral { background: var(--coral-claro); border-color: #f1b3a7; } .fp.coral b { color: var(--coral-escuro); } .fp.coral .fp-tag { background: var(--coral); }
 .gabarito-tira.g6 { grid-template-columns: repeat(6, 1fr); }
 .gabarito-tira.g5 { grid-template-columns: repeat(5, 1fr); }
+
+/* Revisão geral: lista das frases-resumo */
+.frases-resumo { list-style: none; margin: 1mm 0 0; padding: 0; counter-reset: fr; }
+.frases-resumo li { counter-increment: fr; display: grid; grid-template-columns: 7mm 30mm 1fr; align-items: baseline; gap: 2mm; padding: 1.5mm 0; border-bottom: 0.3mm dashed var(--linha); }
+.frases-resumo li::before { content: counter(fr); font: 800 8.5pt 'Poppins'; color: #fff; background: var(--coral); border-radius: 50%; width: 5.5mm; height: 5.5mm; display: inline-flex; align-items: center; justify-content: center; align-self: center; }
+.frases-resumo b { font: 700 9pt 'Poppins'; color: var(--petroleo); }
+.frases-resumo .manuscrito { font-size: 13pt; line-height: 1.2; }

@@ -8,6 +8,7 @@
  * Convenções nas páginas (paginas/*.html, em ordem alfabética):
  *   <section class="pagina" data-capitulo="1" data-titulo-capitulo="Leishmanioses"> … </section>
  *   data-sumario="Título" data-nivel="1|2"  → entrada no sumário (página onde a seção começa)
+ *   data-sumario-2="Título"                 → segunda entrada (nível 2) na mesma página
  *   class="sem-cabecalho"                   → sem faixa de topo e rodapé (capa, aberturas)
  *   <span data-icone="nome"></span>         → ícone (ilustracoes/icones/nome.svg)
  *   <div data-svg="ilustracoes/x.svg"></div>→ ilustração SVG embutida (usa as fontes da apostila)
@@ -50,6 +51,8 @@ function montar() {
     const tag = m[0];
     const t = tag.match(/data-sumario="([^"]+)"/);
     if (t) entradas.push({ titulo: t[1], nivel: Number((tag.match(/data-nivel="(\d)"/) || [])[1] || 2), cap: (tag.match(/data-capitulo="([^"]+)"/) || [])[1] || '' });
+    const t2 = tag.match(/data-sumario-2="([^"]+)"/);
+    if (t2) entradas.push({ titulo: t2[1], nivel: 2, cap: '' });
   });
   const nSumario = Math.max(1, Math.ceil(entradas.reduce((s, e) => s + (e.nivel === 1 ? 1.6 : 1), 0) / ENTRADAS_POR_PAGINA));
   const paginasSumario = Array.from({ length: nSumario }, (_, i) => `
@@ -77,6 +80,7 @@ function documento(corpo) {
     const n = i + 1;
     p.dataset.numero = n;
     if (p.dataset.sumario) entradas.push({ titulo: p.dataset.sumario, nivel: Number(p.dataset.nivel || 2), cap: p.dataset.capitulo || '', pagina: n });
+    if (p.dataset.sumario2) entradas.push({ titulo: p.dataset.sumario2, nivel: 2, cap: '', pagina: n });
     if (p.classList.contains('sem-cabecalho')) return;
     const cap = p.dataset.capitulo ? 'Capítulo ' + p.dataset.capitulo + ' · ' + (p.dataset.tituloCapitulo || '') : (p.dataset.cabecalho || 'Apostila ACE');
     p.insertAdjacentHTML('afterbegin', '<div class="faixa-topo"><span>' + cap + '</span><span class="marca">Agente de Combate às Endemias</span></div>');
