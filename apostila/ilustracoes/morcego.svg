@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img" aria-label="Ilustração de um morcego com as asas abertas">
+  <circle cx="200" cy="160" r="150" fill="#ffffff" opacity="0.88"/>
+  <g transform="translate(-40 17) scale(1.2)"><g class="morcego">
+    <path d="M200 120 C 170 90, 120 70, 60 80 C 80 96, 84 110, 70 128 C 92 124, 104 132, 106 150 C 122 138, 140 140, 150 156 C 160 140, 176 134, 196 140 Z" fill="#3b2f45"/>
+    <path d="M200 120 C 230 90, 280 70, 340 80 C 320 96, 316 110, 330 128 C 308 124, 296 132, 294 150 C 278 138, 260 140, 250 156 C 240 140, 224 134, 204 140 Z" fill="#3b2f45"/>
+    <ellipse cx="200" cy="138" rx="20" ry="30" fill="#3b2f45"/>
+    <circle cx="200" cy="102" r="16" fill="#3b2f45"/>
+    <path d="M188 92 L 184 70 L 196 88 Z M212 92 L 216 70 L 204 88 Z" fill="#3b2f45"/>
+    <circle cx="194" cy="100" r="2.6" fill="#f0d27a"/><circle cx="206" cy="100" r="2.6" fill="#f0d27a"/>
+    <g stroke="#5a4b66" stroke-width="1.5" fill="none" opacity="0.8"><path d="M190 128 C 150 110, 110 96, 74 90"/><path d="M190 132 C 160 124, 130 120, 100 124"/><path d="M210 128 C 250 110, 290 96, 326 90"/><path d="M210 132 C 240 124, 270 120, 300 124"/></g>
+  </g></g>
+</svg>

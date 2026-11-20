@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-label="Partes do corpo onde a exposição à raiva é grave ou leve">
+  <defs><filter id="cg-sombra" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/></filter></defs>
+  <rect x="8" y="8" width="744" height="404" rx="18" fill="#fff" stroke="#b9dfdc" stroke-width="2"/>
+  <!-- corpo: membros e tronco em amarelo (leve), cabeça, pescoço, mãos e pés em vermelho (grave) -->
+  <g stroke="#ffffff" stroke-width="3">
+    <path d="M340 120 L 420 120 L 432 250 L 328 250 Z" fill="#f6c96a"/>
+    <path d="M340 124 L 300 130 L 276 230 L 296 234 L 318 160 Z" fill="#f6c96a"/>
+    <path d="M420 124 L 460 130 L 484 230 L 464 234 L 442 160 Z" fill="#f6c96a"/>
+    <path d="M334 250 L 378 250 L 372 370 L 344 370 Z" fill="#f6c96a"/>
+    <path d="M382 250 L 426 250 L 416 370 L 388 370 Z" fill="#f6c96a"/>
+    <circle cx="380" cy="70" r="34" fill="#e0533d"/>
+    <rect x="366" y="100" width="28" height="22" fill="#e0533d"/>
+    <ellipse cx="284" cy="248" rx="16" ry="20" fill="#e0533d"/>
+    <ellipse cx="476" cy="248" rx="16" ry="20" fill="#e0533d"/>
+    <ellipse cx="352" cy="384" rx="22" ry="10" fill="#e0533d"/>
+    <ellipse cx="408" cy="384" rx="22" ry="10" fill="#e0533d"/>
+  </g>
+  <!-- legenda grave -->
+  <g filter="url(#cg-sombra)"><rect x="24" y="30" width="250" height="236" rx="14" fill="#fdebe7" stroke="#f1b3a7"/></g>
+  <rect x="40" y="48" width="18" height="18" rx="4" fill="#e0533d"/>
+  <text x="66" y="62" class="t-titulo" font-size="14" fill="#b8331f">EXPOSIÇÃO GRAVE</text>
+  <g font-size="11.5" fill="#1b2733">
+    <text x="40" y="90">• Ferimento na <tspan font-weight="700">cabeça, face, pescoço</tspan></text>
+    <text x="40" y="110">• Nas <tspan font-weight="700">mãos</tspan>, polpas dos dedos e</text>
+    <text x="52" y="126"><tspan font-weight="700">planta dos pés</tspan></text>
+    <text x="40" y="148">• Ferimentos <tspan font-weight="700">profundos, múltiplos</tspan></text>
+    <text x="52" y="164">ou extensos, em qualquer lugar</text>
+    <text x="40" y="186">• <tspan font-weight="700">Lambedura de mucosas</tspan> (boca,</text>
+    <text x="52" y="202">olhos) ou de pele com lesão grave</text>
+    <text x="40" y="224">• Ferimento profundo por unha</text>
+    <text x="40" y="246">• <tspan font-weight="700" fill="#b8331f">Qualquer contato com morcego</tspan></text>
+  </g>
+  <!-- legenda leve -->
+  <g filter="url(#cg-sombra)"><rect x="508" y="30" width="228" height="168" rx="14" fill="#fff3df" stroke="#f3cf91"/></g>
+  <rect x="524" y="48" width="18" height="18" rx="4" fill="#f6c96a"/>
+  <text x="550" y="62" class="t-titulo" font-size="14" fill="#b86e00">EXPOSIÇÃO LEVE</text>
+  <g font-size="11.5" fill="#1b2733">
+    <text x="524" y="90">• Ferimentos <tspan font-weight="700">superficiais</tspan>,</text>
+    <text x="536" y="106">pouco extensos, em geral únicos</text>
+    <text x="524" y="128">• No <tspan font-weight="700">tronco e nos membros</tspan></text>
+    <text x="536" y="144">(exceto mãos e pés)</text>
+    <text x="524" y="166">• Lambedura de pele com</text>
+    <text x="536" y="182">lesão superficial</text>
+  </g>
+  <!-- por que -->
+  <g filter="url(#cg-sombra)"><rect x="508" y="216" width="228" height="180" rx="14" fill="#0b4f5c"/></g>
+  <text x="524" y="244" class="t-titulo" font-size="13" fill="#ffd38a">Por que esses lugares?</text>
+  <g font-size="11.5" fill="#ffffff">
+    <text x="524" y="268">Cabeça, mãos e pés têm</text>
+    <text x="524" y="284">muitas terminações nervosas.</text>
+    <text x="524" y="306">O vírus caminha pelos</text>
+    <text x="524" y="322">nervos até o cérebro: quanto</text>
+    <text x="524" y="338">mais perto e mais inervado,</text>
+    <text x="524" y="354">mais rápido ele chega.</text>
+  </g>
+  <text x="40" y="300" font-size="11.5" fill="#566577"><tspan x="40">Contato indireto (tocar objetos ou</tspan><tspan x="40" dy="16">pele íntegra com saliva) e lambedura</tspan><tspan x="40" dy="16">de pele íntegra = <tspan font-weight="700" fill="#1d7650">não é exposição</tspan>:</tspan><tspan x="40" dy="16">basta lavar com água e sabão.</tspan></text>
+</svg>

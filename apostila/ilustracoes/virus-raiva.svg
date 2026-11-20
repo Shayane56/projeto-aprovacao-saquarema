@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="O vírus da raiva em forma de bala e o caminho do vírus no corpo: da ferida pelos nervos até o cérebro e as glândulas salivares">
+  <defs>
+    <linearGradient id="vr-corpo" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c9b3ea"/><stop offset="100%" stop-color="#7b5fc4"/></linearGradient>
+    <marker id="vr-seta" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#e0533d"/></marker>
+  </defs>
+  <rect x="8" y="8" width="252" height="284" rx="18" fill="#fff" stroke="#b9dfdc" stroke-width="2"/>
+  <text x="134" y="38" text-anchor="middle" class="t-titulo" font-size="15" fill="#0b4f5c">O agente</text>
+  <text x="134" y="56" text-anchor="middle" font-size="11.5" fill="#566577" font-style="italic">Lyssavirus</text>
+  <g transform="translate(134 140)">
+    <g stroke="#6b59d3" stroke-width="3" stroke-linecap="round">
+      <path d="M-60 -34 l -8 -10 M-30 -34 l -2 -12 M0 -34 l 0 -12 M30 -34 l 2 -12 M60 -30 l 10 -8 M80 -6 l 12 -2 M80 14 l 12 4 M60 34 l 10 8 M30 34 l 2 12 M0 34 l 0 12 M-30 34 l -2 12 M-60 34 l -8 10"/>
+    </g>
+    <path d="M-72 -34 L 50 -34 C 80 -34, 90 -10, 90 0 C 90 10, 80 34, 50 34 L -72 34 Z" fill="url(#vr-corpo)" stroke="#5a48b8" stroke-width="3"/>
+    <path d="M-60 -16 C -20 -26, 20 -6, 60 -16 M-60 0 C -20 -10, 20 10, 60 0 M-60 16 C -20 6, 20 26, 60 16" stroke="#efe8fb" stroke-width="2.4" fill="none"/>
+  </g>
+  <text font-size="11.5" fill="#1b2733"><tspan x="26" y="216">Vírus de RNA em forma de</tspan><tspan x="26" dy="16"><tspan font-weight="700">“bala de revólver”</tspan>, família</tspan><tspan x="26" dy="16"><tspan font-style="italic">Rhabdoviridae</tspan>. Afeta todos</tspan><tspan x="26" dy="16">os <tspan font-weight="700">mamíferos</tspan>.</tspan></text>
+  <!-- caminho do vírus -->
+  <rect x="272" y="8" width="480" height="284" rx="18" fill="#f7f4fd" stroke="#d6cdf2" stroke-width="2"/>
+  <text x="512" y="38" text-anchor="middle" class="t-titulo" font-size="15" fill="#0b4f5c">O caminho do vírus no corpo</text>
+  <g font-size="11.5" fill="#1b2733" text-anchor="middle">
+    <circle cx="330" cy="120" r="34" fill="#fdebe7" stroke="#e0533d" stroke-width="2"/><text x="330" y="116" font-weight="700" fill="#b8331f">1</text><text x="330" y="132">ferida</text>
+    <circle cx="450" cy="120" r="34" fill="#fff3df" stroke="#f0a12f" stroke-width="2"/><text x="450" y="116" font-weight="700" fill="#b86e00">2</text><text x="450" y="132">nervos</text>
+    <circle cx="570" cy="120" r="34" fill="#efedfc" stroke="#6b59d3" stroke-width="2"/><text x="570" y="116" font-weight="700" fill="#6b59d3">3</text><text x="570" y="132">cérebro</text>
+    <circle cx="690" cy="120" r="34" fill="#e5f3f2" stroke="#13858a" stroke-width="2"/><text x="690" y="116" font-weight="700" fill="#0b4f5c">4</text><text x="690" y="132">saliva</text>
+  </g>
+  <g stroke="#e0533d" stroke-width="3" fill="none" marker-end="url(#vr-seta)"><path d="M366 120 L 410 120"/><path d="M486 120 L 530 120"/><path d="M606 120 L 650 120"/></g>
+  <g font-size="11" fill="#1b2733">
+    <text x="292" y="182"><tspan x="292">A saliva do animal com o vírus</tspan><tspan x="292" dy="15">entra por mordida, arranhadura</tspan><tspan x="292" dy="15">ou lambedura de mucosa ou ferida.</tspan></text>
+    <text x="530" y="182"><tspan x="530">O vírus sobe <tspan font-weight="700">pelos nervos</tspan> até o</tspan><tspan x="530" dy="15">cérebro (encefalite) e depois chega</tspan><tspan x="530" dy="15">às glândulas salivares.</tspan></text>
+  </g>
+  <rect x="290" y="240" width="446" height="40" rx="10" fill="#0b4f5c"/>
+  <text x="513" y="265" text-anchor="middle" font-size="11" fill="#fff">Com sintomas, a raiva é <tspan font-weight="700" fill="#ffd38a">quase sempre fatal</tspan> (letalidade ≈ 100%).</text>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-label="Mapa mental: Raiva">
+<defs><filter id="mm2-sombra" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/></filter>
+<radialGradient id="mm2-centro" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#3aa6d6"/><stop offset="100%" stop-color="#0b4f5c"/></radialGradient></defs>
+<path d="M380 300 C 310.0 300, 310.0 106.0, 240 106.0" fill="none" stroke="#6b59d3" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="106.0" r="6" fill="#6b59d3"/>
+<path d="M380 300 C 310.0 300, 310.0 300.0, 240 300.0" fill="none" stroke="#b8331f" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="300.0" r="6" fill="#b8331f"/>
+<path d="M380 300 C 310.0 300, 310.0 494.0, 240 494.0" fill="none" stroke="#7a5230" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="494.0" r="6" fill="#7a5230"/>
+<path d="M380 300 C 450.0 300, 450.0 106.0, 520 106.0" fill="none" stroke="#0b4f5c" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="106.0" r="6" fill="#0b4f5c"/>
+<path d="M380 300 C 450.0 300, 450.0 300.0, 520 300.0" fill="none" stroke="#1d7650" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="300.0" r="6" fill="#1d7650"/>
+<path d="M380 300 C 450.0 300, 450.0 494.0, 520 494.0" fill="none" stroke="#b86e00" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="494.0" r="6" fill="#b86e00"/>
+<circle cx="380" cy="300" r="88" fill="#fff" opacity="0.9"/>
+<circle cx="380" cy="300" r="78" fill="url(#mm2-centro)" filter="url(#mm2-sombra)"/>
+<text x="380" y="294" text-anchor="middle" class="t-titulo" font-size="21" fill="#fff">Raiva</text>
+<text x="380" y="316" text-anchor="middle" font-size="11.5" fill="#d6eeee">encefalite viral aguda</text>
+<text x="380" y="332" text-anchor="middle" font-size="10.5" fill="#ffd38a">letalidade ≈ 100%</text>
+<text x="380" y="346" text-anchor="middle" font-size="10.5" fill="#ffd38a">prevenível com vacina</text>
+<g filter="url(#mm2-sombra)"><rect x="12" y="18" width="228" height="176" rx="14" fill="#fff" stroke="#6b59d3" stroke-width="2"/></g>
+<path d="M12 32 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#6b59d3"/>
+<text x="126.0" y="41" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">AGENTE</text>
+<circle cx="26" cy="70" r="3" fill="#6b59d3"/>
+<text x="36" y="74" font-size="11.4" fill="#1b2733">Lyssavirus (Rhabdoviridae)</text>
+<circle cx="26" cy="93" r="3" fill="#6b59d3"/>
+<text x="36" y="97" font-size="11.4" fill="#1b2733">Vírus de RNA, “bala”</text>
+<circle cx="26" cy="116" r="3" fill="#6b59d3"/>
+<text x="36" y="120" font-size="11.4" fill="#1b2733">Atinge todos os mamíferos</text>
+<circle cx="26" cy="139" r="3" fill="#6b59d3"/>
+<text x="36" y="143" font-size="11.4" fill="#1b2733">Caminha pelos nervos</text>
+<circle cx="26" cy="162" r="3" fill="#6b59d3"/>
+<text x="36" y="166" font-size="11.4" fill="#1b2733">Chega ao cérebro</text>
+<g filter="url(#mm2-sombra)"><rect x="12" y="212" width="228" height="176" rx="14" fill="#fff" stroke="#b8331f" stroke-width="2"/></g>
+<path d="M12 226 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#b8331f"/>
+<text x="126.0" y="235" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">TRANSMISSÃO</text>
+<circle cx="26" cy="264" r="3" fill="#b8331f"/>
+<text x="36" y="268" font-size="11.4" fill="#1b2733">Saliva do animal infectado</text>
+<circle cx="26" cy="287" r="3" fill="#b8331f"/>
+<text x="36" y="291" font-size="11.4" fill="#1b2733">Mordida, arranhadura</text>
+<circle cx="26" cy="310" r="3" fill="#b8331f"/>
+<text x="36" y="314" font-size="11.4" fill="#1b2733">Lambedura de mucosa</text>
+<circle cx="26" cy="333" r="3" fill="#b8331f"/>
+<text x="36" y="337" font-size="11.4" fill="#1b2733">Cão/gato: 2–5 dias antes</text>
+<text x="36" y="360" font-size="11.4" fill="#1b2733">dos sinais até a morte</text>
+<g filter="url(#mm2-sombra)"><rect x="12" y="406" width="228" height="176" rx="14" fill="#fff" stroke="#7a5230" stroke-width="2"/></g>
+<path d="M12 420 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#7a5230"/>
+<text x="126.0" y="429" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">CICLOS</text>
+<circle cx="26" cy="458" r="3" fill="#7a5230"/>
+<text x="36" y="462" font-size="11.4" fill="#1b2733">Urbano: cão e gato</text>
+<circle cx="26" cy="481" r="3" fill="#7a5230"/>
+<text x="36" y="485" font-size="11.4" fill="#1b2733">Rural: herbívoros</text>
+<text x="36" y="508" font-size="11.4" fill="#1b2733">(morcego hematófago)</text>
+<circle cx="26" cy="527" r="3" fill="#7a5230"/>
+<text x="36" y="531" font-size="11.4" fill="#1b2733">Silvestre aéreo: morcegos</text>
+<circle cx="26" cy="550" r="3" fill="#7a5230"/>
+<text x="36" y="554" font-size="11.4" fill="#1b2733">Silvestre terrestre: sagui…</text>
+<g filter="url(#mm2-sombra)"><rect x="520" y="18" width="228" height="176" rx="14" fill="#fff" stroke="#0b4f5c" stroke-width="2"/></g>
+<path d="M520 32 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#0b4f5c"/>
+<text x="634.0" y="41" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">CLÍNICA</text>
+<circle cx="534" cy="70" r="3" fill="#0b4f5c"/>
+<text x="544" y="74" font-size="11.4" fill="#1b2733">Incubação: média 45 dias</text>
+<circle cx="534" cy="93" r="3" fill="#0b4f5c"/>
+<text x="544" y="97" font-size="11.4" fill="#1b2733">Febre, formigamento local</text>
+<circle cx="534" cy="116" r="3" fill="#0b4f5c"/>
+<text x="544" y="120" font-size="11.4" fill="#1b2733">Agitação, medo de água</text>
+<circle cx="534" cy="139" r="3" fill="#0b4f5c"/>
+<text x="544" y="143" font-size="11.4" fill="#1b2733">Paralisia, coma, morte</text>
+<circle cx="534" cy="162" r="3" fill="#0b4f5c"/>
+<text x="544" y="166" font-size="11.4" fill="#1b2733">Sem tratamento eficaz</text>
+<g filter="url(#mm2-sombra)"><rect x="520" y="212" width="228" height="176" rx="14" fill="#fff" stroke="#1d7650" stroke-width="2"/></g>
+<path d="M520 226 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#1d7650"/>
+<text x="634.0" y="235" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">PROFILAXIA HUMANA</text>
+<circle cx="534" cy="264" r="3" fill="#1d7650"/>
+<text x="544" y="268" font-size="11.4" fill="#1b2733">Lavar com água e sabão</text>
+<circle cx="534" cy="287" r="3" fill="#1d7650"/>
+<text x="544" y="291" font-size="11.4" fill="#1b2733">Pós: 4 doses (0-3-7-14)</text>
+<circle cx="534" cy="310" r="3" fill="#1d7650"/>
+<text x="544" y="314" font-size="11.4" fill="#1b2733">Soro/imunoglobulina: grave</text>
+<circle cx="534" cy="333" r="3" fill="#1d7650"/>
+<text x="544" y="337" font-size="11.4" fill="#1b2733">Pré: 2 doses (0 e 7)</text>
+<circle cx="534" cy="356" r="3" fill="#1d7650"/>
+<text x="544" y="360" font-size="11.4" fill="#1b2733">Cão/gato: observar 10 dias</text>
+<g filter="url(#mm2-sombra)"><rect x="520" y="406" width="228" height="176" rx="14" fill="#fff" stroke="#b86e00" stroke-width="2"/></g>
+<path d="M520 420 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#b86e00"/>
+<text x="634.0" y="429" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">VIGILÂNCIA E CONTROLE</text>
+<circle cx="534" cy="458" r="3" fill="#b86e00"/>
+<text x="544" y="462" font-size="11.4" fill="#1b2733">Vacinação de cães e gatos</text>
+<circle cx="534" cy="481" r="3" fill="#b86e00"/>
+<text x="544" y="485" font-size="11.4" fill="#1b2733">Morcego: não tocar</text>
+<circle cx="534" cy="504" r="3" fill="#b86e00"/>
+<text x="544" y="508" font-size="11.4" fill="#1b2733">Envio de amostras ao lab</text>
+<circle cx="534" cy="527" r="3" fill="#b86e00"/>
+<text x="544" y="531" font-size="11.4" fill="#1b2733">Raiva humana: imediata</text>
+<circle cx="534" cy="550" r="3" fill="#b86e00"/>
+<text x="544" y="554" font-size="11.4" fill="#1b2733">Guarda responsável</text>
+</svg>
