@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-label="Mapa mental: Malária">
+<defs><filter id="mm2-sombra" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/></filter>
+<radialGradient id="mm2-centro" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#3aa6d6"/><stop offset="100%" stop-color="#0b4f5c"/></radialGradient></defs>
+<path d="M380 300 C 310.0 300, 310.0 106.0, 240 106.0" fill="none" stroke="#13858a" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="106.0" r="6" fill="#13858a"/>
+<path d="M380 300 C 310.0 300, 310.0 300.0, 240 300.0" fill="none" stroke="#6e5f4a" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="300.0" r="6" fill="#6e5f4a"/>
+<path d="M380 300 C 310.0 300, 310.0 494.0, 240 494.0" fill="none" stroke="#2b8fc4" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="494.0" r="6" fill="#2b8fc4"/>
+<path d="M380 300 C 450.0 300, 450.0 106.0, 520 106.0" fill="none" stroke="#6b59d3" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="106.0" r="6" fill="#6b59d3"/>
+<path d="M380 300 C 450.0 300, 450.0 300.0, 520 300.0" fill="none" stroke="#1d7650" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="300.0" r="6" fill="#1d7650"/>
+<path d="M380 300 C 450.0 300, 450.0 494.0, 520 494.0" fill="none" stroke="#b86e00" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="494.0" r="6" fill="#b86e00"/>
+<circle cx="380" cy="300" r="88" fill="#fff" opacity="0.9"/>
+<circle cx="380" cy="300" r="78" fill="url(#mm2-centro)" filter="url(#mm2-sombra)"/>
+<text x="380" y="294" text-anchor="middle" class="t-titulo" font-size="21" fill="#fff">Malária</text>
+<text x="380" y="316" text-anchor="middle" font-size="11.5" fill="#d6eeee">impaludismo · maleita</text>
+<text x="380" y="332" text-anchor="middle" font-size="10.5" fill="#ffd38a">fora da Amazônia:</text>
+<text x="380" y="346" text-anchor="middle" font-size="10.5" fill="#ffd38a">notificação imediata</text>
+<g filter="url(#mm2-sombra)"><rect x="12" y="18" width="228" height="176" rx="14" fill="#fff" stroke="#13858a" stroke-width="2"/></g>
+<path d="M12 32 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#13858a"/>
+<text x="126.0" y="41" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">AGENTE</text>
+<circle cx="26" cy="70" r="3" fill="#13858a"/>
+<text x="36" y="74" font-size="11.4" fill="#1b2733">Protozoário Plasmodium</text>
+<circle cx="26" cy="93" r="3" fill="#13858a"/>
+<text x="36" y="97" font-size="11.4" fill="#1b2733">P. vivax: ~90% no Brasil</text>
+<circle cx="26" cy="116" r="3" fill="#13858a"/>
+<text x="36" y="120" font-size="11.4" fill="#1b2733">P. falciparum: mais grave</text>
+<circle cx="26" cy="139" r="3" fill="#13858a"/>
+<text x="36" y="143" font-size="11.4" fill="#1b2733">P. malariae: febre quartã</text>
+<circle cx="26" cy="162" r="3" fill="#13858a"/>
+<text x="36" y="166" font-size="11.4" fill="#1b2733">Vivax: recaídas (fígado)</text>
+<g filter="url(#mm2-sombra)"><rect x="12" y="212" width="228" height="176" rx="14" fill="#fff" stroke="#6e5f4a" stroke-width="2"/></g>
+<path d="M12 226 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#6e5f4a"/>
+<text x="126.0" y="235" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">VETOR</text>
+<circle cx="26" cy="264" r="3" fill="#6e5f4a"/>
+<text x="36" y="268" font-size="11.4" fill="#1b2733">Fêmea do Anopheles</text>
+<circle cx="26" cy="287" r="3" fill="#6e5f4a"/>
+<text x="36" y="291" font-size="11.4" fill="#1b2733">“Mosquito-prego”</text>
+<circle cx="26" cy="310" r="3" fill="#6e5f4a"/>
+<text x="36" y="314" font-size="11.4" fill="#1b2733">An. darlingi: o principal</text>
+<circle cx="26" cy="333" r="3" fill="#6e5f4a"/>
+<text x="36" y="337" font-size="11.4" fill="#1b2733">Entardecer e noite</text>
+<circle cx="26" cy="356" r="3" fill="#6e5f4a"/>
+<text x="36" y="360" font-size="11.4" fill="#1b2733">Mata Atlântica: bromélias</text>
+<g filter="url(#mm2-sombra)"><rect x="12" y="406" width="228" height="176" rx="14" fill="#fff" stroke="#2b8fc4" stroke-width="2"/></g>
+<path d="M12 420 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#2b8fc4"/>
+<text x="126.0" y="429" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">TRANSMISSÃO</text>
+<circle cx="26" cy="458" r="3" fill="#2b8fc4"/>
+<text x="36" y="462" font-size="11.4" fill="#1b2733">Picada do Anopheles</text>
+<circle cx="26" cy="481" r="3" fill="#2b8fc4"/>
+<text x="36" y="485" font-size="11.4" fill="#1b2733">Transfusão de sangue</text>
+<circle cx="26" cy="504" r="3" fill="#2b8fc4"/>
+<text x="36" y="508" font-size="11.4" fill="#1b2733">Seringas compartilhadas</text>
+<circle cx="26" cy="527" r="3" fill="#2b8fc4"/>
+<text x="36" y="531" font-size="11.4" fill="#1b2733">Congênita (mãe → bebê)</text>
+<circle cx="26" cy="550" r="3" fill="#2b8fc4"/>
+<text x="36" y="554" font-size="11.4" fill="#1b2733">Não passa pelo contato</text>
+<g filter="url(#mm2-sombra)"><rect x="520" y="18" width="228" height="176" rx="14" fill="#fff" stroke="#6b59d3" stroke-width="2"/></g>
+<path d="M520 32 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#6b59d3"/>
+<text x="634.0" y="41" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">CLÍNICA</text>
+<circle cx="534" cy="70" r="3" fill="#6b59d3"/>
+<text x="544" y="74" font-size="11.4" fill="#1b2733">Febre alta e calafrios</text>
+<circle cx="534" cy="93" r="3" fill="#6b59d3"/>
+<text x="544" y="97" font-size="11.4" fill="#1b2733">Suor intenso, dor de cabeça</text>
+<circle cx="534" cy="116" r="3" fill="#6b59d3"/>
+<text x="544" y="120" font-size="11.4" fill="#1b2733">Febre em ciclos</text>
+<circle cx="534" cy="139" r="3" fill="#6b59d3"/>
+<text x="544" y="143" font-size="11.4" fill="#1b2733">Anemia, baço grande</text>
+<circle cx="534" cy="162" r="3" fill="#6b59d3"/>
+<text x="544" y="166" font-size="11.4" fill="#1b2733">Grave: sobretudo falciparum</text>
+<g filter="url(#mm2-sombra)"><rect x="520" y="212" width="228" height="176" rx="14" fill="#fff" stroke="#1d7650" stroke-width="2"/></g>
+<path d="M520 226 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#1d7650"/>
+<text x="634.0" y="235" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">DIAGNÓSTICO E TRATAMENTO</text>
+<circle cx="534" cy="264" r="3" fill="#1d7650"/>
+<text x="544" y="268" font-size="11.4" fill="#1b2733">Gota espessa</text>
+<circle cx="534" cy="287" r="3" fill="#1d7650"/>
+<text x="544" y="291" font-size="11.4" fill="#1b2733">Teste rápido</text>
+<circle cx="534" cy="310" r="3" fill="#1d7650"/>
+<text x="544" y="314" font-size="11.4" fill="#1b2733">Tratamento no mesmo dia</text>
+<circle cx="534" cy="333" r="3" fill="#1d7650"/>
+<text x="544" y="337" font-size="11.4" fill="#1b2733">Gratuito no SUS</text>
+<circle cx="534" cy="356" r="3" fill="#1d7650"/>
+<text x="544" y="360" font-size="11.4" fill="#1b2733">Primaquina: contra recaídas</text>
+<g filter="url(#mm2-sombra)"><rect x="520" y="406" width="228" height="176" rx="14" fill="#fff" stroke="#b86e00" stroke-width="2"/></g>
+<path d="M520 420 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#b86e00"/>
+<text x="634.0" y="429" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">PREVENÇÃO E CONTROLE</text>
+<circle cx="534" cy="458" r="3" fill="#b86e00"/>
+<text x="544" y="462" font-size="11.4" fill="#1b2733">Diagnóstico e tratamento</text>
+<text x="544" y="485" font-size="11.4" fill="#1b2733">precoces: o principal</text>
+<circle cx="534" cy="504" r="3" fill="#b86e00"/>
+<text x="544" y="508" font-size="11.4" fill="#1b2733">Mosquiteiro impregnado</text>
+<circle cx="534" cy="527" r="3" fill="#b86e00"/>
+<text x="544" y="531" font-size="11.4" fill="#1b2733">Borrifação residual</text>
+<circle cx="534" cy="550" r="3" fill="#b86e00"/>
+<text x="544" y="554" font-size="11.4" fill="#1b2733">Proteger-se ao entardecer</text>
+</svg>
