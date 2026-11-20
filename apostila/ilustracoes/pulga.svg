@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img" aria-label="Ilustração de uma pulga, vista de lado, com corpo achatado e patas traseiras longas para saltar">
+  <circle cx="200" cy="160" r="150" fill="#ffffff" opacity="0.88"/>
+  <g transform="translate(30 30) scale(0.78)"><g class="pulga">
+    <path d="M90 150 C 70 90, 130 50, 210 56 C 290 62, 330 110, 316 160 C 304 200, 250 220, 190 214 C 130 208, 100 190, 90 150 Z" fill="#8a4a2a" stroke="#5a2e18" stroke-width="3"/>
+    <g stroke="#5a2e18" stroke-width="2" fill="none" opacity="0.7"><path d="M150 64 C 140 110, 142 170, 156 210"/><path d="M190 58 C 182 110, 184 170, 194 214"/><path d="M230 60 C 226 110, 228 170, 234 212"/><path d="M270 72 C 270 120, 272 170, 270 204"/></g>
+    <path d="M100 130 C 70 120, 50 120, 40 132 C 50 146, 74 150, 98 150 Z" fill="#7a3e22" stroke="#5a2e18" stroke-width="3"/>
+    <circle cx="66" cy="132" r="4" fill="#1b1b1b"/>
+    <path d="M44 140 L 20 176" stroke="#5a2e18" stroke-width="3" stroke-linecap="round"/>
+    <g stroke="#5a2e18" stroke-width="6" stroke-linecap="round" fill="none">
+      <polyline points="140,206 120,250 96,262"/>
+      <polyline points="200,212 196,262 176,280"/>
+      <polyline points="268,200 320,210 352,170 380,268 410,276"/>
+    </g>
+    <g fill="#b06a3a" opacity="0.6"><ellipse cx="200" cy="96" rx="40" ry="14"/></g>
+  </g></g>
+</svg>

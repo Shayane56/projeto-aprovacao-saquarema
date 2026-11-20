@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-label="Mapa mental: Peste">
+<defs><filter id="mm2-sombra" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0b4f5c" flood-opacity="0.14"/></filter>
+<radialGradient id="mm2-centro" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#3aa6d6"/><stop offset="100%" stop-color="#0b4f5c"/></radialGradient></defs>
+<path d="M380 300 C 310.0 300, 310.0 106.0, 240 106.0" fill="none" stroke="#13858a" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="106.0" r="6" fill="#13858a"/>
+<path d="M380 300 C 310.0 300, 310.0 300.0, 240 300.0" fill="none" stroke="#5e5244" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="300.0" r="6" fill="#5e5244"/>
+<path d="M380 300 C 310.0 300, 310.0 494.0, 240 494.0" fill="none" stroke="#2b8fc4" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="240" cy="494.0" r="6" fill="#2b8fc4"/>
+<path d="M380 300 C 450.0 300, 450.0 106.0, 520 106.0" fill="none" stroke="#6b59d3" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="106.0" r="6" fill="#6b59d3"/>
+<path d="M380 300 C 450.0 300, 450.0 300.0, 520 300.0" fill="none" stroke="#1d7650" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="300.0" r="6" fill="#1d7650"/>
+<path d="M380 300 C 450.0 300, 450.0 494.0, 520 494.0" fill="none" stroke="#b86e00" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+<circle cx="520" cy="494.0" r="6" fill="#b86e00"/>
+<circle cx="380" cy="300" r="88" fill="#fff" opacity="0.9"/>
+<circle cx="380" cy="300" r="78" fill="url(#mm2-centro)" filter="url(#mm2-sombra)"/>
+<text x="380" y="294" text-anchor="middle" class="t-titulo" font-size="21" fill="#fff">Peste</text>
+<text x="380" y="316" text-anchor="middle" font-size="11.5" fill="#d6eeee">zoonose bacteriana</text>
+<text x="380" y="332" text-anchor="middle" font-size="10.5" fill="#ffd38a">notificação</text>
+<text x="380" y="346" text-anchor="middle" font-size="10.5" fill="#ffd38a">imediata</text>
+<g filter="url(#mm2-sombra)"><rect x="12" y="18" width="228" height="176" rx="14" fill="#fff" stroke="#13858a" stroke-width="2"/></g>
+<path d="M12 32 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#13858a"/>
+<text x="126.0" y="41" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">AGENTE</text>
+<circle cx="26" cy="70" r="3" fill="#13858a"/>
+<text x="36" y="74" font-size="11.4" fill="#1b2733">Bactéria Yersinia pestis</text>
+<circle cx="26" cy="93" r="3" fill="#13858a"/>
+<text x="36" y="97" font-size="11.4" fill="#1b2733">Causou a “peste negra”</text>
+<circle cx="26" cy="116" r="3" fill="#13858a"/>
+<text x="36" y="120" font-size="11.4" fill="#1b2733">Grave e de evolução rápida</text>
+<circle cx="26" cy="139" r="3" fill="#13858a"/>
+<text x="36" y="143" font-size="11.4" fill="#1b2733">Tratável com antibiótico</text>
+<text x="36" y="166" font-size="11.4" fill="#1b2733">se iniciado cedo</text>
+<g filter="url(#mm2-sombra)"><rect x="12" y="212" width="228" height="176" rx="14" fill="#fff" stroke="#5e5244" stroke-width="2"/></g>
+<path d="M12 226 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#5e5244"/>
+<text x="126.0" y="235" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">RESERVATÓRIOS</text>
+<circle cx="26" cy="264" r="3" fill="#5e5244"/>
+<text x="36" y="268" font-size="11.4" fill="#1b2733">Roedores silvestres</text>
+<circle cx="26" cy="287" r="3" fill="#5e5244"/>
+<text x="36" y="291" font-size="11.4" fill="#1b2733">Ratos levam à casa</text>
+<circle cx="26" cy="310" r="3" fill="#5e5244"/>
+<text x="36" y="314" font-size="11.4" fill="#1b2733">Focos naturais no Brasil</text>
+<circle cx="26" cy="333" r="3" fill="#5e5244"/>
+<text x="36" y="337" font-size="11.4" fill="#1b2733">Nordeste, norte de MG</text>
+<circle cx="26" cy="356" r="3" fill="#5e5244"/>
+<text x="36" y="360" font-size="11.4" fill="#1b2733">Serra dos Órgãos (RJ)</text>
+<g filter="url(#mm2-sombra)"><rect x="12" y="406" width="228" height="176" rx="14" fill="#fff" stroke="#2b8fc4" stroke-width="2"/></g>
+<path d="M12 420 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#2b8fc4"/>
+<text x="126.0" y="429" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">TRANSMISSÃO</text>
+<circle cx="26" cy="458" r="3" fill="#2b8fc4"/>
+<text x="36" y="462" font-size="11.4" fill="#1b2733">Picada de pulga infectada</text>
+<circle cx="26" cy="481" r="3" fill="#2b8fc4"/>
+<text x="36" y="485" font-size="11.4" fill="#1b2733">X. cheopis (pulga do rato)</text>
+<circle cx="26" cy="504" r="3" fill="#2b8fc4"/>
+<text x="36" y="508" font-size="11.4" fill="#1b2733">Contato com animal doente</text>
+<circle cx="26" cy="527" r="3" fill="#2b8fc4"/>
+<text x="36" y="531" font-size="11.4" fill="#1b2733">Pneumônica: pela tosse</text>
+<text x="36" y="554" font-size="11.4" fill="#1b2733">(pessoa a pessoa)</text>
+<g filter="url(#mm2-sombra)"><rect x="520" y="18" width="228" height="176" rx="14" fill="#fff" stroke="#6b59d3" stroke-width="2"/></g>
+<path d="M520 32 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#6b59d3"/>
+<text x="634.0" y="41" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">FORMAS CLÍNICAS</text>
+<circle cx="534" cy="70" r="3" fill="#6b59d3"/>
+<text x="544" y="74" font-size="11.4" fill="#1b2733">Bubônica: a mais comum</text>
+<circle cx="534" cy="93" r="3" fill="#6b59d3"/>
+<text x="544" y="97" font-size="11.4" fill="#1b2733">Bubão: gânglio doloroso</text>
+<circle cx="534" cy="116" r="3" fill="#6b59d3"/>
+<text x="544" y="120" font-size="11.4" fill="#1b2733">Septicêmica: no sangue</text>
+<circle cx="534" cy="139" r="3" fill="#6b59d3"/>
+<text x="544" y="143" font-size="11.4" fill="#1b2733">Pneumônica: a mais grave</text>
+<circle cx="534" cy="162" r="3" fill="#6b59d3"/>
+<text x="544" y="166" font-size="11.4" fill="#1b2733">Febre alta, súbita</text>
+<g filter="url(#mm2-sombra)"><rect x="520" y="212" width="228" height="176" rx="14" fill="#fff" stroke="#1d7650" stroke-width="2"/></g>
+<path d="M520 226 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#1d7650"/>
+<text x="634.0" y="235" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">VIGILÂNCIA</text>
+<circle cx="534" cy="264" r="3" fill="#1d7650"/>
+<text x="544" y="268" font-size="11.4" fill="#1b2733">Captura de roedores</text>
+<circle cx="534" cy="287" r="3" fill="#1d7650"/>
+<text x="544" y="291" font-size="11.4" fill="#1b2733">Pesquisa de pulgas</text>
+<circle cx="534" cy="310" r="3" fill="#1d7650"/>
+<text x="544" y="314" font-size="11.4" fill="#1b2733">Sorologia de cães e gatos</text>
+<circle cx="534" cy="333" r="3" fill="#1d7650"/>
+<text x="544" y="337" font-size="11.4" fill="#1b2733">Notificação imediata</text>
+<circle cx="534" cy="356" r="3" fill="#1d7650"/>
+<text x="544" y="360" font-size="11.4" fill="#1b2733">Ratada = alerta</text>
+<g filter="url(#mm2-sombra)"><rect x="520" y="406" width="228" height="176" rx="14" fill="#fff" stroke="#b86e00" stroke-width="2"/></g>
+<path d="M520 420 a14 14 0 0 1 14 -14 h200 a14 14 0 0 1 14 14 v20 h-228 z" fill="#b86e00"/>
+<text x="634.0" y="429" text-anchor="middle" class="t-titulo" font-size="12" fill="#fff" letter-spacing="0.6">CONTROLE</text>
+<circle cx="534" cy="458" r="3" fill="#b86e00"/>
+<text x="544" y="462" font-size="11.4" fill="#1b2733">Primeiro: matar as PULGAS</text>
+<circle cx="534" cy="481" r="3" fill="#b86e00"/>
+<text x="544" y="485" font-size="11.4" fill="#1b2733">Depois: controlar os ratos</text>
+<circle cx="534" cy="504" r="3" fill="#b86e00"/>
+<text x="544" y="508" font-size="11.4" fill="#1b2733">Antirratização</text>
+<circle cx="534" cy="527" r="3" fill="#b86e00"/>
+<text x="544" y="531" font-size="11.4" fill="#1b2733">Não tocar roedor morto</text>
+<circle cx="534" cy="550" r="3" fill="#b86e00"/>
+<text x="544" y="554" font-size="11.4" fill="#1b2733">Usar EPI no campo</text>
+</svg>

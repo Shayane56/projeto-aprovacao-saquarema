@@ -420,3 +420,14 @@ table.criadouros td:first-child { text-align: center; color: #fff; background: v
 .gabarito-tira.g8 { grid-template-columns: repeat(8, 1fr); }
 .abertura.roxo { background: radial-gradient(120% 90% at 85% 10%, #8a6fd8 0%, #4a3a8a 38%, #1f1a3d 100%); }
 .ciclos-raiva .cartao p { font-size: 9pt; }
+
+/* ---------- Peste: formas clínicas ---------- */
+.formas-peste { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 2mm 0; }
+.fp { position: relative; border-radius: 3mm; padding: 6mm 3.4mm 3mm; border: 0.4mm solid; }
+.fp b { display: block; font: 800 13pt 'Poppins'; margin-bottom: 1mm; }
+.fp p { font-size: 9pt; line-height: 1.42; margin: 0; text-align: left; }
+.fp-tag { position: absolute; top: 2mm; left: 3.4mm; font: 700 6.8pt 'Poppins'; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.4mm 2mm; border-radius: 2mm; color: #fff; }
+.fp.verde { background: var(--verde-claro); border-color: #9fd6bb; } .fp.verde b { color: var(--verde-escuro); } .fp.verde .fp-tag { background: var(--verde); }
+.fp.ambar { background: var(--ambar-claro); border-color: #f3cf91; } .fp.ambar b { color: var(--ambar-escuro); } .fp.ambar .fp-tag { background: var(--ambar-escuro); }
+.fp.coral { background: var(--coral-claro); border-color: #f1b3a7; } .fp.coral b { color: var(--coral-escuro); } .fp.coral .fp-tag { background: var(--coral); }
+.gabarito-tira.g6 { grid-template-columns: repeat(6, 1fr); }

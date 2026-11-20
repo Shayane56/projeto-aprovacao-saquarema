@@ -37,7 +37,8 @@ da página: nesse caso, lista as páginas no final e termina com código 2.
 - Capítulo 5 (Esquistossomose — edital 8.5): `50-…` a `54-…`
 - Capítulo 6 (Raiva — edital 8.6): `60-…` a `64-…`
 - Capítulo 7 (Leptospirose — edital 8.7): `70-…` a `73-…`
-- Próximos capítulos: `80-…`, `90-…`, e assim por diante, na ordem do edital.
+- Capítulo 8 (Peste — edital 8.8): `80-…` a `82-…`
+- Próximos capítulos: `90-…` (malária), `a0-…` (esporotricose), `b0-…` (febre amarela) — a ordem é alfabética, e assim por diante, na ordem do edital.
 
 ## Convenções
 
