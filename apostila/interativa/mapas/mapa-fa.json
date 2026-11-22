@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental-fa.svg","centro":"Febre amarela","sub":"arbovirose","extra":["casos e epizootias:","notificação imediata"],
+"ramos":[
+ ["AGENTE","#13858a",["Vírus da febre amarela","Flavivirus (como dengue)","Arbovirose","Não passa pelo contato","Vacina eficaz"]],
+ ["CICLOS","#1d7650",["Silvestre: macacos +","~Haemagogus, Sabethes","Pessoa: hospedeira acidental","Urbano: Aedes aegypti","Sem urbano desde 1942"]],
+ ["MACACOS","#7a5230",["Vítimas, não culpados","Sentinelas: morrem antes","Epizootia = alerta","NÃO matar os macacos","Comunicar macaco morto"]],
+ ["CLÍNICA","#6b59d3",["Incubação 3 a 6 dias","Febre, dor de cabeça","Forma grave: icterícia","Sangramentos, rins","Letalidade alta na grave"]],
+ ["VACINA","#b86e00",["A principal prevenção","9 meses + reforço aos 4 anos","5–59 anos sem vacina:","~dose única","Gratuita no SUS"]],
+ ["VIGILÂNCIA E CONTROLE","#0b4f5c",["Notificar epizootias","Pesquisa entomológica","Vacinar em áreas de risco","Controle do Aedes","Repelente na mata"]]
+]}

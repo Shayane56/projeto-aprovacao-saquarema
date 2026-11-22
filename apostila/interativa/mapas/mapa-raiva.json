@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental-raiva.svg","centro":"Raiva","sub":"encefalite viral aguda","extra":["letalidade ≈ 100%","prevenível com vacina"],
+"ramos":[
+ ["AGENTE","#6b59d3",["Lyssavirus (Rhabdoviridae)","Vírus de RNA, “bala”","Atinge todos os mamíferos","Caminha pelos nervos","Chega ao cérebro"]],
+ ["TRANSMISSÃO","#b8331f",["Saliva do animal infectado","Mordida, arranhadura","Lambedura de mucosa","Cão/gato: 2–5 dias antes","~dos sinais até a morte"]],
+ ["CICLOS","#7a5230",["Urbano: cão e gato","Rural: herbívoros","~(morcego hematófago)","Silvestre aéreo: morcegos","Silvestre terrestre: sagui…"]],
+ ["CLÍNICA","#0b4f5c",["Incubação: média 45 dias","Febre, formigamento local","Agitação, medo de água","Paralisia, coma, morte","Sem tratamento eficaz"]],
+ ["PROFILAXIA HUMANA","#1d7650",["Lavar com água e sabão","Pós: 4 doses (0-3-7-14)","Soro/imunoglobulina: grave","Pré: 2 doses (0 e 7)","Cão/gato: observar 10 dias"]],
+ ["VIGILÂNCIA E CONTROLE","#b86e00",["Vacinação de cães e gatos","Morcego: não tocar","Envio de amostras ao lab","Raiva humana: imediata","Guarda responsável"]]
+]}

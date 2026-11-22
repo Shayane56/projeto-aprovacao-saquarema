@@ -43,6 +43,24 @@ da página: nesse caso, lista as páginas no final e termina com código 2.
 - Revisão geral (fechamento, sem número de capítulo): `c0-…`
 - Os arquivos são montados em ordem alfabética, por isso depois de `9x` vem `ax`, `bx`…
 
+## Versão interativa
+
+Um único arquivo HTML, gerado a partir das mesmas páginas do PDF: **`saida/interativa/index.html`**.
+
+```bash
+node scripts/interativa.cjs   # gera saida/interativa/index.html
+```
+
+| Arquivo | O que tem |
+|---|---|
+| `scripts/interativa.cjs` | Lê `paginas/*.html`, agrupa por capítulo, embute ilustrações e ícones e monta o HTML. |
+| `interativa/casca.html` | Barra, índice, busca, lupa e a capa (início). |
+| `interativa/estilo.css` | Estilo "caderno" (claro e escuro) para todos os componentes da apostila. |
+| `interativa/app.js` | Navegação, questões que se corrigem na hora, pegadinhas que viram, mapas mentais desenhados, modo treino, busca, progresso salvo, simulador da raiva e jogo da revisão. |
+| `interativa/mapas/*.json` | Dados dos mapas mentais (os mesmos dos SVGs do PDF). |
+
+Depois de mudar uma página em `paginas/`, gere o PDF **e** a versão interativa.
+
 ## Convenções
 
 - Cada página é uma `<section class="pagina">` em A4 (210 × 297 mm), com o conteúdo em `<div class="conteudo">`.

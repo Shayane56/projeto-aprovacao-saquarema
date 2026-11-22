@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental-lepto.svg","centro":"Leptospirose","sub":"zoonose bacteriana","extra":["notificação","imediata"],
+"ramos":[
+ ["AGENTE","#13858a",["Bactéria Leptospira","Espiroqueta (espiral)","Vive em água e lama","Sensível ao cloro","Morre com o ressecamento"]],
+ ["RESERVATÓRIOS","#5e5244",["Ratos: principal","Ratazana (R. norvegicus)","Também cão, boi, porco","O rato não adoece","Elimina a vida toda"]],
+ ["TRANSMISSÃO","#2b8fc4",["Urina do animal infectado","Água e lama de enchente","Pele com feridas, mucosas","Pele íntegra muito tempo","Não passa pessoa a pessoa"]],
+ ["CLÍNICA","#6b59d3",["Incubação 1–30 dias","~(em geral 5–14)","Febre, dor de cabeça","Dor na panturrilha","Grave: icterícia, rins, pulmão"]],
+ ["CONDUTA","#1d7650",["Diagnóstico: sorologia","Antibiótico precoce","~(médico prescreve)","Hidratação","Casos graves: internação"]],
+ ["PREVENÇÃO E CONTROLE","#b86e00",["Evitar água de enchente","Botas e luvas na limpeza","Hipoclorito na limpeza","Antirratização","Lixo bem acondicionado"]]
+]}

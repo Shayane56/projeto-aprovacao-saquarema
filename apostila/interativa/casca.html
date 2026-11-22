@@ -1,0 +1,99 @@
+<svg class="defs-globais" aria-hidden="true" width="0" height="0">
+  <defs>
+    <filter id="tremido" filterUnits="userSpaceOnUse" x="-4000" y="-4000" width="12000" height="40000">
+      <feTurbulence type="fractalNoise" baseFrequency=".035" numOctaves="2" seed="4"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6"/>
+    </filter>
+  </defs>
+</svg>
+
+<header class="barra" id="barra">
+  <button class="b-botao b-menu" id="b-menu" type="button" aria-label="Abrir o índice" aria-expanded="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h12M4 17h16"/></svg><span>Índice</span>
+  </button>
+  <a class="b-logo" href="#inicio" aria-label="Início">ACE</a>
+  <div class="b-titulo" id="b-titulo">Apostila interativa</div>
+  <div class="b-acoes">
+    <button class="b-botao" id="b-busca" type="button" aria-label="Buscar na apostila">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><span>Buscar</span>
+    </button>
+    <button class="b-botao" id="b-treino" type="button" aria-pressed="false" title="Esconde as respostas para você testar a memória">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12s3.5-6.5 9.5-6.5S21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="2.8"/><path class="risco-olho" d="M4 20L20 4"/></svg><span>Modo treino</span>
+    </button>
+  </div>
+  <div class="b-progresso" aria-hidden="true"><span id="b-prog"></span></div>
+</header>
+
+<div class="gaveta-fundo" id="gaveta" hidden>
+  <nav class="gaveta" aria-label="Índice da apostila">
+    <div class="gaveta-topo"><span>Índice</span><button class="fechar-x" id="gaveta-fechar" type="button" aria-label="Fechar o índice">×</button></div>
+    <div id="gaveta-lista"></div>
+  </nav>
+</div>
+
+<main class="palco" id="palco"></main>
+
+<div class="sobreposicao" id="busca" hidden>
+  <div class="busca-painel" role="dialog" aria-modal="true" aria-label="Buscar na apostila">
+    <div class="busca-campo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <input id="busca-texto" type="search" placeholder="Busque: morcego, LIRAa, benznidazol, 10 dias…" autocomplete="off" aria-label="Termo de busca">
+      <button class="fechar-x" id="busca-fechar" type="button" aria-label="Fechar a busca">×</button>
+    </div>
+    <div class="busca-sugestoes" id="busca-sugestoes"></div>
+    <ol class="busca-resultados" id="busca-resultados" aria-live="polite"></ol>
+  </div>
+</div>
+
+<div class="sobreposicao lupa" id="lupa" hidden>
+  <div class="lupa-barra">
+    <button class="b-botao" id="lupa-menos" type="button" aria-label="Diminuir">−</button>
+    <button class="b-botao" id="lupa-mais" type="button" aria-label="Aumentar">+</button>
+    <button class="fechar-x" id="lupa-fechar" type="button" aria-label="Fechar">×</button>
+  </div>
+  <div class="lupa-area" id="lupa-area"><div class="lupa-folha" id="lupa-folha"></div></div>
+</div>
+
+<div class="aviso-toast" id="toast" role="status" aria-live="polite"></div>
+
+<template id="tpl-inicio">
+<section class="inicio">
+  <div class="ini-hero">
+    <div class="ini-texto">
+      <span class="ini-sobre">Prefeitura de Saquarema/RJ · Banca IBAM · Cargo 022</span>
+      <h1 class="ini-titulo">Apostila <span>ACE</span></h1>
+      <p class="ini-sub">Agente de Combate às Endemias: a apostila completa, agora para tocar, testar e revisar. Questões que se corrigem na hora, pegadinhas que viram, mapas mentais desenhados à mão e jogos.</p>
+      <div class="contagem" id="contagem" aria-live="polite">
+        <div class="contagem-num" id="dias">—</div>
+        <div class="contagem-txt"><b id="dias-rotulo">dias para a prova</b><span>Prova objetiva · 31/01/2027</span></div>
+      </div>
+      <div class="ini-botoes">
+        <a class="btn-mao principal" id="b-continuar" href="#cap-1">Começar pelo capítulo 1</a>
+        <button class="btn-mao" id="b-buscar2" type="button">Buscar na apostila</button>
+      </div>
+    </div>
+    <div class="ini-arte"><span class="fita" aria-hidden="true"></span><!-- CAPA-ARTE --></div>
+  </div>
+
+  <div class="ini-painel" id="painel">
+    <div class="stat"><b id="st-cap">0/12</b><span>capítulos estudados</span></div>
+    <div class="stat"><b id="st-q">0</b><span>questões respondidas</span></div>
+    <div class="stat"><b id="st-acerto">—</b><span>de acerto nas questões</span></div>
+    <div class="stat"><b id="st-jogo">—</b><span>recorde no desafio relâmpago</span></div>
+  </div>
+
+  <h2 class="ini-h2">Os capítulos <small>toque numa ficha para abrir</small></h2>
+  <div class="fichas" id="fichas"></div>
+
+  <h2 class="ini-h2">Como usar</h2>
+  <div class="como-usar">
+    <div class="uso"><b>Questões</b><span>Toque na alternativa: a correção e o comentário aparecem na hora, com placar por capítulo.</span></div>
+    <div class="uso"><b>Pegadinhas</b><span>A frase da banca aparece primeiro. Pense na versão certa e toque para revelar.</span></div>
+    <div class="uso"><b>Mapas mentais</b><span>Desenhados à mão em cada capítulo. Toque num ramo para destacar.</span></div>
+    <div class="uso"><b>Modo treino</b><span>Esconde as palavras-chave das revisões e dos mapas. Toque em cada lacuna para conferir.</span></div>
+    <div class="uso"><b>Figuras</b><span>Toque numa ilustração para ampliar.</span></div>
+    <div class="uso"><b>Progresso</b><span>Seções vistas, questões e capítulos estudados ficam salvos neste aparelho.</span></div>
+  </div>
+  <p class="ini-rodape">Conteúdo da apostila em PDF (versão final), com as fontes oficiais e links no fim de cada capítulo.</p>
+</section>
+</template>

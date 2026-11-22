@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental-dengue.svg","centro":"Dengue","sub":"arbovirose","extra":["casos: notificação semanal","óbitos: imediata"],
+"ramos":[
+ ["AGENTE","#13858a",["Vírus da dengue (DENV)","Flavivirus, vírus de RNA","4 sorotipos: DENV-1 a 4","Imunidade por sorotipo","2ª infecção: mais risco"]],
+ ["VETOR","#1b2733",["Aedes aegypti (fêmea)","Escuro com listras brancas","Pica de dia","Água parada e limpa","Ovo resiste ~450 dias"]],
+ ["TRANSMISSÃO","#2b8fc4",["Picada da fêmea infectada","Mosquito: 8–12 dias","Pessoa: 4–10 dias","~(média 5–6 dias)","Não passa de pessoa a pessoa"]],
+ ["QUADRO CLÍNICO","#6b59d3",["Febre alta súbita","Dor atrás dos olhos","Dores no corpo, manchas","Fase crítica: febre cai","8 sinais de alarme"]],
+ ["CONDUTA","#1d7650",["Hidratação é a base","Paracetamol ou dipirona","NUNCA AAS nem","~anti-inflamatórios","Grupos A, B, C e D"]],
+ ["PREVENÇÃO E CONTROLE","#b86e00",["Eliminar criadouros","10 minutos por semana","LIRAa: IIP e Breteau","Larvicida e bloqueio","Vacinas no SUS"]]
+]}

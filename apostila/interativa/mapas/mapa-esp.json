@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental-esporo.svg","centro":"Esporotricose","sub":"micose subcutânea","extra":["humana: notificação","compulsória (2025)"],
+"ramos":[
+ ["AGENTE","#13858a",["Fungo do gênero Sporothrix","S. brasiliensis: gatos","Vive no solo e vegetais","Doença do jardineiro","Não é vírus nem bactéria"]],
+ ["TRANSMISSÃO","#b8331f",["Arranhadura/mordida de gato","Secreção das feridas","Espinhos, farpas, palha","Pessoa a pessoa: não","Gato doente é a fonte"]],
+ ["NO GATO","#b86e00",["Feridas que não saram","“Nariz de palhaço”","Cabeça, orelhas, patas","Espirros, secreção","Tem tratamento"]],
+ ["NO SER HUMANO","#6b59d3",["Linfocutânea: a mais comum","Nódulos em fila no braço","Cutânea fixa","Formas graves: raras","Imunossuprimidos"]],
+ ["TRATAMENTO","#1d7650",["Antifúngico (itraconazol)","Por meses, até curar","Humano: com médico","Gato: com veterinário","Não abandonar o gato"]],
+ ["PREVENÇÃO","#0b4f5c",["Luvas ao lidar com gato","Luvas na jardinagem","Gato em casa, castrado","Gato morto: cremar","Não enterrar"]]
+]}

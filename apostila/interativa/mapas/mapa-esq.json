@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental-esquisto.svg","centro":"Esquistossomose","sub":"xistose · barriga d’água","extra":["helmintíase ligada","ao saneamento"],
+"ramos":[
+ ["AGENTE","#13858a",["Schistosoma mansoni","Verme achatado (helminto)","Macho e fêmea separados","Adultos nas veias do","~intestino e fígado"]],
+ ["HOSPEDEIROS","#7a5230",["Definitivo: ser humano","Intermediário: caramujo","~Biomphalaria (água doce)","B. glabrata, tenagophila,","~straminea"]],
+ ["TRANSMISSÃO","#2b8fc4",["Fezes com ovos na água","Miracídio → caramujo","Cercária → pele","Contato com água doce","Não passa pessoa a pessoa"]],
+ ["CLÍNICA","#6b59d3",["Aguda: dermatite, febre","Crônica: maioria leve","Grave: hepatoesplênica","Barriga d’água, varizes","Incubação: 2–6 semanas"]],
+ ["DIAGNÓSTICO E TRATAMENTO","#1d7650",["Exame de fezes","Kato-Katz (inquéritos)","Praziquantel","Dose única, no SUS","Ultrassom nas formas graves"]],
+ ["PREVENÇÃO E CONTROLE","#b86e00",["Saneamento básico","Tratar os infectados","Pesquisa malacológica","Evitar água suspeita","Educação em saúde"]]
+]}

@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental-colera.svg","centro":"Cólera","sub":"infecção intestinal aguda","extra":["notificação compulsória","imediata"],
+"ramos":[
+ ["AGENTE","#13858a",["Vibrio cholerae (bactéria)","Bastonete curvo “em vírgula”","Sorogrupos O1 e O139","Age pela TOXINA colérica","Sensível a cloro, calor e ácido"]],
+ ["TRANSMISSÃO","#2b8fc4",["Via fecal-oral","Água e alimentos contaminados","~por fezes ou vômitos","Frutos do mar crus, gelo","Reservatório: ser humano"]],
+ ["PERÍODOS","#b86e00",["Incubação: horas a 5 dias","~(em geral 2 a 3 dias)","Transmissão: enquanto","~elimina vibriões nas fezes","Muitos portadores sem sintomas"]],
+ ["QUADRO CLÍNICO","#6b59d3",["Diarreia aquosa abundante","Fezes em “água de arroz”","Vômitos, câimbras","Desidratação rápida","Sem febre alta, sem sangue"]],
+ ["DIAGNÓSTICO E TRATAMENTO","#1d7650",["Coprocultura (fezes/vômito)","Swab retal em Cary-Blair","REIDRATAÇÃO: planos A, B, C","Soro de reidratação oral","Antibiótico só se indicado"]],
+ ["PREVENÇÃO E CONTROLE","#0b4f5c",["Água tratada: 2 gotas/litro","Esgoto e saneamento","Lavar as mãos e alimentos","Frutos do mar bem cozidos","Caixa-d’água tampada"]]
+]}

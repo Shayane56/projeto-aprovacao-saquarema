@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental-chagas.svg","centro":"Chagas","sub":"doença de Chagas","extra":["fase aguda:","notificação imediata"],
+"ramos":[
+ ["AGENTE","#13858a",["Trypanosoma cruzi","Protozoário com flagelo","Tripomastigota: no sangue","Epimastigota: no barbeiro","Amastigota: nas células"]],
+ ["VETOR","#7a3428",["Triatomíneo: “barbeiro”","Macho, fêmea e ninfas","~sugam sangue","Pica à noite","Esconde-se em frestas"]],
+ ["TRANSMISSÃO","#2b8fc4",["Vetorial: pelas FEZES","Oral: alimentos (açaí, cana)","Vertical: mãe → bebê","Transfusão e transplante","Acidente de laboratório"]],
+ ["FASES","#6b59d3",["Aguda: febre, Romaña","Crônica indeterminada:","~a maioria, sem sintomas","Cardíaca: a mais grave","Digestiva: “megas”"]],
+ ["DIAGNÓSTICO E TRATAMENTO","#1d7650",["Aguda: parasita no sangue","Crônica: 2 sorologias","Benznidazol: 1ª escolha","Nifurtimox: alternativa","Gratuito no SUS"]],
+ ["PREVENÇÃO E CONTROLE","#b86e00",["Entregar barbeiro no PIT","Borrifação residual","Melhoria das casas","Higiene dos alimentos","Pré-natal e triagem"]]
+]}

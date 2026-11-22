@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental-malaria.svg","centro":"Malária","sub":"impaludismo · maleita","extra":["fora da Amazônia:","notificação imediata"],
+"ramos":[
+ ["AGENTE","#13858a",["Protozoário Plasmodium","P. vivax: ~90% no Brasil","P. falciparum: mais grave","P. malariae: febre quartã","Vivax: recaídas (fígado)"]],
+ ["VETOR","#6e5f4a",["Fêmea do Anopheles","“Mosquito-prego”","An. darlingi: o principal","Entardecer e noite","Mata Atlântica: bromélias"]],
+ ["TRANSMISSÃO","#2b8fc4",["Picada do Anopheles","Transfusão de sangue","Seringas compartilhadas","Congênita (mãe → bebê)","Não passa pelo contato"]],
+ ["CLÍNICA","#6b59d3",["Febre alta e calafrios","Suor intenso, dor de cabeça","Febre em ciclos","Anemia, baço grande","Grave: sobretudo falciparum"]],
+ ["DIAGNÓSTICO E TRATAMENTO","#1d7650",["Gota espessa","Teste rápido","Tratamento no mesmo dia","Gratuito no SUS","Primaquina: contra recaídas"]],
+ ["PREVENÇÃO E CONTROLE","#b86e00",["Diagnóstico e tratamento","~precoces: o principal","Mosquiteiro impregnado","Borrifação residual","Proteger-se ao entardecer"]]
+]}

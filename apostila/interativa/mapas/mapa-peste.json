@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental-peste.svg","centro":"Peste","sub":"zoonose bacteriana","extra":["notificação","imediata"],
+"ramos":[
+ ["AGENTE","#13858a",["Bactéria Yersinia pestis","Causou a “peste negra”","Grave e de evolução rápida","Tratável com antibiótico","~se iniciado cedo"]],
+ ["RESERVATÓRIOS","#5e5244",["Roedores silvestres","Ratos levam à casa","Focos naturais no Brasil","Nordeste, norte de MG","Serra dos Órgãos (RJ)"]],
+ ["TRANSMISSÃO","#2b8fc4",["Picada de pulga infectada","X. cheopis (pulga do rato)","Contato com animal doente","Pneumônica: pela tosse","~(pessoa a pessoa)"]],
+ ["FORMAS CLÍNICAS","#6b59d3",["Bubônica: a mais comum","Bubão: gânglio doloroso","Septicêmica: no sangue","Pneumônica: a mais grave","Febre alta, súbita"]],
+ ["VIGILÂNCIA","#1d7650",["Captura de roedores","Pesquisa de pulgas","Sorologia de cães e gatos","Notificação imediata","Ratada = alerta"]],
+ ["CONTROLE","#b86e00",["Primeiro: matar as PULGAS","Depois: controlar os ratos","Antirratização","Não tocar roedor morto","Usar EPI no campo"]]
+]}

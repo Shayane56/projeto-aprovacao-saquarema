@@ -1,0 +1,9 @@
+{"arquivo":"ilustracoes/mapa-mental.svg","centro":"Leishmanioses","sub":"LV e LTA","extra":["zoonose · notificação","compulsória"],
+"ramos":[
+ ["AGENTE","#13858a",["Leishmania (protozoário)","Amastigota → no hospedeiro","Promastigota → no vetor","LV: L. infantum (= chagasi)","LTA: L. braziliensis e outras"]],
+ ["VETOR","#b86e00",["Flebotomíneo: mosquito-palha,","~birigui, tatuquira","Só a FÊMEA pica (sangue)","Entardecer e noite","Larvas: solo úmido e orgânico"]],
+ ["RESERVATÓRIOS","#7a5230",["LV urbana: o CÃO","LV silvestre: raposas, marsupiais","LTA: animais silvestres","Na LTA, cão e cavalo são","~hospedeiros acidentais"]],
+ ["FORMAS CLÍNICAS","#e0533d",["LV: febre longa, fígado e baço","~grandes, emagrecimento, anemia","LTA: úlcera indolor “em moldura”","Mucosa: nariz e boca","LV não tratada: letal em >90%"]],
+ ["DIAGNÓSTICO E TRATAMENTO","#6b59d3",["Humano: teste rápido (rK39),","~parasitológico (medula)","Antimoniato de meglumina;","~anfotericina B lipossomal","Cão: DPP (triagem) + ELISA"]],
+ ["PREVENÇÃO E CONTROLE","#2a9a68",["Manejo ambiental do quintal","Telas, mosquiteiro, repelente","Inseticida de ação residual","Coleira com deltametrina 4%","Notificação compulsória"]]
+]}
